@@ -1,0 +1,110 @@
+import json
+ANEXO_PV = "https://www.euskadi.eus/contenidos/informacion/presupuestos_cae/es_def/adjuntos/pdfs/2026A/Pertsonalaren_eranskina_Anexo_de_personal.pdf"
+DEDUC_EV = ("Columnas del Anexo de personal 2026 (p. 5): Total | Altos cargos | P. Eventual | Funcionarios | Laborales; las celdas vacías no llevan marca, así que la asignación se deduce: "
+            "total entidades (p. 8) 'ENTITATEAK, GUZTIRA- TOTAL ENTIDADES 83.900 368 129 73.587 9.816' y Administración General (p. 5) '43.118 212 128 39.809 2.969' -> 129 eventuales, 128 en Adm. General; "
+            "el eventual restante es de Emakunde (fila '38 2 1 34 1', las cinco columnas llenas). Por tanto ninguna otra entidad tiene eventuales y los valores de la fila se leen en orden altos cargos / funcionarios / laborales.")
+out = [
+ {"ID": 89, "updates": {},
+  "verificacion": "Sin desglose verificable.",
+  "no_encontrado": "Anexo de persoal 2026 (PERS_OOAA_2026.PDF del Parlamento de Galicia) no indexado y no accesible sin aprobación; PERS_OOAA_2025.PDF solo se extrae hasta p. ~80 (65.606 caracteres; GAIN figura en p. 323 según el índice). DOG bloqueado por robots para WebFetch. Solo hay una memoria de modificación de la RPT de GAIN (copia en web sindical UGT, no oficial) que lista 28 postos traspasados a la Consellería de Economía e Industria (15 A1, 4 mixtos A1-A2/A1-A2-C1, 1 A2-C1-C2, 2 A2, 6 C2) y el paso del Director/a da Área de Servizos de persoal directivo a libre designación; no es la RPT completa, no se usa."},
+ {"ID": 121, "updates": {},
+  "verificacion": "Memoria/balance de actividade 2025 de AGACAL (Transparencia Xunta, https://ficheiros-web.xunta.gal/transparencia/memorias-balance-actividade/2025/agacal.pdf, p. 3): 'RECURSOS HUMANOS: 304', sin desglose por grupo, función ni régimen y sin fecha de referencia; no se usa como desglose.",
+  "no_encontrado": "Anexo de persoal 2026 no accesible (ver ID 89); PERS_OOAA_2025 tiene AGACAL en p. 475, fuera del texto extraíble. RPT de AGACAL en DOG no accesible (robots). Sin altos cargos, eventuales ni libre designación verificados."},
+ {"ID": 96, "updates": {
+   "Desglose: personal técnico/científico/inspector": 83,
+   "Desglose: personal de administración y apoyo": 51,
+   "Desglose: otro / no clasificable": 1,
+   "Desglose: total de referencia": 135,
+   "Desglose: unidad y fecha": "Personas empleadas al término del ejercicio 2024 (31/12/2024), Memoria de cuentas anuales AMAPAD 2024, apdo. 14 'Otra información'. No es la cifra de 31/12/2025 (148 profesionales, memoria 2025, sin desglose por categoría).",
+   "Desglose: criterio de clasificación": "Por función, con las categorías propias de la memoria: 'Titulados superiores' (31) + 'Asistentes sociales' (52) -> núcleo (ejercicio de apoyos/tutela a personas adultas con discapacidad); 'Personal administrativo' (51) -> administración y apoyo; 'Directivos' (1) -> otro. Parte de los titulados superiores puede hacer gestión (p. ej. subdirecciones generales jurídico-social y económico-administrativa); la memoria no permite separarlos.",
+   "Desglose: fuente": "https://www.comunidad.madrid/sites/default/files/doc/servicios-sociales/04_memoria_ctas_amapad_ej_2024_50823953.pdf",
+   "Desglose: verificación": "Memoria de cuentas AMAPAD ejercicio 2024, apdo. 14, p. 27 según la extracción (la ficha citaba p. 28): 'El número de personas empleadas al término del ejercicio, comparado con las cifras del ejercicio precedente': TOTAL 2024 Directivos 1, Titulados superiores 31, Asistentes sociales 52, Personal administrativo 51 (2023: 1/35/45/47 = 128). Suma: 31+52 = 83; 51; 1; 83+51+1 = 135 (23 hombres, 112 mujeres). La memoria 2025 (apdo. 3 'Equipo AMAPAD') solo da 'A 31 de diciembre 148 profesionales prestaban servicio en AMAPAD', sin desglose."},
+  "verificacion": "Desglose de 135 personas a 31/12/2024 por categorías de la memoria de cuentas 2024; cuadra 83+51+1=135.",
+  "no_encontrado": "Altos cargos, personal eventual y puestos de libre designación no constan en la memoria de cuentas 2024 ni en la memoria 2025; sin RPT localizada. Sin desglose del total de 148 a 31/12/2025."},
+ {"ID": 91, "updates": {
+   "Altos cargos": 1,
+   "Desglose: unidad y fecha": "Altos cargos: régimen legal del ITREM (Ley de creación, BORM núm. 301 de 31/12/2012, art. 62.1); no hay desglose de plantilla.",
+   "Desglose: fuente": "https://www.turismoregiondemurcia.es/webs/murciaturistica/documentos/4/DOCUMENTOS_4_3.pdf",
+   "Desglose: verificación": "Ley de creación del ITREM (entidad pública empresarial, BORM núm. 301, 31/12/2012, pp. 54087-54106, reproducida en la web del ITREM): art. 62.1, el Director General tiene la consideración de 'Alto Cargo de la Administración Regional', nombrado por el Consejo de Gobierno; la Presidencia la ejerce el consejero de turismo (alto cargo de la Consejería, no se cuenta); art. 63: personal laboral propio y funcionarios de la CARM adscritos. Sin mención de personal eventual. Cifra legal, no verificada en anexo de personal 2026."},
+  "verificacion": "Solo altos cargos (1, Director General) por la ley de creación.",
+  "no_encontrado": "Sin plantilla por categorías: las cuentas anuales 2024 (ig.carm.es) solo se extraen hasta p. 26 (la nota de personal va después); portal de transparencia CARM sin aprobación de acceso. BORM consultados son convocatorias sueltas (p. ej. 1 Técnico/a Experto laboral fijo, BORM 30 de 06/02/2025). Sin RPT, eventuales ni libre designación."},
+ {"ID": 92, "updates": {
+   "Desglose: personal técnico/científico/inspector": 9,
+   "Desglose: personal de administración y apoyo": 1,
+   "Desglose: otro / no clasificable": 1,
+   "Desglose: total de referencia": 11,
+   "Desglose: unidad y fecha": "Plazas de la plantilla orgánica aprobada por Resolución 18/2024, de 6 de mayo, de la directora (BON 101, 16/05/2024), según la Cámara de Comptos (cuentas 2024). Son plazas, no ocupación: a 31/12/2024 solo estaban ocupadas la directora y 3 más.",
+   "Desglose: criterio de clasificación": "Proxy por nivel (A/C), no por función: plazas de funcionario nivel A (9) -> núcleo; nivel C (1, administrativo/a) -> administración y apoyo; directora (régimen eventual, sin nivel) -> otro. Por función estricta, el núcleo inspector/formativo son 4 plazas (2 inspectores/as jurídicos, 1 inspector/a económico, 1 formador/a asesor/a); las otras 5 de nivel A son 3 directores/as de servicio, 1 jefe/a de sección y 1 titulado/a superior de comunicación (dirección, gestión y comunicación).",
+   "Personal eventual (confianza)": 1,
+   "Desglose: fuente": "https://parlamentodenavarra.es/sites/default/files/boletines/B2025117.pdf",
+   "Desglose: verificación": "Cámara de Comptos, 'Cuentas anuales de la Oficina de Buenas Prácticas y Anticorrupción (2024)', BOPN núm. 117 de 13/10/2025, p. 14, apdo. 4.3, tabla Puesto / Régimen jurídico / Nivel / Número: 'Directora Eventual 1'; 'Director/a de Servicio Funcionario A 3'; 'Jefe/a de sección Funcionario A 1'; 'Formador/a asesor/a Funcionario A 1'; 'Inspector/ Inspectora (jurídico) Funcionario A 2'; 'Inspector/ Inspectora (económico) Funcionario A 1'; 'Titulado/a superior comunicación Funcionario A 1'; 'Administrativo/a Funcionario C 1'; 'Total 11'. Suma A: 3+1+1+2+1+1 = 9; C: 1; eventual: 1; 9+1+1 = 11. Ocupación: 'estaban ocupadas, además de la directora, únicamente tres' (administrativa, directora del servicio de prevención, evaluación y formación, formadora asesora). Gasto: 'Retribuciones del personal eventual 76.044 78.346' (p. 14). Eventual = 1 (la directora, régimen 'Eventual')."},
+  "verificacion": "Plantilla orgánica de 11 plazas (Comptos p. 14), cuadra 9+1+1=11; personal eventual 1 (directora).",
+  "no_encontrado": "El informe no menciona libre designación ni altos cargos; no se ha localizado la Resolución 18/2024 con la forma de provisión de las plazas."},
+ {"ID": 93, "updates": {
+   "Desglose: personal técnico/científico/inspector": 7,
+   "Desglose: personal de administración y apoyo": 6,
+   "Desglose: otro / no clasificable": 0,
+   "Desglose: total de referencia": 13,
+   "Desglose: unidad y fecha": "Puestos (dotaciones) de la RPT de personal funcionario de la AVC, PDF '54-Auto_Vasca_Compet_20260803_F' de la página 'Relaciones de Puestos de Trabajo (RPT) del personal funcionario' del Gobierno Vasco (última modificación 03/08/2026). No incluye los 4 altos cargos. Coincide con los 13 funcionarios del Anexo de personal 2026.",
+   "Desglose: criterio de clasificación": "Por función, según la denominación del puesto: 'Responsable económico materia competencia' (3) + 'Responsable jurídico materia competencia' (4) -> núcleo; Secretario/a general (A1), Técnico/a administración y servicios (A1), Técnico/a de informática (A1), Administrativo/a contabilidad (C1), Secretario/a alto cargo (C1) y Auxiliar general (C2) -> administración y apoyo. Con el proxy por subgrupo saldría A1 10 / C1+C2 3.",
+   "Puestos de libre designación": 2,
+   "Altos cargos": 4,
+   "Personal eventual (confianza)": 0,
+   "Desglose: fuente": "https://www.euskadi.eus/contenidos/informacion/indice_descarga_rpts/es_def/adjuntos/54-Auto_Vasca_Compet_20260803_F_eu_es.pdf",
+   "Desglose: verificación": "RPT funcionarios AVC (13 filas): Presidencia: 512251 Responsable económico materia competencia dot. 1, 2, 3 (A1, CD 28, C); 512301 Responsable jurídico materia competencia dot. 1, 2, 3, 5 (A1, CD 28, C); 520010 Secretario/a alto cargo dot. 182 (C1, CD 18, LD); 520020 Auxiliar general dot. 1190 (C2, CD 16, C). Secretaría General: 510220 Técnico/a administración y servicios dot. 17 (A1, C); 510280 Técnico/a de informática dot. 79 (A1, C); 511946 Secretario/a general dot. 2 (A1, CD 29, LD); 520060 Administrativo/a contabilidad dot. 94 (C1, C). Núcleo 3+4 = 7; apoyo 6; total 13; LD = 2 (520010, 511946). Altos cargos: Anexo de personal 2026 p. 5, fila '211 ... Autoridad Vasca de la Competencia 17 4 13': como las 13 son los funcionarios de la RPT y los eventuales son 0 (ver deducción), el 4 corresponde a altos cargos, coherente con el Plan de acción 2026 de la AVC (presupuesto, p. 88: 'Kargu Publikoen ordainsariak' 366.868 EUR y 'Funtzionarioen ordainsariak' 889.276 EUR; presidente/a y 2 vocales del Consejo Vasco de la Competencia y director/a de investigación). " + DEDUC_EV},
+  "verificacion": "RPT de 13 puestos de funcionario (7 económicos/jurídicos de competencia + 6 de apoyo), 2 LD; 4 altos cargos y 0 eventuales deducidos del Anexo de personal 2026 (17 = 4 + 13).",
+  "no_encontrado": "La RPT no lleva fecha propia (solo fechas de preceptividad); la fecha 03/08/2026 es la de última modificación de la página y del nombre del fichero."},
+ {"ID": 107, "updates": {
+   "Desglose: personal técnico/científico/inspector": 26,
+   "Desglose: personal de administración y apoyo": 25,
+   "Desglose: otro / no clasificable": 18,
+   "Desglose: total de referencia": 69,
+   "Desglose: unidad y fecha": "Puestos (dotaciones) de las RPT vigentes de Aukerak: funcionarios (PDF '9071-Aukerak-Ag.-Vasca-Reins.-F-', 51) + laborales (PDF '9071-Aukerak-20260803-L', 18), de las páginas de RPT del Gobierno Vasco (última modificación 03/08/2026). RPT aprobada por el Consejo de Administración el 28/10/2024 (BOPV 217, 07/11/2024). No incluye 1 alto cargo. El Anexo de personal 2026 presupuesta 74 plazas (1 alto cargo + 51 funcionarios + 22 laborales): hay 4 laborales presupuestados más que puestos en la RPT laboral.",
+   "Desglose: criterio de clasificación": "Funcionarios: proxy por subgrupo, no por función. A1 (26) -> núcleo; C1 (22) + C1/C2 (2) + B (1, Administrativo/a de Informática) -> administración y apoyo. Parte de los A1 hacen gestión: 8 A1 están en Subdirección de Administración/Producción con funciones de gestión (2 subdirectores/as, 2 técnicos/as de gestión económica y presupuestaria, 2 asesores/as jurídicos/as, 1 técnico/a de PRL y 1 técnico/a de personal). Los A1 de función propia son 18: 3 técnicos/as de empleo y formación para el empleo, 3 responsables de activación laboral y 12 supervisores/as de área en centros penitenciarios. Los 15 'Agente de Servicios' y 7 'Gestor/a de Servicios' (C1) están en los centros penitenciarios y la RPT no detalla su función. Laborales (18 oficios en centros penitenciarios: 11 cocina y gastronomía, 1 cocina AKOR III, 2 dirección de cocina, 3 electricistas y 1 limpieza) -> otro.",
+   "Puestos de libre designación": 5,
+   "Altos cargos": 1,
+   "Personal eventual (confianza)": 0,
+   "Desglose: fuente": "https://www.euskadi.eus/contenidos/informacion/indice_descarga_rpts/es_def/adjuntos/9071-Aukerak-Ag.-Vasca-Reins.-F-.pdf",
+   "Desglose: verificación": "RPT funcionarios (51 filas). Dirección (Vitoria): 520110 Administrativo/a Mantenimiento y Compras x2 (C1/C2). Subdir. Producción: 510200 Técnico/a Empleo y Formación para el Empleo x3 (A1); 512516 Subdirector/a x1 (A1, LD). Subdir. Administración: 510040 Técnico/a Gestión Económica y Presupuestaria x2, 510060 Asesor/a Jurídico/a x2, 510180 Técnico/a PRL x1, 510320 Técnico/a de Personal x1, 512516 Subdirector/a x1 (LD), todos A1; 520090 Administrativo/a de Informática x1 (B). C.P. Araba: 512480 Supervisor/a de Área x5 (A1), 512492 Responsable de Activación Laboral x1 (A1, LD), 520430 Agente de Servicios x7 (C1), 520470 Gestor/a de Servicios x3 (C1). C.P. Bizkaia: Supervisor/a x3, Responsable Activación x1 (LD), Agente x3, Gestor/a x1. C.P. Gipuzkoa: Supervisor/a x4, Responsable Activación x1 (LD), Agente x5, Gestor/a x3. A1 = 11+6+4+5 = 26; C1 = 10+4+8 = 22; C1/C2 = 2; B = 1; total 51. LD = 2 Subdirector/a + 3 Responsable de Activación Laboral = 5. RPT laborales (18 filas, todas LL/CT, 0 LD) en el PDF https://www.euskadi.eus/contenidos/informacion/indice_descarga_rpts_laboral/es_def/adjuntos/9071-Aukerak-20260803-L.pdf: 3737 Electricista x3, 3743 Actividades domésticas y limpieza x1, 3744 Cocina y gastronomía x11, 3745 Dirección cocina x2, 3746 Cocina AKOR III x1. 26+25+18 = 69. Altos cargos y eventuales: Anexo de personal 2026 p. 5, fila '425 AUKERAK ... 74 1 51 22' (los 51 coinciden con la RPT de funcionarios). " + DEDUC_EV},
+  "verificacion": "69 puestos RPT (51 funcionarios + 18 laborales): 26 A1 / 25 C y B / 18 oficios laborales; 5 LD; 1 alto cargo y 0 eventuales (Anexo de personal 2026: 74 = 1 + 51 + 22).",
+  "no_encontrado": "La RPT de funcionarios no lleva fecha propia (fechas de preceptividad 2023/12 y 2027/12). La función de los 22 'Agente/Gestor de Servicios' (C1) no se describe. La diferencia de 4 laborales entre el presupuesto (22) y la RPT laboral (18) no está explicada."},
+ {"ID": 108, "updates": {
+   "Altos cargos": 1,
+   "Personal eventual (confianza)": 0,
+   "Desglose: unidad y fecha": "Plazas presupuestadas 2026 (Anexo de personal de los Presupuestos de la CAE 2026, p. 5): 12 = 1 alto cargo + 2 funcionarios + 9 laborales. Sin desglose por función ni por grupo.",
+   "Desglose: fuente": ANEXO_PV,
+   "Desglose: verificación": "Anexo de personal 2026, p. 5, fila '422 Euskal Zibersegurtasun Agentzia / Agencia Vasca de Ciberseguridad 12 1 2 9'. " + DEDUC_EV + " Resultado: altos cargos 1, eventual 0, funcionarios 2, laborales 9 (1+2+9 = 12)."},
+  "verificacion": "Altos cargos 1 y eventuales 0 deducidos del Anexo de personal 2026 (12 = 1 + 2 funcionarios + 9 laborales).",
+  "no_encontrado": "La Agencia no aparece en las páginas de RPT de funcionarios ni de laborales del Gobierno Vasco (03/08/2026); no hay desglose por función/grupo ni libre designación. El régimen funcionario/laboral no sirve como proxy de función."},
+ {"ID": 109, "updates": {
+   "Altos cargos": 1,
+   "Personal eventual (confianza)": 0,
+   "Puestos de libre designación": 0,
+   "Desglose: unidad y fecha": "Altos cargos/eventuales: plazas presupuestadas 2026 (Anexo de personal, p. 5): 19 = 1 alto cargo + 2 funcionarios + 16 laborales. Libre designación: solo RPT de funcionarios de EKP (2 puestos; página RPT Gobierno Vasco, últ. modificación 03/08/2026); los 16 laborales no tienen RPT publicada allí.",
+   "Desglose: fuente": "https://www.euskadi.eus/contenidos/informacion/indice_descarga_rpts/es_def/adjuntos/9070-EKP.-Euskadiko-Kirol-Portua-F-.pdf",
+   "Desglose: verificación": "RPT funcionarios EKP (Dirección, Servicios Centrales, Vitoria-Gasteiz), 2 filas: '510060 Asesor/a jurídico/a, forma LL (concurso), A1, CD 25, dot. 286, C.E. III-C, PL 3'; '520040 Administrativo/a general, LL, C1 (sec. C2), CD 18, dot. 902, VI-B, PL 2'. LD = 0 sobre esos 2 puestos. Anexo de personal 2026 p. 5, fila '495 Euskadiko Kirol Portuak 19 1 2 16' (los 2 coinciden con la RPT de funcionarios). " + DEDUC_EV},
+  "verificacion": "1 alto cargo, 0 eventuales (Anexo 2026: 19 = 1 + 2 funcionarios + 16 laborales); RPT de funcionarios con 2 puestos, ambos por concurso (0 LD).",
+  "no_encontrado": "Sin desglose por función de los 16 laborales (EKP no figura en la página de RPT del personal laboral del Gobierno Vasco). No se rellena el desglose porque solo cubriría 2 de 18 empleados."},
+ {"ID": 95, "updates": {},
+  "verificacion": "Sin desglose verificable.",
+  "no_encontrado": "La Memoria AVAF 2025 (antifraucv.es) no salió en búsquedas y el acceso directo quedó sin aprobar. La RPT vigente se actualizó por Resolución 1359/2023, de 21 de diciembre (DOGV 9755, 29/12/2023), que no se ha localizado. Los DOGV consultados son convocatorias LD sueltas (Res. 41/2024: puesto 37 Letrado/a A1 LD-AP; Res. 391/2024: puesto 10 Jefe/a de Servicio de Prevención A1 LD-AP) y no permiten contar el total de LD."},
+ {"ID": 103, "updates": {},
+  "verificacion": "Sin desglose verificable.",
+  "no_encontrado": "Sin RPT completa ni anexo de personal del presupuesto GVA 2026 por organismo. El DOGV 2022_6366 (Resolución de 4/07/2022, convocatoria LD 87/2022) muestra solo 4 puestos LD de la AVPT (Secretaría General; Jefaturas de Servicio de Soporte Técnico, Contratación y Coordinación Administrativa A1; de Personal, Gestión Económica y Presupuestaria y Recaudación A2; de Protección de la Legalidad Urbanística A1); es parcial y no se usa como total de LD."},
+ {"ID": 104, "updates": {},
+  "verificacion": "Sin desglose verificable.",
+  "no_encontrado": "Informe de Actividad AVSF 2025 (avsf.gva.es) sin datos de plantilla: solo indica que el programa de teletrabajo incluyó '14 puestos de la RPT' y que la Dirección de Sección de Sistemes i Tecnologies Ferroviàries no se ha creado por falta de dotación. RPT de la AVSF no localizada."},
+ {"ID": 106, "updates": {},
+  "verificacion": "Sin desglose verificable.",
+  "no_encontrado": "No se ha localizado en fuentes oficiales indexadas la plantilla de la CVMC/À Punt por categorías o áreas (ni la memoria de cuentas con personas empleadas por categoría ni el portal de transparencia); solo prensa y resoluciones de procesos selectivos en DOGV (p. ej. 2024_5637, bolsa de administrativos)."},
+]
+p = "datos/resultados/P6_gal_mad_mur_nav_pv_val.json"
+with open(p, "w", encoding="utf-8") as f:
+    json.dump(out, f, ensure_ascii=False, indent=1)
+d = json.load(open(p, encoding="utf-8"))
+K = ["Desglose: personal técnico/científico/inspector","Desglose: personal de administración y apoyo","Desglose: otro / no clasificable"]
+for e in d:
+    u = e["updates"]
+    if all(k in u for k in K):
+        assert sum(u[k] for k in K) == u["Desglose: total de referencia"], e["ID"]
+print(len(d), sorted(e["ID"] for e in d))

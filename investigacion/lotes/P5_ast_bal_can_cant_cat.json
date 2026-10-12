@@ -1,0 +1,154 @@
+[
+ {
+  "ID": 79,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Asturias",
+  "Nombre": "Servicio de Emergencias del Principado de Asturias (SEPA)",
+  "Presupuesto propio (EUR millones)": 53.101505,
+  "Base del personal": "Personas realmente ocupadas; no equiparar vocales, puestos RPT o apoyo ministerial con plantilla",
+  "Fuentes de la ficha": "https://www.boe.es/buscar/doc.php?id=BOE-A-2013-8930\nhttps://transparencia.asturias.es/documents/2213862/4017833/presupuestos_2026_tomo_informacion_presupuestaria_basica.pdf/8bd1ac47-6bc3-4174-d5a7-dc8160dd9acc?t=1769080801898\nhttps://www.boe.es/boe/dias/2026/02/09/pdfs/BOE-A-2026-2888.pdf\nhttps://www.boe.es/eli/es-as/l/2025/12/31/5\nhttps://www.jgpa.es/documents/11156/23154/Presupuestos+Generales+para+2025/0d75983e-243c-4dc0-9a14-24cf0664ac9c"
+ },
+ {
+  "ID": 112,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Asturias",
+  "Nombre": "Agencia de Ciencia, Competitividad Empresarial e Innovación (SCEI) del Principado de Asturias",
+  "Presupuesto propio (EUR millones)": 66.273676,
+  "Base del personal": "Personas ocupadas; no confundir miembros del órgano con empleados",
+  "Notas de personal y apoyo ministerial": "Ley 5/2025 art. 27.2: la Agencia necesita informe de la Dirección General de Empleo Público para convenios colectivos o contratos de alta dirección (régimen de ente del art. 1.e). Gastos de personal de su presupuesto de explotación no verificados (tomo de entes no accesible); no es capítulo 1 limitativo.",
+  "Fuentes de la ficha": "https://boe.es/buscar/doc.php?id=BOE-A-2023-1605\nhttps://www.boe.es/boe/dias/2026/02/09/pdfs/BOE-A-2026-2888.pdf\nhttps://www.boe.es/eli/es-as/l/2025/12/31/5"
+ },
+ {
+  "ID": 113,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Asturias",
+  "Nombre": "Consejo de Transparencia y Buen Gobierno del Principado de Asturias",
+  "Presupuesto propio (EUR millones)": 0.18,
+  "Base del personal": "Personas ocupadas; no confundir miembros del órgano con empleados",
+  "Fuentes de la ficha": "https://www.boe.es/eli/es-as/l/2018/09/14/8/con\nhttps://www.boe.es/boe/dias/2026/02/09/pdfs/BOE-A-2026-2888.pdf\nhttps://www.boe.es/eli/es-as/l/2025/12/31/5\nhttps://www.jgpa.es/documents/11156/23154/Presupuestos+Generales+para+2025/0d75983e-243c-4dc0-9a14-24cf0664ac9c"
+ },
+ {
+  "ID": 80,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Illes Balears",
+  "Nombre": "Agencia Tributaria de las Illes Balears (ATIB)",
+  "Presupuesto propio (EUR millones)": 16.25992,
+  "Base del personal": "Personas realmente ocupadas; no equiparar vocales, puestos RPT o apoyo ministerial con plantilla",
+  "Crédito de personal (EUR millones)": 9.801634,
+  "Fuentes de la ficha": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-8768\nhttps://www.caib.es/sites/estadistiques/es/2026_p/\nhttps://www.caib.es/sites/estadistiques/f/549410\nhttps://www.caib.es/sites/pressuposts/f/540091\nhttps://www.caib.es/sites/pressuposts/ca/prorroga_del_pressupost_per_a_lany_2026/\nhttps://www.caib.es/sites/pressuposts/es/archivopub.do?ctrl=MCRST226ZI540088&id=540088\nhttps://www.caib.es/conselleries/hisenda/interven/compte_general_2025/index.html"
+ },
+ {
+  "ID": 111,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Illes Balears",
+  "Nombre": "Agencia de Salud Pública de las Illes Balears (ASPIB)",
+  "Presupuesto propio (EUR millones)": 15.506867,
+  "Base del personal": "Personas ocupadas; no confundir miembros del órgano con empleados",
+  "Notas de personal y apoyo ministerial": "La sección 74 no tiene capítulo 1 en el presupuesto prorrogado 2026, así que su personal no se paga desde la sección propia. No se ha verificado de qué sección o ente procede ni cuántas personas son; no inferir ni prorratear.",
+  "Fuentes de la ficha": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-2108\nhttps://www.caib.es/sites/pressuposts/f/540093\nhttps://www.caib.es/sites/pressuposts/es/archivopub.do?ctrl=MCRST226ZI540093&id=540093\nhttps://www.caib.es/sites/pressuposts/ca/prorroga_del_pressupost_per_a_lany_2026/\nhttps://www.caib.es/sites/pressuposts/es/archivopub.do?ctrl=MCRST226ZI540088&id=540088"
+ },
+ {
+  "ID": 124,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Illes Balears",
+  "Nombre": "Agencia Balear de Digitalización, Ciberseguridad y Telecomunicaciones (ABDigital)",
+  "Presupuesto propio (EUR millones)": 50.694693,
+  "Crédito de personal (EUR millones)": 22.553642,
+  "Notas de personal y apoyo ministerial": "DAsegundaDecreto63/2025: subrogación personalEPE ypersonalIBIT/otrosentes ligado funciones; no cifraocupados inferida.",
+  "Fuentes de la ficha": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22028\nhttps://www.caib.es/eboibfront/eli/es-ib/d/2025/12/19/63/dof/spa/pdf\nhttps://www.caib.es/sites/pressuposts/f/540093\nhttps://www.caib.es/sites/pressuposts/es/archivopub.do?ctrl=MCRST226ZI540093&id=540093\nhttps://www.caib.es/sites/pressuposts/ca/prorroga_del_pressupost_per_a_lany_2026/\nhttps://www.caib.es/sites/transparencia/ca/1131_ens_del_sector_pablic_instrumental_autonamic/archivopub.do?ctrl=MCRST9345ZI302709&id=302709"
+ },
+ {
+  "ID": 125,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Illes Balears",
+  "Nombre": "Instituto Balear de la Energía (IBE)",
+  "Presupuesto propio (EUR millones)": 28.341617,
+  "Crédito de personal (EUR millones)": 1.221805,
+  "Fuentes de la ficha": "https://www.boe.es/buscar/pdf/2019/BOE-A-2019-5579-consolidado.pdf\nhttp://www.caib.es/eboibfront/pdf/ca/2019/139/1044876\nhttps://www.caib.es/eboibfront/ConsultaAnnexe?idAnnexe=289609\nhttps://www.caib.es/sites/pressuposts/f/544562\nhttps://www.caib.es/sites/transparencia/ca/1131_ens_del_sector_pablic_instrumental_autonamic/archivopub.do?ctrl=MCRST9345ZI310026&id=310026"
+ },
+ {
+  "ID": 81,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Canarias",
+  "Nombre": "Agencia Tributaria Canaria (ATC)",
+  "Presupuesto propio (EUR millones)": 85.087141,
+  "Personal: personas (ocupadas)": 459,
+  "Año del personal": "2025-12-31",
+  "Base del personal": "Puestos RPT ocupados a cierre de 2025 (459 de 752; 61,04%) según el Plan de Acción 2026 de la ATC; personas en puestos RPT; no incluye necesariamente personal ajeno a la RPT",
+  "Fuente del personal": "https://www3.gobiernodecanarias.org/tributos/atc/documents/65729/0/boc-a-2026-065-1087.pdf/ce37abb9-573c-7b68-2adf-487ddaf54f43?t=1776157163286",
+  "Crédito de personal (EUR millones)": 29.744903,
+  "Puestos aprobados / presupuestados": 752,
+  "Fecha puestos aprobados": "2025-12-31",
+  "Base de puestos aprobados": "Puestos RPT de la ATC a cierre de 2025 (Plan de Acción 2026); no es plantilla presupuestaria ni ocupación",
+  "Fuente puestos aprobados": "https://www3.gobiernodecanarias.org/tributos/atc/documents/65729/0/boc-a-2026-065-1087.pdf/ce37abb9-573c-7b68-2adf-487ddaf54f43?t=1776157163286",
+  "Fuentes de la ficha": "https://boe.es/buscar/act.php?id=BOE-A-2014-9902\nhttps://www3.gobiernodecanarias.org/tributos/atc/documents/65729/0/boc-a-2026-065-1087.pdf/ce37abb9-573c-7b68-2adf-487ddaf54f43?t=1776157163286\nhttps://www.parcan.es/files/transparencia/ofi_presupuestaria/2026/1281.pdf\nhttps://www.parcan.es/files/transparencia/ofi_presupuestaria/2026/1210.pdf\nhttps://www.parcan.es/files/transparencia/ofi_presupuestaria/2026/1202.pdf"
+ },
+ {
+  "ID": 83,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Cantabria",
+  "Nombre": "Instituto Cántabro de Seguridad y Salud en el Trabajo (ICASST)",
+  "Presupuesto propio (EUR millones)": 4.161665,
+  "Base del personal": "Personas realmente ocupadas; no equiparar vocales, puestos RPT o apoyo ministerial con plantilla",
+  "Fuentes de la ficha": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-1173\nhttps://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9962\nhttps://www.boe.es/ccaa/boct/2026/012/c00001-01406.pdf"
+ },
+ {
+  "ID": 114,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Cantabria",
+  "Nombre": "Organismo Autónomo Servicio de Emergencias de Cantabria (SEMCA)",
+  "Presupuesto propio (EUR millones)": 18.273639,
+  "Base del personal": "Personas ocupadas; no confundir miembros del órgano con empleados",
+  "Fuentes de la ficha": "https://www.boe.es/eli/es-cb/l/2018/11/22/6/con\nhttps://www.boe.es/ccaa/boct/2026/012/c00001-01406.pdf"
+ },
+ {
+  "ID": 116,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Cantabria",
+  "Nombre": "Instituto Cántabro de Administración Pública 'Rafael de la Sierra' (ICAP)",
+  "Presupuesto propio (EUR millones)": 2.415537,
+  "Base del personal": "Personas ocupadas; no confundir miembros del órgano con empleados",
+  "Fuentes de la ficha": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-20715\nhttps://www.boe.es/ccaa/boct/2026/012/c00001-01406.pdf"
+ },
+ {
+  "ID": 86,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Cataluña",
+  "Nombre": "Agencia Tributaria de Cataluña",
+  "Presupuesto propio (EUR millones)": 121.75559748,
+  "Base del personal": "Personas realmente ocupadas; no equiparar vocales, puestos RPT o apoyo ministerial con plantilla",
+  "Crédito de personal (EUR millones)": 58.784907,
+  "Puestos aprobados / presupuestados": 1103,
+  "Fecha puestos aprobados": "2026",
+  "Base de puestos aprobados": "dotacions pressupostades 2026, Annex de personal entitat 7910 (1 alt càrrec + 1.072 funcionaris + 30 laborals); budgeted, NO ocupación real",
+  "Fuente puestos aprobados": "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/AP_7910.pdf",
+  "Notas de personal y apoyo ministerial": "Cap.1 2026 58,785 M = art.10 alts càrrecs 0,104 + art.12 funcionaris 43,842 + art.13 laborals 1,252 + art.15 incentius 1,522 + art.16 cotitzacions 12,065. 1.103 dotacions pressupostades (655 al Barcelonès), NO ocupación. Sin cifra de efectivos reales verificada.",
+  "Fuentes de la ficha": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-15212\nhttps://www.boe.es/ccaa/dogc/2026/9706/f00001-00102.pdf\nhttps://aplicacions.economia.gencat.cat/wpres/2026/pdf/ED_7910.pdf\nhttps://aplicacions.economia.gencat.cat/wpres/2026/pdf/AP_7910.pdf\nhttps://aplicacions.economia.gencat.cat/wpres/2026/pdf/VOL_L_RES.pdf"
+ },
+ {
+  "ID": 87,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Cataluña",
+  "Nombre": "Oficina Antifraude de Cataluña",
+  "Presupuesto propio (EUR millones)": 10.718431,
+  "Base del personal": "Personas realmente ocupadas; no equiparar vocales, puestos RPT o apoyo ministerial con plantilla",
+  "Crédito de personal (EUR millones)": 9.271181,
+  "Notas de personal y apoyo ministerial": "Cap.1 2026 9,271 M = art.10 alts càrrecs 0,608 + art.11 eventual 0,112 + art.12 funcionaris 5,264 + art.13 laborals 1,769 + art.16 cotitzacions 1,513 + art.17 prestacions 0,004. Cap.1 = 86,5% del presupuesto. Sin cifra de plantilla ocupada ni dotaciones verificada en esta revisión.",
+  "Fuentes de la ficha": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-19527\nhttps://seuelectronica.antifrau.cat/es/presupuesto/summary/217-presupuesto-de-la-oficina-antifraude-de-cataluna/11612-presupuesto-oficina-antifraude-de-cataluna-2026.html\nhttps://www.boe.es/ccaa/dogc/2026/9706/f00001-00102.pdf\nhttps://aplicacions.economia.gencat.cat/wpres/2026/pdf/VOL_L_RES.pdf"
+ },
+ {
+  "ID": 110,
+  "Ámbito": "Autonómico",
+  "Comunidad autónoma": "Cataluña",
+  "Nombre": "Agència de Ciberseguretat de Catalunya",
+  "Presupuesto propio (EUR millones)": 33.15313,
+  "Base del personal": "Personas ocupadas; no confundir miembros del órgano con empleados",
+  "Crédito de personal (EUR millones)": 7.38839,
+  "Puestos aprobados / presupuestados": 89,
+  "Fecha puestos aprobados": "2026",
+  "Base de puestos aprobados": "dotacions pressupostades 2026, Annex de personal entitat 9912 (1 altre personal directiu + 88 laborals); budgeted, NO ocupación real",
+  "Fuente puestos aprobados": "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/AP_9912.pdf",
+  "Notas de personal y apoyo ministerial": "Cap.1 2026 7,388 M (22,3% del total); 89 dotacions presupuestadas (86 del grupo A), todas en programa 532 Societat digital, NO ocupación. Cap.2 25,715 M (servicios). Sin cifra de efectivos reales verificada.",
+  "Fuentes de la ficha": "https://www.sindicatura.cat/documents/36414/85841/2023_39_ca.pdf\nhttps://www.boe.es/ccaa/dogc/2026/9706/f00001-00102.pdf\nhttps://aplicacions.economia.gencat.cat/wpres/2026/pdf/VOL_L_RES.pdf\nhttps://aplicacions.economia.gencat.cat/wpres/2026/pdf/ED_9912.pdf\nhttps://aplicacions.economia.gencat.cat/wpres/2026/pdf/AP_9912.pdf"
+ }
+]

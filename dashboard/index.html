@@ -1,0 +1,1035 @@
+<style>
+  #dash-root { --dash-gutter: clamp(16px, 3vw, 32px); }
+  .ep { font-family: var(--font-anthropic-sans); color: var(--color-fg); display: grid; gap: var(--cds-gap-lg); max-width: 1320px; margin-inline: auto; }
+  .ep-head { display: grid; gap: var(--cds-gap-xs); }
+  .ep-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .ep-takeaway { margin: 0; font-size: var(--cds-font-size-body); color: var(--color-fg-muted); max-width: 72ch; line-height: 1.5; }
+  .ep-takeaway .ep-n, .ep b.ep-n { color: var(--color-fg); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .ep-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+  .ep-tab { appearance: none; background: none; border: 0; border-bottom: 2px solid transparent; padding: var(--cds-pad-sm) var(--cds-pad-md); font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg-muted); cursor: pointer; margin-bottom: -1px; }
+  .ep-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .ep-tab:focus-visible, .ep-btn:focus-visible, .ep-th-btn:focus-visible, .ep-in:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+  .ep-page { display: grid; gap: var(--cds-gap-lg); }
+  .ep-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: var(--cds-gap-md); }
+  .ep-kpi { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: var(--cds-gap-xs); align-content: start; }
+  .ep-kpi-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ep-kpi-value { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.1; min-height: 1.1em; }
+  .ep-kpi-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.4; }
+  .ep-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr)); gap: var(--cds-gap-md); }
+  .ep-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: var(--cds-gap-sm); align-content: start; min-width: 0; }
+  .ep-card--wide { grid-column: 1 / -1; }
+  .ep-card h2 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+  .ep-note { margin: 0; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.45; max-width: 90ch; }
+  .ep-chart { position: relative; min-height: 120px; }
+  .ep-chart svg { display: block; overflow: visible; }
+  .ep-chart text { fill: var(--color-fg-muted); font-size: var(--cds-font-size-caption); font-family: var(--font-anthropic-sans); }
+  .ep-chart .ep-lbl-strong { fill: var(--color-fg); }
+  .ep-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); max-width: 18rem; z-index: 3; line-height: 1.4; }
+  .ep-tip-h { color: var(--cds-text-secondary); margin-bottom: 2px; }
+  .ep-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm) var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ep-sw { display: inline-block; width: .7rem; height: .7rem; border-radius: 2px; margin-right: .35rem; vertical-align: -1px; }
+  .ep-scroll { overflow: auto; max-height: 34rem; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); }
+  .ep-scroll--short { max-height: 24rem; }
+  .ep-table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .ep-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); border-bottom: 1px solid var(--color-border-line); padding: 0; z-index: 1; white-space: nowrap; }
+  .ep-table th.ep-num, .ep-table td.ep-num { text-align: right; }
+  .ep-th-btn { appearance: none; background: none; border: 0; font: inherit; color: inherit; padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; width: 100%; text-align: inherit; }
+  .ep-th-plain { display: block; padding: var(--cds-pad-xs) var(--cds-pad-sm); }
+  .ep-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .ep-table tbody tr.ep-click { cursor: pointer; }
+  .ep-table tbody tr.ep-click:hover td { background: var(--color-bg); }
+  .ep-table tbody tr.ep-sel td { background: var(--color-bg); }
+  .ep-name { min-width: 14rem; max-width: 28rem; color: var(--color-fg); }
+  .ep-clip { display: block; max-width: 16rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .ep-chip { display: inline-block; padding: 1px 8px; border-radius: 999px; border: 1px solid currentColor; white-space: nowrap; font-size: var(--cds-font-size-caption); }
+  .ep-chip--util { color: var(--color-ok); }
+  .ep-chip--rev { color: var(--color-warn); }
+  .ep-chip--presc { color: var(--color-bad); }
+  .ep-chip--ext { color: var(--color-fg-muted); }
+  .ep-chip--ref { color: var(--color-ok); border-style: dashed; }
+  .ep-chip--pend { color: var(--color-fg-muted); border-style: dashed; }
+  .ep-dot { display: inline-block; width: .55rem; height: .55rem; border-radius: 50%; margin-right: .4rem; vertical-align: 1px; }
+  .ep-filters { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: end; }
+  .ep-field { display: grid; gap: 2px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); min-width: 0; }
+  .ep-in { font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg); background: var(--color-bg); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm); max-width: 100%; }
+  .ep-in[type="search"] { width: min(100%, 18rem); }
+  .ep-btn { font: inherit; font-size: var(--cds-font-size-body); background: none; color: var(--color-fg); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-md); cursor: pointer; }
+  .ep-count { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ep-detail { display: grid; gap: var(--cds-gap-sm); }
+  .ep-detail h3 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+  .ep-dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: var(--cds-gap-sm) var(--cds-gap-lg); margin: 0; }
+  .ep-dl div { display: grid; gap: 2px; min-width: 0; }
+  .ep-dl dt { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ep-dl dd { margin: 0; font-size: var(--cds-font-size-body); overflow-wrap: anywhere; }
+  .ep a { color: inherit; text-underline-offset: 2px; }
+  .ep-bar-cell { display: flex; align-items: center; gap: var(--cds-gap-xs); justify-content: flex-end; }
+  .ep-inbar { height: 8px; border-radius: 4px; background: var(--cds-chart-muted); min-width: 1px; }
+  .ep-big { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); gap: var(--cds-gap-md); }
+  .ep-big div { display: grid; gap: 2px; }
+  .ep-big .ep-kpi-value { font-size: var(--cds-font-size-title); }
+  .ep-ok { color: var(--color-ok); }
+  .ep-fail { display: flex; align-items: center; justify-content: center; gap: .4rem; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-height: inherit; }
+  .ep-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+  [data-dash-source-state=empty] { color: transparent; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  @media (prefers-reduced-motion: no-preference) {
+    .ep-anim { animation: ep-in var(--cds-dur-slow) var(--cds-ease-out); }
+    @keyframes ep-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+  }
+  .ep-hscroll { overflow-x: auto; }
+  .ep-matrix text.ep-col { font-size: 11px; }
+  .ep-crit { display: grid; gap: var(--cds-gap-xs); margin: 0; padding-left: 1.1rem; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.45; max-width: 95ch; }
+  .ep-crit b { color: var(--color-fg); font-weight: 600; }
+  .ep-wrap { white-space: normal; max-width: 34rem; display: block; }
+</style>
+<div class="ep">
+  <header class="ep-head">
+    <h1 class="ep-title" id="titulo">Entidades públicas: poder y presupuesto</h1>
+    <p class="ep-takeaway dash-skeleton" id="takeaway">
+      De <b class="ep-n" data-source="totales" data-field="fichas" data-row="0">—</b> entidades creadas o transformadas desde 2006, con el criterio del P100 solo
+      <b class="ep-n" data-source="por_clase" data-field="fichas" data-where="clase=Útil">—</b> son útiles
+      (<b class="ep-n" data-source="por_veredicto" data-field="fichas" data-where="veredicto=Mantener">—</b> se mantienen y
+      <b class="ep-n" data-source="por_veredicto" data-field="fichas" data-where="veredicto=Reformar">—</b> se reforman).
+      <b class="ep-n" data-source="por_veredicto" data-field="fichas" data-where="veredicto=Integrar">—</b> hacen algo que ya hace otro organismo y deberían integrarse (con un organismo nacional basta),
+      <b class="ep-n" data-source="por_veredicto" data-field="fichas" data-where="veredicto=Suprimir">—</b> deberían suprimirse,
+      <b class="ep-n" data-source="por_veredicto" data-field="fichas" data-where="veredicto=Pendiente de decisión">—</b> quedan pendientes porque el P100 no trata su materia y
+      <b class="ep-n" data-source="por_veredicto" data-field="fichas" data-where="veredicto=Extinguida">—</b> ya no existen.
+      Útil no es tener un contenido, es a qué sirve ese contenido. Los órganos que se suprimen no tienen presupuesto propio, pero sí coste de personal: entre
+      <b class="ep-n" data-source="coste_consultivos" data-field="coste_m" data-where="clave=p1">—</b> y
+      <b class="ep-n" data-source="coste_consultivos" data-field="coste_m" data-where="clave=p3">—</b> M€ al año si cada uno ocupa de 1 a 3 personas (escenario).
+    </p>
+  </header>
+
+  <nav class="ep-tabs" role="tablist" aria-label="Secciones">
+    <button class="ep-tab" role="tab" id="tab-resumen" data-page="resumen" aria-selected="true">Resumen</button>
+    <button class="ep-tab" role="tab" id="tab-duplicidades" data-page="duplicidades" aria-selected="false">Duplicidades</button>
+    <button class="ep-tab" role="tab" id="tab-entidades" data-page="entidades" aria-selected="false">Todas las entidades</button>
+    <button class="ep-tab" role="tab" id="tab-personal" data-page="personal" aria-selected="false">Personal</button>
+    <button class="ep-tab" role="tab" id="tab-indicadores" data-page="indicadores" aria-selected="false">Indicadores</button>
+    <button class="ep-tab" role="tab" id="tab-verificacion" data-page="verificacion" aria-selected="false">Verificación y pendientes</button>
+  </nav>
+
+  <!-- RESUMEN -->
+  <section class="ep-page" id="resumen" role="tabpanel" aria-labelledby="tab-resumen">
+    <div class="ep-kpis">
+      <div class="ep-kpi" id="kpi-util">
+        <span class="ep-kpi-label">Útiles</span>
+        <span class="ep-kpi-value dash-skeleton" data-source="por_clase" data-field="fichas" data-where="clase=Útil">—</span>
+        <span class="ep-kpi-note">Se mantienen o se reforman: función necesaria, nadie más la presta y sirve a un fin del P100.</span>
+      </div>
+      <div class="ep-kpi" id="kpi-int">
+        <span class="ep-kpi-label">Integrar</span>
+        <span class="ep-kpi-value dash-skeleton" data-source="por_veredicto" data-field="fichas" data-where="veredicto=Integrar">—</span>
+        <span class="ep-kpi-note">La función sigue, el organismo sobra: pasa al organismo nacional o a la consejería.</span>
+      </div>
+      <div class="ep-kpi" id="kpi-sup">
+        <span class="ep-kpi-label">Suprimir</span>
+        <span class="ep-kpi-value dash-skeleton" data-source="por_veredicto" data-field="fichas" data-where="veredicto=Suprimir">—</span>
+        <span class="ep-kpi-note">Ni la función ni el organismo: informes, participación o fines que el P100 elimina.</span>
+      </div>
+      <div class="ep-kpi" id="kpi-pend">
+        <span class="ep-kpi-label">Sin decisión en el P100</span>
+        <span class="ep-kpi-value dash-skeleton" data-source="por_veredicto" data-field="fichas" data-where="veredicto=Pendiente de decisión">—</span>
+        <span class="ep-kpi-note">El P100 no trata su materia: hay que decidir.</span>
+      </div>
+      <div class="ep-kpi" id="kpi-ext">
+        <span class="ep-kpi-label">Extinguidas</span>
+        <span class="ep-kpi-value dash-skeleton" data-source="por_veredicto" data-field="fichas" data-where="veredicto=Extinguida">—</span>
+        <span class="ep-kpi-note">Suprimidas, integradas o nunca constituidas.</span>
+      </div>
+    </div>
+
+    <div class="ep-grid">
+      <div class="ep-card" id="card-veredicto">
+        <h2>Veredicto y dinero</h2>
+        <p class="ep-note">Presupuesto propio 2026 en M€: suma de créditos de bases distintas, como orden de magnitud. En «Integrar» el dinero no se ahorra entero: la función pasa a otro organismo.</p>
+        <div class="ep-scroll ep-scroll--short">
+          <table class="ep-table" id="tabla-clase" data-source="por_clase" data-row-key="clase">
+            <thead><tr>
+              <th data-field="clase"><span class="ep-th-plain">Útil o no</span></th>
+              <th class="ep-num" data-field="fichas"><span class="ep-th-plain">Fichas</span></th>
+              <th class="ep-num" data-field="con_presupuesto"><span class="ep-th-plain">Con presupuesto</span></th>
+              <th class="ep-num" data-field="presupuesto_m"><span class="ep-th-plain">Presupuesto (M€)</span></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="ep-scroll ep-scroll--short">
+          <table class="ep-table" id="tabla-veredicto" data-source="por_veredicto" data-row-key="veredicto">
+            <thead><tr>
+              <th data-field="veredicto"><span class="ep-th-plain">Veredicto</span></th>
+              <th class="ep-num" data-field="fichas"><span class="ep-th-plain">Fichas</span></th>
+              <th class="ep-num" data-field="con_presupuesto"><span class="ep-th-plain">Con presupuesto</span></th>
+              <th class="ep-num" data-field="presupuesto_m"><span class="ep-th-plain">Presupuesto (M€)</span></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="ep-card" id="card-criterio">
+        <h2>Qué es útil según el P100</h2>
+        <p class="ep-note">Útil no es tener un contenido, es a qué sirve ese contenido. Un organismo es útil si cumple las tres condiciones:</p>
+        <ul class="ep-crit">
+          <li><b>Su función es necesaria</b> y cambia decisiones o mejora un servicio. Un informe, un dictamen o un trámite de cumplimiento no cuenta (Costes del Estado 2).</li>
+          <li><b>Nadie más la presta.</b> Con un organismo nacional basta; no hacen falta 17 autonómicos iguales (Costes 9, Organización del Estado 5, «una sola Agencia Tributaria», «una sola web del Estado»).</li>
+          <li><b>Sirve a un fin del P100.</b> Una agencia autonómica de cooperación al desarrollo no lo hace: el P100 limita la cooperación a la humanitaria y a países que colaboren en el control migratorio (Costes 5).</li>
+        </ul>
+        <ul class="ep-crit">
+          <li><b>Mantener:</b> cumple las tres. <b>Reformar:</b> se queda, con los cambios que pide el P100.</li>
+          <li><b>Integrar:</b> la función sigue, el organismo sobra. <b>Suprimir:</b> ni la función ni el organismo.</li>
+          <li><b>Pendiente de decisión:</b> el P100 no trata su materia. <b>Extinguida:</b> ya no existe.</li>
+        </ul>
+        <div class="ep-scroll ep-scroll--short">
+          <table class="ep-table" id="tabla-base" data-source="por_base" data-row-key="base">
+            <thead><tr>
+              <th data-field="base"><span class="ep-th-plain">Base del veredicto</span></th>
+              <th class="ep-num" data-field="fichas"><span class="ep-th-plain">Fichas</span></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="ep-note">«Explícito» quiere decir que el P100 nombra el organismo o su categoría. «Aplicando el criterio» es una deducción nuestra a partir del P100 que conviene validar.</p>
+      </div>
+
+      <div class="ep-card ep-card--wide" id="card-integrar">
+        <h2>Integrar: a dónde iría cada función</h2>
+        <p class="ep-note">Organismos cuya función ya presta otro, casi siempre uno estatal. El presupuesto no se ahorra entero: la función pasa al destino, sin la estructura duplicada.</p>
+        <div class="ep-scroll">
+          <table class="ep-table" id="tabla-integrar" data-source="integrar_destino" data-row-key="id">
+            <thead><tr>
+              <th data-field="nombre"><span class="ep-th-plain">Entidad</span></th>
+              <th data-field="ccaa"><span class="ep-th-plain">Ámbito</span></th>
+              <th class="ep-num" data-field="presupuesto_m"><span class="ep-th-plain">Presupuesto 2026 (M€)</span></th>
+              <th data-field="destino"><span class="ep-th-plain">Destino de sus funciones</span></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="ep-card" id="card-funcion">
+        <h2>Por función</h2>
+        <p class="ep-note">Qué hace cada entidad, con independencia de su tamaño.</p>
+        <div class="ep-scroll ep-scroll--short">
+          <table class="ep-table" id="tabla-funcion" data-source="por_funcion" data-row-key="funcion">
+            <thead><tr>
+              <th data-field="funcion"><span class="ep-th-plain">Función</span></th>
+              <th class="ep-num" data-field="fichas"><span class="ep-th-plain">Fichas</span></th>
+              <th class="ep-num" data-field="presupuesto_m"><span class="ep-th-plain">Presupuesto (M€)</span></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="ep-note">«Exigida por la UE» (columna en Todas las entidades) marca las que el Derecho de la UE obliga a tener como autoridad nacional: se pueden fusionar o redimensionar, no suprimir.</p>
+      </div>
+
+      <div class="ep-card" id="card-coste">
+        <h2>Lo que cuestan los órganos sin presupuesto</h2>
+        <p class="ep-note">Escenario, no dato publicado. Sus normas cargan el coste al ministerio o la consejería: secretaría, unidad técnica y apoyo a reuniones. El coste por persona es la mediana de la hoja (gasto de personal 2025 dividido entre las personas ocupadas).</p>
+        <div class="ep-scroll ep-scroll--short">
+          <table class="ep-table" id="tabla-coste" data-source="coste_consultivos" data-row-key="clave">
+            <thead><tr>
+              <th data-field="escenario"><span class="ep-th-plain">Escenario</span></th>
+              <th class="ep-num" data-field="organos"><span class="ep-th-plain">Órganos</span></th>
+              <th class="ep-num" data-field="coste_persona"><span class="ep-th-plain">€ por persona y año</span></th>
+              <th class="ep-num" data-field="coste_m"><span class="ep-th-plain">M€ al año</span></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="ep-note">Casos documentados en la pestaña Todas las entidades (detalle de cada órgano): por ejemplo, el órgano de trabajo del Observatorio de la Vida Militar tenía 7 personas en 2015, y el Observatorio de Derechos Digitales se financia con un convenio de Red.es.</p>
+      </div>
+
+      <div class="ep-card" id="card-periodo">
+        <h2>Por presidencia en que se crearon</h2>
+        <p class="ep-note">Fichas por veredicto según el periodo de creación o transformación.</p>
+        <div class="ep-chart dash-skeleton" id="chart-periodo" data-source="por_periodo" style="min-height: 120px"></div>
+        <div class="ep-legend" id="legend-periodo"></div>
+      </div>
+
+      <div class="ep-card ep-card--wide" id="card-gasto">
+        <h2>CNMC y CSIC: cuánto es funcionamiento y cuánto pasa a terceros</h2>
+        <p class="ep-note">CNMC: crédito inicial 2026, que es el presupuesto 2023 prorrogado. Casi todo es dinero que le transfiere el Estado para costes regulados del sistema eléctrico (Ley 15/2012, subastas de CO₂ y sobrecoste de los territorios no peninsulares) y el servicio postal universal. CSIC: crédito actualizado a 31/08/2026; solo el capítulo de personal está desglosado.</p>
+        <div class="ep-chart dash-skeleton" id="chart-gasto" data-source="gasto_resumen" style="min-height: 110px"></div>
+        <div class="ep-legend" id="legend-gasto"></div>
+        <div class="ep-scroll ep-scroll--short">
+          <table class="ep-table" id="tabla-gasto" data-source="gasto_capitulos" data-row-key="clave">
+            <thead><tr>
+              <th data-field="entidad"><span class="ep-th-plain">Entidad</span></th>
+              <th data-field="concepto"><span class="ep-th-plain">Capítulo</span></th>
+              <th class="ep-num" data-field="importe_m"><span class="ep-th-plain">M€</span></th>
+              <th data-field="tipo"><span class="ep-th-plain">Tipo</span></th>
+              <th data-field="destino"><span class="ep-th-plain">A qué se destina</span></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="ep-card ep-card--wide" id="card-top">
+        <h2>Dónde está el dinero</h2>
+        <p class="ep-note">Las 12 entidades con más presupuesto propio 2026, coloreadas por veredicto. Buena parte no es coste de funcionamiento: la CNMC, la AEI, la Agencia Espacial o la AECID reparten transferencias, ayudas y programas a terceros.</p>
+        <div class="ep-chart dash-skeleton" id="chart-top" data-source="top_presupuesto" style="min-height: 340px"></div>
+        <div class="ep-legend" id="legend-veredicto"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DUPLICIDADES -->
+  <section class="ep-page" id="duplicidades" role="tabpanel" aria-labelledby="tab-duplicidades" hidden>
+    <div class="ep-card ep-card--wide" id="card-matriz">
+      <h2>Mismo tema, ¿cuántos organismos?</h2>
+      <p class="ep-note">Para cada tema, el organismo estatal y si cada comunidad tiene uno propio. El máximo posible es 18 (Estado y 17 comunidades). Pasa el cursor por una celda para ver el nombre; cada celda tiene su fuente oficial en el Excel.</p>
+      <div class="ep-legend" id="legend-matriz"></div>
+      <div class="ep-hscroll"><div class="ep-chart ep-matrix dash-skeleton" id="chart-matriz" data-source="duplicidades temas_conteo" style="min-height: 560px"></div></div>
+    </div>
+    <div class="ep-grid">
+      <div class="ep-card" id="card-temas-bar">
+        <h2>Organismos por tema</h2>
+        <p class="ep-note">Estado y comunidades con organismo propio verificado; la parte clara son comunidades sin verificar.</p>
+        <div class="ep-chart dash-skeleton" id="chart-temas" data-source="temas_conteo" style="min-height: 520px"></div>
+      </div>
+      <div class="ep-card" id="card-temas-tabla">
+        <h2>¿Podría cubrirlo el Estado?</h2>
+        <p class="ep-note">Cobertura estatal y base competencial de cada tema, en palabras de las fuentes revisadas.</p>
+        <div class="ep-scroll">
+          <table class="ep-table" id="tabla-temas" data-source="temas_conteo" data-row-key="tema">
+            <thead><tr>
+              <th data-field="tema"><span class="ep-th-plain">Tema</span></th>
+              <th class="ep-num" data-field="total"><span class="ep-th-plain">Organismos</span></th>
+              <th data-field="organismo_estatal"><span class="ep-th-plain">Estatal</span></th>
+              <th data-field="cobertura_estatal"><span class="ep-th-plain">¿Cubre el Estado?</span></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="ep-card ep-card--wide" id="card-grupos">
+        <h2>Duplicidades dentro de la hoja</h2>
+        <p class="ep-note">Temas en los que la hoja tiene dos o más entidades.</p>
+        <div class="ep-scroll">
+          <table class="ep-table" id="tabla-grupos" data-source="grupos_hoja" data-row-key="tema">
+            <thead><tr>
+              <th data-field="tema"><span class="ep-th-plain">Tema</span></th>
+              <th class="ep-num" data-field="fichas"><span class="ep-th-plain">Fichas</span></th>
+              <th data-field="entidades"><span class="ep-th-plain">Entidades (veredicto)</span></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENTIDADES -->
+  <section class="ep-page" id="entidades" role="tabpanel" aria-labelledby="tab-entidades" hidden>
+    <div class="ep-card ep-card--wide" id="card-tabla">
+      <h2>Todas las entidades</h2>
+      <p class="ep-note">Pulsa una fila para ver el motivo del veredicto, su base en el P100, a dónde irían sus funciones, la duplicidad, el coste de apoyo y la fuente. Cifras en M€; vacío significa sin cifra verificada, no cero.</p>
+      <div class="ep-filters">
+        <label class="ep-field" for="f-q">Buscar<input class="ep-in" id="f-q" type="search" placeholder="CSIC, observatorio, Andalucía…"></label>
+        <label class="ep-field" for="f-clase">Útil o no<select class="ep-in" id="f-clase"><option value="">Todos</option></select></label>
+        <label class="ep-field" for="f-ver">Veredicto<select class="ep-in" id="f-ver"><option value="">Todos</option></select></label>
+        <label class="ep-field" for="f-fun">Función<select class="ep-in" id="f-fun"><option value="">Todas</option></select></label>
+        <label class="ep-field" for="f-ambito">Ámbito<select class="ep-in" id="f-ambito"><option value="">Todos</option><option>Estatal</option><option>Autonómico</option></select></label>
+        <label class="ep-field" for="f-ccaa">Comunidad<select class="ep-in" id="f-ccaa"><option value="">Todas</option></select></label>
+        <button class="ep-btn" id="f-reset" type="button">Quitar filtros</button>
+        <span class="ep-count" id="f-count"></span>
+      </div>
+      <div class="ep-scroll">
+        <table class="ep-table" id="tabla-entidades" data-source="entidades" data-row-key="id">
+          <thead><tr>
+            <th data-field="nombre"><button class="ep-th-btn" type="button" data-sort="nombre">Entidad</button></th>
+            <th data-field="ccaa"><button class="ep-th-btn" type="button" data-sort="ccaa">Ámbito</button></th>
+            <th data-field="veredicto"><button class="ep-th-btn" type="button" data-sort="veredicto">Veredicto</button></th>
+            <th data-field="funcion"><button class="ep-th-btn" type="button" data-sort="funcion">Función</button></th>
+            <th data-field="tema"><button class="ep-th-btn" type="button" data-sort="tema">Tema</button></th>
+            <th class="ep-num" data-field="presupuesto_m"><button class="ep-th-btn" type="button" data-sort="presupuesto_m">Presupuesto</button></th>
+            <th class="ep-num" data-field="cap1_m"><button class="ep-th-btn" type="button" data-sort="cap1_m">Personal (cap. 1)</button></th>
+            <th class="ep-num" data-field="personas"><button class="ep-th-btn" type="button" data-sort="personas">Personas</button></th>
+            <th data-field="verificacion"><button class="ep-th-btn" type="button" data-sort="verificacion">Verificación</button></th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="ep-card ep-card--wide ep-detail" id="detalle" hidden>
+      <h3 id="det-nombre"></h3>
+      <p class="ep-note" id="det-motivo"></p>
+      <dl class="ep-dl" id="det-dl"></dl>
+    </div>
+  </section>
+
+  <!-- PERSONAL -->
+  <section class="ep-page" id="personal" role="tabpanel" aria-labelledby="tab-personal" hidden>
+    <div class="ep-card ep-card--wide" id="card-csic">
+      <h2>CSIC: científicos frente a administración</h2>
+      <p class="ep-note">Personas a diciembre de 2025, con las categorías propias del CSIC (Memoria Anual 2025). Los científicos incluyen a los predoctorales.</p>
+      <div class="ep-big">
+        <div><span class="ep-kpi-label">Científicos</span><span class="ep-kpi-value dash-skeleton" data-source="csic_resumen" data-field="cientificos" data-row="0">—</span></div>
+        <div><span class="ep-kpi-label">Técnicos de apoyo a la investigación</span><span class="ep-kpi-value dash-skeleton" data-source="csic_resumen" data-field="tecnicos" data-row="0">—</span></div>
+        <div><span class="ep-kpi-label">Gestión y administración</span><span class="ep-kpi-value dash-skeleton" data-source="csic_resumen" data-field="administracion" data-row="0">—</span></div>
+        <div><span class="ep-kpi-label">Sin área asignada</span><span class="ep-kpi-value dash-skeleton" data-source="csic_resumen" data-field="sin_asignar" data-row="0">—</span></div>
+      </div>
+      <div class="ep-chart dash-skeleton" id="chart-csic" data-source="csic_personal" style="min-height: 44px"></div>
+      <p class="ep-note">De <b class="ep-n" data-source="csic_resumen" data-field="total" data-row="0">—</b> personas, la administración es como mínimo el <b class="ep-n" data-source="csic_resumen" data-field="admin_min_pct" data-row="0">—</b> % y como mucho el <b class="ep-n" data-source="csic_resumen" data-field="admin_max_pct" data-row="0">—</b> % si todo el personal sin área fuera de gestión.</p>
+    </div>
+    <div class="ep-card ep-card--wide" id="card-desglose">
+      <h2>Núcleo, administración y otros, por entidad</h2>
+      <p class="ep-note">Reparto en porcentaje y total al final de cada barra. En muchas filas el reparto es por grupo profesional (A1 y A2 = núcleo técnico; C1, C2 y E = administración), no por función; el criterio de cada fila está en la tabla de abajo.</p>
+      <div class="ep-legend" id="legend-desglose"></div>
+      <div class="ep-chart dash-skeleton" id="chart-desglose" data-source="personal_desglose" style="min-height: 520px"></div>
+    </div>
+    <div class="ep-card ep-card--wide" id="card-ld">
+      <h2>Libre designación, altos cargos y eventuales</h2>
+      <p class="ep-note">Solo donde una fuente oficial lo publica; vacío significa no encontrado, no cero.</p>
+      <div class="ep-scroll">
+        <table class="ep-table" id="tabla-ld" data-source="personal_desglose" data-row-key="id">
+          <thead><tr>
+            <th data-field="nombre"><span class="ep-th-plain">Entidad</span></th>
+            <th class="ep-num" data-field="total"><span class="ep-th-plain">Total</span></th>
+            <th class="ep-num" data-field="nucleo"><span class="ep-th-plain">Núcleo</span></th>
+            <th class="ep-num" data-field="administracion"><span class="ep-th-plain">Administración</span></th>
+            <th class="ep-num" data-field="libre_designacion"><span class="ep-th-plain">Libre designación</span></th>
+            <th class="ep-num" data-field="altos_cargos"><span class="ep-th-plain">Altos cargos</span></th>
+            <th class="ep-num" data-field="eventuales"><span class="ep-th-plain">Eventuales</span></th>
+            <th data-field="unidad_fecha"><span class="ep-th-plain">Qué se cuenta</span></th>
+            <th data-field="criterio"><span class="ep-th-plain">Criterio</span></th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- INDICADORES -->
+  <section class="ep-page" id="indicadores" role="tabpanel" aria-labelledby="tab-indicadores" hidden>
+    <div class="ep-card ep-card--wide" id="card-ind">
+      <h2>Indicadores comparables, calculados con los datos de la hoja</h2>
+      <p class="ep-note">Tres medidas que se pueden calcular igual para todas: cuánto cuesta cada persona, qué parte del presupuesto es personal y qué parte de la plantilla es administración. Las entidades con un presupuesto dominado por transferencias (CNMC, AEI, Agencia Espacial) tienen un peso de personal bajo sin que eso diga nada de su eficiencia.</p>
+      <div class="ep-scroll">
+        <table class="ep-table" id="tabla-ind" data-source="indicadores" data-row-key="id">
+          <thead><tr>
+            <th data-field="nombre"><span class="ep-th-plain">Entidad</span></th>
+            <th data-field="veredicto"><span class="ep-th-plain">Veredicto</span></th>
+            <th class="ep-num" data-field="coste_persona"><span class="ep-th-plain">€ por persona (2025)</span></th>
+            <th class="ep-num" data-field="pct_personal"><span class="ep-th-plain">% del presupuesto en personal</span></th>
+            <th class="ep-num" data-field="pct_admin"><span class="ep-th-plain">% de administración</span></th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="ep-note">Indicadores oficiales de desempeño: las agencias estatales deben aprobar un plan de acción anual con objetivos e indicadores y rendir un informe de seguimiento (Ley 40/2015); los programas de los presupuestos traen objetivos e indicadores en su memoria; los órganos consultivos no tienen ninguno. Recoger esos indicadores entidad por entidad es el siguiente paso.</p>
+    </div>
+  </section>
+
+  <!-- VERIFICACIÓN -->
+  <section class="ep-page" id="verificacion" role="tabpanel" aria-labelledby="tab-verificacion" hidden>
+    <div class="ep-grid">
+      <div class="ep-card" id="card-niveles-verif">
+        <h2>Cómo de verificada está cada ficha</h2>
+        <p class="ep-note">Cada cifra lleva su fuente oficial con documento y página en el Excel. Una muestra la volvió a cotejar un segundo revisor que no había participado en la búsqueda.</p>
+        <div class="ep-scroll ep-scroll--short">
+          <table class="ep-table" id="tabla-verif" data-source="por_verificacion" data-row-key="verificacion">
+            <thead><tr>
+              <th data-field="verificacion"><span class="ep-th-plain">Nivel de verificación</span></th>
+              <th class="ep-num" data-field="fichas"><span class="ep-th-plain">Fichas</span></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="ep-note">«Sin cifras» son sobre todo órganos consultivos y entidades extinguidas, sin presupuesto propio que verificar. El veredicto, el poder real y las duplicidades son valoraciones con criterio explícito, no hechos.</p>
+      </div>
+      <div class="ep-card" id="card-pend-resumen">
+        <h2>Qué queda por mirar</h2>
+        <p class="ep-note">Entidades que se mantienen o se reforman con algún dato pendiente. Casi todo está publicado, pero en PDF de cientos de páginas que no se pudieron leer enteros.</p>
+        <div class="ep-big">
+          <div><span class="ep-kpi-label">Fichas con algo pendiente</span><span class="ep-kpi-value dash-skeleton" data-source="pendientes_resumen" data-field="fichas" data-row="0">—</span></div>
+          <div><span class="ep-kpi-label">Sin presupuesto 2026</span><span class="ep-kpi-value dash-skeleton" data-source="pendientes_resumen" data-field="presupuesto" data-row="0">—</span></div>
+          <div><span class="ep-kpi-label">Sin personas ocupadas</span><span class="ep-kpi-value dash-skeleton" data-source="pendientes_resumen" data-field="personas" data-row="0">—</span></div>
+          <div><span class="ep-kpi-label">Sin desglose de personal</span><span class="ep-kpi-value dash-skeleton" data-source="pendientes_resumen" data-field="desglose" data-row="0">—</span></div>
+        </div>
+      </div>
+      <div class="ep-card ep-card--wide" id="card-muestra">
+        <h2>Muestra contrastada por un segundo revisor</h2>
+        <p class="ep-note">Cifra de la hoja frente a la cifra literal del documento oficial. Coinciden <b class="ep-n" data-source="muestra_resumen" data-field="coinciden" data-row="0">—</b> de <b class="ep-n" data-source="muestra_resumen" data-field="total" data-row="0">—</b>.</p>
+        <div class="ep-scroll">
+          <table class="ep-table" id="tabla-muestra" data-source="verificacion_muestra" data-row-key="id">
+            <thead><tr>
+              <th data-field="nombre"><span class="ep-th-plain">Entidad</span></th>
+              <th data-field="campo"><span class="ep-th-plain">Campo</span></th>
+              <th class="ep-num" data-field="valor_hoja"><span class="ep-th-plain">En la hoja</span></th>
+              <th class="ep-num" data-field="valor_fuente"><span class="ep-th-plain">En la fuente</span></th>
+              <th data-field="unidad"><span class="ep-th-plain">Unidad de la fuente</span></th>
+              <th data-field="resultado"><span class="ep-th-plain">Resultado</span></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="ep-card ep-card--wide" id="card-pendientes">
+        <h2>Pendientes por entidad</h2>
+        <div class="ep-scroll">
+          <table class="ep-table" id="tabla-pendientes" data-source="entidades" data-row-key="id">
+            <thead><tr>
+              <th data-field="nombre"><span class="ep-th-plain">Entidad</span></th>
+              <th data-field="ccaa"><span class="ep-th-plain">Ámbito</span></th>
+              <th data-field="veredicto"><span class="ep-th-plain">Veredicto</span></th>
+              <th data-field="pendiente"><span class="ep-th-plain">Falta</span></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<script>
+  // Every figure that is not a raw cell is worked out here, from the datasets.
+  dash.calc('totales', {
+    inputs: ['entidades'], title: 'Total de fichas',
+    description: 'Fichas en la hoja y cuántas tienen presupuesto propio 2026.',
+    fn: (entidades) => [{ fichas: entidades.length,
+      con_presupuesto: entidades.filter((e) => e.presupuesto_anio === 2026 && e.presupuesto_m > 0).length }],
+  });
+  dash.calc('por_veredicto', {
+    inputs: ['entidades'], title: 'Fichas por veredicto (P100)',
+    description: 'Fichas, fichas con presupuesto propio 2026, suma de ese presupuesto (bases distintas, orden de magnitud) y fichas con actividad acreditada, por veredicto alineado con el P100.',
+    fn: (entidades) => ['Mantener', 'Reformar', 'Integrar', 'Suprimir', 'Pendiente de decisión', 'Extinguida'].map((veredicto) => {
+      const rows = entidades.filter((e) => e.veredicto === veredicto);
+      const conP = rows.filter((e) => e.presupuesto_anio === 2026 && e.presupuesto_m > 0);
+      return { veredicto, fichas: rows.length, con_presupuesto: conP.length,
+        presupuesto_m: Math.round(conP.reduce((s, e) => s + e.presupuesto_m, 0) * 10) / 10,
+        con_actividad: rows.filter((e) => e.actividad === 'Acreditada').length };
+    }),
+  });
+  dash.calc('por_clase', {
+    inputs: ['entidades'], title: 'Útil o no útil (P100)',
+    description: 'Útil = Mantener o Reformar; No útil = Integrar o Suprimir; Sin decisión = el P100 no trata la materia; Extinguida.',
+    fn: (entidades) => ['Útil', 'No útil', 'Sin decisión en el P100', 'Extinguida'].map((clase) => {
+      const rows = entidades.filter((e) => e.clase === clase);
+      const conP = rows.filter((e) => e.presupuesto_anio === 2026 && e.presupuesto_m > 0);
+      return { clase, fichas: rows.length, con_presupuesto: conP.length,
+        presupuesto_m: Math.round(conP.reduce((s, e) => s + e.presupuesto_m, 0) * 10) / 10 };
+    }),
+  });
+  dash.calc('por_base', {
+    inputs: ['entidades'], title: 'Base del veredicto en el P100',
+    description: 'Fichas vigentes según si el P100 lo dice expresamente, si es una deducción a partir de su criterio, o si el P100 no trata la materia.',
+    fn: (entidades) => ['Explícito en el P100', 'Aplicando el criterio del P100', 'El P100 no trata la materia']
+      .map((base) => ({ base, fichas: entidades.filter((e) => e.base_tipo === base).length })),
+  });
+  dash.calc('integrar_destino', {
+    inputs: ['entidades'], title: 'Integrar: a dónde iría cada función',
+    description: 'Fichas con veredicto Integrar, con su presupuesto propio 2026 y el organismo que asumiría la función.',
+    fn: (entidades) => entidades.filter((e) => e.veredicto === 'Integrar')
+      .map((e) => ({ id: e.id, nombre: e.nombre, ccaa: e.ccaa, presupuesto_m: e.presupuesto_anio === 2026 ? e.presupuesto_m : null, destino: e.destino }))
+      .sort((a, b) => (a.destino || '').localeCompare(b.destino || '', 'es') || (b.presupuesto_m || 0) - (a.presupuesto_m || 0)),
+  });
+  dash.calc('por_funcion', {
+    inputs: ['entidades'], title: 'Fichas por función',
+    description: 'Fichas y presupuesto propio 2026 (orden de magnitud) por tipo de función.',
+    fn: (entidades) => ['Servicio público directo', 'Regulación o inspección de terceros', 'Financiación y ayudas',
+      'Control interno y cumplimiento', 'Consultivo o participación', 'Extinguida o no constituida'].map((funcion) => {
+      const rows = entidades.filter((e) => e.funcion === funcion);
+      const conP = rows.filter((e) => e.presupuesto_anio === 2026 && e.presupuesto_m > 0);
+      return { funcion, fichas: rows.length, presupuesto_m: Math.round(conP.reduce((s, e) => s + e.presupuesto_m, 0) * 10) / 10 };
+    }),
+  });
+  dash.calc('coste_consultivos', {
+    inputs: ['entidades'], title: 'Coste de personal de los órganos consultivos (escenario)',
+    description: 'Órganos consultivos × personas a tiempo completo supuestas (1, 2 o 3) × coste por persona, que es la mediana de gasto de personal 2025 / personas ocupadas en las fichas que tienen ambos datos.',
+    fn: (entidades) => {
+      const organos = entidades.filter((e) => e.funcion === 'Consultivo o participación').length;
+      const v = entidades.filter((e) => e.gasto_personal_2025_m > 0 && e.personas > 0)
+        .map((e) => e.gasto_personal_2025_m * 1e6 / e.personas).sort((a, b) => a - b);
+      const m = v.length % 2 ? v[(v.length - 1) / 2] : (v[v.length / 2 - 1] + v[v.length / 2]) / 2;
+      const coste_persona = Math.round(m);
+      return [1, 2, 3].map((n) => ({ clave: 'p' + n, escenario: n === 1 ? '1 persona por órgano' : n + ' personas por órgano',
+        organos, coste_persona, coste_m: Math.round(organos * coste_persona * n / 1e5) / 10 }));
+    },
+  });
+  dash.calc('por_periodo', {
+    inputs: ['entidades'], title: 'Por presidencia',
+    description: 'Fichas por veredicto según el periodo presidencial de creación o transformación.',
+    fn: (entidades) => ['Zapatero', 'Rajoy', 'Sánchez'].map((periodo) => {
+      const rows = entidades.filter((e) => e.periodo === periodo);
+      const n = (v) => rows.filter((e) => e.veredicto === v).length;
+      return { periodo, mantener: n('Mantener'), reformar: n('Reformar'), integrar: n('Integrar'), suprimir: n('Suprimir'),
+        pendiente: n('Pendiente de decisión'), extinguida: n('Extinguida'), total: rows.length };
+    }),
+  });
+  dash.calc('top_presupuesto', {
+    inputs: ['entidades'], title: 'Mayores presupuestos 2026',
+    description: 'Las 12 entidades con mayor presupuesto propio 2026.',
+    fn: (entidades) => entidades.filter((e) => e.presupuesto_anio === 2026 && e.presupuesto_m > 0)
+      .sort((a, b) => b.presupuesto_m - a.presupuesto_m).slice(0, 12)
+      .map((e) => ({ id: e.id, nombre: e.nombre, veredicto: e.veredicto, presupuesto_m: e.presupuesto_m, presupuesto_base: e.presupuesto_base })),
+  });
+  dash.calc('gasto_resumen', {
+    inputs: ['gasto_capitulos'], title: 'Funcionamiento propio frente a dinero de paso',
+    description: 'Suma por entidad de los capítulos marcados como funcionamiento propio, de paso a terceros o sin desglosar.',
+    fn: (gasto_capitulos) => ['CNMC', 'CSIC'].map((entidad) => {
+      const r = gasto_capitulos.filter((g) => g.entidad === entidad);
+      const s = (t) => Math.round(r.filter((g) => g.tipo === t).reduce((a, g) => a + g.importe_m, 0) * 10) / 10;
+      const total = Math.round(r.reduce((a, g) => a + g.importe_m, 0) * 10) / 10;
+      const propio = s('Funcionamiento propio');
+      return { entidad, propio_m: propio, de_paso_m: s('De paso a terceros'), sin_desglosar_m: s('Sin desglosar'), total_m: total,
+        pct_propio: Math.round(propio / total * 1000) / 10 };
+    }),
+  });
+  dash.calc('temas_conteo', {
+    inputs: ['duplicidades', 'temas'], title: 'Organismos por tema',
+    description: 'Por tema: organismos verificados (estatal más comunidades con organismo o órgano propio) y comunidades sin verificar.',
+    fn: (duplicidades, temas) => temas.map((t) => {
+      const r = duplicidades.filter((d) => d.tema === t.tema);
+      const estatal = r.filter((d) => d.tipo === 'estatal').length;
+      const propios = r.filter((d) => d.tipo === 'ente' || d.tipo === 'organo').length;
+      return { tema: t.tema, organismo_estatal: t.organismo_estatal, estatal, propios, total: estatal + propios,
+        sin_verificar: r.filter((d) => d.tipo === 'no_verificado').length, cobertura_estatal: t.cobertura_estatal, competencia: t.competencia };
+    }).sort((a, b) => b.total - a.total || a.tema.localeCompare(b.tema)),
+  });
+  dash.calc('grupos_hoja', {
+    inputs: ['entidades'], title: 'Temas con varias entidades en la hoja',
+    description: 'Temas funcionales con dos o más fichas en la hoja, con sus nombres y veredictos.',
+    fn: (entidades) => {
+      const by = {};
+      entidades.forEach((e) => { (by[e.tema] = by[e.tema] || []).push(e); });
+      return Object.keys(by).filter((k) => by[k].length > 1)
+        .map((tema) => ({ tema, fichas: by[tema].length, entidades: by[tema].map((e) => `${e.nombre} (${e.veredicto})`).join('; ') }))
+        .sort((a, b) => b.fichas - a.fichas || a.tema.localeCompare(b.tema));
+    },
+  });
+  dash.calc('indicadores', {
+    inputs: ['entidades', 'personal_desglose'], title: 'Indicadores comparables',
+    description: 'Coste de personal 2025 por persona ocupada; capítulo 1 sobre presupuesto propio 2026; personal de administración sobre el total del desglose.',
+    fn: (entidades, personal_desglose) => entidades.map((e) => {
+      const d = personal_desglose.find((p) => p.id === e.id);
+      return { id: e.id, nombre: e.nombre, veredicto: e.veredicto,
+        coste_persona: e.gasto_personal_2025_m > 0 && e.personas > 0 ? Math.round(e.gasto_personal_2025_m * 1e6 / e.personas) : null,
+        pct_personal: e.cap1_m > 0 && e.presupuesto_m > 0 && e.presupuesto_anio === 2026 ? Math.round(e.cap1_m / e.presupuesto_m * 1000) / 10 : null,
+        pct_admin: d && d.total > 0 && d.administracion != null ? Math.round(d.administracion / d.total * 1000) / 10 : null };
+    }).filter((r) => r.coste_persona != null || r.pct_personal != null || r.pct_admin != null),
+  });
+  dash.calc('csic_resumen', {
+    inputs: ['csic_personal'], title: 'CSIC por grupos',
+    description: 'Suma de categorías del CSIC por grupo y peso mínimo y máximo de la administración.',
+    fn: (csic_personal) => {
+      const s = (g) => csic_personal.filter((r) => r.grupo === g).reduce((t, r) => t + r.personas, 0);
+      const total = csic_personal.reduce((t, r) => t + r.personas, 0);
+      const adm = s('Administración'); const sin = s('Sin asignar');
+      return [{ cientificos: s('Científicos'), tecnicos: s('Técnicos'), administracion: adm, sin_asignar: sin, total,
+        admin_min_pct: Math.round(adm / total * 1000) / 10, admin_max_pct: Math.round((adm + sin) / total * 1000) / 10 }];
+    },
+  });
+  dash.calc('por_verificacion', {
+    inputs: ['entidades'], title: 'Fichas por nivel de verificación',
+    description: 'Cuántas fichas tienen cifras contrastadas dos veces, cifras con fuente oficial o ninguna cifra.',
+    fn: (entidades) => ['Contrastada por un segundo revisor (muestra)', 'Fuente oficial citada', 'Sin cifras']
+      .map((verificacion) => ({ verificacion, fichas: entidades.filter((e) => e.verificacion === verificacion).length })),
+  });
+  dash.calc('muestra_resumen', {
+    inputs: ['verificacion_muestra'], title: 'Resultado de la muestra',
+    description: 'Cifras de la muestra que coinciden con la fuente oficial.',
+    fn: (verificacion_muestra) => [{ total: verificacion_muestra.length,
+      coinciden: verificacion_muestra.filter((r) => r.resultado === 'COINCIDE').length }],
+  });
+  dash.calc('pendientes_resumen', {
+    inputs: ['entidades'], title: 'Pendientes en fichas que se mantienen o se reforman',
+    description: 'Fichas con veredicto Mantener o Reformar a las que les falta cada dato.',
+    fn: (entidades) => {
+      const u = entidades.filter((e) => (e.veredicto === 'Mantener' || e.veredicto === 'Reformar') && e.pendiente);
+      const has = (k) => u.filter((e) => e.pendiente.split(', ').includes(k)).length;
+      return [{ fichas: u.length, presupuesto: has('presupuesto 2026'), personas: has('personas'), desglose: has('desglose de personal') }];
+    },
+  });
+</script>
+<script>
+  const es = d3.formatLocale({ decimal: ',', thousands: '.', grouping: [3], currency: ['', ' €'] });
+  const fInt = es.format(',d');
+  const fM = es.format(',.1f');
+  const fPct = es.format('.0%');
+  const fmtM = (v) => (v == null ? '' : fM(v));
+  const fmtN = (v) => (v == null ? '' : fInt(v));
+  const VC = { 'Mantener': dash.colors[0], 'Reformar': dash.colors[1], 'Integrar': dash.colors[2], 'Suprimir': 'var(--cds-chart-status-critical)', 'Pendiente de decisión': dash.colors[3], 'Extinguida': 'var(--cds-chart-muted)' };
+  const VCHIP = { 'Mantener': 'ep-chip--util', 'Reformar': 'ep-chip--ref', 'Integrar': 'ep-chip--rev', 'Suprimir': 'ep-chip--presc', 'Pendiente de decisión': 'ep-chip--pend', 'Extinguida': 'ep-chip--ext',
+    'Útil': 'ep-chip--util', 'No útil': 'ep-chip--presc', 'Sin decisión en el P100': 'ep-chip--pend' };
+  const VERS = ['Mantener', 'Reformar', 'Integrar', 'Suprimir', 'Pendiente de decisión', 'Extinguida'];
+  const CLASES = ['Útil', 'No útil', 'Sin decisión en el P100', 'Extinguida'];
+  const state = { page: 'resumen', q: '', clase: '', ver: '', fun: '', ambito: '', ccaa: '', sort: 'presupuesto_m', dir: -1, sel: null };
+  const $ = (s) => document.querySelector(s);
+  const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+  const ok = (id) => dash.data(id).status === 'ok';
+  const rows = (id) => (ok(id) ? dash.data(id).data : []);
+  const safeUrl = (u) => (typeof u === 'string' && /^https:\/\//.test(u) ? u : null);
+  const chip = (v) => el('span', 'ep-chip ' + (VCHIP[v] || ''), v);
+  const short = (s, n) => { const m = s.match(/\(([^)]+)\)\s*$/); const b = s.replace(/^Agencia [Ee]statal /, ''); return m && m[1].length < 16 ? m[1] : (b.length > n ? b.slice(0, n - 1) + '…' : b); };
+
+  function failLine(node, id) {
+    const st = dash.data(id).status;
+    if (st === 'error' || st === 'connect' || st === 'declined') { node.replaceChildren(el('div', 'ep-fail', 'No se pudo cargar')); return true; }
+    return false;
+  }
+  function fillMarks(root) {
+    root.querySelectorAll('[data-source][data-field]').forEach((n) => {
+      if (n.closest('table') || n.tagName === 'TH' || n.closest('#det-dl')) return;
+      const id = n.getAttribute('data-source'); const f = n.getAttribute('data-field');
+      const d = dash.data(id); if (d.status !== 'ok') { n.textContent = '—'; return; }
+      let row = null;
+      if (n.hasAttribute('data-row')) row = d.data[+n.getAttribute('data-row')];
+      else if (n.hasAttribute('data-where')) {
+        const [k, v] = n.getAttribute('data-where').split('=');
+        row = d.data.find((r) => String(r[k]) === decodeURIComponent(v));
+      }
+      const v = row ? row[f] : null;
+      if (v == null) { n.textContent = '—'; return; }
+      n.textContent = typeof v === 'number' ? (Number.isInteger(v) ? fInt(v) : fM(v)) : v;
+      n.classList.remove('dash-skeleton');
+    });
+  }
+  function tipFor(box) { let t = box.querySelector('.ep-tip'); if (!t) { t = el('div', 'ep-tip'); t.hidden = true; box.appendChild(t); } return t; }
+  function showTip(box, ev, head, lines) {
+    const t = tipFor(box);
+    t.replaceChildren(el('div', 'ep-tip-h', head), ...lines.map(([c, txt]) => {
+      const d = el('div'); if (c) { const s = el('span', 'ep-sw'); s.style.background = c; d.appendChild(s); } d.appendChild(document.createTextNode(txt)); return d;
+    }));
+    t.hidden = false;
+    const r = box.getBoundingClientRect();
+    let x = ev.clientX - r.left + 12, y = ev.clientY - r.top + 12;
+    if (x + t.offsetWidth > box.clientWidth) x = Math.max(0, ev.clientX - r.left - t.offsetWidth - 12);
+    if (y + t.offsetHeight > box.clientHeight + 40) y = Math.max(0, ev.clientY - r.top - t.offsetHeight - 12);
+    t.style.left = x + 'px'; t.style.top = y + 'px';
+  }
+  function hideTip(box) { const t = box.querySelector('.ep-tip'); if (t) t.hidden = true; }
+  function legend(node, items, opac) {
+    node.replaceChildren(...items.map(([c, txt, o, dashed]) => { const d = el('span'); const s = el('span', 'ep-sw'); s.style.background = dashed ? 'transparent' : c; if (dashed) s.style.border = '1px dashed var(--color-fg-muted)'; if (o != null) s.style.opacity = o; d.append(s, document.createTextNode(txt)); return d; }));
+  }
+  function inBar(v, max, color, txt) {
+    const td = el('td', 'ep-num'); const w = el('div', 'ep-bar-cell'); const b = el('span', 'ep-inbar');
+    b.style.width = Math.max(1, (max ? v / max : 0) * 90) + 'px'; b.style.background = color; w.append(b, el('span', null, txt)); td.appendChild(w); return td;
+  }
+
+  // ---------- RESUMEN ----------
+  function drawResumen() {
+    const pv = rows('por_veredicto'); const maxF = d3.max(pv, (d) => d.fichas) || 1; const maxP = d3.max(pv, (d) => d.presupuesto_m) || 1;
+    $('#tabla-veredicto tbody').replaceChildren(...pv.map((d) => {
+      const tr = el('tr'); tr.dataset.key = d.veredicto; const c = el('td'); c.appendChild(chip(d.veredicto));
+      tr.append(c, inBar(d.fichas, maxF, VC[d.veredicto], fInt(d.fichas)), el('td', 'ep-num', fInt(d.con_presupuesto)), inBar(d.presupuesto_m, maxP, VC[d.veredicto], fM(d.presupuesto_m)));
+      return tr;
+    }));
+    const pc = rows('por_clase'); const mcF = d3.max(pc, (d) => d.fichas) || 1; const mcP = d3.max(pc, (d) => d.presupuesto_m) || 1;
+    const CC = { 'Útil': dash.colors[0], 'No útil': 'var(--cds-chart-status-critical)', 'Sin decisión en el P100': dash.colors[3], 'Extinguida': 'var(--cds-chart-muted)' };
+    $('#tabla-clase tbody').replaceChildren(...pc.map((d) => {
+      const tr = el('tr'); tr.dataset.key = d.clase; const c = el('td'); c.appendChild(chip(d.clase));
+      tr.append(c, inBar(d.fichas, mcF, CC[d.clase], fInt(d.fichas)), el('td', 'ep-num', fInt(d.con_presupuesto)), inBar(d.presupuesto_m, mcP, CC[d.clase], fM(d.presupuesto_m)));
+      return tr;
+    }));
+    $('#tabla-base tbody').replaceChildren(...rows('por_base').map((d) => { const tr = el('tr'); tr.dataset.key = d.base; tr.append(el('td', null, d.base), el('td', 'ep-num', fInt(d.fichas))); return tr; }));
+    $('#tabla-integrar tbody').replaceChildren(...rows('integrar_destino').map((d) => {
+      const tr = el('tr'); tr.dataset.key = String(d.id); const de = el('td'); de.appendChild(el('span', 'ep-wrap', d.destino || ''));
+      tr.append(el('td', 'ep-name', d.nombre), el('td', null, d.ccaa), el('td', 'ep-num', fmtM(d.presupuesto_m)), de); return tr;
+    }));
+    const pf = rows('por_funcion'); const mf = d3.max(pf, (d) => d.fichas) || 1; const mp = d3.max(pf, (d) => d.presupuesto_m) || 1;
+    $('#tabla-funcion tbody').replaceChildren(...pf.map((d) => {
+      const tr = el('tr'); tr.dataset.key = d.funcion;
+      tr.append(el('td', null, d.funcion), inBar(d.fichas, mf, 'var(--cds-chart-muted)', fInt(d.fichas)), inBar(d.presupuesto_m, mp, 'var(--cds-chart-muted)', fM(d.presupuesto_m)));
+      return tr;
+    }));
+    $('#tabla-coste tbody').replaceChildren(...rows('coste_consultivos').map((d) => {
+      const tr = el('tr'); tr.dataset.key = d.clave;
+      tr.append(el('td', null, d.escenario), el('td', 'ep-num', fInt(d.organos)), el('td', 'ep-num', fInt(d.coste_persona)), el('td', 'ep-num', fM(d.coste_m)));
+      return tr;
+    }));
+    drawPeriodo(); drawGasto(); drawTop();
+  }
+  function drawPeriodo() {
+    const box = $('#chart-periodo'); if (failLine(box, 'entidades')) return;
+    const data = rows('por_periodo'); if (!data.length) return;
+    const W = box.clientWidth || 400; const rowH = 34, left = 70, right = 36; const H = data.length * rowH;
+    const keys = [['mantener', 'Mantener'], ['reformar', 'Reformar'], ['integrar', 'Integrar'], ['suprimir', 'Suprimir'], ['pendiente', 'Pendiente de decisión'], ['extinguida', 'Extinguida']];
+    const x = d3.scaleLinear([0, d3.max(data, (d) => d.total)], [0, Math.max(40, W - left - right)]);
+    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const g = svg.selectAll('g').data(data).join('g').attr('transform', (d, i) => `translate(0,${i * rowH})`);
+    g.append('text').attr('x', 0).attr('y', 16).attr('dy', '.35em').attr('class', 'ep-lbl-strong').text((d) => d.periodo);
+    keys.forEach(([k, v], idx) => {
+      g.append('rect').attr('y', 6).attr('height', 20)
+        .attr('x', (d) => left + x(keys.slice(0, idx).reduce((s, [kk]) => s + d[kk], 0)))
+        .attr('width', (d) => Math.max(0, x(d[k]) - (d[k] ? 1 : 0))).style('fill', VC[v]);
+    });
+    g.append('text').attr('x', (d) => left + x(d.total) + 6).attr('y', 16).attr('dy', '.35em').text((d) => fInt(d.total));
+    g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).style('fill', 'transparent')
+      .on('mousemove', (ev, d) => showTip(box, ev, d.periodo, keys.map(([k, v]) => [VC[v], `${v}: ${fInt(d[k])}`])))
+      .on('mouseleave', () => hideTip(box));
+    box.replaceChildren(svg.node());
+    legend($('#legend-periodo'), VERS.map((v) => [VC[v], v]));
+  }
+  function drawGasto() {
+    const box = $('#chart-gasto'); if (failLine(box, 'gasto_capitulos')) return;
+    const data = rows('gasto_resumen'); if (!data.length) return;
+    const W = box.clientWidth || 600; const rowH = 44, left = 56, right = 8; const H = data.length * rowH;
+    const parts = [['propio_m', 'Funcionamiento propio', dash.colors[0]], ['de_paso_m', 'De paso a terceros', 'var(--cds-chart-muted)'], ['sin_desglosar_m', 'Sin desglosar', dash.colors[2]]];
+    const bw = Math.max(80, W - left - right);
+    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const g = svg.selectAll('g').data(data).join('g').attr('transform', (d, i) => `translate(0,${i * rowH})`);
+    g.append('text').attr('x', 0).attr('y', 14).attr('dy', '.35em').attr('class', 'ep-lbl-strong').text((d) => d.entidad);
+    parts.forEach(([k, , c], idx) => {
+      g.append('rect').attr('y', 4).attr('height', 20).attr('x', (d) => left + bw * parts.slice(0, idx).reduce((s, [kk]) => s + d[kk], 0) / d.total_m)
+        .attr('width', (d) => Math.max(0, bw * d[k] / d.total_m - (d[k] ? 1 : 0))).style('fill', c);
+    });
+    g.append('text').attr('x', left).attr('y', 36).text((d) => `Funcionamiento propio ${fM(d.propio_m)} M€ (${String(d.pct_propio).replace('.', ',')} %) de ${fM(d.total_m)} M€`);
+    g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).style('fill', 'transparent')
+      .on('mousemove', (ev, d) => showTip(box, ev, d.entidad, parts.filter(([k]) => d[k]).map(([k, lab, c]) => [c, `${lab}: ${fM(d[k])} M€`])))
+      .on('mouseleave', () => hideTip(box));
+    box.replaceChildren(svg.node());
+    legend($('#legend-gasto'), parts.map(([, lab, c]) => [c, lab]));
+    $('#tabla-gasto tbody').replaceChildren(...rows('gasto_capitulos').map((d) => {
+      const tr = el('tr'); tr.dataset.key = d.clave; const de = el('td'); de.appendChild(el('span', 'ep-wrap', d.destino || ''));
+      tr.append(el('td', null, d.entidad), el('td', null, d.concepto), el('td', 'ep-num', fM(d.importe_m)), el('td', null, d.tipo), de); return tr;
+    }));
+  }
+  function drawTop() {
+    const box = $('#chart-top'); if (failLine(box, 'entidades')) return;
+    const data = rows('top_presupuesto'); if (!data.length) return;
+    const W = box.clientWidth || 600; const rowH = 28; const H = data.length * rowH + 4;
+    const left = Math.min(Math.max(90, W * 0.32), 230);
+    const x = d3.scaleLinear([0, d3.max(data, (d) => d.presupuesto_m)], [0, Math.max(40, W - left - 64)]);
+    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const g = svg.selectAll('g').data(data).join('g').attr('transform', (d, i) => `translate(0,${i * rowH})`);
+    g.append('text').attr('x', left - 8).attr('y', 13).attr('dy', '.35em').attr('text-anchor', 'end').attr('class', 'ep-lbl-strong').text((d) => short(d.nombre, 34));
+    g.append('rect').attr('x', left).attr('y', 4).attr('height', 18).attr('rx', 4).attr('width', (d) => Math.max(1, x(d.presupuesto_m))).style('fill', (d) => VC[d.veredicto]);
+    g.append('text').attr('x', (d) => left + x(d.presupuesto_m) + 6).attr('y', 13).attr('dy', '.35em').text((d) => fM(d.presupuesto_m));
+    g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).style('fill', 'transparent')
+      .on('mousemove', (ev, d) => showTip(box, ev, d.nombre, [[VC[d.veredicto], `${fM(d.presupuesto_m)} M€ · ${d.presupuesto_base || ''}`], [null, d.veredicto]]))
+      .on('mouseleave', () => hideTip(box));
+    box.replaceChildren(svg.node());
+    legend($('#legend-veredicto'), VERS.map((v) => [VC[v], v]));
+  }
+
+  // ---------- DUPLICIDADES ----------
+  const TIPO_STYLE = {
+    estatal: [dash.colors[0], 1, 'Organismo estatal'], ente: ['var(--cds-chart-status-critical)', 1, 'Organismo autonómico propio (con personalidad)'],
+    organo: ['var(--cds-chart-status-critical)', 0.5, 'Órgano autonómico propio (sin personalidad)'], estado: [dash.colors[0], 0.22, 'Lo cubre el organismo estatal'],
+    consejeria: ['var(--cds-chart-muted)', 0.45, 'Lo hace la consejería'], no: ['var(--cds-chart-muted)', 0.2, 'No existe'],
+    no_verificado: ['var(--cds-chart-muted)', 0, 'Sin verificar'],
+  };
+  function drawMatriz() {
+    const box = $('#chart-matriz'); if (failLine(box, 'duplicidades')) return;
+    const temas = rows('temas_conteo'); const dup = rows('duplicidades'); if (!temas.length || !dup.length) return;
+    const cols = ['Estado', 'Andalucía', 'Aragón', 'Asturias', 'Illes Balears', 'Canarias', 'Cantabria', 'Castilla-La Mancha', 'Castilla y León', 'Cataluña', 'Comunitat Valenciana', 'Extremadura', 'Galicia', 'Madrid', 'Murcia', 'Navarra', 'País Vasco', 'La Rioja'];
+    const abbr = {}; dup.forEach((d) => { abbr[d.territorio] = d.abrev; });
+    const avail = Math.max(box.parentElement.clientWidth || 700, 640);
+    const left = Math.min(260, Math.max(170, avail * 0.28)); const cw = Math.max(22, Math.min(36, (avail - left - 40) / cols.length));
+    const ch = 24; const top = 28; const W = left + cols.length * cw + 40; const H = top + temas.length * ch + 4;
+    const idx = {}; dup.forEach((d) => { idx[d.tema + '|' + d.territorio] = d; });
+    const svg = d3.create('svg').attr('width', W).attr('height', H).attr('viewBox', `0 0 ${W} ${H}`);
+    svg.selectAll('text.ep-col').data(cols).join('text').attr('class', 'ep-col').attr('x', (c, i) => left + i * cw + cw / 2).attr('y', top - 10).attr('text-anchor', 'middle').text((c) => abbr[c] || c);
+    const g = svg.selectAll('g.r').data(temas).join('g').attr('class', 'r').attr('transform', (d, i) => `translate(0,${top + i * ch})`);
+    g.append('text').attr('x', left - 8).attr('y', ch / 2).attr('dy', '.35em').attr('text-anchor', 'end').attr('class', 'ep-lbl-strong').text((d) => (d.tema.length > 40 ? d.tema.slice(0, 39) + '…' : d.tema));
+    g.each(function (t) {
+      const gg = d3.select(this);
+      cols.forEach((c, i) => {
+        const d = idx[t.tema + '|' + c]; const st = TIPO_STYLE[d ? d.tipo : 'no_verificado'] || TIPO_STYLE.no_verificado;
+        const r = gg.append('rect').attr('x', left + i * cw + 1).attr('y', 2).attr('width', cw - 2).attr('height', ch - 4).attr('rx', 3)
+          .style('fill', st[1] ? st[0] : 'transparent').style('fill-opacity', st[1] || 0);
+        if (!st[1]) r.style('stroke', 'var(--cds-chart-muted)').style('stroke-dasharray', '2 2');
+        r.on('mousemove', (ev) => showTip(box, ev, `${t.tema} · ${c}`, [[st[1] ? st[0] : null, st[2]], [null, (d && d.nombre) || '—']]))
+          .on('mouseleave', () => hideTip(box));
+      });
+      gg.append('text').attr('x', left + cols.length * cw + 8).attr('y', ch / 2).attr('dy', '.35em').attr('class', 'ep-lbl-strong').text(fInt(t.total));
+    });
+    box.style.width = W + 'px';
+    box.replaceChildren(svg.node());
+    legend($('#legend-matriz'), ['estatal', 'ente', 'organo', 'estado', 'consejeria', 'no', 'no_verificado'].map((k) => [TIPO_STYLE[k][0], TIPO_STYLE[k][2], TIPO_STYLE[k][1] || null, !TIPO_STYLE[k][1]]));
+  }
+  function drawTemas() {
+    const box = $('#chart-temas'); if (failLine(box, 'duplicidades')) return;
+    const data = rows('temas_conteo'); if (!data.length) return;
+    const W = box.clientWidth || 420; const rowH = 24; const H = data.length * rowH + 4;
+    const left = Math.min(Math.max(120, W * 0.45), 250);
+    const x = d3.scaleLinear([0, 18], [0, Math.max(40, W - left - 34)]);
+    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    svg.append('line').attr('x1', left + x(18)).attr('x2', left + x(18)).attr('y1', 0).attr('y2', H).style('stroke', 'var(--cds-chart-reference)').style('stroke-dasharray', '3 3');
+    const g = svg.selectAll('g').data(data).join('g').attr('transform', (d, i) => `translate(0,${i * rowH})`);
+    g.append('text').attr('x', left - 8).attr('y', 11).attr('dy', '.35em').attr('text-anchor', 'end').attr('class', 'ep-lbl-strong').text((d) => (d.tema.length > 34 ? d.tema.slice(0, 33) + '…' : d.tema));
+    g.append('rect').attr('x', left).attr('y', 3).attr('height', 16).attr('rx', 3).attr('width', (d) => Math.max(1, x(d.total))).style('fill', 'var(--cds-chart-status-critical)');
+    g.append('rect').attr('x', (d) => left + x(d.total)).attr('y', 3).attr('height', 16).attr('width', (d) => Math.max(0, x(d.sin_verificar))).style('fill', 'var(--cds-chart-muted)').style('opacity', .35);
+    g.append('text').attr('x', (d) => left + x(d.total + d.sin_verificar) + 5).attr('y', 11).attr('dy', '.35em').text((d) => fInt(d.total));
+    g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).style('fill', 'transparent')
+      .on('mousemove', (ev, d) => showTip(box, ev, d.tema, [['var(--cds-chart-status-critical)', `Organismos verificados: ${fInt(d.total)} (estatal: ${fInt(d.estatal)})`], ['var(--cds-chart-muted)', `Comunidades sin verificar: ${fInt(d.sin_verificar)}`]]))
+      .on('mouseleave', () => hideTip(box));
+    box.replaceChildren(svg.node());
+    $('#tabla-temas tbody').replaceChildren(...data.map((d) => {
+      const tr = el('tr'); tr.dataset.key = d.tema; const cob = el('td'); cob.appendChild(el('span', 'ep-wrap', d.cobertura_estatal || ''));
+      tr.append(el('td', 'ep-name', d.tema), el('td', 'ep-num', fInt(d.total)), el('td', null, d.organismo_estatal), cob); return tr;
+    }));
+    $('#tabla-grupos tbody').replaceChildren(...rows('grupos_hoja').map((d) => {
+      const tr = el('tr'); tr.dataset.key = d.tema; const en = el('td'); en.appendChild(el('span', 'ep-wrap', d.entidades));
+      tr.append(el('td', 'ep-name', d.tema), el('td', 'ep-num', fInt(d.fichas)), en); return tr;
+    }));
+  }
+
+  // ---------- ENTIDADES ----------
+  let filtersBuilt = false;
+  function buildFilters() {
+    if (filtersBuilt || !ok('entidades')) return;
+    const data = rows('entidades');
+    $('#f-clase').append(...CLASES.map((n) => new Option(n, n)));
+    $('#f-ver').append(...VERS.map((n) => new Option(n, n)));
+    $('#f-fun').append(...[...new Set(data.map((e) => e.funcion))].sort().map((n) => new Option(n, n)));
+    $('#f-ccaa').append(...[...new Set(data.filter((e) => e.ambito === 'Autonómico').map((e) => e.ccaa))].sort((a, b) => a.localeCompare(b, 'es')).map((n) => new Option(n, n)));
+    filtersBuilt = true;
+  }
+  function filtered() {
+    const q = state.q.trim().toLowerCase();
+    let d = rows('entidades').filter((e) => (!state.clase || e.clase === state.clase) && (!state.ver || e.veredicto === state.ver) && (!state.fun || e.funcion === state.fun) &&
+      (!state.ambito || e.ambito === state.ambito) && (!state.ccaa || e.ccaa === state.ccaa) &&
+      (!q || [e.nombre, e.ccaa, e.motivo, e.tema, e.funcion, e.base_p100, e.destino].join(' ').toLowerCase().includes(q)));
+    const k = state.sort, dir = state.dir;
+    return d.slice().sort((a, b) => { const va = a[k], vb = b[k]; if (va == null && vb == null) return 0; if (va == null) return 1; if (vb == null) return -1;
+      return (typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb), 'es')) * dir; });
+  }
+  function drawTabla() {
+    buildFilters();
+    const data = filtered();
+    $('#f-count').textContent = ok('entidades') ? `Mostrando ${fInt(data.length)} de ${fInt(rows('entidades').length)}` : '';
+    document.querySelectorAll('#tabla-entidades th').forEach((th) => { const f = th.getAttribute('data-field'); th.setAttribute('aria-sort', f === state.sort ? (state.dir > 0 ? 'ascending' : 'descending') : 'none'); });
+    $('#tabla-entidades tbody').replaceChildren(...data.map((e) => {
+      const tr = el('tr', 'ep-click' + (state.sel === e.id ? ' ep-sel' : '')); tr.dataset.key = String(e.id);
+      const cv = el('td'); cv.appendChild(chip(e.veredicto));
+      const ct = el('td'); ct.appendChild(el('span', 'ep-clip', e.tema || ''));
+      tr.append(el('td', 'ep-name', e.nombre), el('td', null, e.ccaa), cv, el('td', null, e.funcion), ct,
+        el('td', 'ep-num', fmtM(e.presupuesto_m)), el('td', 'ep-num', fmtM(e.cap1_m)), el('td', 'ep-num', fmtN(e.personas)), el('td', null, e.verificacion));
+      return tr;
+    }));
+    drawDetalle();
+  }
+  function drawDetalle() {
+    const box = $('#detalle'); const e = rows('entidades').find((r) => r.id === state.sel);
+    if (!e) { box.hidden = true; return; }
+    box.hidden = false;
+    $('#det-nombre').textContent = e.nombre;
+    $('#det-motivo').textContent = `${e.veredicto} (${e.clase}) · ${e.funcion}. ${e.motivo || ''}`;
+    const items = [
+      ['Base en el P100', 'base_p100', e.base_p100, null], ['Destino de sus funciones', 'destino', e.destino, null],
+      ['Duplicidad', 'duplicidad', e.duplicidad, null], ['Exigida por la UE', 'ue', e.ue, null], ['Tema', 'tema', e.tema, null],
+      ['Presupuesto propio (M€)', 'presupuesto_m', fmtM(e.presupuesto_m), [e.presupuesto_base, e.presupuesto_corte].filter(Boolean).join(' · ')],
+      ['Personal, cap. 1 (M€)', 'cap1_m', fmtM(e.cap1_m), null],
+      ['Gasto de personal ejecutado (M€)', 'gasto_personal_m', fmtM(e.gasto_personal_m), e.gasto_personal_corte],
+      ['Gasto de personal 2025, año completo (M€)', 'gasto_personal_2025_m', fmtM(e.gasto_personal_2025_m), null],
+      ['Personas ocupadas', 'personas', fmtN(e.personas), e.personas_fecha], ['Plazas o puestos', 'plazas', fmtN(e.plazas), null],
+      ['Coste de apoyo (sin presupuesto propio)', 'apoyo', e.apoyo, null],
+      ['Importe de contexto, no sumar (M€)', 'contextual_m', fmtM(e.contextual_m), e.contextual_base],
+      ['Actividad reciente', 'actividad', e.actividad, null], ['Verificación', 'verificacion', e.verificacion, null], ['Falta', 'pendiente', e.pendiente, null],
+    ].filter((it) => it[2]);
+    const dl = $('#det-dl');
+    dl.replaceChildren(...items.map(([lab, field, val, note]) => {
+      const d = el('div'); const dd = el('dd'); const v = el('span', null, val);
+      v.setAttribute('data-source', 'entidades'); v.setAttribute('data-field', field); v.setAttribute('data-where', 'id=' + e.id);
+      dd.appendChild(v); if (note) dd.appendChild(el('div', 'ep-note', note)); d.append(el('dt', null, lab), dd); return d;
+    }));
+    const u = safeUrl(e.fuente);
+    if (u) { const d = el('div'); const dd = el('dd'); const a = el('a', null, 'Abrir la fuente principal'); a.href = u; a.target = '_blank'; a.rel = 'noopener'; dd.appendChild(a); d.append(el('dt', null, 'Fuente'), dd); dl.appendChild(d); }
+  }
+
+  // ---------- PERSONAL ----------
+  function drawCsic() {
+    const box = $('#chart-csic'); if (failLine(box, 'csic_personal')) return;
+    const data = rows('csic_personal'); if (!data.length) return;
+    const total = d3.sum(data, (d) => d.personas); const W = box.clientWidth || 600; const H = 28;
+    const col = { 'Científicos': dash.colors[0], 'Técnicos': dash.colors[2], 'Administración': 'var(--color-warn)', 'Sin asignar': 'var(--cds-chart-muted)' };
+    const x = d3.scaleLinear([0, total], [0, W]); let acc = 0; const segs = data.map((d) => { const s = { ...d, x0: acc }; acc += d.personas; return s; });
+    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    svg.selectAll('rect').data(segs).join('rect').attr('x', (d) => x(d.x0)).attr('y', 2).attr('height', 22).attr('width', (d) => Math.max(0, x(d.personas) - 1)).style('fill', (d) => col[d.grupo])
+      .on('mousemove', (ev, d) => showTip(box, ev, d.categoria, [[col[d.grupo], `${fInt(d.personas)} personas · ${fPct(d.personas / total)}`]])).on('mouseleave', () => hideTip(box));
+    box.replaceChildren(svg.node());
+  }
+  function drawDesglose() {
+    const box = $('#chart-desglose'); if (failLine(box, 'personal_desglose')) return;
+    const data = rows('personal_desglose').filter((d) => d.total > 0).sort((a, b) => b.total - a.total); if (!data.length) return;
+    const W = box.clientWidth || 700; const rowH = 24; const H = data.length * rowH + 4;
+    const left = Math.min(Math.max(110, W * 0.34), 260); const bw = Math.max(60, W - left - 64);
+    const C = [['nucleo', dash.colors[0], 'Núcleo técnico, científico o inspector'], ['administracion', 'var(--color-warn)', 'Administración y apoyo'], ['otro', 'var(--cds-chart-muted)', 'Otro o no clasificable']];
+    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const g = svg.selectAll('g').data(data).join('g').attr('transform', (d, i) => `translate(0,${i * rowH})`);
+    g.append('text').attr('x', left - 8).attr('y', 11).attr('dy', '.35em').attr('text-anchor', 'end').attr('class', 'ep-lbl-strong').text((d) => short(d.nombre, 38));
+    C.forEach(([k, c], idx) => { g.append('rect').attr('y', 3).attr('height', 16).attr('x', (d) => left + bw * C.slice(0, idx).reduce((s, [kk]) => s + (d[kk] || 0), 0) / d.total)
+      .attr('width', (d) => Math.max(0, bw * (d[k] || 0) / d.total - (d[k] ? 1 : 0))).style('fill', c); });
+    g.append('text').attr('x', left + bw + 6).attr('y', 11).attr('dy', '.35em').text((d) => fInt(d.total));
+    g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).style('fill', 'transparent')
+      .on('mousemove', (ev, d) => showTip(box, ev, d.nombre, [...C.map(([k, c, lab]) => [c, `${lab}: ${fmtN(d[k]) || '—'} (${fPct((d[k] || 0) / d.total)})`]), [null, d.unidad_fecha || '']])).on('mouseleave', () => hideTip(box));
+    box.replaceChildren(svg.node());
+    legend($('#legend-desglose'), C.map(([, c, lab]) => [c, lab]));
+    $('#tabla-ld tbody').replaceChildren(...rows('personal_desglose').slice().sort((a, b) => (b.total || 0) - (a.total || 0)).map((d) => {
+      const tr = el('tr'); tr.dataset.key = String(d.id); const name = el('td', 'ep-name'); const u = safeUrl(d.fuente);
+      if (u) { const a = el('a', null, d.nombre); a.href = u; a.target = '_blank'; a.rel = 'noopener'; name.appendChild(a); } else name.textContent = d.nombre;
+      const uf = el('td'); uf.appendChild(el('span', 'ep-clip', d.unidad_fecha || '')); const cr = el('td'); cr.appendChild(el('span', 'ep-clip', d.criterio || ''));
+      tr.append(name, ...['total', 'nucleo', 'administracion', 'libre_designacion', 'altos_cargos', 'eventuales'].map((k) => el('td', 'ep-num', fmtN(d[k]))), uf, cr); return tr;
+    }));
+  }
+
+  // ---------- INDICADORES ----------
+  function drawInd() {
+    const data = rows('indicadores').slice().sort((a, b) => VERS.indexOf(a.veredicto) - VERS.indexOf(b.veredicto) || a.nombre.localeCompare(b.nombre, 'es'));
+    const pc = (v) => (v == null ? '' : String(v).replace('.', ','));
+    $('#tabla-ind tbody').replaceChildren(...data.map((d) => {
+      const tr = el('tr'); tr.dataset.key = String(d.id); const cv = el('td'); cv.appendChild(chip(d.veredicto));
+      tr.append(el('td', 'ep-name', d.nombre), cv, el('td', 'ep-num', fmtN(d.coste_persona)), el('td', 'ep-num', pc(d.pct_personal)), el('td', 'ep-num', pc(d.pct_admin))); return tr;
+    }));
+  }
+
+  // ---------- VERIFICACIÓN ----------
+  function drawVerif() {
+    $('#tabla-verif tbody').replaceChildren(...rows('por_verificacion').map((d) => { const tr = el('tr'); tr.dataset.key = d.verificacion; tr.append(el('td', null, d.verificacion), el('td', 'ep-num', fInt(d.fichas))); return tr; }));
+    $('#tabla-muestra tbody').replaceChildren(...rows('verificacion_muestra').map((d) => {
+      const tr = el('tr'); tr.dataset.key = String(d.id); const name = el('td', 'ep-name'); const u = safeUrl(d.url);
+      if (u) { const a = el('a', null, d.nombre); a.href = u; a.target = '_blank'; a.rel = 'noopener'; name.appendChild(a); } else name.textContent = d.nombre;
+      const res = el('td'); res.appendChild(el('span', d.resultado === 'COINCIDE' ? 'ep-chip ep-chip--util' : 'ep-chip ep-chip--presc', d.resultado));
+      const vh = typeof d.valor_hoja === 'number' ? (Number.isInteger(d.valor_hoja) ? fInt(d.valor_hoja) : String(d.valor_hoja).replace('.', ',')) : String(d.valor_hoja);
+      tr.append(name, el('td', null, d.campo), el('td', 'ep-num', vh), el('td', 'ep-num', d.valor_fuente), el('td', null, d.unidad || ''), res); return tr;
+    }));
+    const pend = rows('entidades').filter((e) => e.pendiente).sort((a, b) => VERS.indexOf(a.veredicto) - VERS.indexOf(b.veredicto) || a.nombre.localeCompare(b.nombre, 'es'));
+    $('#tabla-pendientes tbody').replaceChildren(...pend.map((e) => { const tr = el('tr'); tr.dataset.key = String(e.id); const cv = el('td'); cv.appendChild(chip(e.veredicto));
+      tr.append(el('td', 'ep-name', e.nombre), el('td', null, e.ccaa), cv, el('td', null, e.pendiente)); return tr; }));
+  }
+
+  // ---------- pages ----------
+  const PAGES = ['resumen', 'duplicidades', 'entidades', 'personal', 'indicadores', 'verificacion'];
+  function render() {
+    const root = document.querySelector('.ep');
+    fillMarks(root);
+    if (['entidades', 'personal_desglose', 'csic_personal', 'verificacion_muestra', 'duplicidades', 'temas', 'gasto_capitulos'].every(ok)) {
+      root.querySelectorAll('.dash-skeleton').forEach((n) => n.classList.remove('dash-skeleton'));
+    }
+    const p = state.page;
+    if (p === 'resumen') drawResumen();
+    if (p === 'duplicidades') { drawMatriz(); drawTemas(); }
+    if (p === 'entidades') drawTabla();
+    if (p === 'personal') { drawCsic(); drawDesglose(); }
+    if (p === 'indicadores') drawInd();
+    if (p === 'verificacion') drawVerif();
+  }
+  function show(page) {
+    if (!PAGES.includes(page)) return;
+    state.page = page;
+    PAGES.forEach((p) => { $('#' + p).hidden = p !== page; $('#tab-' + p).setAttribute('aria-selected', String(p === page)); });
+    dash.setLink(page);
+    render();
+  }
+  document.querySelectorAll('.ep-tab').forEach((b) => b.addEventListener('click', () => show(b.dataset.page)));
+  $('#f-q').addEventListener('input', (ev) => { state.q = ev.target.value; drawTabla(); });
+  [['#f-clase', 'clase'], ['#f-ver', 'ver'], ['#f-fun', 'fun'], ['#f-ambito', 'ambito'], ['#f-ccaa', 'ccaa']].forEach(([s, k]) => $(s).addEventListener('change', (ev) => { state[k] = ev.target.value; drawTabla(); }));
+  $('#f-reset').addEventListener('click', () => { Object.assign(state, { q: '', clase: '', ver: '', fun: '', ambito: '', ccaa: '' }); ['#f-q', '#f-clase', '#f-ver', '#f-fun', '#f-ambito', '#f-ccaa'].forEach((s) => { $(s).value = ''; }); drawTabla(); });
+  document.querySelectorAll('#tabla-entidades .ep-th-btn').forEach((b) => b.addEventListener('click', () => {
+    const k = b.dataset.sort; if (state.sort === k) state.dir = -state.dir; else { state.sort = k; state.dir = typeof (rows('entidades')[0] || {})[k] === 'number' ? -1 : 1; }
+    drawTabla();
+  }));
+  $('#tabla-entidades tbody').addEventListener('click', (ev) => {
+    const tr = ev.target.closest('tr[data-key]'); if (!tr) return;
+    const id = +tr.dataset.key; state.sel = state.sel === id ? null : id; drawTabla();
+    if (state.sel) $('#detalle').scrollIntoView({ block: 'nearest' });
+  });
+  dash.onData(render);
+  const named = location.hash.slice(1);
+  if (PAGES.includes(named)) show(named);
+</script>

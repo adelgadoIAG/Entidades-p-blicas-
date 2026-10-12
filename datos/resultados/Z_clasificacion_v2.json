@@ -1,0 +1,1912 @@
+[
+ {
+  "ID": 1,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": "3 organismos sobre este tema entre el Estado y las CCAA (verificados)",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Suprimida en 2017 (RD 769/2017); funciones reubicadas y hoy en la Agencia Estatal de Evaluación (ID 45).",
+   "Tema funcional": "Evaluación de políticas públicas",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 3
+  }
+ },
+ {
+  "ID": 2,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "Sí: el Reglamento (UE) 2018/1139 exige una autoridad nacional de aviación civil",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Autoridad de seguridad aérea: inspecciona y autoriza; 89,5 M y 346 personas.",
+   "Tema funcional": "Seguridad aérea",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 3,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Controles y sanciones antidopaje con presupuesto y plantilla propios (24 personas).",
+   "Tema funcional": "Antidopaje",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 4,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": "Organismo estatal de referencia. 8 comunidades tienen el suyo propio; 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Concede y evalúa las ayudas estatales de investigación (1.214 M).",
+   "Tema funcional": "Agencias de investigación e innovación",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 5,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "Sí: la Directiva 2011/85/UE exige un organismo fiscal independiente",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Función de control o cumplimiento de la propia administración (no presta un servicio ni regula a terceros). Supervisión fiscal independiente con informes y spending reviews; presupuesto propio.",
+   "Tema funcional": "Supervisión fiscal",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 6,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": "Organismo estatal de referencia. 12 comunidades tienen el suyo propio; 13 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Función de control o cumplimiento de la propia administración (no presta un servicio ni regula a terceros). Resuelve reclamaciones de acceso a la información; 31 personas y presupuesto propio.",
+   "Tema funcional": "Consejos de transparencia",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 13
+  }
+ },
+ {
+  "ID": 7,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": "Organismo estatal de referencia. 1 comunidades tienen el suyo propio; 2 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "Sí: la Directiva (UE) 2016/798 exige una autoridad nacional de seguridad ferroviaria",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Autoridad de seguridad ferroviaria: certifica y supervisa; 126 personas.",
+   "Tema funcional": "Seguridad ferroviaria",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 2
+  }
+ },
+ {
+  "ID": 8,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": "Organismo estatal de referencia. 14 comunidades tienen el suyo propio; 15 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Órgano consultivo sin presupuesto ni personal propios; el ministerio nombró vocales en 2025.",
+   "Tema funcional": "Observatorios de convivencia escolar",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 15,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría: titular de la SG del Centro Nacional de Innovación e Investigación Educativa (art. 3.1.d RD 275/2007, redacción RD 3/2018); personal por redistribución de efectivos del Ministerio de Educación. vocales: 27."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2007/02/23/275/con"
+  ]
+ },
+ {
+  "ID": 9,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Órgano asesor sin medios propios (los pone Defensa); sus memorias llegan a las Cortes.",
+   "Tema funcional": "Vida militar",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Ministerio de Defensa: sede, apoyo administrativo y «órgano de trabajo permanente» (art. 53.2 LO 9/2011). puestos asignados según fuente oficial: 7. vocales: 9. miembros: no retribuidos (art. 55.1 LO 9/2011: «La pertenencia al Observatorio no será retribuida»). gasto con nombre propio: 2014: 5.212 EUR abonados por la Subsecretaría de Defensa (RED n.º 319, 2015, https://working.mde.es/Galerias/gabinete/red/2015/red-319-observatorio-vida-militar.pdf) | 2015: autorización de gasto de 55.000 EUR para dietas en la Sección 14-Defensa (Ley 36/2014 de PGE) y presupuesto 2016 del OVM de 55.979,10 EUR sin partida en la Ley 48/2015 (Memoria-Informe 2015 del OVM, https://www.prevencionintegral.com/sites/default/files/noticia/36030/field_adjuntos/pdft076-16observatoriovidamilitar20151.pdf)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/lo/2011/07/27/9/con"
+  ]
+ },
+ {
+  "ID": 10,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consultivo sin medios propios; última reunión documentada en 2018.",
+   "Tema funcional": "Becas universitarias",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Unidad Técnica y Secretaría Permanente atendidas por personal de la SG de Análisis, Estudios y Prospectiva Universitaria (art. 7.2 y DA única RD 1220/2010). vocales: 18."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2010/10/01/1220/con"
+  ]
+ },
+ {
+  "ID": 11,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consultivo sin medios propios; sin actividad reciente acreditada.",
+   "Tema funcional": "Empleo público",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretariado: titular de una SG de la DG de la Función Pública (art. 4.1.e); medios técnicos, personales y materiales de la SE de Función Pública a través de la DG de la Función Pública (DA 2.ª.1 RD 868/2010). vocales: 21."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2010/07/02/868"
+  ]
+ },
+ {
+  "ID": 12,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consultivo sin medios propios; informe anual previsto, cumplimiento no acreditado.",
+   "Tema funcional": "Internacionalización empresarial",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría General Permanente: titular de la SG de Análisis, Estrategia y Evaluación de la SE de Comercio (art. 4.3); medios técnicos, personales y materiales de la SE de Comercio (DA única RD 430/2009). vocales: 24. miembros: no retribuidos (DA única RD 430/2009: el funcionamiento «no supondrá incremento de gasto, ya sea por indemnizaciones, asistencias»)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2009/03/27/430"
+  ]
+ },
+ {
+  "ID": 13,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": "Organismo estatal de referencia. 10 comunidades tienen el suyo propio; 11 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consultivo sin medios propios, pero publica informe anual (XVIII informe, 2024).",
+   "Tema funcional": "Observatorios de igualdad y violencia de género",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 11,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría: titular de la SG de Sensibilización, Prevención y Estudios de la Violencia contra las Mujeres, en la DGVG (art. 4.4 RD 752/2022); gastos personales y materiales con cargo al ministerio del que depende la DGVG (DA única). Esa SG elabora el informe anual. vocales: 45. gasto con nombre propio: Becas de formación en el Observatorio: 6 becas en 2022-2023, de 1.050 EUR brutos/mes más 600 EUR/año cada una (extracto BOE 22/03/2022) (https://violenciagenero.igualdad.gob.es/wp-content/uploads/DGVGInforma_becas.pdf) | Borrador de bases de 2026: entre 14.400 y 22.200 EUR brutos anuales por beca, sin número fijado (https://www.igualdad.gob.es/wp-content/uploads/2026/06/Orden-de-Bases-becas_BORRADOR.pdf)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2022/09/13/752/con"
+  ]
+ },
+ {
+  "ID": 14,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Centro directivo con servicio presupuestario propio (79,5 M) y legitimación judicial; no tiene personalidad jurídica.",
+   "Tema funcional": "Violencia de género (política estatal)",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 15,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consejo consultivo y observatorio sin medios propios; actividad actual no acreditada.",
+   "Tema funcional": "Familias",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretario del Consejo y del Observatorio: un funcionario del ministerio designado por la SE competente en familias (arts. 7.1 y 11); medios personales y materiales del ministerio (DA única RD 613/2007). vocales: 36."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2007/05/11/613"
+  ]
+ },
+ {
+  "ID": 16,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Instrumento técnico sin presupuesto propio; produce informes (2025) con una subvención de 0,1 M a una entidad colaboradora.",
+   "Tema funcional": "Discapacidad",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Dirección pública: DG competente en discapacidad (art. 73.1 RDLeg 1/2013). La gestión técnica la presta el CERMI con la subvención, con personal propio que no es empleo público. gasto con nombre propio: 100.000 EUR: subvención directa al CERMI «para el Observatorio Estatal de la Discapacidad» (RD 904/2025, art. 3.3.e), ejecutable en 2025-2026 (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20078) | 2023: 80.000 EUR de subvención nominativa (aplicación 29.102.231F.485), de los que 15.000 EUR eran para «Secretaría técnica» según el anexo 2 del convenio RPD-CERMI (https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-11877)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20078"
+  ]
+ },
+ {
+  "ID": 17,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consultivo sin medios propios; producción reciente no acreditada.",
+   "Tema funcional": "Libro y lectura",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría del Pleno y del Comité Técnico: un funcionario de la DG competente en libro (art. 5.2 y art. 6.f RD 1574/2007); dotación de personal mediante modificación de la RPT del Ministerio de Cultura (DA 2.ª). vocales: 32."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2007/11/30/1574/con"
+  ]
+ },
+ {
+  "ID": 18,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Sin medios propios (los pone AESAN); vinculado a estudios como ALADINO.",
+   "Tema funcional": "Nutrición y obesidad",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Unidad técnica de la Estrategia NAOS (AESAN), con sus recursos humanos y materiales (apdo. Cuarto.1). Secretaría: un representante de AESAN responsable del seguimiento de NAOS (apdo. Tercero.1.D). vocales: 14. miembros: no retribuidos (apdo. Quinto del Acuerdo CM 18/01/2013: «no percibirán remuneración alguna en el ejercicio de sus funciones»)."
+  },
+  "fuentes_nuevas": [
+   "https://boe.es/boe/dias/2013/02/23/pdfs/BOE-A-2013-2074.pdf"
+  ]
+ },
+ {
+  "ID": 19,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consultivo sin medios propios; más de diez años sin renovar vocales, en \"reactivación\" en 2026.",
+   "Tema funcional": "Responsabilidad social empresarial",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: DG competente en RSE (Economía Social y RSE): preparación, apoyo técnico y gestión (art. 2.2); su titular asume la secretaría y «podrá disponer de la asistencia de personal de apoyo» (art. 5.3, redacción RD 301/2026); medios de la SE de Economía Social (DA 4.ª). vocales: 56."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2008/02/15/221/con"
+  ]
+ },
+ {
+  "ID": 20,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Órgano de participación sin medios propios; pleno en 2024 y renovación en 2026.",
+   "Tema funcional": "Participación: pueblo gitano",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría: titular de la SG de Programas Sociales, que «podrá ser asistido por el personal de apoyo necesario» (art. 8.1 RD 891/2005); la web ministerial la sitúa hoy en la SG de Servicios Sociales. Coste con cargo a créditos del ministerio (DA 2.ª). vocales: 42."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/buscar/pdf/2005/BOE-A-2005-14549-consolidado.pdf"
+  ]
+ },
+ {
+  "ID": 21,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consultivo sin medios propios; actividad reciente no acreditada.",
+   "Tema funcional": "Participación: mujeres",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría: Presidencia del Instituto de las Mujeres, O.A. (art. 7.1, redacción RD 634/2026); asistencia técnica a las vocalías «por medio de los servicios correspondientes» (art. 7.2.d); créditos del Ministerio de Igualdad (DA 4.ª). vocales: 40."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2009/11/20/1791/con"
+  ]
+ },
+ {
+  "ID": 22,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Concede ayudas a confesiones minoritarias; real pero pequeña: 2,0 M y 8 personas.",
+   "Tema funcional": "Libertad religiosa",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 23,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Función de control o cumplimiento de la propia administración (no presta un servicio ni regula a terceros). Supervisión real de la contratación pública con 30 personas, pero sin presupuesto diferenciado (Subsecretaría de Hacienda).",
+   "Tema funcional": "Supervisión de la contratación pública",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 24,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": "Organismo estatal de referencia. 9 comunidades tienen el suyo propio; 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "Sí: las directivas de energía y comunicaciones exigen un regulador nacional independiente",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Regulador y autoridad de competencia con potestad sancionadora; 579 personas.",
+   "Tema funcional": "Autoridades de defensa de la competencia",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 25,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": "10 organismos sobre este tema entre el Estado y las CCAA (verificados)",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Extinguida en 2013 al integrarse en la CNMC.",
+   "Tema funcional": "Autoridades de defensa de la competencia",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 26,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Extinguida en 2013 al integrarse en la CNMC.",
+   "Tema funcional": "Sector postal",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 27,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Denominación sustituida: la función continúa en AESAN, que no se cuenta aquí.",
+   "Tema funcional": "Seguridad alimentaria y consumo",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 28,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "Sí: la Directiva (UE) 2019/633 exige una autoridad de control de prácticas comerciales desleales",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Inspecciona la cadena alimentaria y sanciona; 81 personas.",
+   "Tema funcional": "Cadena alimentaria",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 29,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Foro de análisis sin medios propios; cuatro plenos en 2024.",
+   "Tema funcional": "Cadena alimentaria",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Según la norma, la secretaría es de la SG de Estructura de la Cadena Alimentaria (art. 11.1.d RD 64/2015); según la Memoria 2024, de la SG de Promoción de los Alimentos de España (DG de Alimentación, MAPA). Se financia con el presupuesto del MAPA (art. 13). vocales: 26. miembros: no retribuidos (art. 13 RD 64/2015: «ni sus miembros percibirán dietas por el ejercicio de sus funciones»)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2015/02/06/64/con"
+  ]
+ },
+ {
+  "ID": 30,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Inspección de Trabajo: actas y requerimientos; 3.596 personas.",
+   "Tema funcional": "Inspección de trabajo",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 31,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": "Organismo estatal de referencia. 5 comunidades tienen el suyo propio; 6 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Ejecuta la cooperación al desarrollo; 758 M y 880 empleados.",
+   "Tema funcional": "Agencias de cooperación al desarrollo",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 6
+  }
+ },
+ {
+  "ID": 32,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Publica el BOE y presta servicios de difusión; 270 personas.",
+   "Tema funcional": "Diario oficial",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 33,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Mayor organismo público de investigación; unas 17.000 personas.",
+   "Tema funcional": "Investigación científica",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 34,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Servicio meteorológico nacional: avisos y observación; 1.058 personas.",
+   "Tema funcional": "Meteorología",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 35,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "Sí: la normativa farmacéutica de la UE exige una autoridad nacional competente",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Autoriza e inspecciona medicamentos; 629 personas.",
+   "Tema funcional": "Medicamentos",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 36,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Gestiona viviendas, inmuebles y equipamiento de Defensa; 197 personas.",
+   "Tema funcional": "Vivienda e infraestructura de Defensa",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 37,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Autoridad de aguas en su cuenca: concesiones y policía de aguas; 210 personas.",
+   "Tema funcional": "Agua (cuencas hidrográficas)",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 38,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Autoridad de aguas en su cuenca: concesiones y policía de aguas; 260 personas.",
+   "Tema funcional": "Agua (cuencas hidrográficas)",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 39,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "Sí: el Reglamento (UE) 2021/817 exige una agencia nacional de Erasmus+",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Gestiona Erasmus+ y otros programas europeos; 120 personas.",
+   "Tema funcional": "Programas educativos europeos",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 40,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Gestiona programas espaciales (962 M); plantilla pequeña (65 personas) para su presupuesto.",
+   "Tema funcional": "Espacio",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 41,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "Sí: el Reglamento (UE) 2024/1689 exige una autoridad de vigilancia del mercado de IA",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Supervisión de IA en despliegue, con presupuesto propio y 35 personas.",
+   "Tema funcional": "Inteligencia artificial",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 42,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Organismo estatal de referencia. 9 comunidades tienen el suyo propio; 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Presta los servicios digitales comunes de la AGE; 438 personas.",
+   "Tema funcional": "Agencias de administración digital y TIC",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 43,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": "Organismo estatal de referencia. 9 comunidades tienen el suyo propio; 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "Sí: la Directiva (UE) 2019/1937 exige autoridades de canal externo de denuncias",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Función de control o cumplimiento de la propia administración (no presta un servicio ni regula a terceros). Canal de denuncias y potestad sancionadora (Ley 2/2023); 17 personas.",
+   "Tema funcional": "Oficinas y agencias antifraude y de protección del informante",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 44,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "Sí: las directivas de igualdad de trato exigen un organismo de igualdad",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Función de control o cumplimiento de la propia administración (no presta un servicio ni regula a terceros). Mandato real (investigar, mediar, litigar), pero sin presupuesto propio; la financia Igualdad.",
+   "Tema funcional": "Igualdad de trato y no discriminación",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 45,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": "Organismo estatal de referencia. 2 comunidades tienen el suyo propio; 3 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Función de control o cumplimiento de la propia administración (no presta un servicio ni regula a terceros). Constituida en abril de 2026, sin presupuesto propio todavía; hereda la función de AEVAL.",
+   "Tema funcional": "Evaluación de políticas públicas",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 3
+  }
+ },
+ {
+  "ID": 46,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Organismo estatal de referencia. 4 comunidades tienen el suyo propio; 5 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Función sustantiva, pero sin actividad ni medios propios acreditados todavía. Mandato sustantivo de salud pública, pero despliegue no acreditado y sin presupuesto propio.",
+   "Tema funcional": "Agencias de salud pública",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 5
+  }
+ },
+ {
+  "ID": 47,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Foro consultivo sin medios propios; solo uno de sus cuatro grupos de trabajo funciona.",
+   "Tema funcional": "Comercio",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría: titular de la SG de Apoyo a la Competitividad del Pequeño Comercio (DG de Política Comercial), que gestiona los grupos de trabajo (apdos. Cuarto y Sexto); medios personales y materiales del departamento (apdo. Noveno). vocales: 20."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-15776"
+  ]
+ },
+ {
+  "ID": 48,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Seguimiento y asesoramiento sin medios propios; resultados recientes no acreditados.",
+   "Tema funcional": "Igualdad (sectorial)",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Gabinete de la persona titular del Ministerio: secretaría a cargo de un funcionario de carrera de nivel 28 o superior (art. 4.2) y vocalía de la Unidad de Mujeres y Ciencia (art. 4.1.i); medios del Ministerio (DA única RD 938/2020). vocales: 18."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2020/10/27/938"
+  ]
+ },
+ {
+  "ID": 49,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Coordinación sin medios ni potestad propios; actividad reciente no acreditada.",
+   "Tema funcional": "Fraude a la Seguridad Social",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: TGSS: secretaría del Pleno a cargo del titular de la SG de Recaudación en Periodo Voluntario (art. 6.1.2.º) y, en las comisiones provinciales, de las subdirecciones provinciales de recaudación (art. 7.1.2.º); medios actuales sin aumento de dotaciones (DA única). vocales: 14."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/o/2019/06/05/tms667/con"
+  ]
+ },
+ {
+  "ID": 50,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consultivo sin medios propios; tiene página institucional, impacto no medido.",
+   "Tema funcional": "Igualdad (sectorial)",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: DG de Derechos Culturales: secretaría a cargo de una persona funcionaria designada por su titular (apdo. Tercero.1.d); recursos humanos y medios del Ministerio de Cultura (apdo. Quinto). vocales: 9."
+  },
+  "fuentes_nuevas": [
+   "https://www.cultura.gob.es/dam/jcr:85ee66d9-d300-4e8a-9903-07653ae01b27/report-orden-reguladora-observatorio-igualdad.pdf"
+  ]
+ },
+ {
+  "ID": 51,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Sin medios propios (Instituto Cervantes), pero publica estudios periódicos.",
+   "Tema funcional": "Lengua española",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Instituto Cervantes: la Secretaría General ejerce la secretaría del Pleno (art. 4.3); la Dirección del IC preside la Comisión ejecutiva (art. 5.2); pueden asignarse puestos de la plantilla del IC (art. 5.7 RD 431/2022). puestos asignados según fuente oficial: 1. vocales: 10. gasto con nombre propio: 73.693,05 EUR: retribución anual del puesto «Dirección del Observatorio Global del Español», sin antigüedad, en la tabla de directivos fuera de convenio a junio de 2025 (Memoria IC 2024-2025, Organización, https://cervantes.org/sites/public/produccion/files/2025-12/memoria-2024-2025-instituto-cervantes-11-organizacion.pdf)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2022/06/07/431/con"
+  ]
+ },
+ {
+  "ID": 52,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Plataforma informativa sin medios propios; productos no comprobados.",
+   "Tema funcional": "Regadío",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Unidad competente en regadíos del MAPA, la SG de Regadíos, Caminos Naturales e Infraestructuras Rurales (DGDRIFA), que gestiona la plataforma (art. 6.3 RD 854/2022)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2022/10/11/854/con"
+  ]
+ },
+ {
+  "ID": 53,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Mesa de coordinación sin medios propios ni mando.",
+   "Tema funcional": "Regadío",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría: una persona funcionaria A1 de la SG de Regadíos, Caminos Naturales e Infraestructuras Rurales del MAPA, que puede asistir con funcionarios de su Subdirección (art. 4.2.19.º y art. 5.3-5.4 RD 854/2022)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2022/10/11/854/con"
+  ]
+ },
+ {
+  "ID": 54,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Sin medios propios; constituido en 2025, su listado de morosos depende de la factura electrónica.",
+   "Tema funcional": "Morosidad",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría: titular de la SG de Emprendimiento y PYME (art. 14.5 RD 439/2024); medios personales, técnicos y presupuestarios del Ministerio de Industria y Turismo (DA única). vocales: 20. miembros: no retribuidos (art. 14.8 RD 439/2024: «no percibirán ninguna retribución o compensación económica»)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2024/04/30/439"
+  ]
+ },
+ {
+  "ID": 55,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Producto estadístico sin norma ni medios propios; datos actualizados en agosto de 2026.",
+   "Tema funcional": "Márgenes empresariales",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Proyecto conjunto del Ministerio de Economía, Comercio y Empresa, el Banco de España y la AEAT; la AEAT elabora los datos cada trimestre (página OME de Hacienda; análisis AEAT)."
+  },
+  "fuentes_nuevas": [
+   "https://www.hacienda.gob.es/es-ES/CDI/Paginas/Impuestos/OME/Observatorio-de-margenes-empresariales.aspx"
+  ]
+ },
+ {
+  "ID": 56,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Preventivo sin medios propios; evaluó nueve organismos en marzo de 2026.",
+   "Tema funcional": "Fraude sanitario",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría General Técnica del Ministerio de Sanidad: secretaría (apdo. Tercero.1.c) y coordinación de la Comisión Permanente (apdo. Noveno); medios materiales y personales del Departamento (apdo. Décimo). vocales: 6."
+  },
+  "fuentes_nuevas": [
+   "https://www.sanidad.gob.es/organizacion/transparenciaGobierno/OCFCS/docs/ORDEN_MINISTERIAL.OBSERVATORIO_ANTIFRAUDE._FIRMA.pdf"
+  ]
+ },
+ {
+  "ID": 57,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Seguimiento interno del código ético sin medios propios.",
+   "Tema funcional": "Ética de la Guardia Civil",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Es una unidad organizativa de los Servicios Centrales de la DGGC (art. 8; DF 1.ª, nivel orgánico según RPT) y se apoya en las demás jefaturas (art. 8.2); medios de la DGGC (DA única)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/boe/dias/2024/08/10/pdfs/BOE-A-2024-16600.pdf"
+  ]
+ },
+ {
+  "ID": 58,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Repositorio web dentro del Portal de Transparencia; actividad no verificada.",
+   "Tema funcional": "Gobierno abierto",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: MTDFP a través de la SE de Función Pública, que diseña y mantiene el Observatorio (art. 19.2 RD 371/2026); DG de Gobernanza Pública, para los cauces de buenas prácticas (art. 19.6); SG de Gobierno Abierto, secretaría del Foro (art. 13.1)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2026/05/06/371"
+  ]
+ },
+ {
+  "ID": 59,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Sin presupuesto propio; un convenio de 0,2 M en 2026 financia su diagnóstico.",
+   "Tema funcional": "Digitalización agroalimentaria",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Por el MAPA, medios humanos de la SG de Innovación y Digitalización (DGDRIFA); Cajamar ejecuta con medios propios (Plan Director y oficina técnica; adenda 2023, cláusula 4.ª). gasto con nombre propio: 1.570.000 EUR: presupuesto total del convenio MAPA-Cajamar 2021-2026, con anualidad 2026 de 200.000 EUR (segunda adenda, cláusula 6.ª, BOE 22/12/2025, https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26325)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26325"
+  ]
+ },
+ {
+  "ID": 60,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Sin presupuesto propio; un convenio Red.es de hasta 4,8 M (2024-2026) financia informes y divulgación.",
+   "Tema funcional": "Derechos digitales",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Red.es (EPE del MTDFP) financia y supervisa; ejecuta el grupo de entidades coordinado por la Fundación Instituto Hermes, con medios propios (convenio BOE-A-2024-14138). gasto con nombre propio: Hasta 4.781.250 EUR: Red.es aporta hasta 3.825.000 EUR (80 %, PRTR) y las entidades al menos 956.250 EUR en especie; anualidad 2026 de 1.434.375 EUR (cláusula 4.ª, https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14138)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14138"
+  ]
+ },
+ {
+  "ID": 61,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consejo de participación sin medios propios; actividad 2026 no auditada.",
+   "Tema funcional": "Agenda 2030",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: DG de Políticas Palanca para el Cumplimiento de la Agenda 2030 (secretaría, apdo. Tercero.4); el Ministerio facilita los medios personales y materiales (apdo. Octavo.3), y además hay asistencia técnica contratada. vocales: 61. miembros: no retribuidos (apdo. Octavo.1 Orden DSA/819/2020: «no percibirán remuneración alguna por el ejercicio de sus funciones»). gasto con nombre propio: 153.620,64 EUR (valor estimado, sin IVA): licitación de 2024 del «Servicio de asesoramiento y asistencia técnica al Consejo de Desarrollo Sostenible y a sus grupos de trabajo técnicos», exp. 242907PA0001, DOUE S 180/2024 de 16/09/2024 (https://ted.europa.eu/es/notice/554472-2024/pdf)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/o/2020/09/03/dsa819/con"
+  ]
+ },
+ {
+  "ID": 62,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consejo de participación sin medios propios; actividad no comprobada.",
+   "Tema funcional": "Participación: personas LGTBI",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría: titular de la SG de Derechos LGTBI, con suplente funcionario A1 de esa SG (apdo. 3.2 y 5.5); dotaciones ordinarias del Ministerio de Igualdad, sin aumento de gastos de personal (DA única). vocales: 31."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/o/2020/06/24/igd577/con"
+  ]
+ },
+ {
+  "ID": 63,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Órgano de participación infantil sin medios propios.",
+   "Tema funcional": "Participación: infancia",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Dirección General competente en participación infantil y apoyo al CEPIA (Ministerio de Juventud e Infancia): secretaría a cargo de una persona funcionaria designada por la DG, que puede actuar «a través de la asistencia técnica de profesionales especializados» (apdo. Duodécimo.1.d); la DG atiende los gastos con cargo a su presupuesto (apdo. Decimosexto.3). vocales: 34."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/o/2026/01/29/jui80"
+  ]
+ },
+ {
+  "ID": 64,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Coordinación de seguridad sin medios propios (apoyo del DSN y del JEMAD).",
+   "Tema funcional": "Seguridad aeroespacial",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Departamento de Seguridad Nacional: Secretaría Técnica y órgano de trabajo permanente, con secretario designado entre su personal (apdo. Quinto.d Orden PCM/218/2020); la presidencia (JEMAD) puede recabar apoyos de su estructura."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/o/2020/03/13/pcm218/con"
+  ]
+ },
+ {
+  "ID": 65,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Centro cultural real (colección y exposiciones), sin presupuesto propio: lo paga Cultura.",
+   "Tema funcional": "Patrimonio fotográfico",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 66,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Gestiona fondos PERTE con presupuesto operativo propio (11,1 M); plantilla en construcción.",
+   "Tema funcional": "Fondos tecnológicos (PERTE)",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 67,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Etiqueta organizativa dentro de una subdirección del MITERD; sin medios propios.",
+   "Tema funcional": "Desertificación",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Es un órgano administrativo de la SG de Política Forestal y Lucha contra la Desertificación (DG de Biodiversidad, Bosques y Desertificación, MITERD), con el rango que fije la RPT (artículo único.1-2 Orden TED/873/2025)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/o/2025/08/01/ted873"
+  ]
+ },
+ {
+  "ID": 68,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Comisión temporal de coordinación (hasta 2028) sin medios propios; cinco reuniones.",
+   "Tema funcional": "Eclipses 2026-2028",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría: titular de la Presidencia de la Comisión Nacional de Astronomía (art. 4.6 RD 686/2025); coordinación desde la SE de Ciencia, Innovación y Universidades; medios de los departamentos que la integran (DA 2.ª). vocales: 13."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/eli/es/rd/2025/07/29/686/con"
+  ]
+ },
+ {
+  "ID": 69,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Plataforma de cooperación creada en 2026, sin medios propios.",
+   "Tema funcional": "Riesgo de desastres",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: DG de Protección Civil y Emergencias: la presidencia y los medios materiales y personales (apdo. Séptimo); secretaría a cargo del titular de la SG de Formación y Relaciones Institucionales (apdo. Cuarto.4)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/boe/dias/2026/04/27/pdfs/BOE-A-2026-9157.pdf"
+  ]
+ },
+ {
+  "ID": 70,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": "4 organismos sobre este tema entre el Estado y las CCAA (verificados)",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Creado por ley en 2010, nunca constituido; extinguido en 2013 (CNMC).",
+   "Tema funcional": "Consejos audiovisuales (reguladores)",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 4
+  }
+ },
+ {
+  "ID": 71,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Creada por ley, constitución no demostrada; extinguida en 2013 (funciones a la DGOJ).",
+   "Tema funcional": "Juego",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 72,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Creada por ley, constitución no demostrada; extinguida en 2013 (CNMC).",
+   "Tema funcional": "Tarifas aeroportuarias",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 73,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": "Paralelo a AECID: cada nivel actúa con sus propios fondos o competencias. 6 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Gestiona la cooperación andaluza (20,5 M); 52 personas.",
+   "Tema funcional": "Agencias de cooperación al desarrollo",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 6
+  }
+ },
+ {
+  "ID": 74,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": "Duplica a CNMC, que ya cubre este territorio o puede hacerlo. 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Función sustantiva, pero duplica a CNMC, que ya cubre este territorio. Autoridad de competencia autonómica con potestad sancionadora; 3,0 M y 41 plazas.",
+   "Tema funcional": "Autoridades de defensa de la competencia",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 75,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Competencia autonómica que el Estado no presta en ese territorio; la duplicidad es de forma (agencia propia o dirección general). 12 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Gestiona e inspecciona tributos; 703 personas.",
+   "Tema funcional": "Agencias tributarias",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 12
+  }
+ },
+ {
+  "ID": 76,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": "Duplica a CTBG, que ya cubre este territorio o puede hacerlo. 13 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Función de control o cumplimiento que además duplica a CTBG. Resuelve reclamaciones de transparencia y protección de datos; 4,7 M.",
+   "Tema funcional": "Consejos de transparencia",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 13
+  }
+ },
+ {
+  "ID": 77,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consultivo sin medios propios (apoyo de la Consejería).",
+   "Tema funcional": "Territorio",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Secretaría General de Ordenación del Territorio, a través de la DG del Instituto de Cartografía de Andalucía: apoyo técnico y funciones de secretaría (art. 4 Orden 13/03/2007). miembros: dietas/indemnizaciones por asistencia (DA única Orden 13/03/2007: miembros ajenos a la Junta «podrán percibir indemnizaciones en concepto de dietas y gastos de desplazamientos», Decreto 54/1989)."
+  },
+  "fuentes_nuevas": [
+   "https://cdn.juntadeandalucia.es/boja/2007/70/d5.pdf"
+  ]
+ },
+ {
+  "ID": 78,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": "Duplica a ANECA, que ya cubre este territorio o puede hacerlo. 11 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Función de control o cumplimiento que además duplica a ANECA. Acreditación universitaria real, pero muy pequeña: 0,75 M y unas 8 personas.",
+   "Tema funcional": "Agencias de calidad universitaria",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 11
+  }
+ },
+ {
+  "ID": 79,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Competencia autonómica que el Estado no presta en ese territorio; la duplicidad es de forma (agencia propia o dirección general). 9 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Bomberos y emergencias del Principado (53,1 M).",
+   "Tema funcional": "Entes de emergencias 112",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 9
+  }
+ },
+ {
+  "ID": 80,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Competencia autonómica que el Estado no presta en ese territorio; la duplicidad es de forma (agencia propia o dirección general). 12 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Gestiona e inspecciona tributos (16,3 M).",
+   "Tema funcional": "Agencias tributarias",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 12
+  }
+ },
+ {
+  "ID": 81,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Competencia autonómica que el Estado no presta en ese territorio; la duplicidad es de forma (agencia propia o dirección general). 12 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Gestiona e inspecciona tributos; 459 personas.",
+   "Tema funcional": "Agencias tributarias",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 12
+  }
+ },
+ {
+  "ID": 82,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Gestiona servicios sociales (sección presupuestaria propia).",
+   "Tema funcional": "Servicios sociales",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 83,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Paralelo a INSST: cada nivel actúa con sus propios fondos o competencias. 13 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Prevención de riesgos laborales (4,2 M).",
+   "Tema funcional": "Institutos de seguridad y salud laboral",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 13
+  }
+ },
+ {
+  "ID": 84,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Suprimida por Ley 1/2026 de Castilla-La Mancha; funciones a la Consejería.",
+   "Tema funcional": "Agua (autonómica)",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 85,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": "Paralelo a Observatorio Estatal: cada nivel actúa con sus propios fondos o competencias. 15 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Integrado desde 2014 como sección de otro observatorio; sin medios propios.",
+   "Tema funcional": "Observatorios de convivencia escolar",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 15,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Consejería de la Presidencia de Castilla y León, «con cargo a sus medios personales y materiales» (art. 12 Decreto 52/2014); la secretaría de la sección de convivencia escolar es la del Comité permanente (art. 7.3), cuyo secretario es el titular del órgano directivo central con funciones de secretariado de la Junta (art. 4.3). miembros: no retribuidos (DA 1.ª Decreto 52/2014: no generan derecho a «ninguna cuantía económica» en concepto de «remuneración, dietas o indemnizaciones»)."
+  },
+  "fuentes_nuevas": [
+   "https://sirdoc.ccyl.es/Biblioteca/Dosieres/DL203AtencionViolenciaGenero/pdfs/CyL-Decreto-52-2014-Observatorio.pdf"
+  ]
+ },
+ {
+  "ID": 86,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Competencia autonómica que el Estado no presta en ese territorio; la duplicidad es de forma (agencia propia o dirección general). 12 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Gestiona e inspecciona tributos (121,8 M; 1.103 plazas).",
+   "Tema funcional": "Agencias tributarias",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 12
+  }
+ },
+ {
+  "ID": 87,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": "Paralelo a AIPI: cada nivel actúa con sus propios fondos o competencias. 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Función de control o cumplimiento de la propia administración (no presta un servicio ni regula a terceros). Investiga irregularidades y corrupción (10,7 M).",
+   "Tema funcional": "Oficinas y agencias antifraude y de protección del informante",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 88,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": "Paralelo a Observatorio Estatal: cada nivel actúa con sus propios fondos o competencias. 15 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consultivo sin medios propios; vocales renovados en 2026.",
+   "Tema funcional": "Observatorios de convivencia escolar",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 15,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Según el Decreto 190/2007, art. 3.3, se relaciona con la Consejería de Educación a través de la DG de Política Educativa; no se ha verificado la unidad actual de secretaría."
+  },
+  "fuentes_nuevas": [
+   "https://doe.juntaex.es/pdfs/doe/2024/2400o/24050192.pdf"
+  ]
+ },
+ {
+  "ID": 89,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": "Paralelo a AEI y CDTI: cada nivel actúa con sus propios fondos o competencias. 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Gestiona ayudas de innovación (107,7 M).",
+   "Tema funcional": "Agencias de investigación e innovación",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 90,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": "12 organismos sobre este tema entre el Estado y las CCAA (verificados)",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Suprimido por Ley 8/2024 de Madrid.",
+   "Tema funcional": "Consejos de la juventud",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 12
+  }
+ },
+ {
+  "ID": 91,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Promoción turística con contrato-programa 2026 (24,4 M).",
+   "Tema funcional": "Turismo",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 92,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": "Paralelo a AIPI: cada nivel actúa con sus propios fondos o competencias. 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Función de control o cumplimiento de la propia administración (no presta un servicio ni regula a terceros). Investigación anticorrupción real, pero muy pequeña: 1,0 M y 4 personas en 2024.",
+   "Tema funcional": "Oficinas y agencias antifraude y de protección del informante",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 93,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": "Duplica a CNMC, que ya cubre este territorio o puede hacerlo. 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Función sustantiva, pero duplica a CNMC, que ya cubre este territorio. Autoridad de competencia con potestad sancionadora; ejecución publicada a septiembre de 2026.",
+   "Tema funcional": "Autoridades de defensa de la competencia",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 94,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Extinguido en 2012.",
+   "Tema funcional": "Juventud",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 95,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": "Paralelo a AIPI: cada nivel actúa con sus propios fondos o competencias. 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Función de control o cumplimiento de la propia administración (no presta un servicio ni regula a terceros). Investiga fraude y corrupción (5,4 M); memoria 2025 publicada.",
+   "Tema funcional": "Oficinas y agencias antifraude y de protección del informante",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 96,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Apoyo jurídico a adultos con discapacidad; 148 personas.",
+   "Tema funcional": "Discapacidad: apoyo jurídico",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 97,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Competencia autonómica que el Estado no presta en ese territorio; la duplicidad es de forma (agencia propia o dirección general). 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Ejecuta la política TIC de la Junta (492,9 M).",
+   "Tema funcional": "Agencias de administración digital y TIC",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 98,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Apoyo empresarial e internacionalización (123,0 M).",
+   "Tema funcional": "Desarrollo empresarial",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 99,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": "Duplica a ANECA, que ya cubre este territorio o puede hacerlo. 11 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Función de control o cumplimiento que además duplica a ANECA. Evaluación universitaria y científica (3,9 M; 40 plazas).",
+   "Tema funcional": "Agencias de calidad universitaria",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 11
+  }
+ },
+ {
+  "ID": 100,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Paralelo a AESAP: cada nivel actúa con sus propios fondos o competencias. 5 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Función sustantiva, pero sin actividad ni medios propios acreditados todavía. Tiene presupuesto propio (56,4 M), pero sus obligaciones fueron 0 € en 2025 y a marzo de 2026: no ha arrancado.",
+   "Tema funcional": "Agencias de salud pública",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 5
+  }
+ },
+ {
+  "ID": 101,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Competencia autonómica que el Estado no presta en ese territorio; la duplicidad es de forma (agencia propia o dirección general). 9 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Acreditada",
+   "Clasificación: motivo": "Emergencias 112 e incendios forestales (271,6 M; casi 4.000 plazas).",
+   "Tema funcional": "Entes de emergencias 112",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 9
+  }
+ },
+ {
+  "ID": 102,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Creada por ley en 2020, sin desplegar y sin presupuesto en 2026.",
+   "Tema funcional": "Espacios naturales",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 103,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Disciplina urbanística con potestad sancionadora (2,6 M).",
+   "Tema funcional": "Disciplina urbanística",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 104,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": "Supervisa una red que AESF no cubre por ley (red autonómica); no es duplicado. 2 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Seguridad ferroviaria autonómica (1,6 M).",
+   "Tema funcional": "Seguridad ferroviaria",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 2
+  }
+ },
+ {
+  "ID": 105,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Prevista en Ley 5/2022; sin presupuesto en 2026 ni constitución acreditada.",
+   "Tema funcional": "Residuos",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 106,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Radiotelevisión pública valenciana (81,0 M).",
+   "Tema funcional": "Radiotelevisión pública",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 107,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Gestiona servicios de reinserción (16,0 M; 74 plazas).",
+   "Tema funcional": "Reinserción social",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 108,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Duplica a INCIBE y CCN-CERT, que ya cubre este territorio o puede hacerlo. 9 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Función sustantiva, pero duplica a INCIBE y CCN-CERT, que ya cubre este territorio. Ciberseguridad de las administraciones vascas (6,4 M; 12 plazas).",
+   "Tema funcional": "Agencias de ciberseguridad",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 9
+  }
+ },
+ {
+  "ID": 109,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Gestiona puertos deportivos (10,0 M; 19 plazas).",
+   "Tema funcional": "Puertos deportivos",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 110,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Duplica a INCIBE y CCN-CERT, que ya cubre este territorio o puede hacerlo. 9 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Función sustantiva, pero duplica a INCIBE y CCN-CERT, que ya cubre este territorio. Ciberseguridad de la Generalitat (33,2 M; 89 plazas).",
+   "Tema funcional": "Agencias de ciberseguridad",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 9
+  }
+ },
+ {
+  "ID": 111,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Paralelo a AESAP: cada nivel actúa con sus propios fondos o competencias. 5 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Función sustantiva, pero sin actividad ni medios propios acreditados todavía. Presupuesto propio (15,5 M) sin capítulo 1: su personal se paga desde otra sección; operación no confirmada.",
+   "Tema funcional": "Agencias de salud pública",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 5
+  }
+ },
+ {
+  "ID": 112,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": "Paralelo a AEI y CDTI: cada nivel actúa con sus propios fondos o competencias. 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Gestiona ayudas de ciencia e innovación (66,3 M).",
+   "Tema funcional": "Agencias de investigación e innovación",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 113,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Control interno y cumplimiento",
+   "Clasificación: duplicidad": "Duplica a CTBG, que ya cubre este territorio o puede hacerlo. 13 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Función de control o cumplimiento que además duplica a CTBG. Control de transparencia real, pero con 0,18 M de presupuesto.",
+   "Tema funcional": "Consejos de transparencia",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 13
+  }
+ },
+ {
+  "ID": 114,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Competencia autonómica que el Estado no presta en ese territorio; la duplicidad es de forma (agencia propia o dirección general). 9 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Emergencias 112 de Cantabria (18,3 M).",
+   "Tema funcional": "Entes de emergencias 112",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 9
+  }
+ },
+ {
+  "ID": 115,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": "Paralelo a Consejo de la Juventud de España: cada nivel actúa con sus propios fondos o competencias. 12 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Órgano de representación juvenil sin presupuesto propio identificado.",
+   "Tema funcional": "Consejos de la juventud",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 12,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: Consejería competente en Juventud del Gobierno de Cantabria, que debe aportar medios «materiales, técnicos, económicos y humanos» (art. 19.2 Ley 1/2019) y apoyo técnico en contratación (art. 23)."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/buscar/act.php?id=BOE-A-2019-3488"
+  ]
+ },
+ {
+  "ID": 116,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Competencia autonómica que el Estado no presta en ese territorio; la duplicidad es de forma (agencia propia o dirección general). 13 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Formación del personal público (2,4 M).",
+   "Tema funcional": "Escuelas e institutos de formación de empleados públicos",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 13
+  }
+ },
+ {
+  "ID": 117,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": "Paralelo a AEI y CDTI: cada nivel actúa con sus propios fondos o competencias. 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Organismo autónomo de I+D+i con presupuesto propio en la ley 2026 (importe no extraído).",
+   "Tema funcional": "Agencias de investigación e innovación",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 118,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Competencia autonómica que el Estado no presta en ese territorio; la duplicidad es de forma (agencia propia o dirección general). 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Organismo autónomo TIC con sección propia en la ley 2026 (importe no extraído).",
+   "Tema funcional": "Agencias de administración digital y TIC",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 119,
+  "updates": {
+   "Clasificación: útil / no útil": "Extinguida",
+   "Clasificación: veredicto": "Extinguida",
+   "Clasificación: función": "Extinguida o no constituida",
+   "Clasificación: duplicidad": "11 organismos sobre este tema entre el Estado y las CCAA (verificados)",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No aplica (no vigente)",
+   "Clasificación: motivo": "Norma creadora derogada con efectos 1/01/2024.",
+   "Tema funcional": "Agencias de la energía",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 11
+  }
+ },
+ {
+  "ID": 120,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Revisable",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Competencia autonómica que el Estado no presta en ese territorio; la duplicidad es de forma (agencia propia o dirección general). 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Función sustantiva, pero sin actividad ni medios propios acreditados todavía. Estatutos aprobados en 2025, pero sin presupuesto propio en 2026 ni inicio efectivo fechado.",
+   "Tema funcional": "Agencias de administración digital y TIC",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 121,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Regulación o inspección de terceros",
+   "Clasificación: duplicidad": null,
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Calidad alimentaria gallega (40,7 M).",
+   "Tema funcional": "Calidad alimentaria",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": null
+  }
+ },
+ {
+  "ID": 122,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": "Paralelo a IDAE: cada nivel actúa con sus propios fondos o competencias. 11 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Pasa de consorcio a EPE (Ley 1/2026); gestiona ayudas energéticas, presupuesto no verificado.",
+   "Tema funcional": "Agencias de la energía",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 11
+  }
+ },
+ {
+  "ID": 123,
+  "updates": {
+   "Clasificación: útil / no útil": "No útil",
+   "Clasificación: veredicto": "Prescindible",
+   "Clasificación: función": "Consultivo o participación",
+   "Clasificación: duplicidad": "Paralelo a Observatorio Estatal de Violencia sobre la Mujer: cada nivel actúa con sus propios fondos o competencias. 11 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "No acreditada",
+   "Clasificación: motivo": "Órgano consultivo o de participación sin medios propios. Consultivo sin medios propios; funcionamiento no confirmado.",
+   "Tema funcional": "Observatorios de igualdad y violencia de género",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 11,
+   "Coste de apoyo (sin presupuesto propio): unidad, vocales y dietas": "Apoyo: La DG competente en igualdad y mujer presta el apoyo administrativo y material (art. 10 Decreto 53/2020); secretaría a cargo de un funcionario designado por esa DG. vocales: 20. miembros: no retribuidos (art. 8.6 Decreto 53/2020: la asistencia «no genera ningún derecho económico en concepto de remuneración o indemnización»)."
+  },
+  "fuentes_nuevas": [
+   "https://laadministracionaldia.inap.es/noticia.asp?id=1201913"
+  ]
+ },
+ {
+  "ID": 124,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Servicio público directo",
+   "Clasificación: duplicidad": "Competencia autonómica que el Estado no presta en ese territorio; la duplicidad es de forma (agencia propia o dirección general). 10 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Servicios TIC, ciberseguridad y telecomunicaciones del Govern (50,7 M).",
+   "Tema funcional": "Agencias de administración digital y TIC",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 10
+  }
+ },
+ {
+  "ID": 125,
+  "updates": {
+   "Clasificación: útil / no útil": "Útil",
+   "Clasificación: veredicto": "Útil",
+   "Clasificación: función": "Financiación y ayudas",
+   "Clasificación: duplicidad": "Paralelo a IDAE: cada nivel actúa con sus propios fondos o competencias. 11 organismos sobre este tema entre el Estado y las CCAA (verificados).",
+   "Clasificación: exigida por la UE": "No",
+   "Clasificación: actividad reciente": "Parcial",
+   "Clasificación: motivo": "Proyectos e iniciativa energética pública (28,3 M).",
+   "Tema funcional": "Agencias de la energía",
+   "Organismos del mismo tema (Estado + CCAA, verificados)": 11
+  }
+ }
+]

@@ -1,0 +1,70 @@
+[
+ {
+  "ID": 33,
+  "Ámbito": "Estatal",
+  "Comunidad autónoma": "Estado",
+  "Nombre": "Agencia Estatal Consejo Superior de Investigaciones Científicas (CSIC)",
+  "Presupuesto propio (EUR millones)": 1543.754,
+  "Personal: personas (ocupadas)": 17130,
+  "Año del personal": "2026-01",
+  "Base del personal": "Efectivos (personas) según Estadística del Personal al Servicio de las AA.PP. (EPSAP) enero 2026, Tabla 4.1 p.37: 7.136 funcionarios de carrera + 9.767 personal laboral + 227 otro personal = 17.130. Datos a enero de 2026 (la publicación no indica día). Estadística oficial de la DGFP; no son puestos RPT ni número medio anual.",
+  "Fuente del personal": "https://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/boletin/2026_01/revision-agosto-2026/EPSAP_Enero_2026%20.pdf",
+  "Crédito de personal (EUR millones)": 614.97,
+  "Fuentes de la ficha": "https://www.boe.es/eli/es/rd/2007/12/21/1730/con\nhttps://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Documents/ORGANISMOS%2008.%202026.pdf\nhttps://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/boletin/2026_01/revision-agosto-2026/EPSAP_Enero_2026%20.pdf\nhttps://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/notaepsap/Noticia_EPSAP_Enero_26.pdf"
+ },
+ {
+  "ID": 34,
+  "Ámbito": "Estatal",
+  "Comunidad autónoma": "Estado",
+  "Nombre": "Agencia Estatal de Meteorología (AEMET)",
+  "Presupuesto propio (EUR millones)": 201.096,
+  "Personal: personas (ocupadas)": 1058,
+  "Año del personal": "2026-01",
+  "Base del personal": "Efectivos (personas) según Estadística del Personal al Servicio de las AA.PP. (EPSAP) enero 2026, Tabla 4.1 p.37: 941 funcionarios de carrera + 44 personal laboral + 73 otro personal = 1.058. Datos a enero de 2026 (la publicación no indica día). Estadística oficial de la DGFP; no son puestos RPT ni número medio anual.",
+  "Fuente del personal": "https://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/boletin/2026_01/revision-agosto-2026/EPSAP_Enero_2026%20.pdf",
+  "Crédito de personal (EUR millones)": 51.574,
+  "Notas de personal y apoyo ministerial": "RPT laboral transparencia.gob.es parcialmente contada (62, PDF posiblemente truncado); RPT funcionario no contada. EPSAP enero 2026 (Tabla 4.1 p.37): 1.058 efectivos ocupados (941 funcionarios de carrera + 44 laborales + 73 otro personal). Sin total RPT verificado: no se calcula cobertura.",
+  "Fuentes de la ficha": "https://www.boe.es/eli/es/rd/2008/02/08/186/con\nhttps://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Documents/ORGANISMOS%2008.%202026.pdf\nhttps://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/boletin/2026_01/revision-agosto-2026/EPSAP_Enero_2026%20.pdf\nhttps://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/notaepsap/Noticia_EPSAP_Enero_26.pdf"
+ },
+ {
+  "ID": 35,
+  "Ámbito": "Estatal",
+  "Comunidad autónoma": "Estado",
+  "Nombre": "Agencia estatal Agencia Española de Medicamentos y Productos Sanitarios (AEMPS)",
+  "Presupuesto propio (EUR millones)": 95.355,
+  "Personal: personas (ocupadas)": 629,
+  "Año del personal": "2026-01",
+  "Base del personal": "Efectivos (personas) según Estadística del Personal al Servicio de las AA.PP. (EPSAP) enero 2026, Tabla 4.1 p.37: 525 funcionarios de carrera + 68 personal laboral + 36 otro personal = 629. Datos a enero de 2026 (la publicación no indica día). Estadística oficial de la DGFP; no son puestos RPT ni número medio anual.",
+  "Fuente del personal": "https://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/boletin/2026_01/revision-agosto-2026/EPSAP_Enero_2026%20.pdf",
+  "Crédito de personal (EUR millones)": 39.13,
+  "Notas de personal y apoyo ministerial": "Memoria de actividades AEMPS 2025, p.6 (organigrama): '525 Personal científico-técnico', '108 Funciones administrativas', '22 Becas de formación', '12 Red de expertos', sin fecha ni definición de cómputo: no usadas como plantilla (becarios y red de expertos no son plantilla). La plantilla ocupada se toma de EPSAP enero 2026.",
+  "Fuentes de la ficha": "https://www.boe.es/eli/es/rd/2011/09/16/1275\nhttps://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Documents/ORGANISMOS%2008.%202026.pdf\nhttps://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/boletin/2026_01/revision-agosto-2026/EPSAP_Enero_2026%20.pdf\nhttps://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/notaepsap/Noticia_EPSAP_Enero_26.pdf\nhttps://memoria.aemps.gob.es/docs/memoria-2025.pdf"
+ },
+ {
+  "ID": 4,
+  "Ámbito": "Estatal",
+  "Comunidad autónoma": "Estado",
+  "Nombre": "Agencia Estatal de Investigación (AEI)",
+  "Presupuesto propio (EUR millones)": 1214.005,
+  "Personal: personas (ocupadas)": 220,
+  "Año del personal": "2026-01",
+  "Base del personal": "Efectivos (personas) según Estadística del Personal al Servicio de las AA.PP. (EPSAP) enero 2026, Tabla 4.1 p.37: 200 funcionarios de carrera + 20 personal laboral + 0 otro personal ('-' en la tabla) = 220. Datos a enero de 2026 (la publicación no indica día). Estadística oficial de la DGFP; no son puestos RPT ni número medio anual.",
+  "Fuente del personal": "https://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/boletin/2026_01/revision-agosto-2026/EPSAP_Enero_2026%20.pdf",
+  "Crédito de personal (EUR millones)": 13.568,
+  "Notas de personal y apoyo ministerial": "Plan de Actuación Anual 2025 de la AEI (aprobado 26/12/2024) alude a la 'baja cobertura de la RPT' (p.12) y a puestos RPT que 'permanecen vacantes' (p.20), sin cifras legibles; RPT no verificada.",
+  "Fuentes de la ficha": "https://www.boe.es/eli/es/rd/2015/11/27/1067\nhttps://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Documents/ORGANISMOS%2008.%202026.pdf\nhttps://www.aei.gob.es/en/about-aei/plans-aei/Budget\nhttps://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/boletin/2026_01/revision-agosto-2026/EPSAP_Enero_2026%20.pdf\nhttps://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/notaepsap/Noticia_EPSAP_Enero_26.pdf\nhttps://www.aei.gob.es/sites/default/files/page/field_file/2025-01/PLAN%20DE%20ACTUACION%20ANUAL%202025%20APROBADO.pdf"
+ },
+ {
+  "ID": 40,
+  "Ámbito": "Estatal",
+  "Comunidad autónoma": "Estado",
+  "Nombre": "Agencia Espacial Española (AEE)",
+  "Presupuesto propio (EUR millones)": 962.514,
+  "Personal: personas (ocupadas)": 65,
+  "Año del personal": "2026-01",
+  "Base del personal": "Efectivos (personas) según Estadística del Personal al Servicio de las AA.PP. (EPSAP) enero 2026, Tabla 4.1 p.37: 53 funcionarios de carrera + 12 personal laboral + 0 otro personal ('-' en la tabla) = 65. Datos a enero de 2026 (la publicación no indica día). Estadística oficial de la DGFP; no son puestos RPT ni número medio anual.",
+  "Fuente del personal": "https://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/boletin/2026_01/revision-agosto-2026/EPSAP_Enero_2026%20.pdf",
+  "Crédito de personal (EUR millones)": 7.7,
+  "Fuentes de la ficha": "https://www.boe.es/eli/es/rd/2023/03/07/158\nhttps://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Documents/ORGANISMOS%2008.%202026.pdf\nhttps://www.aee.gob.es/Noticias/2026/marzo/inversion-625-millones-euros.html\nhttps://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/boletin/2026_01/revision-agosto-2026/EPSAP_Enero_2026%20.pdf\nhttps://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/notaepsap/Noticia_EPSAP_Enero_26.pdf"
+ }
+]

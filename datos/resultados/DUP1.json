@@ -1,0 +1,716 @@
+[
+ {
+  "tema": "Agencias tributarias",
+  "estado": {
+   "nombre": "Agencia Estatal de Administración Tributaria (AEAT)",
+   "tipo": "ente",
+   "url": "https://sede.agenciatributaria.gob.es/Sede/eu_es/informacion-institucional/memorias/memoria-2019/1-introduccion.html"
+  },
+  "competencia": "Tributos cedidos: por la LOFCA y la ley de financiación autonómica, las CCAA de régimen común aplican por delegación los tributos cedidos (ISD, ITPAJD, tributos sobre el juego, etc.) y organizan libremente su administración tributaria (agencia o DG). La AEAT aplica los tributos estatales (IRPF, IVA, IS, IIEE) en todo el territorio común. Navarra (Convenio Económico) y el País Vasco (Concierto Económico, Ley 12/2002) tienen haciendas forales propias por la DA 1ª de la Constitución.",
+  "cobertura_estatal": "Parcial. La AEAT cubre en todo el territorio común los tributos estatales no cedidos, pero los tributos cedidos los gestiona cada CA por ley, con agencia o con su DG. La función autonómica existe en las 15 CCAA de régimen común: la 'duplicidad' de las 10 agencias es de forma organizativa, no de función, porque las 6 CCAA sin agencia hacen lo mismo desde una DG. En territorio foral la AEAT no gestiona los tributos concertados o convenidos.",
+  "ccaa": {
+   "Andalucía": {
+    "tipo": "ente",
+    "nombre": "Agencia Tributaria de Andalucía (ATRIAN)",
+    "norma": "Ley 23/2007, de 18 de diciembre",
+    "url": "https://www.boe.es/eli/es-an/l/2007/12/18/23/con",
+    "presupuesto_m": 74.120154,
+    "anio": 2026,
+    "nota": "Agencia con personalidad jurídica propia. Presupuesto: crédito inicial 2026 (Ley 8/2025 de Presupuestos de Andalucía), según la ficha ID 75 del proyecto (https://www.boe.es/buscar/pdf/2026/BOE-A-2026-945-consolidado.pdf)."
+   },
+   "Aragón": {
+    "tipo": "consejeria",
+    "nombre": "Dirección General de Tributos (Departamento de Hacienda, Gobierno de Aragón)",
+    "norma": null,
+    "url": "https://gd.aragon.es/cgi-bin/ORGA/BRSCGI?CMD=VERDOC&BASE=ORGA&PIECE=ORGA&SEC=ORGABUSXI&DOCN=653",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No tiene agencia tributaria: los tributos cedidos los aplica una DG ordinaria. Verificación débil: el organigrama oficial y el BOA no se pudieron abrir (robots); la DG consta por el título de la página oficial del organigrama ('Director General de Tributos')."
+   },
+   "Asturias": {
+    "tipo": "ente",
+    "nombre": "Ente Público de Servicios Tributarios del Principado de Asturias ('Tributas en Asturias')",
+    "norma": "Ley del Principado de Asturias 15/2002, de 27 de diciembre, art. 10; funciones: Decreto 24/2023, de 24 de marzo (BOPA 14/04/2023)",
+    "url": "https://laadministracionaldia.inap.es/noticia.asp?id=1232456",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Ente público con organización propia que aplica el sistema tributario autonómico por cuenta del Principado. Presupuesto no buscado."
+   },
+   "Illes Balears": {
+    "tipo": "ente",
+    "nombre": "Agencia Tributaria de las Illes Balears (ATIB)",
+    "norma": "Ley 3/2008, de 14 de abril",
+    "url": "https://www.boe.es/eli/es-ib/l/2008/04/14/3",
+    "presupuesto_m": 16.25992,
+    "anio": 2026,
+    "nota": "Presupuesto: crédito inicial prorrogado 2026 (sin ley de presupuestos 2026), según la ficha ID 80 del proyecto (https://www.caib.es/sites/pressuposts/f/540091)."
+   },
+   "Canarias": {
+    "tipo": "ente",
+    "nombre": "Agencia Tributaria Canaria (ATC)",
+    "norma": "Ley 7/2014, de 30 de julio",
+    "url": "https://boe.es/buscar/act.php?id=BOE-A-2014-9902",
+    "presupuesto_m": 64.227709,
+    "anio": 2026,
+    "nota": "Gestiona además los tributos propios del REF (IGIC, AIEM). Presupuesto: crédito inicial 2026, según la ficha ID 81 del proyecto; el crédito definitivo a 31/07/2026 es de 85,09 M (https://www.parcan.es/files/transparencia/ofi_presupuestaria/2026/1281.pdf)."
+   },
+   "Cantabria": {
+    "tipo": "ente",
+    "nombre": "Agencia Cántabra de Administración Tributaria (ACAT)",
+    "norma": "Ley de Cantabria 4/2008, de 24 de noviembre (BOC 02/12/2008; BOE 20/12/2008)",
+    "url": "https://www.parcan.es/files/documentacion/dosieres/DOSS0221/DOSS0221DOC4682.PDF",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Art. 1.2: 'ente autonómico de Derecho Público' con personalidad jurídica propia. Fuente: texto de la ley reproducido en un dosier oficial del Parlamento de Canarias. Presupuesto no buscado."
+   },
+   "Castilla-La Mancha": {
+    "tipo": "consejeria",
+    "nombre": "Dirección General de Tributos y Ordenación del Juego (Consejería de Hacienda)",
+    "norma": null,
+    "url": "https://transparencia.castillalamancha.es/titular/33680",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin agencia: la DG ejerce 'la dirección, coordinación e impulso de la aplicación de los tributos propios y de los cedidos', además de la inspección y la recaudación ejecutiva (portal de transparencia JCCM)."
+   },
+   "Castilla y León": {
+    "tipo": "consejeria",
+    "nombre": "Dirección General de Tributos y Financiación Autonómica (Consejería de Economía y Hacienda)",
+    "norma": null,
+    "url": "https://www.gobierno.jcyl.es/web/es/consejerias/direccion-general-tributos-financiacion.html",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin agencia. Verificación débil: la página oficial no se pudo abrir (robots); la DG consta por el título del resultado en jcyl.es."
+   },
+   "Cataluña": {
+    "tipo": "ente",
+    "nombre": "Agència Tributària de Catalunya (ATC)",
+    "norma": "Ley 7/2007, de 17 de julio",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-15212",
+    "presupuesto_m": 121.755597,
+    "anio": 2026,
+    "nota": "Presupuesto: aprobado 2026 (Llei 10/2026, DOGC 9706), según la ficha ID 86 del proyecto (https://aplicacions.economia.gencat.cat/wpres/2026/pdf/ED_7910.pdf)."
+   },
+   "Comunitat Valenciana": {
+    "tipo": "ente",
+    "nombre": "Agència Tributària Valenciana (ATV)",
+    "norma": "Ley 7/2014, de 22 de diciembre, art. 54 (creada como Instituto Valenciano de Administración Tributaria); renombrada por Ley 27/2018, art. 100; Estatuto: Decreto 103/2025, de 8 de julio (DOGV 14/07/2025)",
+    "url": "https://laadministracionaldia.inap.es/noticia.asp?id=1256956",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Organismo autónomo de la Generalitat adscrito a la conselleria de hacienda (art. 1 del Estatuto de 2025). Presupuesto no buscado."
+   },
+   "Extremadura": {
+    "tipo": "consejeria",
+    "nombre": "Dirección General de Tributos (Consejería de Hacienda y Administración Pública)",
+    "norma": null,
+    "url": "https://doe.juntaex.es/pdfs/doe/2026/790o/26060892.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin agencia: la Resolución de 14/04/2026 (DOE 79, 27/04/2026) sobre el Plan de Control Tributario 2026 atribuye la aplicación de los tributos a la DG de Tributos ('Administración Tributaria de la Comunidad Autónoma de Extremadura'). No menciona ninguna agencia autonómica."
+   },
+   "Galicia": {
+    "tipo": "ente",
+    "nombre": "Axencia Tributaria de Galicia (ATRIGA)",
+    "norma": "Lei 15/2010, do 28 de decembro, de medidas fiscais e administrativas, art. 10 (DOG 250, 30/12/2010)",
+    "url": "https://www.es.parlamentodegalicia.gal/sitios/web/BibliotecaLeisdeGalicia/Lei_15_2010.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Art. 10: 'axencia pública autonómica, dotada de personalidade xurídica propia'. Presupuesto no buscado."
+   },
+   "Madrid": {
+    "tipo": "consejeria",
+    "nombre": "Dirección General de Tributos (Consejería de Economía, Hacienda y Empleo)",
+    "norma": "Decreto 230/2023, de 6 de septiembre (estructura de la Consejería)",
+    "url": "https://www.comunidad.madrid/transparencia/unidad-organizativa-responsable/direccion-general-tributos",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin agencia: la DG gestiona, liquida, recauda, inspecciona y revisa los tributos propios y cedidos. No confundir con la 'Agencia Tributaria Madrid', que es del Ayuntamiento de Madrid."
+   },
+   "Murcia": {
+    "tipo": "ente",
+    "nombre": "Agencia Tributaria de la Región de Murcia (ATRM)",
+    "norma": "Ley 14/2012, de 27 de diciembre, arts. 25-26",
+    "url": "https://www.parcan.es/files/documentacion/dosieres/DOSS0221/DOSS0221DOC4791.PDF",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Organismo autónomo con personalidad jurídica propia, adscrito a la consejería de hacienda (art. 26). Presupuesto no buscado."
+   },
+   "Navarra": {
+    "tipo": "ente",
+    "nombre": "Hacienda Foral de Navarra (organismo autónomo)",
+    "norma": "Creada como Hacienda Tributaria de Navarra por el Decreto Foral 352/1999; renombrada por el DF 264/2019; Estatutos: DF 244/2023, de 15 de noviembre (BON 24/11/2023)",
+    "url": "https://laadministracionaldia.inap.es/noticia.asp?id=1239023",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "RÉGIMEN FORAL (Convenio Económico): es la administración tributaria completa de los tributos convenidos (IRPF, IS, IVA, etc.) en Navarra, no una copia de la gestión de tributos cedidos. La AEAT no gestiona esos tributos allí. OA con personalidad jurídica, adscrito al Departamento de Economía y Hacienda (arts. 1-3 de los Estatutos).",
+    "regimen": "foral"
+   },
+   "País Vasco": {
+    "tipo": "organo",
+    "nombre": "Haciendas Forales de Álava, Bizkaia y Gipuzkoa (departamentos de Hacienda de las tres diputaciones forales) + Órgano de Coordinación Tributaria de Euskadi",
+    "norma": "Concierto Económico: Ley 12/2002, de 23 de mayo (BOE 24/05/2002); Órgano de Coordinación Tributaria: Ley 3/1989",
+    "url": "https://www.euskadi.eus/gobierno-vasco/contenidos/informacion/fisc_sytribvas/es_3222/indice_c.html",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "RÉGIMEN FORAL (Concierto Económico): 'La competencia tributaria de Euskadi reside en las Instituciones de sus tres Territorios Históricos', y los tributos 'son gestionados y recaudados por las Haciendas Forales'. Son 3 administraciones tributarias completas, de las diputaciones forales y no del Gobierno Vasco, que no tiene agencia propia. Se clasifica como 'organo' porque son departamentos forales sin personalidad diferenciada. La AEAT no gestiona allí los tributos concertados.",
+    "regimen": "foral",
+    "n_organismos": 3
+   },
+   "La Rioja": {
+    "tipo": "consejeria",
+    "nombre": "Dirección General de Tributos (Consejería de Hacienda, Gobierno de La Rioja)",
+    "norma": null,
+    "url": "https://larioja.org/tributos/en/enlaces-interes/competencias-direccion-general-tributos",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin agencia. Verificación débil: la página oficial 'Competencias de la Dirección General de Tributos' no se pudo abrir (robots)."
+   }
+  },
+  "notas": "10 entes (9 agencias de régimen común + Hacienda Foral de Navarra), 1 'organo' compuesto (las 3 haciendas forales vascas, de diputaciones y no del Gobierno Vasco) y 6 CCAA con DG ordinaria (Aragón, CLM, CyL, Extremadura, Madrid y La Rioja). En Aragón, CyL y La Rioja la DG se acredita solo por títulos de páginas oficiales (robots). Asturias usa la marca 'Tributas en Asturias' para su Ente Público de Servicios Tributarios. Presupuestos 2026 de Cantabria, Asturias, Galicia, Murcia, Valencia y Navarra no buscados.",
+  "fuentes": [
+   "https://www.boe.es/eli/es-an/l/2007/12/18/23/con",
+   "https://laadministracionaldia.inap.es/noticia.asp?id=1232456",
+   "https://www.boe.es/eli/es-ib/l/2008/04/14/3",
+   "https://boe.es/buscar/act.php?id=BOE-A-2014-9902",
+   "https://www.parcan.es/files/documentacion/dosieres/DOSS0221/DOSS0221DOC4682.PDF",
+   "https://transparencia.castillalamancha.es/titular/33680",
+   "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-15212",
+   "https://laadministracionaldia.inap.es/noticia.asp?id=1256956",
+   "https://doe.juntaex.es/pdfs/doe/2026/790o/26060892.pdf",
+   "https://www.es.parlamentodegalicia.gal/sitios/web/BibliotecaLeisdeGalicia/Lei_15_2010.pdf",
+   "https://www.comunidad.madrid/transparencia/unidad-organizativa-responsable/direccion-general-tributos",
+   "https://www.parcan.es/files/documentacion/dosieres/DOSS0221/DOSS0221DOC4791.PDF",
+   "https://laadministracionaldia.inap.es/noticia.asp?id=1239023",
+   "https://www.euskadi.eus/gobierno-vasco/contenidos/informacion/fisc_sytribvas/es_3222/indice_c.html",
+   "https://larioja.org/tributos/en/enlaces-interes/competencias-direccion-general-tributos",
+   "https://www.gobierno.jcyl.es/web/es/consejerias/direccion-general-tributos-financiacion.html",
+   "https://gd.aragon.es/cgi-bin/ORGA/BRSCGI?CMD=VERDOC&BASE=ORGA&PIECE=ORGA&SEC=ORGABUSXI&DOCN=653"
+  ]
+ },
+ {
+  "tema": "Consejos de transparencia",
+  "estado": {
+   "nombre": "Consejo de Transparencia y Buen Gobierno (CTBG)",
+   "tipo": "ente",
+   "url": "https://www.boe.es/eli/es/l/2013/12/09/19"
+  },
+  "competencia": "Transparencia: cada administración puede atribuir la resolución de las reclamaciones de acceso a un órgano propio o convenirla con el CTBG (Ley 19/2013, art. 24 y DA 4ª).",
+  "cobertura_estatal": "Sí, por convenio. En 2025-2026 el CTBG resuelve las reclamaciones de Asturias (nuevo convenio de 11/05/2026), Illes Balears (convenio 2025-2029), Cantabria, Extremadura y La Rioja, además de Ceuta y Melilla. La CA paga por reclamación resuelta (192,35 EUR en el convenio asturiano). CLM (hasta 31/10/2023) y Madrid (hasta 02/11/2021) dejaron el convenio al crear su órgano.",
+  "ccaa": {
+   "Andalucía": {
+    "tipo": "ente",
+    "nombre": "Consejo de Transparencia y Protección de Datos de Andalucía (CTPDA)",
+    "norma": "Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-7534",
+    "presupuesto_m": 4.713195,
+    "anio": 2026,
+    "nota": "Autoridad independiente con personalidad jurídica. Es también la autoridad autonómica de protección de datos (mismo organismo que en el tema 3: no sumar dos veces). Presupuesto: crédito inicial 2026, sección 07.00, según la ficha ID 76 del proyecto (https://www.juntadeandalucia.es/export/presup2026/estado/servicios/servicios-b-6.pdf). Miembro de la COTAI."
+   },
+   "Aragón": {
+    "tipo": "organo",
+    "nombre": "Consejo de Transparencia de Aragón",
+    "norma": "Ley 8/2015, de 25 de marzo, de Transparencia de la Actividad Pública (no verificada en esta ronda)",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/cooperacion/acta_constitucion_COTAI.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Existencia y nombre verificados en el acta de constitución de la COTAI (Toledo, 21/05/2025), firmada por el órgano. La norma se cita como orientación y no se ha abierto en esta ronda."
+   },
+   "Asturias": {
+    "tipo": "estado",
+    "nombre": "Reclamaciones resueltas por el CTBG mediante convenio",
+    "norma": "Convenio CTBG–Principado firmado el 11/05/2026 (Resolución publicada en el BOPA 122, de 26/06/2026)",
+    "url": "https://www.asturias.es/bopa/2026/06/26/2026-05300.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "La Ley 8/2018 creó el Consejo de Transparencia y Buen Gobierno del Principado de Asturias, pero no está en funcionamiento. El convenio rige 'hasta que tenga lugar la efectiva puesta en funcionamiento de su Consejo propio' (1 año, prorrogable 4), con un coste para el Principado de 192,35 EUR por reclamación resuelta. Aun así, el Consejo asturiano tiene 0,18 M de crédito inicial en 2026 (ficha ID 113 del proyecto, Ley 5/2025): hay órgano creado y dotado sin funcionar."
+   },
+   "Illes Balears": {
+    "tipo": "estado",
+    "nombre": "Reclamaciones resueltas por el CTBG mediante convenio",
+    "norma": "Nuevo convenio firmado el 17/09/2025 (BOE 13/10/2025), vigente hasta 2029",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/memorias-y-plan-estrategico/memoria-2025/Memoria_2025_CTBG.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Memoria CTBG 2025, p. 24. Sin órgano autonómico propio."
+   },
+   "Canarias": {
+    "tipo": "organo",
+    "nombre": "Comisionado de Transparencia y Acceso a la Información Pública de Canarias",
+    "norma": "Ley 12/2014, de 26 de diciembre, de transparencia y acceso a la información pública (no verificada en esta ronda)",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/cooperacion/acta_constitucion_COTAI.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Existencia y nombre verificados en el acta de constitución de la COTAI (Toledo, 21/05/2025), firmada por el órgano. La norma se cita como orientación y no se ha abierto en esta ronda. Órgano unipersonal vinculado al Parlamento de Canarias (no verificado)."
+   },
+   "Cantabria": {
+    "tipo": "estado",
+    "nombre": "Reclamaciones resueltas por el CTBG mediante convenio",
+    "norma": "Convenio con el CTBG vigente en 2025",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/memorias-y-plan-estrategico/memoria-2025/Resumen_Ejecutivo_Memoria_2025_CTBG.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Memoria CTBG 2025 (resumen ejecutivo): Cantabria figura entre los territorios con convenio. Sin órgano propio."
+   },
+   "Castilla-La Mancha": {
+    "tipo": "organo",
+    "nombre": "Consejo Regional de Transparencia y Buen Gobierno de Castilla-La Mancha",
+    "norma": "Ley 4/2016, de 15 de diciembre, de Transparencia y Buen Gobierno de CLM (no verificada en esta ronda)",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/cooperacion/acta_constitucion_COTAI.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Existencia y nombre verificados en el acta de constitución de la COTAI (Toledo, 21/05/2025), firmada por el órgano. La norma se cita como orientación y no se ha abierto en esta ronda. El convenio con el CTBG terminó el 31/10/2023 (Memoria CTBG 2025, p. 28, nota 1), cuando el Consejo regional asumió las reclamaciones. Naturaleza jurídica (órgano o ente) no verificada."
+   },
+   "Castilla y León": {
+    "tipo": "organo",
+    "nombre": "Comisionado de Transparencia de Castilla y León (función atribuida al Procurador del Común)",
+    "norma": "Ley 3/2015, de 4 de marzo, de Transparencia y Participación Ciudadana de CyL (no verificada en esta ronda)",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/cooperacion/acta_constitucion_COTAI.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Existencia y nombre verificados en el acta de constitución de la COTAI (Toledo, 21/05/2025), firmada por el órgano. La norma se cita como orientación y no se ha abierto en esta ronda."
+   },
+   "Cataluña": {
+    "tipo": "organo",
+    "nombre": "Comissió de Garantia del Dret d'Accés a la Informació Pública (GAIP)",
+    "norma": "Ley 19/2014, de 29 de diciembre, de transparencia, acceso a la información pública y buen gobierno (no verificada en esta ronda)",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/cooperacion/acta_constitucion_COTAI.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Existencia y nombre verificados en el acta de constitución de la COTAI (Toledo, 21/05/2025), firmada por el órgano. La norma se cita como orientación y no se ha abierto en esta ronda."
+   },
+   "Comunitat Valenciana": {
+    "tipo": "organo",
+    "nombre": "Consell de Transparència de la Comunitat Valenciana",
+    "norma": "Ley 1/2022, de 13 de abril, de Transparencia y Buen Gobierno de la CV (no verificada en esta ronda)",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/cooperacion/acta_constitucion_COTAI.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Existencia y nombre verificados en el acta de constitución de la COTAI (Toledo, 21/05/2025), firmada por el órgano. La norma se cita como orientación y no se ha abierto en esta ronda. Naturaleza jurídica (órgano o autoridad con personalidad) no verificada."
+   },
+   "Extremadura": {
+    "tipo": "estado",
+    "nombre": "Reclamaciones resueltas por el CTBG mediante convenio",
+    "norma": "Convenio con el CTBG vigente en 2025",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/memorias-y-plan-estrategico/memoria-2025/Resumen_Ejecutivo_Memoria_2025_CTBG.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Memoria CTBG 2025: Extremadura figura entre los territorios con convenio. Sin órgano propio."
+   },
+   "Galicia": {
+    "tipo": "organo",
+    "nombre": "Comisión da Transparencia de Galicia",
+    "norma": "Ley 1/2016, de 18 de enero, de transparencia y buen gobierno (no verificada en esta ronda)",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/cooperacion/acta_constitucion_COTAI.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Existencia y nombre verificados en el acta de constitución de la COTAI (Toledo, 21/05/2025), firmada por el órgano. La norma se cita como orientación y no se ha abierto en esta ronda. Adscrita al Valedor do Pobo (no verificado)."
+   },
+   "Madrid": {
+    "tipo": "organo",
+    "nombre": "Consejo de Transparencia y Protección de Datos de la Comunidad de Madrid",
+    "norma": "Ley 16/2023, de 27 de diciembre (reforma del título V de la Ley 10/2019); Decreto 54/2024, de 22 de mayo (BOCM 23/05/2024)",
+    "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2024/05/23/BOCM-20240523-1.PDF",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "'Órgano administrativo colegiado, adscrito orgánicamente a la consejería competente en materia de Presidencia', con 'autonomía y plena independencia funcional'. Sustituye al Consejo de Transparencia y Participación. El convenio con el CTBG terminó el 02/11/2021 (Memoria CTBG 2025). Desde la Ley 8/2024 es también autoridad del informante (Ley 2/2023). Miembro de la COTAI."
+   },
+   "Murcia": {
+    "tipo": "organo",
+    "nombre": "Comisionado de Transparencia de la Región de Murcia",
+    "norma": "Ley 1/2024, de 8 de julio (BORM 158, 09/07/2024), que modifica la Ley 12/2014",
+    "url": "https://boe.es/ccaa/borm/2024/158/s20598-20604.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Órgano unipersonal 'independiente'. Sustituye al Consejo de la Transparencia de 2014, cuyos miembros cesaron. Su presupuesto es un programa dentro de la sección de la consejería competente."
+   },
+   "Navarra": {
+    "tipo": "organo",
+    "nombre": "Consejo de Transparencia de Navarra",
+    "norma": "Ley Foral 5/2018, de 17 de mayo, de Transparencia, acceso a la información pública y buen gobierno (no verificada en esta ronda)",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/cooperacion/acta_constitucion_COTAI.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Existencia y nombre verificados en el acta de constitución de la COTAI (Toledo, 21/05/2025), firmada por el órgano. La norma se cita como orientación y no se ha abierto en esta ronda."
+   },
+   "País Vasco": {
+    "tipo": "organo",
+    "nombre": "Comisión Vasca de Acceso a la Información Pública",
+    "norma": "Decreto 128/2016, de 13 de septiembre (no verificado en esta ronda)",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/cooperacion/acta_constitucion_COTAI.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Existencia y nombre verificados en el acta de constitución de la COTAI (Toledo, 21/05/2025), firmada por el órgano. La norma se cita como orientación y no se ha abierto en esta ronda. No se ha comprobado si una ley vasca de transparencia posterior la ha sustituido."
+   },
+   "La Rioja": {
+    "tipo": "estado",
+    "nombre": "Reclamaciones resueltas por el CTBG mediante convenio",
+    "norma": "Convenio con el CTBG vigente en 2025",
+    "url": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/memorias-y-plan-estrategico/memoria-2025/Resumen_Ejecutivo_Memoria_2025_CTBG.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Memoria CTBG 2025: La Rioja figura entre los territorios con convenio. Sin órgano propio."
+   }
+  },
+  "notas": "12 CCAA con órgano propio (11 'organo' + el CTPDA andaluz como ente), todos miembros de la COTAI (constituida en Toledo el 21/05/2025). 5 CCAA cubiertas por el CTBG por convenio. Caso especial: Asturias tiene su Consejo creado por ley (2018) y con 0,18 M de crédito en 2026, pero sin funcionar, y sigue con el CTBG. En Murcia y CyL el órgano es unipersonal (comisionado). Muchas normas de creación se citan sin abrir: la fuente de cada celda es el acta COTAI o el convenio.",
+  "fuentes": [
+   "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/cooperacion/acta_constitucion_COTAI.pdf",
+   "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/memorias-y-plan-estrategico/memoria-2025/Memoria_2025_CTBG.pdf",
+   "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/memorias-y-plan-estrategico/memoria-2025/Resumen_Ejecutivo_Memoria_2025_CTBG.pdf",
+   "https://www.asturias.es/bopa/2026/06/26/2026-05300.pdf",
+   "https://www.bocm.es/boletin/CM_Orden_BOCM/2024/05/23/BOCM-20240523-1.PDF",
+   "https://www.comunidad.madrid/transparencia/sites/default/files/8._main_reglamento_ctpd.pdf",
+   "https://boe.es/ccaa/borm/2024/158/s20598-20604.pdf",
+   "https://www.boe.es/buscar/act.php?id=BOE-A-2014-7534"
+  ]
+ },
+ {
+  "tema": "Autoridades de protección de datos",
+  "estado": {
+   "nombre": "Agencia Española de Protección de Datos (AEPD)",
+   "tipo": "ente",
+   "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia"
+  },
+  "competencia": "Protección de datos: el RGPD y la LOPDGDD (arts. 57-58) permiten a las CCAA crear autoridades de control para los tratamientos de su sector público y de las entidades locales de su territorio. En lo demás, y donde no las hay, es competente la AEPD.",
+  "cobertura_estatal": "Sí, por defecto y por ley: la AEPD supervisa el sector público autonómico y local de las 14 CCAA sin autoridad propia, y a todo el sector privado en toda España. Madrid suprimió su agencia el 01/01/2013 y la AEPD asumió sus funciones.",
+  "ccaa": {
+   "Andalucía": {
+    "tipo": "ente",
+    "nombre": "Consejo de Transparencia y Protección de Datos de Andalucía (CTPDA)",
+    "norma": "Ley 1/2014, de 24 de junio (atribución de protección de datos posterior, según la LOPDGDD)",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Integrada en el consejo de transparencia: es el mismo organismo y el mismo presupuesto que en el tema 2 (4,71 M en 2026), así que no hay que sumarlo dos veces. AEPD: Andalucía tiene autoridad desde 2014 y 'la entidad competente en materia de protección de datos lo es también en materia de transparencia'.",
+    "mismo_organismo_que": "Consejos de transparencia / Andalucía"
+   },
+   "Aragón": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   },
+   "Asturias": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   },
+   "Illes Balears": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   },
+   "Canarias": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   },
+   "Cantabria": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   },
+   "Castilla-La Mancha": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   },
+   "Castilla y León": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   },
+   "Cataluña": {
+    "tipo": "ente",
+    "nombre": "Autoritat Catalana de Protecció de Dades (APDCAT)",
+    "norma": "Ley 32/2010, de 1 de octubre, de la Autoridad Catalana de Protección de Datos (sustituye a la agencia de 2003)",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "La AEPD la incluye entre las tres autoridades autonómicas vigentes. La norma se identificó por el título de su ficha legislativa y no se ha abierto en esta ronda. Presupuesto no buscado."
+   },
+   "Comunitat Valenciana": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   },
+   "Extremadura": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   },
+   "Galicia": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   },
+   "Madrid": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Agencia de Protección de Datos de la Comunidad de Madrid suprimida con efectos 01/01/2013",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "La agencia madrileña (2001) 'fue suprimida el 1 de enero de 2013' y 'sus funciones pasaron a ser asumidas por la Agencia Española de Protección de Datos' (AEPD). La norma de supresión no se ha abierto en esta ronda. El actual 'Consejo de Transparencia y Protección de Datos' de Madrid (Ley 16/2023) no es autoridad de control del RGPD: la AEPD no lo incluye entre las tres autonómicas, y su Comisión de Protección de Datos asume funciones de coordinación interna del antiguo Grupo de Trabajo."
+   },
+   "Murcia": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   },
+   "Navarra": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   },
+   "País Vasco": {
+    "tipo": "ente",
+    "nombre": "Autoridad Vasca de Protección de Datos (AVPD)",
+    "norma": "Ley 16/2023, de 21 de diciembre (BOE-A-2024-900); deroga la Ley 2/2004 (Agencia Vasca de Protección de Datos)",
+    "url": "https://boe.es/boe/dias/2024/01/18/pdfs/BOE-A-2024-900.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Art. 3.1: 'autoridad administrativa independiente, con personalidad jurídica propia'. Su ámbito es el sector público vasco (incluidos el foral y el local), las universidades vascas y ciertas corporaciones. Presupuesto no buscado."
+   },
+   "La Rioja": {
+    "tipo": "estado",
+    "nombre": "Agencia Española de Protección de Datos (AEPD)",
+    "norma": "Ley Orgánica 3/2018 (LOPDGDD), arts. 57-58",
+    "url": "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sin autoridad autonómica: la AEPD es la autoridad de control también del sector público autonómico y local. Según la AEPD solo existen tres autoridades autonómicas (Cataluña, País Vasco y Andalucía)."
+   }
+  },
+  "notas": "Solo 3 autoridades autonómicas (APDCAT, AVPD y CTPDA), según la AEPD. La andaluza es el mismo organismo que su consejo de transparencia, así que no se suma dos veces en un total entre temas. Ha habido 4 agencias autonómicas: Madrid (2001, suprimida en 2013), Cataluña (2003), País Vasco (2004; desde la Ley 16/2023 es la Autoridad Vasca) y Andalucía (2014). El 'Consejo de Transparencia y Protección de Datos' de Madrid no es autoridad de control.",
+  "fuentes": [
+   "https://www.aepd.es/la-agencia/transparencia/informacion-de-caracter-institucional-organizativa-y-de-planificacion/historia",
+   "https://boe.es/boe/dias/2024/01/18/pdfs/BOE-A-2024-900.pdf",
+   "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2024/12/2405865a.shtml",
+   "https://www.comunidad.madrid/transparencia/sites/default/files/8._main_reglamento_ctpd.pdf"
+  ]
+ },
+ {
+  "tema": "Autoridades de defensa de la competencia",
+  "estado": {
+   "nombre": "Comisión Nacional de los Mercados y la Competencia (CNMC)",
+   "tipo": "ente",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5940"
+  },
+  "competencia": "Defensa de la competencia: legislación estatal (Ley 15/2007). Las CCAA con competencia estatutaria ejecutan sobre conductas que afectan solo a su territorio, con puntos de conexión y asignación de casos según la Ley 1/2002 de coordinación; las conductas supraautonómicas corresponden siempre a la CNMC.",
+  "cobertura_estatal": "Sí, por defecto: donde no hay órgano autonómico actúa la CNMC, y donde la CA solo instruye (Madrid, Murcia, Navarra) resuelve la CNMC. Los casos se reparten mediante el Consejo de Defensa de la Competencia.",
+  "ccaa": {
+   "Andalucía": {
+    "tipo": "ente",
+    "nombre": "Agencia de la Competencia y de la Regulación Económica de Andalucía (antes Agencia de Defensa de la Competencia de Andalucía)",
+    "norma": "Ley 6/2007, de 26 de junio",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-14406",
+    "presupuesto_m": 3.030314,
+    "anio": 2026,
+    "nota": "Instruye y resuelve. Presupuesto: crédito inicial 2026, sección 08.00, programa 6.1.N, según la ficha ID 74 del proyecto (https://www.juntadeandalucia.es/export/presup2026/estado/servicios/servicios-b-7.pdf)."
+   },
+   "Aragón": {
+    "tipo": "organo",
+    "nombre": "Tribunal de Defensa de la Competencia de Aragón (resolución) + Servicio de Defensa de la Competencia (instrucción, en el departamento)",
+    "norma": null,
+    "url": "https://cnmc.es/la-cnmc-y-las-autoridades-de-competencia-autonomicas-han-celebrado-en-madrid-el-consejo-anual-de",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "CNMC 2017: Aragón tiene órganos de instrucción y de resolución. Hay página oficial del 'Servicio de Defensa de la Competencia de Aragón' (https://www.aragon.es/-/servicio-de-defensa-de-la-competencia-de-aragon), pero no se pudo abrir (robots). Norma no verificada. Vigencia 2026 no confirmada: se apoya solo en la lista oficial CNMC de 21/02/2017 y no se ha encontrado norma posterior en esta ronda."
+   },
+   "Asturias": {
+    "tipo": "estado",
+    "nombre": "CNMC (sin órgano autonómico)",
+    "norma": null,
+    "url": "https://cnmc.es/la-cnmc-y-las-autoridades-de-competencia-autonomicas-han-celebrado-en-madrid-el-consejo-anual-de",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "CNMC 2017: Asturias figura entre las CCAA sin autoridad de competencia. Vigencia 2026 no confirmada: se apoya solo en la lista oficial CNMC de 21/02/2017 y no se ha encontrado norma posterior en esta ronda."
+   },
+   "Illes Balears": {
+    "tipo": "estado",
+    "nombre": "CNMC (sin órgano autonómico)",
+    "norma": null,
+    "url": "https://cnmc.es/la-cnmc-y-las-autoridades-de-competencia-autonomicas-han-celebrado-en-madrid-el-consejo-anual-de",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "CNMC 2017: Baleares figura entre las CCAA sin autoridad de competencia. Vigencia 2026 no confirmada: se apoya solo en la lista oficial CNMC de 21/02/2017 y no se ha encontrado norma posterior en esta ronda."
+   },
+   "Canarias": {
+    "tipo": "organo",
+    "nombre": "Consejo Canario de Defensa de la Competencia (resolución) + Servicio de Defensa de la Competencia (instrucción)",
+    "norma": "Decreto 85/2023, de 25 de mayo (BOC 107, 05/06/2023)",
+    "url": "https://derecholocal.es/?p=11702",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Nuevo desde 2023: 'Se crea el Consejo Canario de Defensa de la Competencia', órgano colegiado adscrito a la consejería de economía, que resuelve los expedientes sancionadores (art. 7). En 2017 Canarias solo instruía y resolvía la CNMC. Fuente: reseña jurídica con cita del BOC, no el BOC; pendiente de confirmar en el boletín."
+   },
+   "Cantabria": {
+    "tipo": "estado",
+    "nombre": "CNMC (sin órgano autonómico)",
+    "norma": null,
+    "url": "https://cnmc.es/la-cnmc-y-las-autoridades-de-competencia-autonomicas-han-celebrado-en-madrid-el-consejo-anual-de",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "CNMC 2017: Cantabria figura entre las CCAA sin autoridad de competencia. Vigencia 2026 no confirmada: se apoya solo en la lista oficial CNMC de 21/02/2017 y no se ha encontrado norma posterior en esta ronda."
+   },
+   "Castilla-La Mancha": {
+    "tipo": "estado",
+    "nombre": "CNMC (sin órgano autonómico)",
+    "norma": null,
+    "url": "https://cnmc.es/la-cnmc-y-las-autoridades-de-competencia-autonomicas-han-celebrado-en-madrid-el-consejo-anual-de",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "CNMC 2017: Castilla-La Mancha figura entre las CCAA sin autoridad de competencia. Vigencia 2026 no confirmada: se apoya solo en la lista oficial CNMC de 21/02/2017 y no se ha encontrado norma posterior en esta ronda."
+   },
+   "Castilla y León": {
+    "tipo": "organo",
+    "nombre": "Órgano autonómico de defensa de la competencia de Castilla y León (instrucción + resolución; nombre a confirmar)",
+    "norma": null,
+    "url": "https://cnmc.es/la-cnmc-y-las-autoridades-de-competencia-autonomicas-han-celebrado-en-madrid-el-consejo-anual-de",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "CNMC 2017: CyL tiene órganos de instrucción y de resolución. Nombre, norma y vigencia no verificados en esta ronda. Vigencia 2026 no confirmada: se apoya solo en la lista oficial CNMC de 21/02/2017 y no se ha encontrado norma posterior en esta ronda."
+   },
+   "Cataluña": {
+    "tipo": "ente",
+    "nombre": "Autoritat Catalana de la Competència (ACCO)",
+    "norma": null,
+    "url": "https://cnmc.es/la-cnmc-y-las-autoridades-de-competencia-autonomicas-han-celebrado-en-madrid-el-consejo-anual-de",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "CNMC 2017: Cataluña tiene autoridad con instrucción y resolución. La ACCO es organismo autónomo según la Ley 1/2009, pero esa norma no se ha abierto en esta ronda. Vigencia 2026 no confirmada: se apoya solo en la lista oficial CNMC de 21/02/2017 y no se ha encontrado norma posterior en esta ronda."
+   },
+   "Comunitat Valenciana": {
+    "tipo": "organo",
+    "nombre": "Comisión de Defensa de la Competencia de la Comunitat Valenciana",
+    "norma": "Decreto 50/2012, de 23 de marzo, del Consell (DOCV 26/03/2012)",
+    "url": "https://dogv.gva.es/datos/2012/03/26/pdf/2012_3049.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Órgano colegiado adscrito a la conselleria de economía (art. 2.1) que resuelve los sancionadores de la Ley 15/2007 (art. 1.2.a). Contenido verificado vía https://laadministracionaldia.inap.es/noticia.asp?id=1057841. Vigencia 2026 coherente con CNMC 2017, sin confirmación posterior."
+   },
+   "Extremadura": {
+    "tipo": "organo",
+    "nombre": "Jurado de Defensa de la Competencia de Extremadura",
+    "norma": "Ley 2/2005, de 24 de junio; Reglamento: Decreto 218/2005, de 27 de septiembre",
+    "url": "https://www.juntaex.es/w/0680923",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Ficha vigente del procedimiento en juntaex.es: el Jurado resuelve y pone fin a la vía administrativa. La instrucción la lleva el Servicio de Comercio Exterior, Internacionalización, Mercados y Competencia (consejería)."
+   },
+   "Galicia": {
+    "tipo": "organo",
+    "nombre": "Comisión Galega da Competencia (órgano colegiado independiente adscrito al Instituto Galego do Consumo e da Competencia, OA)",
+    "norma": "Decreto 118/2016, de 4 de agosto (Estatutos del IGCC, arts. 25-27); Lei 14/2013, art. 38",
+    "url": "https://www.lex.gal/es/normativa/detalle/10097/pdf/",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Sustituyó al Consello Galego da Competencia (organismo autónomo de la Lei 1/2011), que se integró en el IGCC y se suprimió. El ente con personalidad (IGCC) es mixto de consumo y competencia; el órgano específico de competencia es la Comisión."
+   },
+   "Madrid": {
+    "tipo": "consejeria",
+    "nombre": "Unidad de defensa de la competencia de la consejería (solo instrucción; resuelve la CNMC)",
+    "norma": null,
+    "url": "https://cnmc.es/la-cnmc-y-las-autoridades-de-competencia-autonomicas-han-celebrado-en-madrid-el-consejo-anual-de",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "CNMC 2017: Madrid tiene solo órgano de instrucción y la CNMC resuelve. El antiguo Tribunal de Defensa de la Competencia de la Comunidad de Madrid ya no existe: año y norma de supresión no verificados en esta ronda. Vigencia 2026 no confirmada: se apoya solo en la lista oficial CNMC de 21/02/2017 y no se ha encontrado norma posterior en esta ronda."
+   },
+   "Murcia": {
+    "tipo": "consejeria",
+    "nombre": "Servicio de defensa de la competencia de la consejería (solo instrucción; resuelve la CNMC)",
+    "norma": null,
+    "url": "https://cnmc.es/la-cnmc-y-las-autoridades-de-competencia-autonomicas-han-celebrado-en-madrid-el-consejo-anual-de",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "CNMC 2017: Murcia tiene solo órgano de instrucción y la CNMC resuelve. Vigencia 2026 no confirmada: se apoya solo en la lista oficial CNMC de 21/02/2017 y no se ha encontrado norma posterior en esta ronda."
+   },
+   "Navarra": {
+    "tipo": "consejeria",
+    "nombre": "Unidad de defensa de la competencia del Gobierno de Navarra (solo instrucción; resuelve la CNMC)",
+    "norma": null,
+    "url": "https://cnmc.es/la-cnmc-y-las-autoridades-de-competencia-autonomicas-han-celebrado-en-madrid-el-consejo-anual-de",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "CNMC 2017: Navarra tiene solo órgano de instrucción y la CNMC resuelve. Vigencia 2026 no confirmada: se apoya solo en la lista oficial CNMC de 21/02/2017 y no se ha encontrado norma posterior en esta ronda."
+   },
+   "País Vasco": {
+    "tipo": "ente",
+    "nombre": "Autoridad Vasca de la Competencia (AVC)",
+    "norma": "Ley 1/2012, de 2 de febrero",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-2313",
+    "presupuesto_m": 2.227,
+    "anio": 2026,
+    "nota": "Ente con personalidad jurídica. Presupuesto: crédito 2026 (Ley 7/2025, BOPV 251), según la ficha ID 93 del proyecto (https://www.euskadi.eus/bopv2/datos/2025/12/2505538a.pdf)."
+   },
+   "La Rioja": {
+    "tipo": "estado",
+    "nombre": "CNMC (sin órgano autonómico)",
+    "norma": null,
+    "url": "https://cnmc.es/la-cnmc-y-las-autoridades-de-competencia-autonomicas-han-celebrado-en-madrid-el-consejo-anual-de",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "CNMC 2017: La Rioja figura entre las CCAA sin autoridad de competencia. Vigencia 2026 no confirmada: se apoya solo en la lista oficial CNMC de 21/02/2017 y no se ha encontrado norma posterior en esta ronda."
+   }
+  },
+  "notas": "La lista oficial más completa encontrada es de la CNMC (21/02/2017): 8 CCAA con instrucción y resolución, 4 solo con instrucción (Murcia, Canarias, Madrid y Navarra) y 5 sin autoridad (Asturias, CLM, Baleares, La Rioja y Cantabria). Cambio posterior verificado: Canarias creó en 2023 el Consejo Canario de Defensa de la Competencia. Galicia sustituyó en 2016 su Consello (OA) por la Comisión Galega da Competencia dentro del IGCC. Andalucía amplió la denominación de su agencia. Las celdas que solo se apoyan en la lista de 2017 llevan la marca 'Vigencia 2026 no confirmada'. El resumen ejecutivo de la memoria CNMC 2024 no nombra las autoridades autonómicas.",
+  "fuentes": [
+   "https://cnmc.es/la-cnmc-y-las-autoridades-de-competencia-autonomicas-han-celebrado-en-madrid-el-consejo-anual-de",
+   "https://www.boe.es/buscar/act.php?id=BOE-A-2007-14406",
+   "https://derecholocal.es/?p=11702",
+   "https://dogv.gva.es/datos/2012/03/26/pdf/2012_3049.pdf",
+   "https://laadministracionaldia.inap.es/noticia.asp?id=1057841",
+   "https://www.juntaex.es/w/0680923",
+   "https://www.lex.gal/es/normativa/detalle/10097/pdf/",
+   "https://www.boe.es/buscar/act.php?id=BOE-A-2012-2313",
+   "https://cnmc.es/sites/default/files/editor_contenidos/CNMC/Memorias/Resumen-ejecutivo-memoria-2024_.pdf"
+  ]
+ }
+]

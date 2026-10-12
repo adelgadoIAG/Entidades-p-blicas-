@@ -1,0 +1,259 @@
+[
+  {
+    "ID": 8,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). Real Decreto 3/2018, de 12 de enero (BOE-A-2018-432, BOE 13/01/2018), disposición adicional segunda «Gastos de funcionamiento»: «El Ministerio de Educación, Cultura y Deporte atenderá con cargo a su presupuesto ordinario los gastos de funcionamiento personales y materiales de este órgano colegiado» y «La dotación de personal al Observatorio se realizará a través de la correspondiente redistribución de efectivos del Ministerio, sin que ello pueda suponer incremento de puestos ni de retribuciones». La secretaría corresponde a la persona titular de la SG del Centro Nacional de Innovación e Investigación Educativa (art. 3.1.d del RD 275/2007, en la redacción del RD 3/2018). El coste lo absorbe el presupuesto ordinario del ministerio competente en educación (hoy Educación, FP y Deportes). No se prorratea y tampoco equivale a cero EUR. No se ha identificado ningún convenio, encargo, contrato ni subvención a su nombre. La norma no regula retribuciones ni indemnizaciones de los vocales.",
+      "Notas de personal y apoyo ministerial": "Órgano colegiado sin plantilla propia. RD 3/2018, DA 2.ª: el personal procede de la redistribución de efectivos del Ministerio, sin incremento de puestos ni de retribuciones. Secretaría: titular de la SG del CNIIE (art. 3.1.d RD 275/2007, redacción 2018). Los vocales, nombrados por ejemplo en 2025, no son plantilla. No se ha publicado el número de efectivos de apoyo. No repartir el gasto total del ministerio.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: RD 3/2018, DA 2.ª, redistribución de efectivos del Ministerio). No se publica el n.º de efectivos de apoyo; los vocales no son plantilla",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste lo absorbe el presupuesto ordinario del Ministerio de Educación (unidad de apoyo: SG del CNIIE según RD 3/2018); no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en la unidad ministerial de apoyo; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (RD 3/2018, DA 2.ª, verificado). El gasto va a cargo del presupuesto ordinario del Ministerio, sin prorrateo. No se ha identificado importe contextual"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/boe/dias/2018/01/13/pdfs/BOE-A-2018-432.pdf"
+    ],
+    "verificacion": "No hay cifras numéricas. BOE-A-2018-432 (RD 3/2018, BOE núm. 12, 13/01/2018, p. 4619 y siguientes): la DA 2.ª «Gastos de funcionamiento» es una disposición del propio RD 3/2018, no un apartado del artículo único, y está vigente. El apartado Tres del artículo único da nueva redacción al art. 3.1.d (secretario: titular de la SG del CNIIE). El texto no regula indemnizaciones ni retribuciones de los vocales. Un PDF del ministerio (rd-observatorio-estatal-convivencia-escolar.pdf) es un proyecto V-2 y no se ha usado como fuente.",
+    "no_encontrado": "No se ha encontrado el texto consolidado del RD 275/2007 en boe.es (la URL no estaba disponible para WebFetch), y la web del ministerio bloquea la lectura automática (robots). Tampoco aparece ningún convenio, contrato ni encargo con el nombre del Observatorio. Sin n.º de efectivos de apoyo publicado."
+  },
+  {
+    "ID": 9,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). LO 9/2011, art. 53.1: es un «órgano colegiado, de carácter asesor y consultivo, adscrito a las Cortes Generales». Art. 53.2: el Ministerio de Defensa «proporcionará la sede y el apoyo administrativo necesario para el funcionamiento del Observatorio», que «contará con un órgano de trabajo permanente». Art. 55.1: «La pertenencia al Observatorio no será retribuida». El art. 56.2 remite a un reglamento el estatuto de los miembros y la composición del órgano de trabajo; su presidente lo presentaba aún como reto pendiente en la Revista Española de Defensa (mayo de 2024). El coste de sede y apoyo administrativo lo absorbe el Ministerio de Defensa. No se prorratea y tampoco equivale a cero. Una búsqueda general no ha identificado ninguna partida, convenio ni contrato a su nombre. Actividad acreditada: el 26/06/2025 la Comisión de Defensa del Congreso debatió el dictamen sobre su Memoria-Informe 2023 (DSCD-15-CO-376).",
+      "Notas de personal y apoyo ministerial": "Sin plantilla propia publicada. Los 9 miembros (5 elegidos por el Congreso y 4 por el Senado) no son plantilla y su pertenencia no es retribuida (art. 55.1 LO 9/2011). Sede y apoyo administrativo: Ministerio de Defensa (art. 53.2). La ley prevé un «órgano de trabajo permanente», pero su composición depende de un reglamento que, según el presidente del Observatorio (RED, mayo de 2024), seguía pendiente. No repartir el gasto de Defensa.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: arts. 53.2 y 55.1 LO 9/2011). Órgano de trabajo permanente sin composición reglamentada ni efectivos publicados; los miembros no son plantilla",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste del apoyo administrativo y la sede lo absorbe el Ministerio de Defensa (art. 53.2 LO 9/2011); no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en el Ministerio de Defensa; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (LO 9/2011, arts. 53.2 y 55.1, verificado). Defensa aporta la sede y el apoyo administrativo, sin prorrateo. No se ha identificado importe contextual"
+    },
+    "fuentes_nuevas": [
+      "https://boe.es/boe/dias/2011/07/28/pdfs/BOE-A-2011-12961.pdf",
+      "https://www.boe.es/eli/es/lo/2011/07/27/9",
+      "https://www.congreso.es/public_oficiales/L15/CONG/DS/CO/DSCD-15-CO-376.PDF",
+      "https://working.mde.es/Galerias/gabinete/red/2024/05/p-30-31-red-416-observatorio.pdf"
+    ],
+    "verificacion": "No hay cifras numéricas. BOE-A-2011-12961, Título V (arts. 53 a 56): citas literales de los arts. 53.1, 53.2 y 55.1; la ley no contiene la frase «no supondrá incremento del gasto público». La página ELI no muestra modificaciones de los arts. 53, 55 y 56. DSCD-15-CO-376 (sesión de 26/06/2025): dictamen sobre la Memoria-Informe 2023. RED n.º 416 (mayo de 2024, pp. 30-31), artículo del presidente Mariano Casado: el reglamento del órgano de trabajo aparece como reto pendiente.",
+    "no_encontrado": "No se ha localizado el reglamento del art. 56.2, ni el n.º de personas del órgano de trabajo permanente, ni ninguna partida con su nombre en el presupuesto de Defensa o de las Cortes (no se revisó la sección 02 de los PGE en detalle). El RD 843/2013 que salió en la búsqueda no tiene relación con el Observatorio."
+  },
+  {
+    "ID": 10,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). RD 1220/2010, disposición adicional única «Gastos de funcionamiento»: «El Ministerio de Educación atenderá, con cargo a su presupuesto ordinario, los gastos de funcionamiento, personales y materiales de este órgano». La dotación de personal de la Unidad Técnica y de la Secretaría Permanente «será realizada desde la Subdirección General de Análisis, Estudios y Prospectiva Universitaria», y «No se solicitará para su funcionamiento ni incremento de puestos de trabajo ni de retribuciones». El art. 7.2 añade que la unidad técnica está integrada por personal de esa SG. El coste lo absorbe el departamento competente en universidades y no se prorratea. El importe de las becas NO es su presupuesto. Actividad: el ministerio informó el 19/12/2018 de que «Por primera vez en siete años» se reunía el Observatorio. No se ha encontrado evidencia oficial de reuniones posteriores, lo que no prueba inactividad.",
+      "Notas de personal y apoyo ministerial": "Sin plantilla propia. Unidad Técnica y Secretaría Permanente atendidas con personal de la SG de Análisis, Estudios y Prospectiva Universitaria (art. 7.2 y DA única del RD 1220/2010), sin incremento de puestos ni de retribuciones. Los vocales no son plantilla. No se ha publicado el n.º de efectivos de apoyo. No repartir el gasto ministerial.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: DA única y art. 7.2 del RD 1220/2010, personal de la SG de Análisis, Estudios y Prospectiva Universitaria). No se publica el n.º de efectivos",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste lo absorbe la SG de Análisis, Estudios y Prospectiva Universitaria / el presupuesto ordinario del departamento de universidades; no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en la SG de apoyo; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (RD 1220/2010, DA única, verificado), sin prorrateo. Sin importe contextual. Última reunión acreditada: 19/12/2018"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/eli/es/rd/2010/10/01/1220/con",
+      "https://www.ciencia.gob.es/Noticias/2018/Diciembre/El-Observatorio-de-Becas-se-reune-para-abordar-la-reforma-del-sistema.html"
+    ],
+    "verificacion": "No hay cifras numéricas. Texto consolidado del RD 1220/2010 en el BOE (última actualización 16/10/2010, sin modificaciones visibles): citas literales de la DA única y del art. 7.2. El art. 1.1 lo adscribe a la Secretaría General de Universidades del Ministerio de Educación (denominación de 2010). Nota del ministerio de 19/12/2018: «Por primera vez en siete años, hoy se ha reunido el Observatorio de Becas, Ayudas al Estudio y Rendimiento Académico».",
+    "no_encontrado": "No hay evidencia oficial de plenos posteriores a 2018. La PNL del PNV sobre el Observatorio no se pudo leer (fichero binario). No se ha publicado el n.º de efectivos de la unidad técnica. No hay convenio, contrato ni encargo con su nombre."
+  },
+  {
+    "ID": 11,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). RD 868/2010, disposición adicional segunda «Gastos de funcionamiento». Ap. 1: la Secretaría de Estado para la Función Pública, a través de la Dirección General de la Función Pública, «prestará al Secretariado los medios técnicos, personales y materiales que sean necesarios para el funcionamiento del Observatorio del Empleo Público». Ap. 2: «En ningún caso el funcionamiento del Observatorio del Empleo Público implicará directa o indirectamente incremento de gasto público». Secretariado: la persona titular de una SG de la DG de la Función Pública (art. 4.1.e). El coste lo absorbe la DG de la Función Pública y no se prorratea. No se ha identificado importe contextual. Las fuentes oficiales localizadas no acreditan actividad reciente, y la página del BOE no muestra derogación.",
+      "Notas de personal y apoyo ministerial": "Sin plantilla propia. Medios técnicos, personales y materiales a cargo de la SE de Función Pública a través de la DG de la Función Pública (RD 868/2010, DA 2.ª.1). Secretario: titular de una SG de esa DG (art. 4.1.e). Los vocales no son plantilla. No repartir el gasto ministerial.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: RD 868/2010, DA 2.ª, medios de la DG de la Función Pública). No se publica el n.º de efectivos de apoyo; los vocales no son plantilla",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste lo absorbe la DG de la Función Pública (SE de Función Pública); no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en la DG de la Función Pública; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (RD 868/2010, DA 2.ª, verificado), sin prorrateo. Sin importe contextual; actividad reciente no acreditada"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/eli/es/rd/2010/07/02/868"
+    ],
+    "verificacion": "No hay cifras numéricas. Página ELI del BOE del RD 868/2010: citas literales de la DA 2.ª (aps. 1 y 2) y del art. 4.1.e. El art. 2 lo define como órgano colegiado adscrito al Ministerio de la Presidencia a través de la SE para la Función Pública (denominación de 2010). La página no muestra notas de modificación ni de derogación.",
+    "no_encontrado": "No hay evidencia oficial de reuniones o informes del Observatorio entre 2023 y 2026 (búsqueda de prensa y newsletters de Función Pública sin resultado). No hay convenio, contrato ni encargo con su nombre."
+  },
+  {
+    "ID": 12,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). RD 430/2009, disposición adicional única: «La Secretaría de Estado de Comercio prestará los medios técnicos, personales y materiales que sean necesarios para el cumplimiento de la adecuada celebración de las reuniones y sesiones de trabajo» y «El funcionamiento de Observatorio no supondrá incremento de gasto, ya sea por indemnizaciones, asistencias o, en general, por cualesquiera otros conceptos». Secretaría General Permanente: titular de la SG de Análisis, Estrategia y Evaluación de la SE de Comercio (art. 4.3). El coste lo absorbe la SE de Comercio y no se prorratea. No se ha identificado importe contextual. El BOE no registra derogación ni modificación. No se ha verificado el cumplimiento del informe anual al Congreso (art. 3.2).",
+      "Notas de personal y apoyo ministerial": "Sin plantilla propia. Medios técnicos, personales y materiales de la SE de Comercio (RD 430/2009, DA única). La Secretaría General Permanente (titular de la SG de Análisis, Estrategia y Evaluación, art. 4.3) elabora los estudios encargados por el Pleno (art. 5). La norma excluye cualquier gasto por indemnizaciones o asistencias. Los vocales no son plantilla.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: RD 430/2009, DA única, medios de la SE de Comercio). No se publica el n.º de efectivos; los vocales no son plantilla",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste lo absorbe la SE de Comercio (SG de Análisis, Estrategia y Evaluación); no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en la SE de Comercio; tampoco hay indemnizaciones ni asistencias (DA única); no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (RD 430/2009, DA única, verificado). Sin indemnizaciones ni asistencias; sin prorrateo; sin importe contextual"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/eli/es/rd/2009/03/27/430"
+    ],
+    "verificacion": "No hay cifras numéricas. Ficha del BOE BOE-A-2009-6645 y página ELI: citas literales de la DA única y del art. 3.2. En «Análisis» solo figuran referencias anteriores (art. 40.1.c de la Ley 6/1997) y ninguna referencia posterior de modificación o derogación. Art. 1: adscripción al Ministerio de Industria, Turismo y Comercio a través de la SE de Comercio (denominación de 2009).",
+    "no_encontrado": "No se ha encontrado ningún informe anual remitido al Congreso ni actas recientes. No hay convenio, contrato ni encargo con su nombre."
+  },
+  {
+    "ID": 13,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en la norma vigente). El RD 253/2006 quedó derogado por el RD 752/2022, de 13 de septiembre (BOE 28/09/2022, en vigor desde el 29/09/2022), que regula hoy funciones, funcionamiento y composición del Observatorio. Disposición adicional única del RD 752/2022 «Gastos de funcionamiento»: el departamento del que dependa orgánicamente la Delegación del Gobierno contra la Violencia de Género «atenderá los gastos de funcionamiento personales y materiales del Observatorio, con cargo al presupuesto ordinario de dicho ministerio». Secretaría: titular de la SG de Sensibilización, Prevención y Estudios de la Violencia de Género (art. 4.4). El coste lo absorbe la DGVG (Ministerio de Igualdad) y no se prorratea. No se ha identificado ningún contrato, encargo ni convenio a nombre del Observatorio. La norma no regula retribuciones ni indemnizaciones de los vocales.",
+      "Notas de personal y apoyo ministerial": "Sin plantilla propia. Gastos personales y materiales con cargo al presupuesto ordinario del ministerio del que depende la DGVG (RD 752/2022, DA única). Secretaría: SG de Sensibilización, Prevención y Estudios de la Violencia de Género de la DGVG (art. 4.4). La anterior previsión de dotar una «División de Estudios e Informes» mediante modificación de la RPT sin incremento de gasto (RD 253/2006, DF 2.ª) quedó derogada en 2022. Los vocales no son plantilla.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: RD 752/2022, DA única y art. 4.4, apoyo de la SG de Sensibilización, Prevención y Estudios de la DGVG). No se publica el n.º de efectivos",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste lo absorbe la Delegación del Gobierno contra la Violencia de Género (presupuesto ordinario del Ministerio de Igualdad); no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en la DGVG; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (RD 752/2022, DA única, verificado). El RD 253/2006 está derogado. Sin prorrateo; sin importe contextual"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/eli/es/rd/2022/09/13/752/con",
+      "https://www.boe.es/eli/es/rd/2006/03/03/253/con"
+    ],
+    "verificacion": "No hay cifras numéricas. Corrección: el texto consolidado del RD 253/2006 en el BOE indica que fue derogado con efectos desde el 29/09/2022 por la disposición derogatoria única del RD 752/2022 (BOE-A-2022-15763). No se han tocado «Norma fundacional» ni las columnas de mandato; solo se documenta en los textos. RD 752/2022 consolidado (texto inicial sin modificaciones): citas literales de la DA única y del art. 4.4. El art. 2 lo adscribe al departamento del que dependa la DGVG.",
+    "no_encontrado": "No hay ningún contrato, encargo ni convenio a nombre del Observatorio: solo aparecen los informes anuales publicados por la DGVG, sin importes. Tampoco se ha publicado el n.º de efectivos de la SG de apoyo dedicados al Observatorio."
+  },
+  {
+    "ID": 15,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). RD 613/2007, disposición adicional única «Medios de funcionamiento»: «El Ministerio de Trabajo y Asuntos Sociales atenderá con sus medios personales y materiales a la constitución y funcionamiento del Consejo Estatal y, en su seno, del Observatorio, sin que ello suponga incremento de gasto». El Observatorio es un órgano del Consejo y opera también como su Comisión Permanente (art. 1.2). Secretario: un funcionario del ministerio designado por la SE de Servicios Sociales, Familias y Discapacidad (art. 7.1). El coste lo absorbe el departamento hoy competente en familias (Derechos Sociales) y no se prorratea. Consejo y Observatorio no son dos presupuestos. El RD 904/2025 (subvenciones directas de Derechos Sociales) no contiene ningún importe para el Consejo ni para el Observatorio. No consta modificación ni derogación en la página del BOE. No se ha verificado la reunión anual ordinaria (art. 12.1).",
+      "Notas de personal y apoyo ministerial": "Sin plantilla propia. Medios personales y materiales del ministerio competente (RD 613/2007, DA única), sin incremento de gasto. Secretario del Consejo y del Observatorio: un funcionario designado por la SE (art. 7.1). Los vocales no son plantilla. No repartir el gasto ministerial.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: RD 613/2007, DA única). Secretaría ejercida por un funcionario ministerial; no se publica el n.º de efectivos",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste lo absorbe el ministerio competente en familias (Derechos Sociales); no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en la unidad ministerial de familias; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (RD 613/2007, DA única, verificado). El Observatorio no tiene un presupuesto separado del Consejo. Sin prorrateo; sin importe contextual"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/eli/es/rd/2007/05/11/613"
+    ],
+    "verificacion": "No hay cifras numéricas. Página ELI del BOE del RD 613/2007: citas literales de la DA única, del art. 1.2 y del art. 7.1; la única referencia anterior que figura es la DA 6.ª de la Ley 40/2003, y no hay modificaciones ni derogación. Revisado el RD 904/2025 (BOE-A-2025-20078): no hay subvención para el Consejo ni para el Observatorio Estatal de Familias.",
+    "no_encontrado": "No hay evidencia oficial de plenos o reuniones entre 2023 y 2026. No se ha encontrado el n.º de efectivos de apoyo ni ningún convenio o contrato con su nombre."
+  },
+  {
+    "ID": 16,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). RDLeg 1/2013, art. 73.4: «El cumplimiento de las funciones dirigidas al desarrollo de los objetivos generales del Observatorio Estatal de la Discapacidad no supondrá incremento del gasto público». Según el art. 73.1 es un instrumento técnico de la AGE que actúa a través de la DG competente en discapacidad. Financiación específica identificable (contextual, NO presupuesto propio): subvención de concesión directa de 100.000 EUR (0,1 M) al CERMI «para el Observatorio Estatal de la Discapacidad» (RD 904/2025, art. 3.3.e). La concede el Real Patronato sobre Discapacidad, con ejecución de hasta 12 meses entre el 01/01/2025 y el 31/12/2026. Antecedente: el convenio RPD–CERMI de 2023 (BOE-A-2023-11877) canalizó una subvención nominativa de 80.000 EUR (0,08 M) para su gestión y funcionamiento en 2023, con cargo a la aplicación 29.102.231F.485 de los PGE 2023. Estos importes no se suman ni se tratan como presupuesto del órgano, y el presupuesto del Real Patronato no se le atribuye.",
+      "Importe contextual (EUR millones; NO sumar)": 0.1,
+      "Año / periodo contextual": "2025 (ejecución de hasta 12 meses consecutivos entre 01/01/2025 y 31/12/2026)",
+      "Base contextual": "Subvención de concesión directa, RD 904/2025, art. 3.3.e (concedente: Real Patronato sobre Discapacidad; presupuesto 2023 prorrogado para 2025); NO presupuesto del órgano",
+      "Nombre del titular del importe": "Comité Español de Representantes de Personas con Discapacidad (CERMI), para el Observatorio Estatal de la Discapacidad",
+      "URL del documento": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20078",
+      "Notas de personal y apoyo ministerial": "Instrumento técnico sin personalidad jurídica ni plantilla pública. La gestión técnica la hace el CERMI con la subvención (RD 904/2025, art. 3.3.e; antes, convenio BOE-A-2023-11877, cuyo anexo 2 incluía 15.000 EUR para la secretaría técnica y exigía que el 100 % del personal técnico de la entidad fueran personas con discapacidad). Ese personal lo emplea el CERMI y NO es plantilla pública. Dirección pública: DG competente en discapacidad (RDLeg 1/2013, art. 73.1). No repartir el presupuesto del Real Patronato ni el del ministerio.",
+      "Estado de verificación del personal": "Sin plantilla pública propia (verificado: RDLeg 1/2013, art. 73, y convenio/subvención al CERMI). El personal técnico es de la entidad gestora (CERMI) y no se cuenta",
+      "Estado de verificación del coste": "Sin crédito de personal propio: la dirección la absorbe la DG competente en discapacidad y la gestión técnica se financia con una subvención al CERMI (contextual, 0,1 M en 2025); no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto del CERMI se justifica con la cuenta justificativa de la subvención, no como capítulo 1 público; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (art. 73.4 RDLeg 1/2013, verificado). Importe contextual verificado: 0,1 M EUR de subvención directa al CERMI en 2025 (RD 904/2025); 0,08 M EUR en 2023 (convenio BOE-A-2023-11877)"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/eli/es/rdlg/2013/11/29/1",
+      "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20078",
+      "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-11877"
+    ],
+    "verificacion": "1) RD 904/2025, de 8 de octubre (BOE núm. 243, 09/10/2025, pp. 129505-129535), art. 3.3.e, literal: «Comité Español de Representantes de Personas con Discapacidad (CERMI), para el Observatorio Estatal de la Discapacidad», «cien mil euros (100.000 euros)». Encabezado del art. 3.3: «en el ámbito competencial del Real Patronato sobre Discapacidad». Periodo según el art. 4.4. 100.000 EUR = 0,1 M EUR. 2) BOE-A-2023-11877 (Resolución de 10/05/2023, BOE núm. 119 de 19/05/2023): 80.000 EUR = 0,08 M EUR, aplicación 29.102.231F.485 de los PGE 2023 (la resolución cita la Ley 31/2022 con una errata en la fecha), gastos desde el 01/01/2023 hasta el 31/12/2023; anexo 2, secretaría técnica 15.000 EUR = 0,015 M EUR. No se suman. 3) RDLeg 1/2013, art. 73.4, literal citado. El importe de 2023 se deja como texto porque es de un ejercicio anterior.",
+    "no_encontrado": "No se ha encontrado ningún convenio de 2024 ni de 2026 con su nombre: los convenios RPD–CERMI de 2025 en el BOE (BOE-A-2025-8363) son de otros proyectos. Tampoco se ha encontrado el n.º de personas del CERMI dedicadas al Observatorio."
+  },
+  {
+    "ID": 17,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). RD 1574/2007 (BOE 01/01/2008), disposición adicional segunda «Personal al servicio del Observatorio del Libro y de la Lectura»: «La dotación de personal del Observatorio del Libro y de la Lectura se realizará a través de la correspondiente modificación de la relación de puestos de trabajo del Ministerio de Cultura. Dicha modificación, en ningún caso, podrá suponer incremento del gasto público». Art. 1.3: órgano colegiado adscrito al Ministerio de Cultura a través de la DG del Libro, Archivos y Bibliotecas (denominación de 2007). Art. 5.2: la secretaría del Pleno la ejerce un funcionario de esa DG. El coste lo absorbe la DG competente en libro y lectura del Ministerio de Cultura y no se prorratea. No se ha identificado importe contextual. La norma no regula indemnizaciones de los miembros.",
+      "Notas de personal y apoyo ministerial": "Sin plantilla propia. Personal mediante modificación de la RPT del Ministerio de Cultura, sin incremento del gasto público (RD 1574/2007, DA 2.ª). Secretaría: un funcionario de la DG del Libro (art. 5.2), que también ejerce la secretaría del Comité Técnico (art. 6.f). No se publica cuántos puestos RPT tiene asignados. Los vocales no son plantilla.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: RD 1574/2007, DA 2.ª, puestos de la RPT del Ministerio de Cultura). No se publica el n.º de puestos ni de efectivos",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste lo absorbe la DG del Libro del Ministerio de Cultura (RPT ministerial); no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en la DG del Libro; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (RD 1574/2007, DA 2.ª, verificado). Personal de la RPT de Cultura sin incremento de gasto; sin prorrateo; sin importe contextual"
+    },
+    "fuentes_nuevas": [
+      "https://boe.es/boe/dias/2008/01/01/pdfs/A00012-00014.pdf"
+    ],
+    "verificacion": "No hay cifras numéricas. PDF del BOE de 01/01/2008, pp. 12-14 (RD 1574/2007): citas literales de la DA 2.ª y referencias a los arts. 1.3, 5.2 y 6.f. No se pudo leer el consolidado del BOE (permiso de WebFetch no concedido; el PDF consolidado BOE-A-2008-3 devolvió un aviso de la sede), así que no se ha comprobado si hay modificaciones posteriores a la DA 2.ª.",
+    "no_encontrado": "Faltan el consolidado del RD 1574/2007, la actividad del Pleno en 2024-2026, el n.º de puestos RPT asignados y cualquier contrato o convenio a su nombre (el Barómetro de hábitos de lectura no se le atribuye sin documento)."
+  },
+  {
+    "ID": 18,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). Acuerdo del Consejo de Ministros de 18/01/2013, publicado por Resolución AESAN de 28/01/2013 (BOE-A-2013-2074, BOE 23/02/2013). Apartado Cuarto.1: funciona con «los recursos humanos y materiales de la estructura permanente de la Unidad técnica de la Estrategia NAOS, dependiente de la AESAN». Apartado Quinto: «Los miembros del Observatorio no percibirán remuneración alguna en el ejercicio de sus funciones» y «La creación del Observatorio no supondrá aumento del gasto público». Secretaría: un representante de AESAN responsable del seguimiento epidemiológico y la evaluación de NAOS (apartado Tercero.1.D). El coste lo absorbe AESAN, organismo autónomo cuyo presupuesto NO es el del Observatorio, y no se prorratea. La web de AESAN no publica presupuesto, contratos ni fechas de reuniones; estudios como ALADINO no se le imputan como importe propio.",
+      "Notas de personal y apoyo ministerial": "Sin plantilla propia. Recursos humanos y materiales de la Unidad técnica de la Estrategia NAOS de AESAN (apartado Cuarto.1 del Acuerdo CM de 18/01/2013). Miembros sin remuneración (apartado Quinto); no son plantilla. No se publica el n.º de efectivos de la Unidad NAOS dedicados al Observatorio. No repartir el presupuesto de AESAN.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: Acuerdo CM 18/01/2013, apartado Cuarto.1, Unidad técnica NAOS de AESAN). No se publica el n.º de efectivos; los miembros no son plantilla",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste lo absorbe AESAN (Unidad técnica de la Estrategia NAOS); no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en AESAN; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (Acuerdo CM 18/01/2013, apartados Cuarto y Quinto, verificado). Miembros no remunerados; sin prorrateo; sin importe contextual"
+    },
+    "fuentes_nuevas": [
+      "https://boe.es/boe/dias/2013/02/23/pdfs/BOE-A-2013-2074.pdf",
+      "https://aesan.gob.es/nutricion/datos-sobrepeso-obesidad/observatorio-nutricion-y-estudio-obesidad"
+    ],
+    "verificacion": "No hay cifras numéricas. PDF de BOE-A-2013-2074: citas literales de los apartados Primero (adscripción al Ministerio a través de AESAN), Tercero.1.D, Cuarto.1 y Quinto (la norma dice «aumento», no «incremento»). La página de AESAN sobre el Observatorio repite lo de los medios de la Unidad NAOS y no da cifras.",
+    "no_encontrado": "No hay ningún contrato, encargo ni convenio a nombre del Observatorio, ni fechas de plenos o informes anuales recientes en la web de AESAN. Tampoco se ha encontrado el n.º de efectivos de la Unidad NAOS."
+  },
+  {
+    "ID": 19,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). El RD 221/2008 fue modificado por el RD 301/2026, de 8 de abril (BOE-A-2026-8072, BOE 11/04/2026), que añade la disposición adicional cuarta «Ausencia de incremento de gasto público»: «La creación y el funcionamiento del Consejo Estatal de Responsabilidad Social de las Empresas no supondrá incremento del gasto público, y será atendido con los medios personales, técnicos y presupuestarios existentes en la Secretaría de Estado de Economía Social del Departamento y por los órganos y organismos con representación en este». Según el nuevo art. 2.2, la DG competente en RSE «llevará a cabo las tareas de preparación, apoyo técnico y gestión del consejo»; según el art. 5.3, la secretaría la asume la persona titular de esa DG. El coste lo absorbe la DG de Economía Social y RSE (Ministerio de Trabajo y Economía Social) y no se prorratea. La reactivación de 2026 se apoya en el RD 301/2026 y en la Orden TES/693/2026 (BOE 10/07/2026), que regula la asignación de vocalías. No se ha identificado importe contextual.",
+      "Notas de personal y apoyo ministerial": "Sin plantilla propia. Preparación, apoyo técnico y gestión a cargo de la DG competente en RSE (art. 2.2, redacción del RD 301/2026). Secretaría: titular de esa DG, que puede contar con personal de apoyo (art. 5.3). Medios personales, técnicos y presupuestarios de la SE de Economía Social (DA 4.ª). Los vocales no son plantilla.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: RD 221/2008, DA 4.ª y arts. 2.2 y 5.3 en la redacción del RD 301/2026). No se publica el n.º de efectivos de la DG dedicados al CERSE",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste lo absorbe la DG de Economía Social y RSE / SE de Economía Social (Ministerio de Trabajo y Economía Social); no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en la DG de apoyo; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (RD 221/2008, DA 4.ª introducida por el RD 301/2026, verificado). Sin prorrateo; sin importe contextual"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/eli/es/rd/2026/04/08/301",
+      "https://www.boe.es/boe/dias/2026/07/10/pdfs/BOE-A-2026-15029.pdf"
+    ],
+    "verificacion": "No hay cifras numéricas. RD 301/2026 (BOE núm. 89, 11/04/2026, pp. 51999-52008): modifica los arts. 2, 3, 4, 5 y 8, la DA 3.ª y las DF 1.ª y 2.ª del RD 221/2008, y añade la DA 4.ª y la DF 3.ª. Citas literales de la DA 4.ª y del art. 2.2. La Orden TES/693/2026 (BOE núm. 167, 10/07/2026) desarrolla la asignación de vocalías y no contiene cláusulas de gasto. Es coherente con la ficha («reactivación 2026»).",
+    "no_encontrado": "No se ha encontrado el texto original del RD 221/2008 sobre gasto (sustituido o completado en 2026), ni el n.º de efectivos de apoyo, ni ningún convenio o contrato con su nombre."
+  },
+  {
+    "ID": 20,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). RD 891/2005, disposición adicional segunda «Financiación»: «El coste de funcionamiento del Consejo Estatal del Pueblo Gitano será atendido con cargo a los créditos existentes en el Ministerio de Trabajo y Asuntos Sociales, sin que sea necesario el incremento de su dotación global». Art. 8.1: secretario, el titular de la SG de Programas Sociales, «que podrá ser asistido por el personal de apoyo necesario». La web del Ministerio de Derechos Sociales, Consumo y Agenda 2030 sitúa hoy la secretaría en la SG de Servicios Sociales. El coste lo absorbe esa SG y no se prorratea. En el Pleno de 20/02/2024 (acta publicada) se acordó poner en marcha una Oficina/Secretaría Técnica «con medios propios» antes de fin de año, pero no se ha localizado ningún contrato, subvención ni importe específico. Las cifras de esa acta (CODI, Plan de Desarrollo Gitano) son programas de política gitana y NO presupuesto del Consejo. Actividad: Pleno de 20/02/2024; la Orden DCA/935/2026 (BOE 05/09/2026) convoca la renovación de vocalías.",
+      "Notas de personal y apoyo ministerial": "Sin plantilla propia. Secretaría: SG de Servicios Sociales según la web ministerial; la norma de 2005 decía SG de Programas Sociales (art. 8.1), con personal de apoyo de esa unidad. La Oficina/Secretaría Técnica acordada en el Pleno de 20/02/2024 se pondría en marcha «con medios propios», sin importe ni n.º de personas localizados. Hay 40 vocalías en el Pleno; no son plantilla.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: RD 891/2005, DA 2.ª y art. 8.1, personal de apoyo de la SG ministerial). No se publica el n.º de efectivos; los vocales no son plantilla",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste lo absorbe la SG de Servicios Sociales (Ministerio de Derechos Sociales, Consumo y Agenda 2030); no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en la SG de apoyo; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (RD 891/2005, DA 2.ª, verificado). Sin prorrateo. Secretaría técnica acordada en 2024 sin importe localizado"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/buscar/pdf/2005/BOE-A-2005-14549-consolidado.pdf",
+      "https://www.dsca.gob.es/es/derechos-sociales/poblacion-gitana/consejo-estatal",
+      "https://dsca.gob.es/sites/default/files/derechos-sociales/poblacion-gitana/docs/Acta_Pleno_200224__Censurado_0.pdf",
+      "https://boe.es/boe/dias/2026/09/05/pdfs/BOE-A-2026-18697.pdf"
+    ],
+    "verificacion": "No hay cifras propias. Texto original en el BOE (A29622-29625) y consolidado BOE-A-2005-14549: citas literales de la DA 2.ª y del art. 8.1. La Resolución de 24/01/2025 (BOE-A-2025-1952) y la Orden DCA/935/2026 (BOE-A-2026-18697) no modifican el RD 891/2005: son procesos de selección de vocalías y no tienen cláusulas de gasto. El acta del Pleno de 20/02/2024 contiene importes de programas (p. ej. CODI, 97 M) que NO son del Consejo y no se incorporan.",
+    "no_encontrado": "No se ha encontrado ningún contrato, subvención ni encargo para la «Oficina/Secretaría Técnica» del CEPG acordada en 2024 (búsqueda en BOE, web y contratación), ni el n.º de efectivos de apoyo. El RD 904/2025 incluye 40.000 EUR para la Plataforma Khetané, pero no son para el Consejo y no se usan."
+  },
+  {
+    "ID": 21,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). RD 1791/2009, disposición adicional cuarta «Financiación»: «Para el desempeño de sus funciones, el Consejo de Participación de la Mujer contará con los créditos presupuestarios que asigne el Ministerio de Igualdad, sin que en ningún caso pueda originarse incremento del gasto público». Secretaría: tras la disposición final segunda del RD 634/2026 (Estatutos del Instituto de las Mujeres, O.A., BOE 30/07/2026), el art. 7.1 dice: «Ejercerá la secretaría la persona que ostente la Presidencia del Instituto de las Mujeres, O.A.». El coste lo absorbe el Ministerio de Igualdad / Instituto de las Mujeres, O.A. No se prorratea ni se le atribuye el presupuesto del Instituto. No se ha identificado ningún crédito con su nombre. La norma no regula retribuciones ni indemnizaciones de las vocalías.",
+      "Notas de personal y apoyo ministerial": "Sin plantilla propia. Créditos que asigne el Ministerio de Igualdad, sin incremento del gasto público (RD 1791/2009, DA 4.ª). La secretaría corresponde a la Presidencia del Instituto de las Mujeres, O.A. (art. 7.1 en la redacción del RD 634/2026). Los «servicios correspondientes» facilitan asistencia técnica a las vocalías (art. 7.2.d). Las vocalías no son plantilla.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: RD 1791/2009, DA 4.ª y art. 7, apoyo del Instituto de las Mujeres, O.A.). No se publica el n.º de efectivos",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste lo absorben el Ministerio de Igualdad y el Instituto de las Mujeres, O.A.; no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en el Instituto de las Mujeres / Ministerio de Igualdad; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (RD 1791/2009, DA 4.ª, verificado). Secretaría en el Instituto de las Mujeres desde el RD 634/2026. Sin prorrateo; sin importe contextual"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/eli/es/rd/2009/11/20/1791/con/20260730",
+      "https://boe.es/buscar/pdf/2026/BOE-A-2026-16550-consolidado.pdf"
+    ],
+    "verificacion": "No hay cifras numéricas. Consolidado del BOE del RD 1791/2009 (versión de 30/07/2026): citas literales de la DA 4.ª y del art. 2.1, que lo adscribe a la AGE a través del Ministerio de Sanidad, Política Social e Igualdad (redacción de 2010, no actualizada). RD 634/2026, de 29 de julio (BOE-A-2026-16550, BOE núm. 185, 30/07/2026): su DF 2.ª modifica el art. 7.1 del RD 1791/2009 (secretaría).",
+    "no_encontrado": "No hay evidencia oficial de plenos entre 2024 y 2026 ni crédito con su nombre en el presupuesto del Instituto de las Mujeres. Tampoco se ha encontrado el n.º de efectivos de apoyo."
+  },
+  {
+    "ID": 29,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Sin presupuesto propio (verificado en norma). RD 64/2015, art. 13 «Financiación»: «Los gastos derivados de su funcionamiento y de la elaboración de estudios no supondrán, en ningún caso, aumento del gasto público ni sus miembros percibirán dietas por el ejercicio de sus funciones y se financiarán con cargo al Presupuesto de Gastos del Ministerio de Agricultura, Alimentación y Medio Ambiente». La norma atribuye la secretaría a la persona titular de la SG de Estructura de la Cadena Alimentaria (art. 11.1.d). Según la Memoria 2024 del Observatorio, hoy está adscrito a través de la DG de Alimentación y la secretaría la ejerce la titular de la SG de Promoción de los Alimentos de España. El coste lo absorbe el presupuesto del MAPA (DG de Alimentación) y no se prorratea; NO lo financia AICA. La Memoria 2024 no publica presupuesto, personal ni importes de los estudios de cadena de valor. Actividad 2024: plenos el 14/02, 02/07, 14/11 y 11/12/2024.",
+      "Notas de personal y apoyo ministerial": "Sin plantilla propia. Funcionamiento y estudios con cargo al presupuesto del MAPA (RD 64/2015, art. 13); los miembros no perciben dietas. Apoyo de la DG de Alimentación y secretaría en la SG de Promoción de los Alimentos de España (Memoria 2024). Corrección: AICA es un organismo distinto y no financia el Observatorio según la norma. Los vocales no son plantilla.",
+      "Estado de verificación del personal": "Sin plantilla propia (verificado en norma: RD 64/2015, art. 13; apoyo de la DG de Alimentación del MAPA). No se publica el n.º de efectivos; los vocales no son plantilla",
+      "Estado de verificación del coste": "Sin crédito de personal propio: el coste lo absorbe el MAPA (DG de Alimentación / SG de Promoción de los Alimentos de España); no se prorratea",
+      "Estado de verificación de ejecución": "Sin ejecución de personal propia: el gasto está incluido en la DG de Alimentación del MAPA; no se prorratea",
+      "Cobertura presupuesto / personal / salarios": "No tiene presupuesto, plantilla ni capítulo 1 propios (RD 64/2015, art. 13, verificado). Miembros sin dietas; sin prorrateo; sin importe contextual. 4 plenos en 2024"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/eli/es/rd/2015/02/06/64/con",
+      "https://www.mapa.gob.es/dam/mapa/contenido/alimentacion/servicios/observatorio-de-precios-de-los-alimentos/memoria-de-actividades/memoria-del-observatorio-de-la-cadena-alimentaria.pdf"
+    ],
+    "verificacion": "No hay cifras numéricas. RD 64/2015 consolidado (última actualización 02/04/2025): cita literal del art. 13 y referencia al art. 11.1.d. Memoria del Observatorio de 2024 (MAPA): creado por el art. 19 de la Ley 12/2013 (reforzado por la Ley 16/2021); adscrito a través de la DG de Alimentación; secretaría en la SG de Promoción de los Alimentos de España; constituido el 07/04/2015; plenos de 2024 en las fechas indicadas. Corrección de la nota previa «Medios del MAPA / AICA»: la norma imputa los gastos al presupuesto del Ministerio, no a AICA.",
+    "no_encontrado": "No se han encontrado importes de contratos ni de encargos para los estudios de cadena de valor (la Memoria 2024 no los da y la búsqueda en contratación no dio resultados), ni el n.º de efectivos de apoyo. La web del MAPA sobre función y estructura bloquea la lectura automática (robots)."
+  }
+]

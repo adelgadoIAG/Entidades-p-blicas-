@@ -1,0 +1,103 @@
+[
+ {
+  "ID": 2,
+  "updates": {},
+  "verificacion": "Sin desglose verificable. Revisados: (1) Plan de Acción Anual AESA 2025 (https://www.seguridadaerea.gob.es/sites/default/files/Plan%20de%20Acci%C3%B3n%20Anual%20AESA%202025%20Doc%20Publico.pdf): no tiene apartado de personal. (2) Informe General de Actividad 2024 (https://www.seguridadaerea.gob.es/sites/default/files/SIG-IGA-MEM04%20Ed.01_V6.pdf): el índice sitúa 'Profesionales de AESA' en p.79, pero la lectura automática se corta en p.58. (3) Cuentas anuales e informe de gestión 2025 (https://www.seguridadaerea.gob.es/sites/default/files/Cuentas_anuales_e_informe_de_gestion_2025.pdf): la lectura se corta en p.56 de 99, antes del informe de gestión; solo da importes (obligaciones reconocidas: sueldos grupo A 3.306.979,89 EUR; B 1.433.527,53; C 292.977,10; D 132.269,32; E 8.149,86), no personas. (4) Presupuesto de gastos 2024-P, Sección 17, Entidad 301 (https://www.seguridadaerea.gob.es/sites/default/files/Ejercicio_2025.pdf), p.83: art. 10 'Altos cargos' 93,86 miles EUR; art. 12 Funcionarios 17.549,06 (A1 4.280,83; A2 1.542,36; C1 231,60; C2 176,70; E 7,35); art. 13 Laborales 321,92. Son créditos, no efectivos. El portal de transparencia de AESA solo publica la retribución de la Directora (2025: 100.541 EUR) como máximo responsable; no publica RPT ni personal eventual.",
+  "no_encontrado": "Desglose técnico/inspector vs administración, libre designación, número de altos cargos y eventuales. Comprobación manual recomendada: Informe General de Actividad 2024, p.79 'Profesionales de AESA', y el informe de gestión de las cuentas anuales 2025 (pp.57-99)."
+ },
+ {
+  "ID": 3,
+  "updates": {},
+  "verificacion": "No se ha localizado memoria, plan de actuación ni RPT de la CELAD con distribución del personal. Los documentos encontrados en celad.educacionfpydeportes.gob.es son convocatorias (p.ej. 2 plazas de personal laboral fijo fuera de convenio, Jefe/a de División de Gestión y Aplicación de Actividades de Lucha contra el Dopaje y Jefe/a de División de Investigación y Estudios, resolución firmada el 28/12/2022) y una ficha de tratamiento de datos de 'Provisión de puestos de trabajo', sin cifras.",
+  "no_encontrado": "Desglose por función o subgrupo, libre designación, altos cargos y eventuales."
+ },
+ {
+  "ID": 5,
+  "updates": {},
+  "verificacion": "airef.es bloquea la lectura automática (error ROBOTS_DISALLOWED al abrir https://www.airef.es/wp-content/uploads/2025/04/Sobre_nosotros/RPT_funcionarios_03_04_2025.pdf). No se han encontrado copias oficiales de la RPT ni de la Memoria 2025 en otros dominios.",
+  "no_encontrado": "Todo el desglose. Comprobación manual recomendada: RPT de funcionarios a 03/04/2025 (enlace anterior; da subgrupo y forma de provisión por puesto) y Memoria anual de actividades 2025 (https://www.airef.es/wp-content/uploads/2026/03/Memoria/AIReF_Memoria-anual-de-actividades_2025.pdf), apartado de recursos humanos."
+ },
+ {
+  "ID": 6,
+  "updates": {
+   "Desglose: personal técnico/científico/inspector": 17,
+   "Desglose: personal de administración y apoyo": 13,
+   "Desglose: otro / no clasificable": 1,
+   "Desglose: total de referencia": 31,
+   "Desglose: unidad y fecha": "Personas (efectivos) a 31/12/2025 (Memoria CTBG 2025, Tabla 1). Libre designación: puestos de la RPT de funcionarios vigente a 30/06/2026 (39 puestos), otra fuente y fecha.",
+   "Desglose: criterio de clasificación": "Proxy por subgrupo, no por función. A1 (11) + A2 (6) van al núcleo técnico; C1 (12) + C2 (1) van a administración y apoyo; el Presidente (alto cargo, sin grupo) va a 'otro'. Parte de los A1 hacen gestión (Secretario/a General, Director/a de Gabinete) y parte de los C1 hacen tareas técnicas (3 Analistas de Sistemas, 4 Jefes/as de Sección de nivel 22).",
+   "Puestos de libre designación": 10,
+   "Altos cargos": 1,
+   "Personal eventual (confianza)": 0,
+   "Desglose: fuente": "https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/nosotros/memorias-y-plan-estrategico/memoria-2025/Memoria_2025_CTBG.pdf",
+   "Desglose: verificación": "Memoria CTBG 2025, ap. 1.3.2, p.19, Tabla 1 'Efectivos del CTBG a 31 de diciembre de 2025'. Presidente: 1 (sin grupo). A1: Subdirector/a General 3 + Secretario/a General 1 + Director/a de Gabinete 1 + Puesto de trabajo N30 1 + Subdirector/a Adjunto/a 2 + Jefe/a de Área 2 + Consejero/a Técnico/a 1 = 11. A2: Jefe/a de Servicio N26 5 + Jefe/a de Sección N20 1 = 6. C1: Jefe/a de Sección N22 4 + Analista de Sistemas 3 + Secretario/a N18 2 + Secretario/a de Subdirector General 1 + Jefe/a de Negociado 2 = 12. C2: Secretario/a de Subdirector General 1. Total de efectivos: 31. Texto: 'todos ellos funcionarios de carrera por expresa disposición estatutaria, con excepción del Presidente'. Libre designación: RPT_30-06-2026.pdf (https://consejodetransparencia.es/content/dam/ctransparencia/portal-ctbg/transparencia/informacion-institucional-organizativa-y-de-planificacion/RPT_30-06-2026.pdf), 'Total Puestos: 39'; leyenda: L = 'LIBRE DESIGNACION', C = 'CONCURSO DE MERITOS'. Hay 10 L y 27 C. En la p.1 se leen 12 letras (L L C L L C L C C C C C, 5 L) para 14 puestos. En la p.2 hay 4 L (Subdirector/a General x2 y Subdirector/a Adjunto/a x2) y en la p.3 hay 1 L (Subdirector/a General). Dos puestos de la p.1 no tienen tipo de provisión legible en la lectura automática (probablemente los dos 'Puesto de trabajo' de nivel 30): si ambos fueran LD, el total sería 12. Altos cargos: el Presidente, con fila propia en la Tabla 1 y la partida 'Retribuciones altos cargos' en la Tabla 2 (ap. 1.3.3). Personal eventual: portal de transparencia del CTBG, 'Documentos de personal': 'No hay personal eventual ni hay ni habrá indemnizaciones por cese.' Contexto de la RPT, sin mezclar con lo anterior (39 puestos a 30/06/2026): A1 14, A1/A2 5, A2 2, A2/C1 7, C1/C2 6, C1 5."
+  },
+  "verificacion": "El desglose (31 personas a 31/12/2025) y la libre designación (RPT a 30/06/2026) son de fuentes y fechas distintas y no se combinan. El dato de 10 LD es un recuento literal de las letras 'L' de toda la tabla. Dos puestos de la p.1 no tienen tipo de provisión legible (posible rango 10-12).",
+  "no_encontrado": ""
+ },
+ {
+  "ID": 7,
+  "updates": {},
+  "verificacion": "No se ha localizado memoria con recursos humanos de la AESF. El Informe Anual de Seguridad 2025 (datos de 2024) enviado a la ERA (https://www.era.europa.eu/sites/default/files/reports/ias%20nsa%20espa%C3%B1a%202025.pdf) describe la estructura (SG de Infraestructuras, SG de Coordinación de la Seguridad Ferroviaria y División de Administración, p.17) sin cifras de personal; la lectura automática se corta en p.50. BOE-A-2026-16478 (convocatoria de libre designación de 22/07/2026) solo convoca varios puestos de Subdirector/a General (A1, nivel 30): no es la RPT completa.",
+  "no_encontrado": "Desglose por función o subgrupo, número total de puestos de libre designación, altos cargos y eventuales."
+ },
+ {
+  "ID": 24,
+  "updates": {},
+  "verificacion": "El Resumen ejecutivo de la Memoria 2024 (https://cnmc.es/sites/default/files/editor_contenidos/CNMC/Memorias/Resumen-ejecutivo-memoria-2024_.pdf), pp.14-15, solo dice: 'Consolidada plantilla 560 efectivos' (2024), sin desglose. La Memoria CNMC 2024 (https://cnmc.es/sites/default/files/editor_contenidos/CNMC/Memorias/Memoria_CNMC_2024_.pdf) tiene el 'ANEXO VIII: RECURSOS HUMANOS DE LA CNMC' en la p.145, pero la lectura automática se corta hacia la p.34. Según la p.9, el Consejo 'Está integrado por 10 miembros cuyo nombramiento se lleva a cabo por el Gobierno': es su composición legal, no un recuento de altos cargos en ejercicio, y no se ha usado como cifra. La Memoria 2025 no se ha podido abrir: la URL de la ficha requiere un permiso que no se respondió.",
+  "no_encontrado": "Desglose por categorías, libre designación, altos cargos y eventuales. Comprobación manual recomendada: Memoria CNMC 2024, Anexo VIII (p.145), o su equivalente en la Memoria 2025."
+ },
+ {
+  "ID": 28,
+  "updates": {},
+  "verificacion": "El Informe de actividad de AICA de diciembre de 2025 (https://www.mapa.gob.es/dam/mapa/contenido/prensa/notas-de-prensa/documentos/documentos-2026/informe-de-actividad-de-aica_diciembre-2025.pdf) solo da actividad: 399 inspecciones y 991 infracciones sancionadas en 2025. No tiene datos de personal. No se ha localizado RPT ni memoria con recursos humanos.",
+  "no_encontrado": "Inspectores vs administración, libre designación, altos cargos y eventuales."
+ },
+ {
+  "ID": 30,
+  "updates": {
+   "Desglose: personal técnico/científico/inspector": 2211,
+   "Desglose: personal de administración y apoyo": 1150,
+   "Desglose: otro / no clasificable": 0,
+   "Desglose: total de referencia": 3361,
+   "Desglose: unidad y fecha": "Personas (efectivos) a 31/12/2024 en la ITSS de ámbito estatal (columna 'ITSS AGE'), según el Informe Anual ITSS 2024, cap. Recursos humanos. Excluye la Inspección de Trabajo de Cataluña (174 inspectores y subinspectores) y la del Gobierno Vasco (54). No se ha localizado un Informe Anual 2025.",
+   "Desglose: criterio de clasificación": "Por función, con las categorías propias del Informe. Inspectores/as de Trabajo y SS (913) + Subinspectores/as (1.298 = 964 de la Escala de Empleo y SS + 334 de la Escala de Seguridad y Salud Laboral) van al núcleo. El 'personal de estructura y de apoyo' (1.150 = 1.074 funcionarios + 76 laborales) va a administración y apoyo. 'Otro' vale 0 por construcción: el Informe reparte todo el personal ITSS-AGE entre esas dos categorías.",
+   "Desglose: fuente": "https://oeitss.gob.es/content/dam/oeitss/documentos/2-0-sobre-la-itss/2-3-b-nuestra-actividad/02-recursos%20humanos.pdf",
+   "Desglose: verificación": "Informe Anual ITSS 2024, Tabla 1, p.31, a 31/12/2024, columna ITSS AGE: Inspectores/as 913; Subinspectores/as 1.298 (964 ESS + 334 SSL); total 2.211 (total del sistema con ITC y Gobierno Vasco: 2.439). P.33, ap. 2.1.2.B: 'A 31 de diciembre de 2024 la plantilla de personal de estructura y de apoyo es de 1.150 efectivos', 'de los cuales 1.074 son personal funcionario y 76 son personal laboral'. 2.211 + 1.150 = 3.361. Incoherencia interna: el ap. 2.1.2.C (p.33) y el Gráfico 11 (p.34) dan 1.073 funcionarios y 1.149 en total."
+  },
+  "verificacion": "No es comparable con la EPSAP de enero de 2026 (3.596 efectivos del O.A., con 183 de 'otro personal'): es otra fecha y otra fuente. El Informe 2024 no trae datos de libre designación, altos cargos ni eventuales.",
+  "no_encontrado": "Libre designación, altos cargos y personal eventual."
+ },
+ {
+  "ID": 41,
+  "updates": {
+   "Altos cargos": 1,
+   "Desglose: fuente": "https://aesia.digital.gob.es/storage/media/0545dbdb-0d27-4f51-90be-b847e13e7659.pdf",
+   "Desglose: verificación": "Memoria y Plan Inicial de Actuación de AESIA (revisión de agosto de 2024): la persona titular de la Dirección es alto cargo con rango de Director General (Tabla 10, fila 'Director/a General'). La Presidencia la ejerce la persona titular de la Secretaría de Estado de Digitalización e IA, alto cargo del Ministerio que no se cuenta en AESIA."
+  },
+  "verificacion": "La Tabla 10 de la Memoria y Plan Inicial es una previsión de 41 puestos para 2024 por unidad y nivel, sin subgrupo; parte de la asignación por unidad es reconstruida. No es RPT aprobada ni ocupación, así que no se usa para el desglose. Las convocatorias encontradas (19 plazas de laboral fijo fuera de convenio, OEP 2024, firmada el 25/03/2025; 10 plazas de laboral temporal Titulado/a Superior, firmada el 07/03/2025) no dan la plantilla.",
+  "no_encontrado": "Desglose real por función o subgrupo, libre designación y eventuales."
+ },
+ {
+  "ID": 42,
+  "updates": {},
+  "verificacion": "No se ha localizado plan de acción, memoria ni RPT de la AEAD con distribución del personal. Las búsquedas solo devuelven convocatorias en el BOE.",
+  "no_encontrado": "Todo el desglose, libre designación, altos cargos y eventuales."
+ },
+ {
+  "ID": 43,
+  "updates": {
+   "Desglose: personal técnico/científico/inspector": 5,
+   "Desglose: personal de administración y apoyo": 8,
+   "Desglose: otro / no clasificable": 4,
+   "Desglose: total de referencia": 17,
+   "Desglose: unidad y fecha": "Puestos de la RPT ocupados (personas en puesto) en julio de 2026, según el Plan de Actuación Anual 2026, Ilustración 3 (fuente: Registro Central de Personal). No incluye la Presidencia.",
+   "Desglose: criterio de clasificación": "Por función, según la unidad orgánica del Estatuto y la denominación del puesto. El Dpto. de Protección del Informante (art. 20) y el Dpto. de Seguimiento y Régimen Sancionador (art. 21) van al núcleo. La Gerencia (art. 22: RRHH, gestión económico-financiera, contratación, sistemas, patrimonio y asesoría jurídica interna) y los puestos de Secretario/a van a administración y apoyo. La Unidad de Apoyo (Director/a + 3 Vocales; el PAA no describe sus funciones) va a 'otro'.",
+   "Altos cargos": 1,
+   "Desglose: fuente": "https://www.proteccioninformante.gob.es/content/dam/aipi/documentos/PLAN_ACTUACION_ANUAL_2026_AIPI.pdf",
+   "Desglose: verificación": "PAA 2026, ap. 2.4, p.19: 'RPT con 22 puestos de los que están cubiertos 17'. Ilustración 3 ('Julio de 2026. Registro Central de Personal'), puestos ocupados ('O'). Dpto. Protección del Informante: Director/a N30, Vocal N30, Vocal N30 = 3. Dpto. Seguimiento y Régimen Sancionador: Director/a N30, Vocal N30 = 2. Núcleo: 5. Gerencia: Gerente N30, Jefe/a de Servicio N26 x3, Coordinador/a N29, Jefe/a de Sección N20, Analista N20 = 7. Unidad de Apoyo: Secretario/a N22 = 1. Administración: 8. Unidad de Apoyo: Director/a N30 + Vocal N30 x3 = 4, que van a 'otro'. 5 + 8 + 4 = 17, igual a los cubiertos del texto. La Ilustración tiene 24 filas (17 ocupadas y 7 vacantes) frente a los 22 puestos del texto: la discrepancia no está resuelta y no afecta a los ocupados. Altos cargos: la Presidencia (nombrada por el RD 328/2025, según el PAA), fuera de la RPT. La Ilustración 3 no tiene columnas de subgrupo ni de forma de provisión."
+  },
+  "verificacion": "Desglose por función sobre 17 personas en puesto RPT en julio de 2026. Los Vocales de la Unidad de Apoyo pueden hacer trabajo técnico; se dejan en 'otro' porque el PAA no describe las funciones de esa unidad.",
+  "no_encontrado": "Libre designación (la Ilustración 3 no tiene forma de provisión) y personal eventual (el PAA no lo menciona)."
+ }
+]

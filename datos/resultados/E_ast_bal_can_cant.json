@@ -1,0 +1,258 @@
+[
+  {
+    "ID": 79,
+    "updates": {
+      "Presupuesto: texto completo": "Crédito inicial propio 2026: 53.101.505 EUR (53,101505 M). Ley del Principado de Asturias 5/2025, de 31 de diciembre, de Presupuestos Generales para 2026, art. 2.2 (organismos y entes del art. 1.d, presupuesto limitativo), fila 'Servicio de Emergencias del Principado de Asturias'; BOE-A-2026-2888, BOE núm. 35 de 09/02/2026, p. 20131. Sección presupuestaria 87. Referencia 2025: 48.457.645 EUR (Ley de PG 2025, art. 2.2, BOPA núm. 252 de 31/12/2024, texto publicado por la Junta General). Crédito inicial de todos los capítulos: no es ejecución, ni crédito actualizado, ni solo gasto de personal.",
+      "Corte: texto completo": "2026, crédito inicial aprobado (Ley 5/2025); revisión 11/10/2026",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 verificado (Ley 5/2025 art. 2.2). Capítulo 1, ejecución 2026, liquidación 2025 y plantilla no verificados: tomos presupuestarios y Cuenta General 2025 no accesibles en esta revisión; vacío no significa cero"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/boe/dias/2026/02/09/pdfs/BOE-A-2026-2888.pdf",
+      "https://www.boe.es/eli/es-as/l/2025/12/31/5",
+      "https://www.jgpa.es/documents/11156/23154/Presupuestos+Generales+para+2025/0d75983e-243c-4dc0-9a14-24cf0664ac9c"
+    ],
+    "verificacion": "K 53,101505 ya existente, cotejado: BOE-A-2026-2888 (PDF) p. 20131, art. 2.2, fila literal 'Servicio de Emergencias del Principado de Asturias. 53.101.505' (euros), 53.101.505/1e6 = 53,101505. Ley aprobada (no prórroga): Ley 5/2025 de 31/12/2025. Referencia 2025: texto de la Ley de PG 2025 publicado en jgpa.es (BOPA 252, 31/12/2024), art. 2.2 '87 SERVICIO DE EMERGENCIAS DEL PRINCIPADO DE ASTURIAS 48.457.645' (euros); solo texto, no se mueve a columnas numéricas.",
+    "no_encontrado": "Capítulo 1 del SEPA 2026 (crédito), ejecución 2026, liquidación 2025 y plantilla. El Tomo 8 'Informe de personal' del proyecto 2026 y los tomos de estados de gastos están en transparencia.asturias.es, que bloquea la lectura automática (robots); la Cuenta General 2025 (tematico.asturias.es/hacienda/webCuenta2025) no aparece en buscadores y no se pudo abrir; no se localizó ejecución mensual por organismo publicada en BOPA. Se agotó además el cupo de búsquedas web de esta sesión. Pendiente: Tomo 8 (plantilla por organismo), Tomo de organismos (cap.1 sección 87) y Cuenta General 2025 (87_SEPA, estado de liquidación)."
+  },
+  {
+    "ID": 112,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 66.273676,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Presupuesto propio aprobado",
+      "Corte del presupuesto numérico": "2026, presupuesto aprobado (estados financieros, Ley 5/2025)",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Crédito inicial (EUR millones)": 66.273676,
+      "Presupuesto: texto completo": "Estados financieros 2026 aprobados de la Agencia de Ciencia, Competitividad Empresarial e Innovación Asturiana (Sekuens): presupuesto de explotación 57.308.676 EUR + presupuesto de capital 8.965.000 EUR = total 66.273.676 EUR (66,273676 M), total consignado por la propia ley. Ley del Principado de Asturias 5/2025, art. 2.4 (entes del art. 1.e, presupuesto estimativo); BOE-A-2026-2888, p. 20132. Presupuesto estimativo de ente público, no crédito limitativo ni ejecución; incluye ayudas y programas de ciencia/innovación, no solo coste de administración. 'Crédito inicial' se rellena con el mismo total por coherencia con la hoja, pero no es crédito limitativo. Gastos de personal de la cuenta de explotación no verificados.",
+      "Corte: texto completo": "2026, presupuesto aprobado (Ley 5/2025); revisión 11/10/2026",
+      "Estado legal y operativo": "Creación legal verificada; estados financieros propios aprobados para 2026 en la Ley 5/2025 (art. 1.e y art. 2.4). Actividad efectiva no auditada en esta revisión.",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 verificado (explotación + capital); gastos de personal, plantilla y ejecución no verificados; vacío no significa cero",
+      "Notas de personal y apoyo ministerial": "Ley 5/2025 art. 27.2: la Agencia necesita informe de la Dirección General de Empleo Público para convenios colectivos o contratos de alta dirección (régimen de ente del art. 1.e). Gastos de personal de su presupuesto de explotación no verificados (tomo de entes no accesible); no es capítulo 1 limitativo."
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/boe/dias/2026/02/09/pdfs/BOE-A-2026-2888.pdf",
+      "https://www.boe.es/eli/es-as/l/2025/12/31/5"
+    ],
+    "verificacion": "BOE-A-2026-2888 (PDF) p. 20132, art. 2.4, fila literal 'Agencia de Ciencia, Competitividad Empresarial e Innovación Asturiana. 57.308.676 8.965.000 66.273.676' (columnas explotación / capital / total, euros). 66.273.676/1e6 = 66,273676 M. Art. 27.2 según el texto consolidado de la misma ley (BOE ELI).",
+    "no_encontrado": "Gastos de personal (cuenta de explotación) 2026, plantilla, ejecución 2026 y cuentas anuales 2025 de Sekuens: el tomo de entes públicos y el informe de personal están en transparencia.asturias.es (bloqueado a lectura automática) y no hubo resultados de búsqueda con cuentas anuales; cupo de búsquedas agotado."
+  },
+  {
+    "ID": 113,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 0.18,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Crédito inicial aprobado",
+      "Corte del presupuesto numérico": "2026, crédito aprobado",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Crédito inicial (EUR millones)": 0.18,
+      "Presupuesto: texto completo": "Crédito inicial propio 2026: 180.000 EUR (0,18 M). Ley del Principado de Asturias 5/2025, art. 2.2, fila 'Consejo de Transparencia y Buen Gobierno del Principado de Asturias' entre los organismos y entes del art. 1.d (presupuesto limitativo); BOE-A-2026-2888, p. 20131. En 2025: sección 88, 80.000 EUR (Ley de PG 2025, art. 2.2, BOPA núm. 252 de 31/12/2024). Dotación propia diferenciada: no aplica la regla de órgano sin presupuesto. Crédito inicial, no ejecución; desglose por capítulos (personal) no verificado.",
+      "Corte: texto completo": "2026, crédito inicial aprobado (Ley 5/2025); revisión 11/10/2026",
+      "Estado legal y operativo": "Creación legal verificada; dotación presupuestaria propia en 2025 (sección 88) y 2026 (Ley 5/2025 art. 2.2). Actividad efectiva no auditada en esta revisión.",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 verificado; capítulo 1, ejecución y personal no verificados; vacío no significa cero"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/boe/dias/2026/02/09/pdfs/BOE-A-2026-2888.pdf",
+      "https://www.boe.es/eli/es-as/l/2025/12/31/5",
+      "https://www.jgpa.es/documents/11156/23154/Presupuestos+Generales+para+2025/0d75983e-243c-4dc0-9a14-24cf0664ac9c"
+    ],
+    "verificacion": "BOE-A-2026-2888 (PDF) p. 20131, art. 2.2, fila literal 'Consejo de Transparencia y Buen Gobierno del Principado de Asturias. 180.000' (euros): 0,18 M. 2025: texto de la Ley de PG 2025 en jgpa.es, art. 2.2 '88 CONSEJO DE TRANSPARENCIA Y BUEN GOBIERNO DEL PRINCIPADO DE ASTURIAS 80.000' (euros); solo como texto.",
+    "no_encontrado": "Capítulos (personal) del presupuesto 2026, ejecución y personal adscrito: tomo de organismos e informe de personal no accesibles (transparencia.asturias.es bloqueado). No se pudo reabrir la Ley 8/2018 en esta sesión para describir el régimen de medios."
+  },
+  {
+    "ID": 80,
+    "updates": {
+      "Corte del presupuesto numérico": "2026, prórroga del presupuesto 2025",
+      "Presupuesto: texto completo": "Presupuesto prorrogado 2026: no hay ley de presupuestos 2026 aprobada en Illes Balears. Ordre 39/2025, de 23 de desembre (BOIB núm. 173 de 30/12/2025), art. 2.1 prorroga el presupuesto de la ATIB; estados numéricos declarados por Resolució del conseller d'Economia, Hisenda i Innovació (sector público administrativo, firmada 05/01/2026), anexo ATIB p. 16/19: crédito inicial 16.259.920 EUR (16,25992 M). Personal 9.801.634; bienes y servicios 4.593.865; gastos financieros 1.852.421; inversión 12.000. No reutilizar 16.496.693 EUR de la ley 2025. Crédito inicial prorrogado, no ejecución.",
+      "Corte: texto completo": "2026, prórroga del presupuesto 2025; créditos iniciales prorrogados; revisión 11/10/2026",
+      "Base del coste de personal": "Capítulo 1: crédito inicial 2026 del presupuesto prorrogado (Resolució 05/01/2026, anexo ATIB p. 16/19)",
+      "Estado de verificación del coste": "Crédito autorizado (prórroga), no gasto realizado ni solo salarios",
+      "Fuente del coste": "https://www.caib.es/sites/pressuposts/f/540091\nhttps://www.caib.es/sites/estadistiques/f/549410",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto y capítulo 1 2026 (prórroga) verificados; ejecución 2026, liquidación 2025 y plantilla ocupada no verificadas",
+      "Notas de conciliación de crédito y ejecución": "Cap.1 9,801634 M es crédito inicial prorrogado (Ordre 39/2025 art. 4.2.b: se prorrogan los créditos de capítulo I con ajustes por compromisos consolidados a 31/12/2025). La liquidación 2025 de la ATIB figura en el Compte General 2025 de la Intervenció General (apartado ATIB, 'Estat d'execució del pressupost de despeses'), pero esa web se sirve en marcos que no se pudieron leer; cifras no incorporadas."
+    },
+    "fuentes_nuevas": [
+      "https://www.caib.es/sites/pressuposts/f/540091",
+      "https://www.caib.es/sites/pressuposts/ca/prorroga_del_pressupost_per_a_lany_2026/",
+      "https://www.caib.es/sites/pressuposts/es/archivopub.do?ctrl=MCRST226ZI540088&id=540088",
+      "https://www.caib.es/conselleries/hisenda/interven/compte_general_2025/index.html"
+    ],
+    "verificacion": "Resolució de estados numéricos del sector público administrativo (prórroga 2026), firmada 05/01/2026, anexo 'Agència Tributària de les Illes Balears (despeses)', p. 16/19, euros: cap.1 9.801.634,00; cap.2 4.593.865,00; cap.3 1.852.421,00; cap.6 12.000,00; total 16.259.920,00 (suma cuadra). Conversión 16.259.920/1e6 = 16,25992; 9.801.634/1e6 = 9,801634. Estado de prórroga: página oficial 'Pròrroga del pressupost per a l'any 2026' y Ordre 39/2025 (BOIB 173, 30/12/2025, p. 76855), art. 2.1 y 4.2.b. La prensa (feb. y sept. 2026) solo sirvió de pista de que no hubo ley 2026. Corrección: el corte anterior '2026, crédito aprobado' se cambia a prórroga; K y cap.1 no cambian.",
+    "no_encontrado": "Ejecución 2026 por capítulos de la ATIB: la serie de ejecución CAIB (actualizada con datos de agosto de 2026) es un fichero no legible y no desglosa por ente según su ficha. Liquidación 2025: Compte General 2025 en marcos no legibles. Plantilla: la ficha de transparencia de la ATIB (12/03/2026) no da efectivos; la estadística de personal CAIB 2025 es un fichero binario; atib.es no se pudo abrir. Cupo de búsquedas agotado."
+  },
+  {
+    "ID": 111,
+    "updates": {
+      "Corte del presupuesto numérico": "2026, prórroga del presupuesto 2025",
+      "Presupuesto: texto completo": "Presupuesto prorrogado 2026 (no hay ley 2026; Ordre 39/2025, BOIB núm. 173 de 30/12/2025). 'Estados numéricos generales' de la prórroga 2026: sección 74 'Agencia de Salud Pública de las Illes Balears', total de gastos 15.506.867 EUR (15,506867 M); fila literal 15.147.651 / 88.216 / 271.000 / 15.506.867. Según el cotejo visual anterior: cap.2 bienes y servicios 15,147651 M; cap.4 transferencias corrientes 0,088216 M; cap.6 inversiones reales 0,271 M. NO es personal: la sección no tiene capítulo 1. Ingresos p.12: 2,479415 M (tasas/otros 2,397330 M + transferencias corrientes 0,082085 M), que no son capital adicional ni se suman al gasto. Crédito prorrogado, no ejecución.",
+      "Corte: texto completo": "Estados numéricos de la prórroga 2026 (PDF CAIB creado 19/12/2025); comprobado 11/10/2026",
+      "Notas de personal y apoyo ministerial": "La sección 74 no tiene capítulo 1 en el presupuesto prorrogado 2026, así que su personal no se paga desde la sección propia. No se ha verificado de qué sección o ente procede ni cuántas personas son; no inferir ni prorratear.",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 (prórroga) verificado; sin capítulo 1 en la sección propia; personal ocupado y coste de apoyo no verificados"
+    },
+    "fuentes_nuevas": [
+      "https://www.caib.es/sites/pressuposts/es/archivopub.do?ctrl=MCRST226ZI540093&id=540093",
+      "https://www.caib.es/sites/pressuposts/ca/prorroga_del_pressupost_per_a_lany_2026/",
+      "https://www.caib.es/sites/pressuposts/es/archivopub.do?ctrl=MCRST226ZI540088&id=540088"
+    ],
+    "verificacion": "El documento citado en la ficha (f/540093) es 'Estados numéricos generales' de la página oficial de la prórroga 2026, no una ley 2026 aprobada. Fila literal de la sección 74: '74 Agencia de Salud Pública de las Illes Balears 15.147.651 88.216 271.000 15.506.867' (euros). La lectura de texto no permite asignar capítulos; se mantiene la asignación del cotejo visual anterior (cap.2/4/6). Corrección: el corte pasa a prórroga. K no cambia. La base 'Presupuesto propio aprobado' se deja como estaba; el corte aclara que es prórroga.",
+    "no_encontrado": "Personal de la ASPIB (sección o ente que lo paga, efectivos) y ejecución 2026/2025 de la sección 74: Compte General 2025 en marcos no legibles; sin ficha de transparencia propia en la lista de entes instrumentales. Cupo de búsquedas agotado."
+  },
+  {
+    "ID": 124,
+    "updates": {
+      "Corte del presupuesto numérico": "2026, prórroga del presupuesto 2025 (estados numéricos)",
+      "Presupuesto: texto completo": "Presupuesto prorrogado 2026 (no hay ley 2026; Ordre 39/2025, BOIB núm. 173 de 30/12/2025). 'Estados numéricos generales' de la prórroga 2026: sección 72 'Agencia Balear de Digitalización, Ciberseguridad y Telec.', total 50.694.693 EUR (50,694693 M); cap.1 personal 22,553642 M, cap.2 servicios 9,113680 M, cap.6 inversiones 19,027371 M (cotejo visual anterior, p. 2). Sin cap.7. El total de la EPE en 2025 (14,545724 M) no es comparable por cambio de perímetro (organismo autónomo desde 01/01/2026); no sumar presupuestos del IBIT. Crédito prorrogado, no ejecución.",
+      "Corte: texto completo": "Prórroga 2026, estados numéricos CAIB; comprobado 11/10/2026",
+      "Base del coste de personal": "Cap.1: crédito inicial 2026 del presupuesto prorrogado, sección 72; no es nómina pagada",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto y capítulo 1 2026 (prórroga) verificados; ocupación y ejecución no verificadas"
+    },
+    "fuentes_nuevas": [
+      "https://www.caib.es/sites/pressuposts/es/archivopub.do?ctrl=MCRST226ZI540093&id=540093",
+      "https://www.caib.es/sites/pressuposts/ca/prorroga_del_pressupost_per_a_lany_2026/",
+      "https://www.caib.es/sites/transparencia/ca/1131_ens_del_sector_pablic_instrumental_autonamic/archivopub.do?ctrl=MCRST9345ZI302709&id=302709"
+    ],
+    "verificacion": "Fila literal en 'Estados numéricos generales' de la prórroga 2026: '72 Agencia Balear de Digitalización, Ciberseguridad y Telec. 22.553.642 9.113.680 19.027.371 50.694.693' (euros); suma 50.694.693. Se mantiene la asignación de capítulos del cotejo visual anterior. Corrección: el corte pasa a prórroga 2026, sin ley aprobada. Ficha de transparencia del ente (16/09/2026): remite al tomo 4 y señala que los presupuestos 2025 están prorrogados; no da efectivos.",
+    "no_encontrado": "Ejecución 2026 del capítulo 1 y plantilla ocupada: no hay datos legibles por sección (serie de ejecución en fichero no legible) y la ficha de transparencia no da efectivos. Cuentas 2025 (todavía EPE IBETEC): Compte General 2025 en marcos no legibles."
+  },
+  {
+    "ID": 125,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 28.341617,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Presupuesto propio aprobado",
+      "Corte del presupuesto numérico": "2026, prórroga del presupuesto 2025 (estados numéricos declarados por Resolución de 29/01/2026)",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Crédito inicial (EUR millones)": 28.341617,
+      "Presupuesto: texto completo": "Presupuesto prorrogado 2026 del IBE (código 19.E24): Resolució del conseller d'Economia, Hisenda i Innovació que declara los estados numéricos del presupuesto prorrogado 2026 de los entes del sector público empresarial y fundacional (firmada 29/01/2026), anexo estado de gastos p. 5/8, euros: cap.1 1.221.805; cap.2 2.068.125; cap.3 495; cap.6 22.051.192; cap.7 3.000.000; total 28.341.617 (28,341617 M). Ingresos p. 6/8, total 28.341.617, de los que activos financieros (cap.8) 22.156.260, transferencias de capital 4.336.274, transferencias corrientes 1.249.083 y tasas/otros 600.000. Presupuesto estimativo de EPE, no ejecución; sobre todo inversión. Referencia 2025 (Ley 6/2025 anexo 8): 25,8955 M; diferencia no conciliada.",
+      "Corte: texto completo": "Prórroga 2026, Resolución de 29/01/2026; comprobado 11/10/2026",
+      "Estado legal y operativo": "EPE con presupuesto prorrogado propio 2026 (Resolución de 29/01/2026); ficha de transparencia actualizada 13/03/2026. Operación 2026 no auditada individualmente.",
+      "Límites del juicio": "Base 2026: prórroga declarada por resolución, no ley aprobada. Alcance parcial del control del estado actual.",
+      "Crédito de personal (EUR millones)": 1.221805,
+      "Año del coste de personal": 2026,
+      "Base del coste de personal": "Cap.1 gastos de personal del presupuesto prorrogado 2026 (estado de gastos de la EPE por capítulos, Resolución de 29/01/2026, p. 5/8); presupuesto estimativo",
+      "Estado de verificación del coste": "Previsión presupuestaria de EPE (estimativa), no gasto realizado ni solo salarios",
+      "Fuente del coste": "https://www.caib.es/sites/pressuposts/f/544562",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto y capítulo 1 2026 (prórroga) verificados; ocupación y ejecución pendientes",
+      "Notas de conciliación de crédito y ejecución": "Cap.1 2025 inicial (Ley 6/2025 anexo 8, p. 15; dato previo de la ficha): 1,085125 M. Cap.1 2026 prorrogado: 1,221805 M. No se concilia la diferencia. Las cuentas anuales 2025 de la EPE están en el Compte General 2025 (apartado EPE), pero no son legibles (web en marcos)."
+    },
+    "fuentes_nuevas": [
+      "https://www.caib.es/sites/pressuposts/f/544562",
+      "https://www.caib.es/sites/transparencia/ca/1131_ens_del_sector_pablic_instrumental_autonamic/archivopub.do?ctrl=MCRST9345ZI310026&id=310026"
+    ],
+    "verificacion": "Resolución del sector empresarial y fundacional, prórroga 2026 (firma electrónica 29/01/2026), p. 5/8, fila literal '19.E24 Institut Balear de l'Energia 1.221.805 2.068.125 495 0 0 22.051.192 3.000.000 0 0 28.341.617' (euros, caps. 1 a 9 y total). Ingresos p. 6/8: '19.E24 ... 0 0 600.000 1.249.083 0 0 4.336.274 22.156.260 0 28.341.617'. Conversión 28.341.617/1e6 = 28,341617; 1.221.805/1e6 = 1,221805. Sustituye la base 2025 (25,8955 M), que pasa a texto, porque ya hay cifra 2026.",
+    "no_encontrado": "Plantilla ocupada y ejecución 2026 o cuentas 2025 del IBE: la ficha de transparencia (13/03/2026) no da efectivos; Compte General 2025 no legible. La resolución no separa explotación y capital (no se calcula)."
+  },
+  {
+    "ID": 81,
+    "updates": {
+      "Personal: personas (ocupadas)": 459,
+      "Año del personal": "2025-12-31",
+      "Base del personal": "Puestos RPT ocupados a cierre de 2025 (459 de 752; 61,04%) según el Plan de Acción 2026 de la ATC; personas en puestos RPT; no incluye necesariamente personal ajeno a la RPT",
+      "Estado de verificación del personal": "Cifra publicada en fuente primaria (Plan de Acción 2026, BOC 2026/065) ya recogida en la ficha; página no re-cotejada en esta revisión; no inferir vigencia posterior",
+      "Fuente del personal": "https://www3.gobiernodecanarias.org/tributos/atc/documents/65729/0/boc-a-2026-065-1087.pdf/ce37abb9-573c-7b68-2adf-487ddaf54f43?t=1776157163286",
+      "Puestos aprobados / presupuestados": 752,
+      "Fecha puestos aprobados": "2025-12-31",
+      "Base de puestos aprobados": "Puestos RPT de la ATC a cierre de 2025 (Plan de Acción 2026); no es plantilla presupuestaria ni ocupación",
+      "Fuente puestos aprobados": "https://www3.gobiernodecanarias.org/tributos/atc/documents/65729/0/boc-a-2026-065-1087.pdf/ce37abb9-573c-7b68-2adf-487ddaf54f43?t=1776157163286",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 verificado; ocupación RPT a cierre 2025 tomada del Plan 2026 (página por cotejar); capítulo 1, ejecución y liquidación no verificados"
+    },
+    "fuentes_nuevas": [],
+    "verificacion": "AG y AX trasladan a sus columnas el dato que la ficha ya recoge en 'Poder real' y 'Límites del juicio' ('al cierre 2025, 459 de 752 puestos RPT ocupados (61,04%), según Plan 2026'), con la misma fuente (Plan de Acción 2026 de la ATC publicado en BOC 2026/065, ya en 'Fuentes de la ficha'). No pude reabrir el PDF en esta sesión (dominio gobiernodecanarias.org no accesible desde la herramienta), así que la página está pendiente de cotejo. Si el orquestador exige cotejo propio de página, que no incorpore AG/AX hasta reabrir el PDF.",
+    "no_encontrado": "Capítulo 1 2026 (crédito), ejecución 2026 y liquidación 2025 de la ATC: no se pudo acceder a gobiernodecanarias.org (presupuestos 2026, ejecución trimestral de la Intervención General, Cuenta General) y el cupo de búsquedas web de la sesión se agotó antes de buscar Canarias. Pendiente: Ley de PG Canarias 2026 (estado de gastos de la sección/organismo ATC, cap.1), 'Ejecución presupuestaria' mensual de la Intervención General de Canarias y Cuenta General 2025."
+  },
+  {
+    "ID": 82,
+    "updates": {
+      "Presupuesto: texto completo": "Importe propio 2026 aprobado no verificado. Ley de Cantabria 4/2026, de 28 de abril (BOC Extraordinario núm. 12 de 30/04/2026, CVE-2026-3601; BOE-A-2026-9962): el art. 1.a (p. 2207) sitúa al ICASS como organismo autónomo en la Sección 16, integrado en el presupuesto de la Administración General. El articulado no da importe propio a la sección 16 y la tabla del art. 2.Dos (p. 2209) no la incluye. Los 328.239.959 EUR son la política de gasto 23 completa (art. 2.Uno, p. 2208), NO el presupuesto del ICASS. La comparecencia sobre el proyecto cita 320.133.501 EUR, que NO es presupuesto aprobado.",
+      "Corte: texto completo": "2026: Ley 4/2026 aprobada (de enero a abril rigió la prórroga 2025, Decreto 92/2025); revisión 11/10/2026",
+      "Estado legal y operativo": "Incluido como Sección 16 en el presupuesto aprobado 2026 (Ley 4/2026, art. 1.a)"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/ccaa/boct/2026/012/c00001-01406.pdf"
+    ],
+    "verificacion": "BOC Ext. 12/2026 (copia en boe.es/ccaa/boct): p. 2207, art. 1.a, ICASS como organismo autónomo de la Sección 16 dentro de la Administración General; p. 2208, art. 2.Uno: total de la Administración General 3.925.344.836 EUR y política 23 '328.239.959'; p. 2209, art. 2.Dos: tabla de 7 organismos sin ICASS. Estado: proyecto 2026 inicial devuelto por enmienda a la totalidad (24/11/2025), prórroga por Decreto 92/2025 (BOC Ext. 26 de 23/12/2025, CVE-2025-10899, leído en copia no oficial) y Ley 4/2026 aprobada el 28/04/2026. K sigue vacío porque la ley no da cifra individual en el articulado.",
+    "no_encontrado": "Total y capítulo 1 de la Sección 16 en el estado de gastos (anexos del BOC Ext. 12/2026): el PDF de 1.406 páginas solo devuelve texto del articulado (pp. 2203-2225). Plantilla, ejecución y liquidación 2025 del ICASS no localizadas. Cupo de búsquedas agotado."
+  },
+  {
+    "ID": 83,
+    "updates": {
+      "Presupuesto: texto completo": "Presupuesto limitativo 2026 aprobado: 4.161.665 EUR (4,161665 M). Ley de Cantabria 4/2026, de 28 de abril, art. 2.Dos, fila 'INSTITUTO CÁNTABRO DE SEGURIDAD Y SALUD EN EL TRABAJO'; BOC Extraordinario núm. 12 de 30/04/2026 (CVE-2026-3601), p. 2209; BOE-A-2026-9962. Antes de la ley rigió la prórroga 2025 (Decreto 92/2025). Crédito inicial de todos los capítulos, no ejecución; capítulo 1 no verificado.",
+      "Corte: texto completo": "2026, crédito inicial aprobado (Ley 4/2026); revisión 11/10/2026",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 verificado; capítulo 1, ejecución y plantilla no verificados"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/ccaa/boct/2026/012/c00001-01406.pdf"
+    ],
+    "verificacion": "K 4,161665 ya existente, cotejado: BOC Ext. 12/2026 p. 2209, art. 2.Dos, fila literal 'INSTITUTO CÁNTABRO DE SEGURIDAD Y SALUD EN EL TRABAJO 4.161.665' (euros). Ley aprobada el 28/04/2026, publicada el 30/04/2026.",
+    "no_encontrado": "Capítulo 1 2026, ejecución y plantilla del ICASST: los anexos del estado de gastos del BOC no son legibles (solo articulado) y el cupo de búsquedas se agotó."
+  },
+  {
+    "ID": 114,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 18.273639,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Crédito inicial aprobado",
+      "Corte del presupuesto numérico": "2026, crédito aprobado",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Crédito inicial (EUR millones)": 18.273639,
+      "Presupuesto: texto completo": "Crédito inicial propio 2026: 18.273.639 EUR (18,273639 M). Ley de Cantabria 4/2026, de 28 de abril, art. 2.Dos, fila 'SERVICIO DE EMERGENCIAS DE CANTABRIA'; BOC Extraordinario núm. 12 de 30/04/2026 (CVE-2026-3601), p. 2209; BOE-A-2026-9962. Organismo autónomo con estado de gastos propio (art. 1, letras a-g). Crédito inicial de todos los capítulos, no ejecución; capítulo 1 no verificado.",
+      "Corte: texto completo": "2026, crédito inicial aprobado (Ley 4/2026); revisión 11/10/2026",
+      "Estado legal y operativo": "Organismo autónomo con presupuesto propio aprobado para 2026 (Ley 4/2026, arts. 1 y 2.Dos). Actividad no auditada exhaustivamente.",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 verificado; capítulo 1, ejecución y plantilla no verificados; vacío no significa cero"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/ccaa/boct/2026/012/c00001-01406.pdf"
+    ],
+    "verificacion": "BOC Ext. 12/2026 p. 2209, art. 2.Dos, fila literal 'SERVICIO DE EMERGENCIAS DE CANTABRIA 18.273.639' (euros); 18.273.639/1e6 = 18,273639. La tabla completa del art. 2.Dos tiene 7 filas sin total.",
+    "no_encontrado": "Capítulo 1 2026, ejecución, liquidación 2025 y plantilla del SEMCA: los anexos del BOC no son legibles con la herramienta y el cupo de búsquedas se agotó."
+  },
+  {
+    "ID": 115,
+    "updates": {
+      "Presupuesto: texto completo": "Sin cifra propia 2026 verificada; no significa cero. La Ley de Cantabria 4/2026 (BOC Ext. 12 de 30/04/2026) no menciona al Consejo de la Juventud de Cantabria ni en el art. 1, que enumera los entes cuyos presupuestos integran los PG (Administración General con OOAA, OOAA, ACAT, fundaciones, ICAF, sociedades y fondos), ni en la tabla del art. 2.Dos (p. 2209). Su posible financiación (p. ej. subvención nominativa en la sección de la consejería de juventud) no se ha verificado en los anexos. No atribuir presupuesto del departamento.",
+      "Corte: texto completo": "2026, Ley 4/2026 aprobada; revisión 11/10/2026"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/ccaa/boct/2026/012/c00001-01406.pdf"
+    ],
+    "verificacion": "Búsqueda literal de 'Consejo de la Juventud' en el texto extraído del articulado de la Ley 4/2026 (BOC Ext. 12/2026, pp. 2203-2225): sin resultados. Arts. 1 y 2.Dos cotejados. No se aplica la regla 6 porque no se ha verificado su norma de creación (Ley 1/2019) en esta sesión, y es un ente participativo, no un órgano colegiado de la consejería.",
+    "no_encontrado": "Subvención nominativa o transferencia con su nombre en el estado de gastos 2026 (anexos del BOC no legibles), personal y cuentas. No se pudo reabrir la Ley 1/2019 (BOE) por restricción de acceso; cupo de búsquedas agotado."
+  },
+  {
+    "ID": 116,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 2.415537,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Crédito inicial aprobado",
+      "Corte del presupuesto numérico": "2026, crédito aprobado",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Crédito inicial (EUR millones)": 2.415537,
+      "Presupuesto: texto completo": "Crédito inicial propio 2026: 2.415.537 EUR (2,415537 M). Ley de Cantabria 4/2026, de 28 de abril, art. 2.Dos, fila 'INSTITUTO CÁNTABRO DE ADMINISTRACIÓN PÚBLICA \"RAFAEL DE LA SIERRA\"'; BOC Extraordinario núm. 12 de 30/04/2026 (CVE-2026-3601), p. 2209; BOE-A-2026-9962. Organismo autónomo con estado de gastos propio. Crédito inicial de todos los capítulos (incluye transferencias del INAP para formación), no ejecución.",
+      "Corte: texto completo": "2026, crédito inicial aprobado (Ley 4/2026); revisión 11/10/2026",
+      "Estado legal y operativo": "Organismo autónomo con presupuesto propio aprobado para 2026 (Ley 4/2026, art. 2.Dos). Actividad no auditada exhaustivamente.",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 verificado; capítulo 1 aprobado, ejecución y plantilla no verificados",
+      "Notas de conciliación de crédito y ejecución": "Contexto, NO cifra verificada en la ley: según 'La Administración al Día' (INAP, 30/10/2025), el anteproyecto 2026 aprobado por el Consejo Rector del ICAP sumaba 2.415.537 EUR (igual que la Ley 4/2026), con gastos de personal 1.153.998 EUR, bienes y servicios 1.195.143 EUR y activos financieros 234.000 EUR. El capítulo 1 de la ley aprobada no se ha verificado: NO trasladar a 'Crédito de personal'."
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/ccaa/boct/2026/012/c00001-01406.pdf"
+    ],
+    "verificacion": "BOC Ext. 12/2026 p. 2209, art. 2.Dos, fila literal 'INSTITUTO CÁNTABRO DE ADMINISTRACIÓN PÚBLICA \"RAFAEL DE LA SIERRA\" 2.415.537' (euros): 2,415537 M. La nota INAP (https://laadministracionaldia.inap.es/noticia.asp?id=1518318) solo sirve de pista o contexto; no es fuente presupuestaria primaria y se refiere al anteproyecto.",
+    "no_encontrado": "Capítulo 1 de la ley aprobada, ejecución y plantilla: los anexos del BOC no son legibles con la herramienta y el cupo de búsquedas se agotó."
+  },
+  {
+    "ID": 123,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+      "Presupuesto: texto completo": "Órgano colegiado adscrito sin dotación diferenciada. Decreto 53/2020, de 13 de agosto (BOC, CVE-2020-6008): art. 10, el apoyo administrativo y material lo presta la dirección general competente en igualdad; art. 8.6, asistir a las reuniones no genera remuneración ni indemnización. La Ley 4/2026 de Presupuestos de Cantabria (BOC Ext. 12 de 30/04/2026) no lo menciona en los arts. 1 y 2. No se ha identificado ningún importe específico con su nombre (convenio, encargo, subvención o línea). Esto NO equivale a coste total cero: el coste de apoyo está dentro de la dirección general y no se prorratea.",
+      "Estado de verificación del personal": "Sin plantilla propia: apoyo de la dirección general (art. 10 Decreto 53/2020); los miembros no son empleados",
+      "Estado de verificación del coste": "Sin crédito de personal propio: órgano sin dotación diferenciada (art. 10 Decreto 53/2020)",
+      "Estado de verificación de ejecución": "No aplica: sin presupuesto propio; no se prorratea el gasto de la dirección general",
+      "Cobertura presupuesto / personal / salarios": "Sin presupuesto propio (órgano colegiado sin dotación diferenciada, Decreto 53/2020 arts. 8.6 y 10); sin personal propio según la norma; coste de apoyo no cuantificado",
+      "Notas de personal y apoyo ministerial": "Art. 10 Decreto 53/2020: apoyo administrativo y material desde la dirección general. Art. 8.6: los miembros no perciben remuneración ni indemnización por asistir. Los vocales no son plantilla. No se han cuantificado los empleados de apoyo ni su coste; no prorratear el presupuesto de la dirección general."
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/ccaa/boct/2026/012/c00001-01406.pdf"
+    ],
+    "verificacion": "Regla 6 aplicada. Los arts. 10 y 8.6 del Decreto 53/2020 son los que la ficha ya cita (verificación previa sobre el BOC, URL en 'Fuentes de la ficha'); en esta sesión no pude reabrir el BOC (boc.cantabria.es no accesible desde la herramienta). Sí verifiqué que el articulado de la Ley 4/2026 (pp. 2203-2225) no menciona el Observatorio ni le asigna dotación.",
+    "no_encontrado": "Algún importe específico con su nombre (convenio, contrato o línea de programa) en el estado de gastos 2026: anexos del BOC no legibles; cupo de búsquedas agotado."
+  }
+]

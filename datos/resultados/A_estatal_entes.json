@@ -1,0 +1,108 @@
+[
+  {
+    "ID": 14,
+    "updates": {},
+    "fuentes_nuevas": [],
+    "verificacion": "Sin cifra nueva. No se ha modificado ningún campo.",
+    "no_encontrado": "Programa 232C (Ministerio de Igualdad), crédito 2026 y su ejecución: no localizado. El cupo de búsquedas web del turno, compartido entre agentes, se agotó antes de llegar a los tomos de la prórroga 2026 de la SEPG y a la ejecución por programas. WebFetch solo admite URLs que hayan salido en resultados de búsqueda y bloquea por robots las páginas HTML de la IGAE y la SEPG. Ninguna URL de la serie roja ni de la ejecución por programas quedó disponible. Tampoco se pudo confirmar en fuente si 2026 es prórroga o presupuesto aprobado; la hoja trata 2026 como prórroga en otras filas ('tomos oficiales de prórroga'), pero en esta pasada no se ha cotejado. RPT de la Delegación: no buscada por la misma razón. Pendiente: serie roja de la prórroga 2026, sección 30, programa 232C. Debe ir en columnas contextuales AA–AD con base 'Programa gestionado por la Delegación; no presupuesto de entidad con personalidad'."
+  },
+  {
+    "ID": 22,
+    "updates": {},
+    "fuentes_nuevas": [],
+    "verificacion": "Sin cifra nueva. No se ha modificado ningún campo.",
+    "no_encontrado": "No localizados: PAIF de la Fundación Pluralismo y Convivencia en los PGE, resumen de cuentas anuales 2024/2025 en BOE ('gastos de personal' de la cuenta de resultados, que no es cap.1) ni plantilla y retribuciones del portal de transparencia. El cupo de búsquedas web se agotó y ninguna URL de la fundación ni de su resolución de cuentas en BOE estaba disponible para WebFetch. La navegación por los sumarios diarios del BOE de 2026 falló: las URLs /boe/dias/2026/MM/DD/ devuelven error de servidor."
+  },
+  {
+    "ID": 23,
+    "updates": {},
+    "fuentes_nuevas": [],
+    "verificacion": "Sin cifra nueva. Se mantienen 30 personas ocupadas y 47 puestos RPT del informe anual 2025, sin tocarlos.",
+    "no_encontrado": "No se ha localizado coste ni crédito de personal propio de la OIReScon. La URL del informe anual 2025 de hacienda.gob.es no estaba en resultados de búsqueda, así que WebFetch la rechaza, y el cupo de búsquedas se agotó. Tampoco se pudo consultar el programa 923/931 del Ministerio de Hacienda en la prórroga 2026 ni su portal de transparencia. No se reparte crédito ministerial."
+  },
+  {
+    "ID": 27,
+    "updates": {
+      "Notas de personal y apoyo ministerial": "Contexto AESAN, entidad sucesora; NO es gasto de AECOSAN, no sumar. El cap.1 de AESAN ya figura en BN (crédito 10,990 M; obligaciones y pagos 7,085 M hasta 31/08/2026, IGAE 08.2026 p.53) y en BU (2025: 10,860 M). Son cifras de una pasada anterior, no re-cotejadas en esta revisión de 12/10/2026."
+    },
+    "fuentes_nuevas": [
+      "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Documents/ORGANISMOS%2005.%202026%20.pdf"
+    ],
+    "verificacion": "No se ha podido cotejar la cifra de 20,371 M con la IGAE 08.2026. Esa URL no estaba en resultados de búsqueda y WebFetch la rechaza. Además, WebFetch trunca estos PDF hacia la página 27-28, antes del bloque de gastos de OOAA (págs. ~42-72). Sí se leyó la IGAE ORGANISMOS 05.2026, p.10, 'Presupuesto de ingresos, previsiones y sus modificaciones', en miles de EUR: AESAN '14.483 394 14.877 14.483 -2 14.481'. Las previsiones iniciales de ingresos son 14,483 M tanto en 2026 como en 2025, lo que es coherente con un presupuesto prorrogado. Es presupuesto de ingresos y NO sirve para cotejar el crédito de gastos (19,544 inicial y 20,371 total), por eso no se ha llevado a ninguna columna numérica. La nota BB solo remite a BN/BU.",
+    "no_encontrado": "No se ha re-cotejado el crédito total de AESAN de 20,371 M ni su cap.1 en la IGAE 08.2026: el PDF no es accesible con las herramientas disponibles (provenance y truncado en p.~27). Si se quiere confirmar, hay que mirar las págs. 42-72 de la edición 08.2026 de la IGAE."
+  },
+  {
+    "ID": 44,
+    "updates": {},
+    "fuentes_nuevas": [],
+    "verificacion": "Sin cifra nueva. Se mantiene el texto existente sobre la financiación provisional con créditos de Igualdad.",
+    "no_encontrado": "No se ha podido comprobar si aparece en la IGAE 07/08.2026 (bloque 'resto de entidades', págs. ~99-119). WebFetch trunca los PDF de ORGANISMOS hacia la p.27 y la URL de la edición 08.2026 no estaba en resultados de búsqueda. Tampoco se pudo releer el RD 606/2026 (BOE-A-2026-16172) para citar el artículo exacto de la financiación transitoria: WebFetch devuelve error de robots en txt.php y doc.php. El cupo de búsquedas se agotó antes de localizar transferencias de crédito o un presupuesto de constitución en BOE."
+  },
+  {
+    "ID": 45,
+    "updates": {},
+    "fuentes_nuevas": [],
+    "verificacion": "Sin cifra nueva.",
+    "no_encontrado": "No se ha podido comprobar si aparece en la IGAE 07/08.2026 (bloque 'resto de entidades'): los PDF se truncan hacia la p.27. Tampoco se pudo releer el RD 65/2026 (BOE-A-2026-2553) ni el BOE-A-2026-10246 para citar el artículo del régimen transitorio. Las dos URLs son de la ficha y no salieron en resultados de búsqueda, así que WebFetch exige permiso del usuario, que no respondió. El cupo de búsquedas se agotó."
+  },
+  {
+    "ID": 46,
+    "updates": {},
+    "fuentes_nuevas": [],
+    "verificacion": "Sin cifra nueva.",
+    "no_encontrado": "Mismo problema que en los IDs 44 y 45: no se pudo leer el bloque 'resto de entidades' de la IGAE 07/08.2026 ni la Ley 7/2025 o el BOE-A-2026-16527, para citar el artículo de financiación transitoria con medios de Sanidad, ni buscar un estatuto o presupuesto de constitución. El cupo de búsquedas se agotó."
+  },
+  {
+    "ID": 65,
+    "updates": {},
+    "fuentes_nuevas": [],
+    "verificacion": "Sin cambios.",
+    "no_encontrado": "No se ha podido verificar la naturaleza jurídica actual del Centro Nacional de Fotografía (unidad del Ministerio de Cultura, consorcio o fundación) ni un presupuesto o convenio específico. El cupo de búsquedas se agotó antes de llegar a este ID y las URLs de la ficha (BOE-A-2023-16819, cultura.gob.es) no son accesibles por WebFetch sin aparecer en resultados de búsqueda. Según la ficha, el RD 670/2023 prevé el anteproyecto a través de la Subdirección de Museos Estatales, lo que sugiere un servicio sin personalidad dentro del Ministerio de Cultura. Esto no se ha re-verificado en esta pasada."
+  },
+  {
+    "ID": 66,
+    "updates": {},
+    "fuentes_nuevas": [],
+    "verificacion": "Sin cambios.",
+    "no_encontrado": "No localizados: presupuestos de explotación y capital de la SETT en los PGE (prórroga 2026), cuentas anuales 2024/2025 (gastos de personal de la cuenta de pérdidas y ganancias, que no es cap.1, y plantilla media) ni portal de transparencia (plantilla y retribuciones de directivos). El cupo de búsquedas se agotó antes de llegar a este ID y no había ninguna URL de la SETT disponible para WebFetch."
+  },
+  {
+    "ID": 41,
+    "updates": {
+      "Notas de conciliación de crédito y ejecución": "IGAE: columnas 2026 crédito / obligaciones / pagos;2025 crédito y obligaciones al mismo 31/08. No comparar 8 meses con año completo. Capítulo 1 no equivale solo a sueldos. PlantillaRPT del lote no incorporada sin verificación adicional. Sin comparación 2025 en informe; nulo NO cero. Anual 2025 (BO–BU) sin rellenar: no se han podido leer las págs. 99-119 ('resto de entidades') de la IGAE 12.2025 en la revisión del 12/10/2026. Régimen previo: RD 729/2023, DT 1ª: 'En tanto en cuanto la Agencia no tenga presupuesto aprobado por ley, los gastos se imputarán con cargo al presupuesto del Ministerio de Asuntos Económicos y Transformación Digital'. El gasto de AESIA anterior a su presupuesto propio pudo imputarse al Ministerio; no se reparte.",
+      "Verificación anual / conciliación": "Sin cifra anual 2025 verificada: no se ha cotejado la IGAE edición 12.2025 (ORGANISMOS 12. 2025, págs. 99-119, resto de entidades) en esta pasada, porque el texto accesible se corta en la p.27. La edición 08.2026 no trae comparativo 2025 a 31/08. No se afirma que AESIA esté ausente de la edición 12.2025: queda pendiente de cotejo directo. Nulo, NO cero."
+    },
+    "fuentes_nuevas": [
+      "https://www.hacienda.gob.es/BoletinesHacienda/Boletines/2023/84009.pdf"
+    ],
+    "verificacion": "RD 729/2023 (BOE-A-2023-18911), reproducido en el Boletín de Hacienda 84009.pdf. P.4, DT 1ª 'Régimen Presupuestario transitorio': 'En tanto en cuanto la Agencia no tenga presupuesto aprobado por ley, los gastos se imputarán con cargo al presupuesto del Ministerio de Asuntos Económicos y Transformación Digital'. P.3, DA 1ª: puesta en funcionamiento con la constitución del Consejo Rector, en un plazo máximo de 3 meses. No se añaden cifras. Se han reescrito BN y BU conservando el texto previo de BN.",
+    "no_encontrado": "IGAE ORGANISMOS 12. 2025, págs. 99-119. WebFetch solo devuelve unos 60.454 caracteres (págs. 1-27, ingresos de OOAA) y el texto acaba a mitad de fila en la p.27. El navegador integrado no estaba autorizado: el usuario no respondió a la petición de acceso. No se buscaron cuentas anuales 2025 de AESIA en BOE porque el cupo de búsquedas se agotó."
+  },
+  {
+    "ID": 42,
+    "updates": {
+      "Notas de conciliación de crédito y ejecución": "IGAE: columnas 2026 crédito / obligaciones / pagos;2025 crédito y obligaciones al mismo 31/08. No comparar 8 meses con año completo. Capítulo 1 no equivale solo a sueldos. PlantillaRPT del lote no incorporada sin verificación adicional. Sin comparación 2025 en informe; nulo NO cero. Anual 2025 (BO–BU) sin rellenar: no se han podido leer las págs. 99-119 de la IGAE 12.2025 en la revisión del 12/10/2026. Atención: la AEAD ya estaba constituida en 2025. En enero de 2025 la constitución efectiva aún estaba pendiente (BOE-A-2025-1315, recital cuarto). El 15/04/2025 firmó como AEAD, sucesora de la SGAD 'desde el momento de su constitución efectiva', un convenio con efectos desde el 17/04/2025 (BOE-A-2025-9189, p.61429). Por tanto, la IGAE 12.2025 podría recogerla con datos de 2025, o su gasto 2025 podría seguir en el presupuesto ministerial; no verificado.",
+      "Verificación anual / conciliación": "Sin cifra anual 2025 verificada: la IGAE edición 12.2025 (págs. 99-119) no se ha cotejado en esta pasada, porque el texto accesible se corta en la p.27. La AEAD existía desde algún momento entre enero y abril de 2025, así que es posible que haya ejecución 2025 propia: pendiente de cotejo directo en ORGANISMOS 12. 2025 o en las cuentas anuales 2025 publicadas en BOE. Nulo, NO cero."
+    },
+    "fuentes_nuevas": [
+      "https://boe.es/boe/dias/2025/05/10/pdfs/BOE-A-2025-9189.pdf",
+      "https://boe.es/boe/dias/2025/01/24/pdfs/BOE-A-2025-1315.pdf"
+    ],
+    "verificacion": "BOE-A-2025-1315 (Resolución 14/01/2025, BOE 24/01/2025, pp.10696-10697): recital cuarto y nueva cláusula decimocuarta, en la que la constitución efectiva de la AEAD 'puede producirse' durante la vigencia del convenio, es decir, todavía no se había producido. BOE-A-2025-9189 (Resolución 28/04/2025, BOE 10/05/2025, pp.61428-61435): convenio AEAD–Banco de España firmado el 15/04/2025 y con efectos el 17/04/2025; la AEAD sucede a la SGAD 'desde el momento de su constitución efectiva'. No aportan importes de presupuesto ni de personal. No se añaden cifras numéricas.",
+    "no_encontrado": "IGAE ORGANISMOS 12. 2025, págs. 99-119: inaccesibles por truncado de WebFetch, que llega a la p.27. Cuentas anuales 2025 de la AEAD en BOE: no localizadas antes de agotarse el cupo de búsquedas; los resultados devolvieron solo convenios. Fecha exacta de constitución de la AEAD: no localizada."
+  },
+  {
+    "ID": 43,
+    "updates": {
+      "Notas de conciliación de crédito y ejecución": "IGAE: columnas 2026 crédito / obligaciones / pagos;2025 crédito y obligaciones al mismo 31/08. No comparar 8 meses con año completo. Capítulo 1 no equivale solo a sueldos. PlantillaRPT del lote no incorporada sin verificación adicional. Sin comparación 2025 en informe; nulo NO cero. 2025 sin presupuesto propio, verificado en norma. La Orden PJC/908/2025 (BOE 12/08/2025) fija la puesta en funcionamiento el 01/09/2025 y dispone en su apartado tercero: 'Hasta que la Autoridad ... disponga de un presupuesto propio su actividad se financiará con cargo a los créditos presupuestarios del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes'. La Orden PJC/1554/2025 (BOE 30/12/2025) justifica en el preámbulo la prórroga del apoyo ministerial para finalizar la puesta en funcionamiento 'una vez cuente con presupuesto propio en 2026'. El gasto 2025 está en el Ministerio y no se reparte.",
+      "Verificación anual / conciliación": "Sin cap.1 propio anual 2025: la A.A.I. no tuvo presupuesto propio en 2025. Se financió con créditos del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes (Orden PJC/908/2025, apartado tercero) y el presupuesto propio empieza en 2026 (Orden PJC/1554/2025, preámbulo). Esto es coherente con que la IGAE 08.2026 no traiga comparativo 2025. La IGAE 12.2025 (págs. 99-119) no se ha cotejado directamente. BO-BQ vacíos: nulo, NO cero."
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-16764",
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-27082",
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14196"
+    ],
+    "verificacion": "Orden PJC/908/2025, de 8 de agosto (BOE-A-2025-16764, BOE núm. 193 de 12/08/2025): puesta en funcionamiento el 1/9/2025 y apartado tercero de financiación con créditos del Ministerio hasta que haya presupuesto propio (cita literal). Orden PJC/1554/2025, de 26 de diciembre (BOE-A-2025-27082, BOE núm. 314 de 30/12/2025), preámbulo: prórroga 'necesaria para finalizar el proceso de puesta en funcionamiento de la Autoridad, una vez cuente con presupuesto propio en 2026'. Orden PJC/656/2026 (BOE-A-2026-14196, BOE 30/06/2026): prórroga del apoyo de servicios hasta el 30/09/2026 por la integración en los servicios comunes de la AEAD; no menciona presupuesto. Ninguna de estas normas aporta importes, así que no se añaden cifras numéricas.",
+    "no_encontrado": "IGAE ORGANISMOS 12. 2025, págs. 99-119: no legibles por truncado de WebFetch (llega a la p.27). La conclusión sobre 2025 se apoya en las órdenes ministeriales citadas, no en la IGAE."
+  }
+]

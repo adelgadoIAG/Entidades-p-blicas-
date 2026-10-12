@@ -1,0 +1,712 @@
+[
+ {
+  "tema": "Observatorios de convivencia escolar",
+  "estado": {
+   "nombre": "Observatorio Estatal de la Convivencia Escolar",
+   "tipo": "organo",
+   "url": "https://www.boe.es/eli/es/rd/2007/02/23/275"
+  },
+  "competencia": "Educación: el Estado dicta las normas básicas (art. 149.1.30 CE, LOE/LOMLOE) y las CCAA las desarrollan, ejecutan y gestionan los centros. Cada administración educativa puede crear sus propios órganos de convivencia; ninguna ley lo obliga.",
+  "cobertura_estatal": "Parcial. El Observatorio Estatal (RD 275/2007, modificado por RD 3/2018) es un órgano colegiado consultivo de ámbito estatal: estudia, informa y propone. No gestiona la convivencia en los centros, que corresponde a las CCAA, y no hay convenios para que cubra a una CCAA sin observatorio propio.",
+  "ccaa": {
+   "Andalucía": {
+    "tipo": "organo",
+    "nombre": "Observatorio para la Convivencia Escolar en Andalucía",
+    "norma": "Creado entre 2006 y 2012 según el informe; decreto no verificado en esta sesión",
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "El informe dice que está 'en proceso de renovación' (2024). Fuente: informe del Ministerio (Área de Convivencia Escolar, SG de Cooperación Territorial), «Análisis comparado de aspectos formales de la convivencia escolar en las CCAA», mayo de 2024, apdo. 4, pp. 8-9."
+   },
+   "Aragón": {
+    "tipo": "organo",
+    "nombre": "Observatorio autonómico de convivencia escolar de Aragón (el informe no da el nombre exacto)",
+    "norma": "Creado entre 2014 y 2018 según el informe; norma no verificada",
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Se reunió en 2023 según el informe. Fuente: informe del Ministerio (Área de Convivencia Escolar, SG de Cooperación Territorial), «Análisis comparado de aspectos formales de la convivencia escolar en las CCAA», mayo de 2024, apdo. 4, pp. 8-9."
+   },
+   "Asturias": {
+    "tipo": "organo",
+    "nombre": "Observatorio autonómico de convivencia escolar del Principado de Asturias (el informe no da el nombre exacto)",
+    "norma": "Creado entre 2006 y 2012 según el informe; norma no verificada",
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Actividad reciente no indicada. Fuente: informe del Ministerio (Área de Convivencia Escolar, SG de Cooperación Territorial), «Análisis comparado de aspectos formales de la convivencia escolar en las CCAA», mayo de 2024, apdo. 4, pp. 8-9."
+   },
+   "Illes Balears": {
+    "tipo": "organo",
+    "nombre": "Institut per a la Convivència i l'Èxit Escolar (Convivèxit)",
+    "norma": "Decret 10/2008, de 25 de gener (modificado por Decret 72/2009, de 23 d'octubre)",
+    "url": "https://www.caib.es/sites/convivexit/ca/normativa_autonamica/",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se llama observatorio, pero es una unidad de la Conselleria de Educación, con nombre propio y dedicada a la convivencia escolar. No se ha verificado si tiene personalidad jurídica: se clasifica como órgano. El informe ministerial de 2024 recoge reuniones de Baleares sin dar nombre ni norma."
+   },
+   "Canarias": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "El informe ministerial de 2024 no da nombre, norma ni año de creación para Canarias. No se buscó por separado."
+   },
+   "Cantabria": {
+    "tipo": "organo",
+    "nombre": "Observatorio autonómico de convivencia escolar de Cantabria (el informe no da el nombre exacto)",
+    "norma": "Creado entre 2006 y 2012 según el informe; norma no verificada",
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Se reunió en 2023 según el informe. Fuente: informe del Ministerio (Área de Convivencia Escolar, SG de Cooperación Territorial), «Análisis comparado de aspectos formales de la convivencia escolar en las CCAA», mayo de 2024, apdo. 4, pp. 8-9."
+   },
+   "Castilla-La Mancha": {
+    "tipo": "organo",
+    "nombre": "Observatorio autonómico de convivencia escolar de Castilla-La Mancha (el informe no da el nombre exacto)",
+    "norma": "Creado entre 2006 y 2012 según el informe; norma no verificada",
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Se reunió en 2022 según el informe. Fuente: informe del Ministerio (Área de Convivencia Escolar, SG de Cooperación Territorial), «Análisis comparado de aspectos formales de la convivencia escolar en las CCAA», mayo de 2024, apdo. 4, pp. 8-9."
+   },
+   "Castilla y León": {
+    "tipo": "organo",
+    "nombre": "Observatorio de la Comunidad de Castilla y León, sección de convivencia escolar",
+    "norma": "Decreto 52/2014, de 16 de octubre (BOCyL 20/10/2014), arts. 2 y 4.c",
+    "url": "https://sirdoc.ccyl.es/Biblioteca/Dosieres/DL203AtencionViolenciaGenero/pdfs/CyL-Decreto-52-2014-Observatorio.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Es un órgano colegiado adscrito a la Consejería de la Presidencia. Desde 2014 la convivencia escolar es una sección de un observatorio multitemático (con las secciones de género y de agresiones a sanitarios). La disposición derogatoria c) derogó el Decreto 8/2006, que había creado el Observatorio para la Convivencia Escolar."
+   },
+   "Cataluña": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "El informe ministerial de 2024 no da nombre ni norma de un observatorio catalán. Su encuesta ECESC no es un observatorio. No se buscó por separado."
+   },
+   "Comunitat Valenciana": {
+    "tipo": "organo",
+    "nombre": "Observatorio para la Convivencia Escolar (desde 2023, pleno conjunto «Observatorio Igualdad y Convivencia»)",
+    "norma": "Creado antes de la LOE según el informe; norma no verificada",
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "El informe dice que se reactivó en 2022 y que en 2023 se constituyó el 'Pleno Observatorio Igualdad y Convivencia'. Fuente: informe del Ministerio (Área de Convivencia Escolar, SG de Cooperación Territorial), «Análisis comparado de aspectos formales de la convivencia escolar en las CCAA», mayo de 2024, apdo. 4, pp. 8-9."
+   },
+   "Extremadura": {
+    "tipo": "organo",
+    "nombre": "Observatorio para la Convivencia Escolar en Extremadura",
+    "norma": "Decreto 28/2007, de 20 de febrero (DOE núm. 24, 27/02/2007), art. 7",
+    "url": "https://doe.juntaex.es/pdfs/doe/2026/1040o/26050065.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Es un órgano colegiado consultivo y está en activo: la Orden de 27/05/2026 (DOE núm. 104, 2/06/2026) cesa y nombra a sus vocales. También figura en el informe ministerial de 2024 (reuniones en 2022)."
+   },
+   "Galicia": {
+    "tipo": "organo",
+    "nombre": "Consejo para la Convivencia Escolar de la Comunidad Autónoma de Galicia",
+    "norma": "Creado entre 2014 y 2018 según el informe; el informe cita en su anexo la Ley 4/2011 y el Decreto 8/2015, sin vincularlos expresamente a este órgano",
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Se reunió en 2022 según el informe. Fuente: informe del Ministerio (Área de Convivencia Escolar, SG de Cooperación Territorial), «Análisis comparado de aspectos formales de la convivencia escolar en las CCAA», mayo de 2024, apdo. 4, pp. 8-9."
+   },
+   "Madrid": {
+    "tipo": "organo",
+    "nombre": "Observatorio autonómico de convivencia escolar de la Comunidad de Madrid (el informe no da el nombre exacto)",
+    "norma": "Creado entre 2014 y 2018 según el informe; norma no verificada",
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Según el informe 'ha tenido reuniones recientemente'. Fuente: informe del Ministerio (Área de Convivencia Escolar, SG de Cooperación Territorial), «Análisis comparado de aspectos formales de la convivencia escolar en las CCAA», mayo de 2024, apdo. 4, pp. 8-9."
+   },
+   "Murcia": {
+    "tipo": "organo",
+    "nombre": "Observatorio autonómico de convivencia escolar de la Región de Murcia (el informe no da el nombre exacto)",
+    "norma": "Creado entre 2006 y 2012 según el informe; norma no verificada",
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Según el informe 'ha tenido reuniones recientemente'. Fuente: informe del Ministerio (Área de Convivencia Escolar, SG de Cooperación Territorial), «Análisis comparado de aspectos formales de la convivencia escolar en las CCAA», mayo de 2024, apdo. 4, pp. 8-9."
+   },
+   "Navarra": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "El informe ministerial de 2024 no da nombre, norma ni año de creación para Navarra. No se buscó por separado."
+   },
+   "País Vasco": {
+    "tipo": "organo",
+    "nombre": "Observatorio autonómico de convivencia escolar del País Vasco (el informe no da el nombre exacto)",
+    "norma": "Creado entre 2006 y 2012 según el informe; norma no verificada",
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Actividad reciente no indicada. Fuente: informe del Ministerio (Área de Convivencia Escolar, SG de Cooperación Territorial), «Análisis comparado de aspectos formales de la convivencia escolar en las CCAA», mayo de 2024, apdo. 4, pp. 8-9."
+   },
+   "La Rioja": {
+    "tipo": "organo",
+    "nombre": "Observatorio autonómico de convivencia escolar de La Rioja (el informe no da el nombre exacto)",
+    "norma": "Creado entre 2006 y 2012 según el informe; norma no verificada",
+    "url": "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Está inactivo: el informe dice que La Rioja 'en la actualidad quiere reanudar' su actividad. Fuente: informe del Ministerio (Área de Convivencia Escolar, SG de Cooperación Territorial), «Análisis comparado de aspectos formales de la convivencia escolar en las CCAA», mayo de 2024, apdo. 4, pp. 8-9."
+   }
+  },
+  "notas": "Fuente principal: el informe del Ministerio de Educación de mayo de 2024 sobre la convivencia escolar en las CCAA, que es la lista oficial que abarca a todas. Habla de observatorios creados 'en once Comunidades Autónomas', aunque luego nombra 13 (Valencia antes de la LOE; Andalucía, Asturias, Cantabria, CLM, CyL, Extremadura, Murcia, País Vasco y La Rioja en 2006-2012; Aragón, Galicia y Madrid en 2014-2018). Añade que 'en algunos casos, hoy en día no están activos' (La Rioja). Baleares tiene Convivèxit, que no se llama observatorio. Castilla y León lo integró en 2014 en un observatorio multitemático. Las normas de creación solo se han verificado en CyL, Extremadura y Baleares.",
+  "fuentes": [
+   "https://educacionfpydeportes.gob.es/dam/jcr:9b630aa5-b767-4739-848b-65a46bcebbf9/informe-convivencia-ccaa-v-mayo--2024.pdf",
+   "https://educacionfpydeportes.gob.es/ca/dam/jcr:6e1130b2-96f3-4008-b2ab-c6dbb76d473f/rd-observatorio-estatal-convivencia-escolar.pdf",
+   "https://vlex.es/vid/real-decreto-3-2018-700920453",
+   "https://sirdoc.ccyl.es/Biblioteca/Dosieres/DL203AtencionViolenciaGenero/pdfs/CyL-Decreto-52-2014-Observatorio.pdf",
+   "https://doe.juntaex.es/pdfs/doe/2026/1040o/26050065.pdf",
+   "https://www.caib.es/sites/convivexit/ca/normativa_autonamica/"
+  ]
+ },
+ {
+  "tema": "Consejos de la juventud",
+  "estado": {
+   "nombre": "Consejo de la Juventud de España (CJE)",
+   "tipo": "ente",
+   "url": "https://www.cje.org/en/faq/"
+  },
+  "competencia": "Juventud: es una competencia exclusiva autonómica según los Estatutos. El art. 48 CE obliga a todos los poderes públicos a promover la participación de la juventud. Cada CCAA regula su consejo por ley propia; el CJE actúa en el ámbito estatal.",
+  "cobertura_estatal": "No sustitutiva. El CJE es una plataforma estatal; tras la Ley 15/2014 (reforma CORA) dejó de ser organismo autónomo y es una entidad corporativa de base privada. Los consejos autonómicos forman parte de él o se coordinan con él, pero no representa a la juventud ante cada gobierno autonómico. No hay convenios de cobertura.",
+  "ccaa": {
+   "Andalucía": {
+    "tipo": "organo",
+    "nombre": "Consejo de la Juventud de Andalucía",
+    "norma": "Ley 8/1985 (creación); Ley 18/2003, de 29 de diciembre, Tít. III Cap. X (actualización); Reglamento por Resolución del IAJ de 19/05/2003 (BOJA núm. 97, 23/05/2003)",
+    "url": "https://www.juntadeandalucia.es/sites/default/files/2020-03/Proyecto%20de%20Ley%20de%20Juventud%20de%20Andaluc%C3%ADa.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Su naturaleza es dudosa. El Reglamento de 2003 lo define como 'entidad de derecho público con personalidad jurídica propia' (https://cdn.juntadeandalucia.es/boja/2003/97/d1.pdf). En cambio, el proyecto de Ley de Juventud de Andalucía (exp. 305/14) lo trata como 'órgano colegiado' que 'depende orgánicamente del Instituto Andaluz de la Juventud'. La resolución del CJE de 2016 dice que las entidades siguen reclamando una 'forma jurídica propia' y que el IAJ suspendió acuerdos de su asamblea. Se clasifica como órgano por el criterio más reciente; la vigencia en 2026 no se ha comprobado."
+   },
+   "Aragón": {
+    "tipo": "ente",
+    "nombre": "Consejo de la Juventud de Aragón",
+    "norma": "Ley 2/1985, de 28 de marzo, de creación del Consejo de la Juventud de Aragón (BOA 3/04/1985), art. 1.1: 'entidad de Derecho Público'",
+    "url": "https://www.parcan.es/files/documentacion/dosieres/DOSS0102/DOSS0102DOC1424.PDF",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Existía en 2011: la Cuenta General de Aragón de 2011 lo cita en el Consejo Rector del Instituto Aragonés de la Juventud (https://www.aragon.es/documents/20127/674325/4.1.- Organizacion-2019.06.12.12.49.29.pdf/796e8dd5-f96c-0346-a6da-0b366d21d05f). No se ha comprobado si una ley posterior cambió su naturaleza ni si sigue activo en 2026."
+   },
+   "Asturias": {
+    "tipo": "ente",
+    "nombre": "Consejo de la Juventud del Principado de Asturias (Conseyu de la Mocedá)",
+    "norma": "Ley 1/1986, de 31 de marzo: 'entidad de Derecho público con personalidad jurídica propia'",
+    "url": "https://tematico.asturias.es/hacienda/cuen2005/doc/5/4_1.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "La fuente es una ficha de la Intervención General (Cuenta General de 2005). No se ha comprobado que siga vigente en 2026."
+   },
+   "Illes Balears": {
+    "tipo": "no_verificado",
+    "nombre": "Consell de la Joventut de les Illes Balears",
+    "norma": null,
+    "url": "https://www.cje.org/en/entidades/",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Un logo 'BJIB' en la web del CJE (sección de consejos de juventud) indica que existe. No se ha verificado su naturaleza ni su norma: ley y estado no verificados. Una noticia de prensa de 2016 (solo como pista) habla de que 'recupera' el consejo, lo que sugiere una supresión o inactividad anterior."
+   },
+   "Canarias": {
+    "tipo": "no_verificado",
+    "nombre": "Consejo de la Juventud de Canarias",
+    "norma": null,
+    "url": "https://www.cje.org/en/entidades/",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Su logo figura en la web del CJE, lo que indica que existe. Naturaleza jurídica y norma no verificadas."
+   },
+   "Cantabria": {
+    "tipo": "ente",
+    "nombre": "Consejo de la Juventud de Cantabria",
+    "norma": "Ley de Cantabria 1/2019, de 14 de febrero",
+    "url": "https://www.boe.es/eli/es-cb/l/2019/02/14/1/con/20190225",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Ente participativo creado por ley; también figura en la web del CJE. No aparece en el articulado de la Ley de Presupuestos de Cantabria 2026 (lote previo E)."
+   },
+   "Castilla-La Mancha": {
+    "tipo": "ente",
+    "nombre": "Consejo de la Juventud de Castilla-La Mancha",
+    "norma": "Ley 1/2005, de 7 de abril, de los Consejos de la Juventud de Castilla-La Mancha (BOE núm. 120, 20/05/2005), art. 1.1: 'Entidad de Derecho Público, de base asociativa privada', 'excluida del sector público regional'",
+    "url": "https://www.boe.es/boe/dias/2005/05/20/pdfs/A16971-16975.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Un logo 'CJCM' en la web del CJE indica que existe hoy. No se ha verificado si la Ley 1/2005 sigue vigente: se buscó una posible supresión en 2012 sin resultado concluyente."
+   },
+   "Castilla y León": {
+    "tipo": "ente",
+    "nombre": "Consejo de la Juventud de Castilla y León",
+    "norma": "Ley 11/2002, de 10 de julio, de Juventud de Castilla y León, Título IV",
+    "url": "https://sirdoc.ccyl.es/sirdoc/PDF/PUBLOFI/BO/CCL/10L/BOCCL1000042/BOCCL-10-001515.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "La PNL/000340 de las Cortes de CyL (BOCCL 14/11/2019) define los consejos de juventud como 'entidades de derecho privado, que gozan de personalidad jurídica propia'. Tiene personalidad, pero no es sector público. Aparece en la web del CJE (cjcyl.es)."
+   },
+   "Cataluña": {
+    "tipo": "no_verificado",
+    "nombre": "Consell Nacional de la Joventut de Catalunya (CNJC)",
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado fuente oficial en esta sesión. No figura entre los logos con nombre de la web del CJE."
+   },
+   "Comunitat Valenciana": {
+    "tipo": "no_verificado",
+    "nombre": "Consell Valencià de la Joventut",
+    "norma": null,
+    "url": "https://www.cje.org/en/entidades/",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Su logo figura en la web del CJE (conselljoventut.org), lo que indica que existe. Norma y naturaleza no verificadas en fuente oficial. Una reseña académica (Cuadernos de Investigación en Juventud, 2019; solo como pista) lo describe como 'corporación pública sectorial de base privada'."
+   },
+   "Extremadura": {
+    "tipo": "ente",
+    "nombre": "Consejo de la Juventud de Extremadura",
+    "norma": "Ley del Consejo de la Juventud de Extremadura, de 24 de enero de 1985 (BOE núm. 122, 22/05/1985), art. 1.1: 'Entidad de derecho público'",
+    "url": "https://www.boe.es/boe/dias/1985/05/22/pdfs/A14960-14961.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Un logo 'CJEX' en la web del CJE indica que existe hoy. No se ha comprobado que la ley de 1985 siga vigente ni que no haya sido sustituida."
+   },
+   "Galicia": {
+    "tipo": "organo",
+    "nombre": "Consejo Asesor y Consultivo de Juventud de Galicia",
+    "norma": "Ley 6/2012, de 19 de junio, de juventud de Galicia (BOE-A-2012-11413); Decreto 57/2014, de 8 de mayo (DOG 28/05/2014), art. 1.1: 'órgano colegiado de participación, representación y consulta'",
+    "url": "https://laadministracionaldia.inap.es/noticia.asp?id=1127756",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Está integrado en la consellería competente en juventud. Galicia no tiene un consejo de la juventud con personalidad propia. Según una reseña académica (solo como pista), este órgano sustituyó al antiguo Consello da Xuventude de Galicia; la supresión de este no se ha verificado en fuente oficial."
+   },
+   "Madrid": {
+    "tipo": "organo",
+    "nombre": "Mesa de Políticas de Juventud de la Comunidad de Madrid (sustituye al Consejo de la Juventud, suprimido)",
+    "norma": "Ley 8/2024, de 26 de diciembre, DA única (supresión del Consejo de la Juventud creado por Ley 8/2017; BOE-A-2025-5523); Acuerdo del Consejo de Gobierno de 10/06/2026 (BOCM 29/06/2026)",
+    "url": "https://boe.es/boe/dias/2025/03/20/pdfs/BOE-A-2025-5523.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "SUPRIMIDO EN 2024. La Ley 8/2024, DA única.1, dice 'Queda suprimido el Consejo de la Juventud, entidad de derecho público creada por la Ley 8/2017'. Sus bienes, derechos y obligaciones pasan a la Comunidad de Madrid; en vigor desde el 28/12/2024. El órgano sustituto previsto en la DA única.2 es colegiado y sin personalidad jurídica. Es la Mesa de Políticas de Juventud, creada por Acuerdo de 10/06/2026, que según el acuerdo no supone 'incremento alguno del gasto público' (https://laadministracionaldia.inap.es/noticia.asp?id=1267231, del lote previo G). Se cuenta como órgano y no como ente."
+   },
+   "Murcia": {
+    "tipo": "no_verificado",
+    "nombre": "Consejo de la Juventud de la Región de Murcia",
+    "norma": "Ley 6/2007, de 4 de abril, de Juventud de la Región de Murcia, arts. 46-49",
+    "url": "https://www.iberley.es/legislacion/ley-6-2007-4-abr-c-murcia-juventud-murcia-4481378",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Las señales son contradictorias. Iberley da la Ley 6/2007 como vigente y 'no modificada', y un logo 'CJE Murcia' figura en la web del CJE. Una reseña académica de 2019 (solo como pista) presenta a Murcia como la excepción entre las CCAA. No se ha verificado su naturaleza (art. 46) ni si se suprimió."
+   },
+   "Navarra": {
+    "tipo": "ente",
+    "nombre": "Consejo de la Juventud de Navarra / Nafarroako Gazteriaren Kontseilua",
+    "norma": "Ley Foral 11/2011, de 1 de abril, de Juventud, art. 35; Decreto Foral 53/2023, de 21 de junio (BON 17/07/2023), art. 2.1",
+    "url": "https://laadministracionaldia.inap.es/noticia.asp?id=1235364",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Art. 2.1: 'entidad de derecho público, de base asociativa privada'; no forma parte de la Administración foral. El DF 53/2023 deroga el DF 110/1986 que lo creó originalmente."
+   },
+   "País Vasco": {
+    "tipo": "no_verificado",
+    "nombre": "Euskadiko Gazteriaren Kontseilua (EGK) / Consejo de la Juventud de Euskadi",
+    "norma": null,
+    "url": "https://www.cje.org/en/entidades/",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Su logo figura en la web del CJE (egk.eus), lo que indica que existe. Norma y naturaleza no verificadas en esta sesión."
+   },
+   "La Rioja": {
+    "tipo": "ente",
+    "nombre": "Consejo de la Juventud de La Rioja",
+    "norma": "Ley 2/1986, de 5 de marzo, del Consejo de la Juventud de La Rioja, art. 1.1: 'entidad de Derecho Público'",
+    "url": "https://adminweb.parlamento-larioja.org/recursos-de-informacion/leyes-aprobadas/ley-2-1986-de-5-de-marzo-del-consejo-de-la",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Un logo 'CJLR' en la web del CJE indica que existe. No se ha comprobado que la ley de 1986 siga vigente. Aparte, el Instituto Riojano de la Juventud (OA) se extinguió en 2012 (lote previo G)."
+   }
+  },
+  "notas": "La página de apoyo a entidades del CJE (lista oficial de la red) muestra logos de los consejos de CyL, Euskadi, Navarra, Comunitat Valenciana, Baleares, CLM, La Rioja, Canarias, Cantabria, Murcia y Extremadura, y otros sin nombre. Supresiones verificadas: Madrid (Ley 8/2024; sustituido en 2026 por la Mesa de Políticas de Juventud, que es un órgano). Galicia funciona con un órgano consultivo de la Xunta (Decreto 57/2014). Las naturalezas jurídicas varían: entidades de derecho público, algunas 'de base asociativa privada' (Navarra, CLM), entidad de derecho privado con personalidad (CyL) u órgano adscrito (Andalucía, Galicia). En varias CCAA la ley de creación verificada es de los años ochenta y no se ha comprobado que siga vigente.",
+  "fuentes": [
+   "https://www.cje.org/en/entidades/",
+   "https://www.cje.org/en/faq/",
+   "https://www.boe.es/eli/es-cb/l/2019/02/14/1/con/20190225",
+   "https://www.boe.es/boe/dias/2005/05/20/pdfs/A16971-16975.pdf",
+   "https://boe.es/boe/dias/2025/03/20/pdfs/BOE-A-2025-5523.pdf",
+   "https://laadministracionaldia.inap.es/noticia.asp?id=1127756",
+   "https://laadministracionaldia.inap.es/noticia.asp?id=1235364",
+   "https://www.boe.es/boe/dias/1985/05/22/pdfs/A14960-14961.pdf",
+   "https://www.parcan.es/files/documentacion/dosieres/DOSS0102/DOSS0102DOC1424.PDF",
+   "https://tematico.asturias.es/hacienda/cuen2005/doc/5/4_1.pdf",
+   "https://www.juntadeandalucia.es/sites/default/files/2020-03/Proyecto%20de%20Ley%20de%20Juventud%20de%20Andaluc%C3%ADa.pdf",
+   "https://www.cje.org/download/295/consejos-de-juventud/23033/res-2016-autonomiacjandalucia.pdf"
+  ]
+ },
+ {
+  "tema": "Observatorios de igualdad y violencia de género",
+  "estado": {
+   "nombre": "Observatorio Estatal de Violencia sobre la Mujer",
+   "tipo": "organo",
+   "url": "https://www.boe.es/eli/es/lo/2004/12/28/1"
+  },
+  "competencia": "Igualdad y violencia de género: el Estado fija el marco básico (LO 1/2004 y LO 3/2007; art. 149.1.1 CE) y las CCAA tienen competencias propias en políticas de mujer y asistencia social según sus Estatutos y leyes autonómicas. Cada CCAA puede crear sus órganos de seguimiento.",
+  "cobertura_estatal": "Parcial. El OEVM (LO 1/2004, art. 30; RD 253/2006) es un órgano colegiado adscrito al Ministerio de Igualdad que elabora informes de ámbito estatal. No hay convenios para que sustituya a los observatorios autonómicos. Sin presupuesto propio: el gasto lo asume la DG contra la Violencia de Género (lote previo B1).",
+  "ccaa": {
+   "Andalucía": {
+    "tipo": "organo",
+    "nombre": "Observatorio Andaluz de la Violencia de Género",
+    "norma": "Decreto 298/2010, de 25 de mayo (BOJA núm. 116, 15/06/2010)",
+    "url": "https://cdn.juntadeandalucia.es/boja/2010/116/d2.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Art. 2.1: 'órgano colegiado, de composición interdepartamental', con funciones asesoras y de investigación. Adscrito a la Consejería competente en igualdad (art. 2.2). Es el observatorio más general localizado en Andalucía."
+   },
+   "Aragón": {
+    "tipo": "organo",
+    "nombre": "Observatorio Aragonés de Violencia sobre la Mujer",
+    "norma": "Ley 4/2007, de 22 de marzo, DA 2ª; Decreto 219/2009, de 15 de diciembre (BOA 30/12/2009)",
+    "url": "https://www.parcan.es/files/documentacion/dosieres/DOSS0244/DOSS0244DOC5684.PDF",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Art. 2.1: 'órgano colegiado adscrito al Departamento competente en materia de Mujer'. Sus gastos corren a cargo del presupuesto del Instituto Aragonés de la Mujer (art. 2.2). La fuente es una copia del decreto en un dosier del Parlamento de Canarias. Vigencia en 2026 no verificada."
+   },
+   "Asturias": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha buscado específicamente: cupo de búsquedas agotado."
+   },
+   "Illes Balears": {
+    "tipo": "organo",
+    "nombre": "Observatori per a la Igualtat de les Illes Balears",
+    "norma": "Ley 11/2016, de 28 de julio, de igualdad de mujeres y hombres; Decreto 1/2018, de 2 de febrero",
+    "url": "https://www.caib.es/sites/participacio/es/n/observatori_per_a_la_igualtat/",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Órgano colegiado presidido por la persona titular de la dirección del Institut Balear de la Dona (IBDONA), que también aporta la secretaría. Cubre la igualdad en general."
+   },
+   "Canarias": {
+    "tipo": "organo",
+    "nombre": "Observatorio de la Igualdad de Género (Instituto Canario de Igualdad)",
+    "norma": "Decreto 38/2015, de 27 de marzo, Reglamento de Organización y Funcionamiento del Instituto Canario de Igualdad, arts. 22-26",
+    "url": "https://vlex.es/vid/decreto-38-2015-27-563806338",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Es un órgano de consulta, participación y coordinación dentro del ICI, que es un organismo autónomo. No se ha comprobado si también abarca la violencia de género (art. 22 no legible). La fuente es una reproducción del BOC en vLex."
+   },
+   "Cantabria": {
+    "tipo": "organo",
+    "nombre": "Observatorio de Igualdad de Género de Cantabria",
+    "norma": "Decreto 53/2020, de 13 de agosto (BOC, CVE-2020-6008)",
+    "url": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=352798",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Órgano colegiado adscrito a la consejería; cubre igualdad y violencia contra las mujeres. Los datos vienen del lote previo E. El BOC bloquea la lectura automática (ROBOTS), así que no se ha releído en esta sesión. Actividad en 2026 no verificada."
+   },
+   "Castilla-La Mancha": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": "https://violenciagenero.igualdad.gob.es/wp-content/uploads/CastillaLaMancha_Copy.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado ningún observatorio autonómico. La ficha de la DGVG solo recoge una Comisión Regional y comisiones provinciales de seguimiento del Acuerdo de coordinación institucional de 25/11/2009, presididas por el TSJ y con secretaría en el Instituto de la Mujer. No se clasifica como observatorio."
+   },
+   "Castilla y León": {
+    "tipo": "organo",
+    "nombre": "Observatorio de la Comunidad de Castilla y León, sección de género",
+    "norma": "Decreto 52/2014, de 16 de octubre (BOCyL 20/10/2014), arts. 2 y 4.b",
+    "url": "https://sirdoc.ccyl.es/Biblioteca/Dosieres/DL203AtencionViolenciaGenero/pdfs/CyL-Decreto-52-2014-Observatorio.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Es un órgano colegiado adscrito a la Consejería de la Presidencia. La disposición derogatoria b) derogó el Decreto 30/2005, que había creado el Observatorio de Género de Castilla y León. Es el mismo observatorio multitemático que el del tema de convivencia escolar."
+   },
+   "Cataluña": {
+    "tipo": "organo",
+    "nombre": "Observatori de la Igualtat de Gènere (OIG)",
+    "norma": "Llei 17/2015, de 21 de juliol, d'igualtat efectiva de dones i homes; Decret 52/2017, de 6 de juny",
+    "url": "https://dones.gencat.cat/content/dam/dones/03_ambits/observatori/01_coneix_nos/activitats/Memoria-OIG-2025_edicio.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "La memoria 2025 lo define como 'òrgan col·legiat adscrit a l'Institut Català de les Dones'. Tiene unos dos técnicos y una coordinadora de media, y el decreto está 'pendent de modificació' en 2026. Cubre la igualdad en general."
+   },
+   "Comunitat Valenciana": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado ningún observatorio específico. Un proyecto de decreto de 2020 crea el Consell Valencià de les Dones, que es un órgano de participación y no un observatorio. El informe del Ministerio de Educación cita un 'Pleno Observatorio Igualdad y Convivencia' de 2023, pero es del ámbito educativo."
+   },
+   "Extremadura": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado ningún observatorio. El Decreto 12/2026 (DOE núm. 65, 7/04/2026) menciona una 'Comisión Permanente para la Prevención y Erradicación de la Violencia de Género', pero no un observatorio."
+   },
+   "Galicia": {
+    "tipo": "organo",
+    "nombre": "Observatorio Galego da Violencia de Xénero",
+    "norma": "Decreto 157/2012, de 5 de julio, desarrollo de la Lei 11/2007 (art. 13); arts. 15.1 y 16.1 modificados por Decreto 70/2017",
+    "url": "https://www.lex.gal/es/normativa/detalle/3166/pdf/",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Art. 13: 'órgano colexiado e institucional de Galicia', adscrito al órgano competente en igualdad. No se ha localizado un observatorio gallego de igualdad general."
+   },
+   "Madrid": {
+    "tipo": "organo",
+    "nombre": "Observatorio Regional de la Violencia de Género",
+    "norma": "Ley 5/2005, de 20 de diciembre, Integral contra la Violencia de Género, arts. 36-37",
+    "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/12/21/BOCM-20221221-47.PDF",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Su naturaleza es atípica: la ley lo despliega sobre todo como una 'Red de Puntos Municipales del Observatorio Regional', que funciona mediante convenios con los ayuntamientos. Según la fuente es la DG de Igualdad quien atiende a las víctimas a través de esa red. Una nota de la Comunidad (https://www.comunidad.madrid/node/55363) informa de que el Observatorio se convoca tras cada asesinato machista."
+   },
+   "Murcia": {
+    "tipo": "organo",
+    "nombre": "Observatorio de Igualdad de la Región de Murcia",
+    "norma": "Ley 7/2007, de 4 de abril, art. 8; Decreto 4/2020, de 30 de enero (BORM núm. 29, 5/02/2020)",
+    "url": "https://borm.es/services/anuncio/782935/pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Adscrito a la consejería competente en mujer. Según la Ley 7/2007, art. 42.3, cuenta con una Comisión especializada en violencia de género. Hay además un Consejo Asesor Regional contra la Violencia sobre la Mujer (Decreto 30/2005), que es consultivo y no un observatorio. Seguía en funcionamiento en julio de 2025 según el Colegio de Trabajo Social."
+   },
+   "Navarra": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": "https://www.boe.es/eli/es-nc/lf/2019/04/04/17/con",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "La Ley Foral 17/2019 de igualdad crea el Consejo Navarro de Igualdad (art. 10, órgano consultivo y de participación) y la Comisión Interdepartamental (art. 11), pero ningún observatorio en el texto leído. No se ha revisado la Ley Foral 14/2015 sobre violencia contra las mujeres."
+   },
+   "País Vasco": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado ningún observatorio específico. Emakunde es un organismo autónomo de igualdad y no un observatorio. Búsqueda limitada."
+   },
+   "La Rioja": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha buscado específicamente: cupo de búsquedas agotado."
+   }
+  },
+  "notas": "No existe una lista oficial que reúna todos los observatorios autonómicos; se han verificado uno a uno. Los modelos varían: unos observatorios son solo de violencia de género (Andalucía, Aragón, Galicia, Madrid) y otros de igualdad en general (Baleares, Canarias, Cantabria, Cataluña, Murcia). Murcia, con una comisión de violencia de género, y CyL, con una sección de género en un observatorio multitemático, lo integran todo. Por regla se usa el más general. Además, el Estado tiene otros observatorios sectoriales de igualdad (Mujeres, Ciencia e Innovación; Igualdad en la Cultura), que no se han computado. Siete CCAA quedan sin verificar por falta de cupo de búsqueda.",
+  "fuentes": [
+   "https://www.boe.es/eli/es/lo/2004/12/28/1",
+   "https://www.boe.es/eli/es/rd/2006/03/03/253/con/20220928",
+   "https://cdn.juntadeandalucia.es/boja/2010/116/d2.pdf",
+   "https://www.parcan.es/files/documentacion/dosieres/DOSS0244/DOSS0244DOC5684.PDF",
+   "https://www.caib.es/sites/participacio/es/n/observatori_per_a_la_igualtat/",
+   "https://vlex.es/vid/decreto-38-2015-27-563806338",
+   "https://sirdoc.ccyl.es/Biblioteca/Dosieres/DL203AtencionViolenciaGenero/pdfs/CyL-Decreto-52-2014-Observatorio.pdf",
+   "https://dones.gencat.cat/content/dam/dones/03_ambits/observatori/01_coneix_nos/activitats/Memoria-OIG-2025_edicio.pdf",
+   "https://www.lex.gal/es/normativa/detalle/3166/pdf/",
+   "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/12/21/BOCM-20221221-47.PDF",
+   "https://borm.es/services/anuncio/782935/pdf",
+   "https://transparencia.carm.es/documents/184026/11587769/MAIN+Decreto+Observatorio+Igualdad.pdf/fb2f0a04-7b0e-47f6-a68f-6948b430238a",
+   "https://www.boe.es/eli/es-nc/lf/2019/04/04/17/con"
+  ]
+ },
+ {
+  "tema": "Consejos audiovisuales (reguladores)",
+  "estado": {
+   "nombre": "Comisión Nacional de los Mercados y la Competencia (CNMC)",
+   "tipo": "ente",
+   "url": "https://www.cnmc.es/en/ambitos-de-actuacion/audiovisual/actividad-internacional"
+  },
+  "competencia": "Audiovisual: el Estado fija las bases del régimen de radio y televisión (art. 149.1.27 CE; Ley 13/2022, General de Comunicación Audiovisual) y las CCAA las desarrollan y ejecutan. La supervisión se reparte según el ámbito de cobertura del prestador.",
+  "cobertura_estatal": "No. La CNMC asumió la regulación audiovisual estatal en 2013 (Ley 3/2013) y supervisa a los prestadores de ámbito estatal. Los prestadores autonómicos y locales los supervisa la autoridad de cada CCAA, sea un consejo independiente o la propia consejería. No hay convenios para que la CNMC cubra a una CCAA.",
+  "ccaa": {
+   "Andalucía": {
+    "tipo": "ente",
+    "nombre": "Consejo Audiovisual de Andalucía (CAA)",
+    "norma": "Ley 1/2004, de 17 de diciembre",
+    "url": "https://www.rirm.org/en/caa-audiovisual-council-of-andalusia/",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "La RIRM lo describe como 'independent audiovisual statutory authority'. La CNMC lo cita como miembro de la CICA (https://www.cnmc.es/en/ambitos-de-actuacion/audiovisual/actividad-internacional)."
+   },
+   "Aragón": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado un consejo o autoridad audiovisual propia. Probablemente las funciones (licencias y registro de prestadores autonómicos y locales) las ejerce la consejería, pero no se ha verificado individualmente. No figura entre las autoridades autonómicas que cita la CNMC (en la CICA solo aparecen el CAA y el CAC)."
+   },
+   "Asturias": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado un consejo o autoridad audiovisual propia. Probablemente las funciones (licencias y registro de prestadores autonómicos y locales) las ejerce la consejería, pero no se ha verificado individualmente. No figura entre las autoridades autonómicas que cita la CNMC (en la CICA solo aparecen el CAA y el CAC)."
+   },
+   "Illes Balears": {
+    "tipo": "no_verificado",
+    "nombre": "Consell Audiovisual de les Illes Balears (previsto)",
+    "norma": null,
+    "url": "https://www.boe.es/eli/es-ib/l/2010/12/22/15/con",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Está previsto en la Ley 15/2010 del Ente Público de Radiotelevisión (arts. 2.5, 19.2.g, 29.3 y 38; la DT 2ª condiciona su intervención a 'su constitución efectiva'), pero ninguna ley lo crea ni regula. Un artículo de opinión de 2021 ('consell inexistent', menorca.info; solo como pista) indica que nunca se constituyó. Probablemente 'no', sin confirmar en fuente oficial."
+   },
+   "Canarias": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado un consejo o autoridad audiovisual propia. Probablemente las funciones (licencias y registro de prestadores autonómicos y locales) las ejerce la consejería, pero no se ha verificado individualmente. No figura entre las autoridades autonómicas que cita la CNMC (en la CICA solo aparecen el CAA y el CAC)."
+   },
+   "Cantabria": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado un consejo o autoridad audiovisual propia. Probablemente las funciones (licencias y registro de prestadores autonómicos y locales) las ejerce la consejería, pero no se ha verificado individualmente. No figura entre las autoridades autonómicas que cita la CNMC (en la CICA solo aparecen el CAA y el CAC)."
+   },
+   "Castilla-La Mancha": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado un consejo o autoridad audiovisual propia. Probablemente las funciones (licencias y registro de prestadores autonómicos y locales) las ejerce la consejería, pero no se ha verificado individualmente. No figura entre las autoridades autonómicas que cita la CNMC (en la CICA solo aparecen el CAA y el CAC)."
+   },
+   "Castilla y León": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado un consejo o autoridad audiovisual propia. Probablemente las funciones (licencias y registro de prestadores autonómicos y locales) las ejerce la consejería, pero no se ha verificado individualmente. No figura entre las autoridades autonómicas que cita la CNMC (en la CICA solo aparecen el CAA y el CAC)."
+   },
+   "Cataluña": {
+    "tipo": "ente",
+    "nombre": "Consell de l'Audiovisual de Catalunya (CAC)",
+    "norma": "Llei 8/1996, de 5 de juliol (creación); una ley de mayo de 2000 lo configura como autoridad independiente (número no reverificado en esta sesión)",
+    "url": "https://www.cnmc.es/en/ambitos-de-actuacion/audiovisual/actividad-internacional",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "La CNMC lo cita como miembro de la CICA. Es una autoridad independiente con potestad reguladora y sancionadora. La norma procede de la Gran Enciclopèdia Catalana (solo como pista); no se ha releído la ley vigente."
+   },
+   "Comunitat Valenciana": {
+    "tipo": "ente",
+    "nombre": "Consell de l'Audiovisual de la Comunitat Valenciana",
+    "norma": "Ley 10/2018, de 18 de mayo (creación, 'autoridad audiovisual independiente'); Decreto 121/2022, de 16 de septiembre (Reglamento orgánico y de funcionamiento)",
+    "url": "https://vlex.es/vid/decreto-121-2022-16-910713792",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "Está en activo en 2026: dictó la Resolución de 14/07/2026 de su Presidencia, de provisión de un puesto por libre designación (DOGV 30/07/2026, según redopositor.com). No hay que confundirlo con la Corporació Audiovisual (À Punt), que es el prestador público y no un regulador."
+   },
+   "Extremadura": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado un consejo o autoridad audiovisual propia. Probablemente las funciones (licencias y registro de prestadores autonómicos y locales) las ejerce la consejería, pero no se ha verificado individualmente. No figura entre las autoridades autonómicas que cita la CNMC (en la CICA solo aparecen el CAA y el CAC)."
+   },
+   "Galicia": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado norma vigente de un Consello Audiovisual de Galicia. Búsqueda sin resultado oficial. No se ha localizado un consejo o autoridad audiovisual propia. Probablemente las funciones (licencias y registro de prestadores autonómicos y locales) las ejerce la consejería, pero no se ha verificado individualmente. No figura entre las autoridades autonómicas que cita la CNMC (en la CICA solo aparecen el CAA y el CAC)."
+   },
+   "Madrid": {
+    "tipo": "consejeria",
+    "nombre": "Viceconsejería (funciones del art. 28 de la Ley 2/2001)",
+    "norma": "Ley 2/2001, de 18 de abril, de Contenidos Audiovisuales: arts. 20-27 (Consejo Audiovisual) y DA 2ª derogados",
+    "url": "https://www.boe.es/eli/es-md/l/2001/04/18/2/con/20231229",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "SUPRIMIDO. En la versión consolidada del BOE (29/12/2023), los arts. 20-27 sobre el Consejo Audiovisual de la Comunidad de Madrid figuran '(Derogados)'. El art. 28 atribuye las funciones a la Viceconsejería de la Vicepresidencia Primera y Portavocía. El BOE no identifica la norma derogatoria; consta una versión consolidada de 14/06/2006."
+   },
+   "Murcia": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado un consejo o autoridad audiovisual propia. Probablemente las funciones (licencias y registro de prestadores autonómicos y locales) las ejerce la consejería, pero no se ha verificado individualmente. No figura entre las autoridades autonómicas que cita la CNMC (en la CICA solo aparecen el CAA y el CAC)."
+   },
+   "Navarra": {
+    "tipo": "consejeria",
+    "nombre": "Departamento competente en materia audiovisual",
+    "norma": "Ley Foral aprobada el 20/10/2011 (BOPN núm. 21, 25/10/2011) que deroga la LF 18/2001 y suprime el Consejo Audiovisual de Navarra",
+    "url": "https://parlamentodenavarra.es/sites/default/files/boletines/B2011821.pdf",
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "SUPRIMIDO EN 2011. Art. 1.2: 'Se suprime el Consejo Audiovisual de Navarra, cuya personalidad jurídica quedará extinguida'. Sus funciones pasan al departamento competente. No se ha anotado el número de la ley foral."
+   },
+   "País Vasco": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado un consejo o autoridad audiovisual propia. Probablemente las funciones (licencias y registro de prestadores autonómicos y locales) las ejerce la consejería, pero no se ha verificado individualmente. No figura entre las autoridades autonómicas que cita la CNMC (en la CICA solo aparecen el CAA y el CAC)."
+   },
+   "La Rioja": {
+    "tipo": "no_verificado",
+    "nombre": null,
+    "norma": null,
+    "url": null,
+    "presupuesto_m": null,
+    "anio": null,
+    "nota": "No se ha localizado un consejo o autoridad audiovisual propia. Probablemente las funciones (licencias y registro de prestadores autonómicos y locales) las ejerce la consejería, pero no se ha verificado individualmente. No figura entre las autoridades autonómicas que cita la CNMC (en la CICA solo aparecen el CAA y el CAC)."
+   }
+  },
+  "notas": "Hay tres reguladores autonómicos independientes vigentes: CAC (Cataluña), CAA (Andalucía) y el Consell de l'Audiovisual de la Comunitat Valenciana. Dos se suprimieron: Madrid (Ley 2/2001 arts. 20-27 derogados; funciones a la Viceconsejería) y Navarra (ley foral de octubre de 2011). Baleares lo tiene previsto en la Ley 15/2010, pero no consta que se constituyera. En las demás CCAA no se ha localizado organismo propio y lo probable es que la función la ejerza la consejería, sin verificación individual. La CNMC solo cita al CAA y al CAC (en la CICA).",
+  "fuentes": [
+   "https://www.cnmc.es/en/ambitos-de-actuacion/audiovisual/actividad-internacional",
+   "https://www.rirm.org/en/caa-audiovisual-council-of-andalusia/",
+   "https://vlex.es/vid/decreto-121-2022-16-910713792",
+   "https://redopositor.com/oposiciones/convocatoria/resolucio-de-14-de-juliol-de-2026-de-la-presidencia-per-la-qual-es-pro--00d7ce64/",
+   "https://www.boe.es/eli/es-md/l/2001/04/18/2/con/20231229",
+   "https://parlamentodenavarra.es/sites/default/files/boletines/B2011821.pdf",
+   "https://www.boe.es/eli/es-ib/l/2010/12/22/15/con"
+  ]
+ }
+]

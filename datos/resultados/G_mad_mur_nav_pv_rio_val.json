@@ -1,0 +1,363 @@
+[
+  {
+    "ID": 90,
+    "updates": {
+      "Presupuesto: texto completo": "Sin presupuesto propio actual: el Consejo de la Juventud (entidad de derecho público creada por Ley 8/2017) quedó suprimido por la Ley 8/2024, de 26 de diciembre, de medidas para la mejora de la gestión pública en el ámbito local y autonómico de la Comunidad de Madrid, DA única.1 (BOE-A-2025-5523, pág. 37203), que integra sus bienes, derechos y obligaciones en la Comunidad de Madrid para los fines de la consejería de Juventud. La Ley 8/2017 queda derogada expresamente (DD única 2.a, pág. 37203); en vigor el 28/12/2024 (DF tercera, pág. 37204; BOCM 308 de 27/12/2024). No se cuantifica el sustituto.",
+      "Estado legal y operativo": "Suprimido por Ley 8/2024 DA única, efectiva 28/12/2024. El órgano sustituto previsto en la DA única.2 (colegiado, sin personalidad jurídica) se creó por Acuerdo del Consejo de Gobierno de 10/06/2026 (Mesa de Políticas de Juventud de la Comunidad de Madrid, BOCM 29/06/2026).",
+      "Límites del juicio": "Funcionamiento efectivo de la Mesa de Políticas de Juventud no auditado; acuerdo consultado en reproducción INAP del BOCM de 29/06/2026 (PDF del BOCM no recuperado). La DA única de la Ley 8/2024 no regula el destino del personal del Consejo suprimido.",
+      "Notas de personal y apoyo ministerial": "Entidad extinguida: sin plantilla propia actual. Sustituto (Mesa de Políticas de Juventud, órgano colegiado sin personalidad): 'La constitución y funcionamiento de la Mesa no supondrán incremento alguno del gasto público' (acuerdo decimosexto, apdo. 2). Sus miembros no son plantilla.",
+      "Estado de verificación del personal": "No aplica: entidad extinguida el 28/12/2024 (Ley 8/2024, DA única)",
+      "Estado de verificación del coste": "No aplica: entidad extinguida; no se cuantifica el sustituto",
+      "Estado de verificación de ejecución": "No aplica: entidad extinguida; no se cuantifica el sustituto",
+      "Cobertura presupuesto / personal / salarios": "Extinción verificada en fuente primaria (Ley 8/2024, BOE-A-2025-5523): sin presupuesto, personal ni salarios propios actuales; sustituto sin dotación diferenciada, no cuantificado"
+    },
+    "fuentes_nuevas": [
+      "https://boe.es/boe/dias/2025/03/20/pdfs/BOE-A-2025-5523.pdf",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1267231"
+    ],
+    "verificacion": "Ley 8/2024, de 26 de diciembre (BOE núm. de 20/03/2025, BOE-A-2025-5523): título pág. 37192; DA única apdo. 1 'Queda suprimido el Consejo de la Juventud, entidad de derecho público creada por la Ley 8/2017' y apdo. 2 (crear órgano colegiado sin personalidad en el plazo máximo de un año), pág. 37203; DD única 2.a deroga la Ley 8/2017, pág. 37203; DF tercera entrada en vigor al día siguiente de su publicación en el BOCM (BOCM 308 de 27/12/2024 → 28/12/2024), pág. 37204. Sustituto: Acuerdo de 10/06/2026 del Consejo de Gobierno por el que se crea la Mesa de Políticas de Juventud (BOCM 29/06/2026), acuerdo decimosexto.2: sin incremento del gasto público (texto vía INAP 'La administración al día'). No se añade ninguna cifra.",
+    "no_encontrado": "PDF original del BOCM de 29/06/2026 con el acuerdo de la Mesa (solo reproducción INAP). Destino del personal del Consejo suprimido: la Ley 8/2024 no lo regula."
+  },
+  {
+    "ID": 96,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 15.531808,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Presupuesto propio aprobado",
+      "Corte del presupuesto numérico": "2026, presupuesto aprobado (Ley 6/2025, art. 3.3)",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Presupuesto: texto completo": "Presupuesto propio aprobado 2026: 15.531.808 EUR (15,531808 M). Ley 6/2025, de 23 de diciembre, de Presupuestos Generales de la Comunidad de Madrid para 2026, art. 3.3 'Se aprueban los presupuestos de los restantes entes públicos' (estimaciones de gastos y previsiones de ingresos), fila 'Agencia Madrileña para el Apoyo a Personas Adultas con Discapacidad 15.531.808' (BOE-A-2026-3218, BOE núm. 38 de 12/02/2026, Sec. I, pág. 22478). Figura entre los 'restantes entes públicos' (art. 3.3), no entre los organismos autónomos administrativos del art. 2.4: es ente de derecho público sujeto a ordenamiento privado, por lo que la cifra es una estimación de gastos, no un crédito limitativo ni ejecución. No se rellena 'Crédito inicial' por esa razón.",
+      "Corte: texto completo": "2026 presupuesto aprobado (estimación de gastos); personal a 31/12/2025; revisión 11/10/2026",
+      "Estado legal y operativo": "Vigente y operativa: memoria de actividad 2025 (editada feb. 2026) y presupuesto propio 2026 en Ley 6/2025 art. 3.3. Naturaleza: 'Ente de Derecho Público, con personalidad jurídica propia' que 'ajusta sus actividades al ordenamiento jurídico privado' (memoria de cuentas 2024, p. 8); no organismo autónomo administrativo.",
+      "Personal: personas (ocupadas)": 148,
+      "Año del personal": "2025-12-31",
+      "Base del personal": "Profesionales que prestaban servicio en AMAPAD a 31/12/2025 ('A 31 de diciembre 148 profesionales prestaban servicio en AMAPAD', memoria 2025, apdo. 3 'Equipo AMAPAD'); no RPT ni puestos presupuestados",
+      "Estado de verificación del personal": "Cifra de personal publicada en fuente primaria; fecha indicada, no inferir vigencia posterior",
+      "Fuente del personal": "https://www.comunidad.madrid/sites/default/files/278074_memoria_amapad_2025.pdf",
+      "Estado de verificación del coste": "Sin gasto de personal 2026 individual verificado: ente con contabilidad privada (PyG), presupuesto de explotación por partidas no localizado",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 (estimación de gastos) y personas ocupadas a 31/12/2025 verificados; gasto de personal 2026 y ejecución no verificados; gasto de personal 2024 en notas",
+      "Notas de personal y apoyo ministerial": "Plantilla al cierre de 2024: 135 personas (1 directivo, 31 titulados superiores, 52 asistentes sociales, 51 personal administrativo; memoria de cuentas 2024, p. 28; total obtenido sumando la tabla). A 31/12/2025: 148 profesionales (memoria 2025). Aportación patrimonial de la Consejería de Familia, Juventud y Asuntos Sociales en 2025: 13.466.101 EUR (memoria 2025, apdo. 3); no es presupuesto propio 2026.",
+      "Notas de conciliación de crédito y ejecución": "Ente de derecho público con régimen privado: no tiene capítulo 1 limitativo. Último gasto de personal anual localizado: 2024, partida 6 'Gastos de personal' de la cuenta de pérdidas y ganancias = 6.118.824,33 EUR (6,118824 M; memoria de cuentas anuales abreviadas 2024, p. 25). Cuentas 2025 no localizadas, por lo que no se rellenan las columnas 2025. No comparar 2024 con el presupuesto 2026."
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/eli/es-md/l/2025/12/23/6/dof/spa/pdf",
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3218",
+      "https://www.comunidad.madrid/sites/default/files/278074_memoria_amapad_2025.pdf",
+      "https://www.comunidad.madrid/sites/default/files/doc/servicios-sociales/04_memoria_ctas_amapad_ej_2024_50823953.pdf"
+    ],
+    "verificacion": "Presupuesto: Ley 6/2025 (BOE-A-2026-3218, PDF ELI), art. 3.3, tabla 'Restantes entes públicos | Euros', fila 'Agencia Madrileña para el Apoyo a Personas Adultas con Discapacidad. 15.531.808', Sec. I. Pág. 22478; unidad euros → 15,531808 M. Misma tabla: Fundación Hospital Alcorcón 220.573.099; Agencia para la Administración Digital 391.126.101; Agencia de Ciberseguridad 6.250.505. Personal: memoria AMAPAD 2025, apdo. 3, '148 profesionales' a 31/12. Gasto de personal 2024: memoria de cuentas 2024, p. 25, 'Totales 6.118.824,33' (EUR). Plantilla final 2024: p. 28 (1+31+52+51=135). La pista del encargo la describía como organismo autónomo; la ley de presupuestos la clasifica en 'restantes entes públicos' y las cuentas como ente de derecho público con régimen privado.",
+    "no_encontrado": "Presupuesto de explotación 2026 por partidas (gastos de personal 2026) y plantilla presupuestaria: el libro 03 de presupuestos 2026 de la CAM solo devolvió estructura y códigos (centro 2002), sin importes. Cuentas anuales 2025 de AMAPAD no localizadas. Ejecución 2026 no publicada para el ente. Límite de búsquedas web agotado durante la revisión."
+  },
+  {
+    "ID": 91,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 24.43862,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Presupuesto propio aprobado",
+      "Corte del presupuesto numérico": "2026, prórroga del presupuesto 2025 (Ley 3/2025)",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Presupuesto: texto completo": "Crédito/dotación inicial de prórroga 2026: 24.438.620 EUR (24,43862 M). Es la dotación aprobada para 2025 por la Ley 3/2025, de 23 de julio, de Presupuestos de la CARM, art. 4 ('se aprueban las siguientes dotaciones, financiadas con unos recursos totales de igual cuantía'), fila 'Instituto de Turismo de la Región de Murcia 24.438.620' (BORM supl. 3 al núm. 169 de 24/07/2025, p. 13), prorrogada para 2026 por la Orden de 26/12/2025 (BORM 29/12/2025), art. 1.4 (se prorrogan también las dotaciones iniciales de las entidades del sector público regional). NO es presupuesto 2026 aprobado por ley; incluye promoción y ayudas turísticas, no solo administración; no es ejecución.",
+      "Corte: texto completo": "2026, presupuesto 2025 prorrogado (dotación inicial); revisión 11/10/2026",
+      "Estado legal y operativo": "Operativo; contrato-programa 2026 suscrito 15/07/2026 (BORM 168 de 23/07/2026, pp. 17954-17992), que cita la Ley 3/2025 'prorrogada para 2026'. Murcia seguía con presupuesto prorrogado a junio de 2026 (Orden de 23/06/2026, BORM 145).",
+      "Estado de verificación del coste": "Sin crédito de personal 2026 individual verificado (presupuesto administrativo por capítulos de la EPE no localizado)",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio (dotación 2025 prorrogada a 2026) verificado; personal ocupado y gasto de personal 2026 no verificados; gasto de personal 2024 de cuentas en notas",
+      "Notas de conciliación de crédito y ejecución": "Último gasto de personal anual localizado: cuentas anuales 2024 del ITREM (Intervención General CARM), cuenta de pérdidas y ganancias p. 4, '6. Gastos de personal' = 3.134.887,63 EUR (sueldos, salarios y asimilados 2.485.672,13; cargas sociales 649.215,50); 2023: 2.868.541,99 EUR. Es gasto devengado PyG, no capítulo 1 presupuestario. Cuentas 2025 no localizadas. La Ley 3/2025 (art. 22.6) declara limitativas las dotaciones de gastos de personal de los presupuestos administrativos de estas entidades, pero su importe para el ITREM no se ha extraído."
+    },
+    "fuentes_nuevas": [
+      "https://www.borm.es/services/anuncio/ano/2025/numero/3684/pdf?id=837745",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1261783",
+      "https://www.borm.es/services/anuncio/844337/pdf",
+      "https://www.borm.es/services/anuncio/843747/pdf",
+      "https://ig.carm.es/documents/21738/2049785/ITREM-Cuentas.2024/6b849898-538c-4084-8966-16425dfce0bc"
+    ],
+    "verificacion": "Ley 3/2025 (BORM supl. 3 núm. 169, 24/07/2025, NPE A-240725-3684), art. 4, p. 13: 'Instituto de Turismo de la Región de Murcia 24.438.620' (euros) → 24,43862 M. Prórroga: Orden de 26/12/2025 de la Consejería de Economía, Hacienda... (BORM 29/12/2025), art. 1.1 prorroga la Ley 3/2025 desde 1/01/2026; art. 1.4 prorroga dotaciones iniciales de las entidades del sector público regional; art. 4.2 sin alterar la cuantía total inicialmente aprobada en 2025 (texto vía INAP). Contrato-programa 2026 (BORM 168, 23/07/2026, p. 17954 y ss.): 'Ley 3/2025... prorrogada para 2026'. Cuentas 2024: PyG p. 4 '6. Gastos de personal 11 -3.134.887,63 -2.868.541,99'.",
+    "no_encontrado": "Presupuesto administrativo por capítulos del ITREM (cap.1 2026), anexo económico del contrato-programa 2026 (la extracción del BORM se corta en p. 17992 antes del anexo), plantilla/número de empleados (no aparece en el extracto de las cuentas 2024), cuentas 2025 y ejecución 2026. Límite de búsquedas web agotado."
+  },
+  {
+    "ID": 120,
+    "updates": {
+      "Presupuesto: texto completo": "Sin cifra propia 2026 verificada; no significa cero. El organismo autónomo creado por el Decreto-ley 5/2022 (art. 33) figura en sus Estatutos como 'Agencia de Transformación Digital de la Región de Murcia' (Decreto 46/2025, de 22 de mayo, BORM 27/05/2025), pero NO aparece entre los organismos autónomos con créditos del art. 3 de la Ley 3/2025 (BORM, IMAS, SEF, IMIDA y Agencia Tributaria; total 653.558.165 EUR; p. 12), presupuesto prorrogado a 2026. No atribuir créditos de la Consejería de Economía, Hacienda... y Transformación Digital.",
+      "Estado legal y operativo": "Creación legal verificada (Decreto-ley 5/2022) y Estatutos aprobados por Decreto 46/2025 (OA adscrito a la consejería de Hacienda; art. 2.2 alude al 'inicio efectivo de actividades' sin fecha). Sin sección/crédito propio en la Ley 3/2025 prorrogada para 2026; inicio efectivo de actividad no verificado.",
+      "Límites del juicio": "La denominación de la hoja ('Agencia Digital') difiere de la de los Estatutos ('Agencia de Transformación Digital'); no se ha verificado si existe un crédito habilitado en 2026 por modificación presupuestaria durante la prórroga.",
+      "Cobertura presupuesto / personal / salarios": "Sin presupuesto propio identificable en la Ley 3/2025 prorrogada; personal y salarios no verificados; vacío no significa cero"
+    },
+    "fuentes_nuevas": [
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1255335",
+      "https://www.borm.es/services/anuncio/ano/2025/numero/3684/pdf?id=837745"
+    ],
+    "verificacion": "Estatutos: Decreto n.º 46/2025, de 22 de mayo (BORM 27/05/2025), art. 1.1 'se configura como un organismo autónomo'; art. 12.3 personal del art. 40 del Decreto-ley 5/2022; art. 11 recursos del art. 41 del Decreto-ley (texto vía INAP). Ley 3/2025, art. 3 (p. 12): lista cerrada de OOAA con créditos sin esta agencia. Las Órdenes de 11 y 23/06/2026 de adecuación de la estructura presupuestaria prorrogada (BORM 145, 26/06/2026) no mencionan la agencia. No se añade cifra.",
+    "no_encontrado": "Crédito o sección propia 2026 de la Agencia (por modificación de crédito durante la prórroga), nombramiento de dirección, RPT o personal adscrito. Límite de búsquedas web agotado."
+  },
+  {
+    "ID": 92,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 0.996964,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Crédito inicial aprobado",
+      "Corte del presupuesto numérico": "2026, crédito aprobado (Ley Foral 16/2025)",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Crédito inicial (EUR millones)": 0.996964,
+      "Presupuesto: texto completo": "Crédito inicial aprobado 2026: 996.964 EUR (0,996964 M) para la Oficina de Buenas Prácticas y Anticorrupción. Ley Foral 16/2025, de 22 de diciembre, de Presupuestos Generales de Navarra para 2026 (BON núm. 260 de 31/12/2025, pp. 46100-46145; BOE-A-2026-5611): art. 1.1.g integra 'El presupuesto de la Oficina de Buenas Prácticas y Anticorrupción'; Anexo 1, fila de la Oficina, total 996.964 (909.464 + 87.500). La cifra aprobada coincide con la del proyecto (antes en columnas contextuales, que se vacían). En el Anexo 1 los importes figuran en las columnas de transferencias (4: 909.464; 7: 87.500, según la reproducción tabular del anexo), es decir, como financiación de la Oficina desde los Presupuestos Generales; no es ejecución ni desglose del capítulo 1 propio de la Oficina.",
+      "Corte: texto completo": "2026 crédito inicial aprobado; datos de personal y ejecución a 31/12/2024 (Cámara de Comptos); revisión 11/10/2026",
+      "Estado legal y operativo": "Reconocida con presupuesto propio aprobado en LF 16/2025. LF 3/2026, de 23 de marzo (BOE-A-2026-9045), le aplica la ley de transparencia en personal y contratación y le atribuye la gestión del Registro de grupos de interés.",
+      "Importe contextual (EUR millones; NO sumar)": "",
+      "Año / periodo contextual": "",
+      "Base contextual": "",
+      "Nombre del titular del importe": "",
+      "Personal: personas (ocupadas)": 4,
+      "Año del personal": "2024-12-31",
+      "Base del personal": "Directora + 3 plazas ocupadas de las 11 de la plantilla orgánica a 31/12/2024 ('estaban ocupadas, además de la directora, únicamente tres', Cámara de Comptos, p. 14)",
+      "Estado de verificación del personal": "Cifra de personal publicada en fuente primaria; fecha indicada, no inferir vigencia posterior",
+      "Fuente del personal": "https://parlamentodenavarra.es/sites/default/files/boletines/B2025117.pdf",
+      "Estado de verificación del coste": "Sin crédito de capítulo 1 2026 propio verificado: el Anexo 1 de la LF 16/2025 solo da la transferencia total a la Oficina",
+      "Cobertura presupuesto / personal / salarios": "Crédito propio 2026 aprobado verificado; personas ocupadas y plantilla orgánica verificadas a 2024; capítulo 1 y ejecución 2026 no verificados; capítulo 1 ejecutado 2024 en notas",
+      "Puestos aprobados / presupuestados": 11,
+      "Fecha puestos aprobados": "2024-05-06",
+      "Base de puestos aprobados": "Plazas de la plantilla orgánica aprobada por Resolución 18/2024, de 6 de mayo, de la directora (BON 101, 16/05/2024), citada por la Cámara de Comptos; NO ocupación real",
+      "Fuente puestos aprobados": "https://parlamentodenavarra.es/sites/default/files/boletines/B2025117.pdf",
+      "Notas de personal y apoyo ministerial": "Plantilla orgánica de 11 plazas: directora (eventual), 3 directores/as de servicio, 1 jefe/a de sección, 1 formador/a asesor/a, 2 inspectores/as jurídicos, 1 inspector/a económico, 1 titulado/a superior de comunicación y 1 administrativo/a (C). A 31/12/2024 solo directora + 3 ocupadas (administrativo desde marzo, director/a del servicio de prevención desde agosto y formador/a desde octubre de 2024); procesos de inspectores sin cubrir en 2024 (Cámara de Comptos, informe 'Cuentas anuales de la Oficina de Buenas Prácticas y Anticorrupción (2024)', BOPN núm. 117 de 13/10/2025, p. 14).",
+      "Notas de conciliación de crédito y ejecución": "Último ejercicio fiscalizado: 2024. Presupuesto inicial 2024: 875.022 EUR (p. 8 y 13). Capítulo 1 2024: obligaciones reconocidas y pagos 162.691 EUR (0,162691 M), ejecución del 24% (p. 14 y estado de liquidación, apéndice 1.1, p. 8); gasto total ejecutado 213.641 EUR; reintegro a la Hacienda Foral 59.805 EUR. No hay liquidación 2025 publicada localizada; no comparar 2024 con el crédito 2026."
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/ccaa/bon/2025/260/n46100-46145.pdf",
+      "https://www.iberley.es/legislacion/anexo-1-presupuestos-generales-ano-2026-navarra",
+      "https://parlamentodenavarra.es/sites/default/files/contenido-estatico-archivos/4.%20Presupuesto%20por%20partidas%202026.pdf",
+      "https://parlamentodenavarra.es/sites/default/files/boletines/B2025117.pdf",
+      "https://boe.es/boe/dias/2026/04/25/pdfs/BOE-A-2026-9045.pdf"
+    ],
+    "verificacion": "LF 16/2025 (BON 260, 31/12/2025): art. 1.1.g, p. 46100; total consolidado 6.741.514.953 EUR (art. 2.1). Anexo 1 (columnas '1 GASTOS DE PERSONAL ... 9 PASIVOS FINANCIEROS, TOTAL'), fila 'Oficina de Buenas Prácticas y Anticorrupción' con 909.464 en col. 4 (transferencias corrientes), 87.500 en col. 7 (transferencias de capital) y TOTAL 996.964 EUR → 0,996964 M; fila Parlamento de Navarra 21.189.168 + 1.067.940 = 22.257.108 con el mismo patrón. La columna exacta se toma de la reproducción tabular de iberley; la extracción del PDF del BON se cortaba antes del anexo. Proyecto del Parlamento ('4. Presupuesto por partidas 2026'): misma fila '909.464 87.500 996.964', idéntica a la cifra aprobada. Cámara de Comptos (BOPN 117, 13/10/2025): p. 14 personal y plantilla; p. 8 liquidación 2024 cap.1 162.691 EUR. Se vacían las columnas contextuales (proyecto) porque la cifra aprobada pasa a K, como pedía el encargo.",
+    "no_encontrado": "Presupuesto interno de la Oficina por capítulos 2026 (cap.1 propio) y su ejecución 2026; memoria anual 2025; informe de la Cámara de Comptos sobre las cuentas 2025. El informe de ejecución del 1T 2026 del Parlamento de Navarra no incluye a la Oficina."
+  },
+  {
+    "ID": 93,
+    "updates": {
+      "Corte del presupuesto numérico": "30/09/2026",
+      "Presupuesto: texto completo": "Presupuesto actualizado a 30/09/2026: 2.227.000 EUR, igual al inicial (Ley 7/2025, art. 3: créditos de pago 2.227.000; créditos de compromiso 290.200; BOPV 251 de 30/12/2025, p. 2). Obligaciones reconocidas 1.167.415 EUR y pagos 1.167.415 EUR a 30/09/2026 (estado de situación 'AL 30-09-2026', Total sección 40). Sin modificación neta, lo que no descarta compensaciones internas. Crédito, no gasto ejecutado.",
+      "Corte: texto completo": "Presupuesto y ejecución a 30/09/2026 (9 meses); cierre 2025 a 31/12/2025",
+      "Estado legal y operativo": "Presupuesto y ejecución mensual publicados hasta septiembre 2026",
+      "Crédito de personal (EUR millones)": 1.56624,
+      "Año del coste de personal": 2026,
+      "Base del coste de personal": "Capítulo 1: presupuesto actualizado 2026 (= inicial 1.566.240 EUR), corte 30/09/2026, AVC sección 40",
+      "Estado de verificación del coste": "Crédito autorizado, no gasto realizado ni solo salarios",
+      "Fuente del coste": "https://www.euskadi.eus/web01-a3ogaoce/es/contenidos/informacion/ejec_pres_avc_2026/es_def/adjuntos/211_2026_9_DETALLESPORPARTIDAS-GASTOSEINGRESOS_es.pdf",
+      "Gasto de personal ejecutado (EUR millones)": 1.052896,
+      "Año del gasto de personal": 2026,
+      "Corte de ejecución de personal": "Hasta 30/09/2026: 9 meses, NO año completo",
+      "Base de ejecución de personal": "Capítulo 1: obligaciones reconocidas; incluye costes de personal, no desglose salarial puro",
+      "Fuente de ejecución de personal": "https://www.euskadi.eus/web01-a3ogaoce/es/contenidos/informacion/ejec_pres_avc_2026/es_def/adjuntos/211_2026_9_GASTOSPORCAPITULO_es.pdf",
+      "Estado de verificación de ejecución": "Fuente primaria cotejada contra fila y unidad EUR; no estimación",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto, crédito y obligaciones de capítulo 1 2026 (30/09) y cierre 2025 verificados; plantilla presupuestaria 2026 verificada; personas ocupadas no verificadas",
+      "Puestos aprobados / presupuestados": 17,
+      "Fecha puestos aprobados": "2026",
+      "Base de puestos aprobados": "Plantilla presupuestaria 2026 del sector público de la CAE (Anexo de personal, p. 5, código 211, total plazas; desglose por categoría no asignable con certeza en la extracción) (budgeted, NO ocupación real)",
+      "Fuente puestos aprobados": "https://www.euskadi.eus/contenidos/informacion/presupuestos_cae/es_def/adjuntos/pdfs/2026A/Pertsonalaren_eranskina_Anexo_de_personal.pdf",
+      "Notas de conciliación de crédito y ejecución": "Estado de situación AL 30-09-2026 (EUR): cap.1 presupuesto inicial 1.566.240 = actualizado 1.566.240; disposiciones 1.425.033; obligaciones reconocidas 1.052.896 (67,2%; 68,5% el año anterior); pagos 1.052.896. Corte 30/09, no 31/08: no se rellena la columna de pagos a 31/08. Total gastos: 2.227.000 / ORN 1.167.415 / pagos 1.167.415. No comparar 9 meses con año completo. Capítulo 1 no equivale solo a sueldos.",
+      "Crédito personal 2025 cierre (EUR millones)": 1.517282,
+      "Gasto personal 2025 reconocido anual (EUR millones)": 1.422362,
+      "Pagos personal 2025 anual (EUR millones)": 1.422362,
+      "Año y corte anual personal": "2025: hasta 31/12/2025, año completo",
+      "Base anual de personal": "Capítulo 1: gastos de personal; obligaciones reconocidas, no solo salarios",
+      "Fuente anual de personal": "https://www.euskadi.eus/web01-a3ogaoce/es/contenidos/informacion/ejec_pres_avc_2025/es_def/adjuntos/211_2025_12_DETALLESPORPARTIDAS-GASTOS-E-INGRESOS_es.pdf",
+      "Verificación anual / conciliación": "Fuente primaria cotejada: 'Estado de situación del presupuesto de gastos e ingresos: 2025 al 31-12-2025' (edición diciembre 2025), fila 'Capítulo 1 - Gastos de Personal 1.517.282 1.517.282 1.494.423 1.422.362 1.422.362' (inicial, actualizado, disposiciones, ORN, pagos; EUR). Total sección 40 2025: 2.220.000 / ORN 1.754.253 / pagos 1.724.919. Es la ejecución presupuestaria a cierre, no la Cuenta General auditada."
+    },
+    "fuentes_nuevas": [
+      "https://www.euskadi.eus/bopv2/datos/2025/12/2505538a.pdf",
+      "https://www.euskadi.eus/web01-a3ogaoce/es/contenidos/informacion/ejec_pres_avc_2026/es_def/adjuntos/211_2026_9_GASTOSPORCAPITULO_es.pdf",
+      "https://www.euskadi.eus/web01-a3ogaoce/es/contenidos/informacion/ejec_pres_avc_2026/es_def/adjuntos/211_2026_9_DETALLESPORPARTIDAS-GASTOSEINGRESOS_es.pdf",
+      "https://www.euskadi.eus/web01-a3ogaoce/es/contenidos/informacion/ejec_pres_avc_2025/es_def/adjuntos/211_2025_12_DETALLESPORPARTIDAS-GASTOS-E-INGRESOS_es.pdf",
+      "https://www.euskadi.eus/contenidos/informacion/presupuestos_cae/es_def/adjuntos/pdfs/2026A/Pertsonalaren_eranskina_Anexo_de_personal.pdf"
+    ],
+    "verificacion": "Gastos por capítulo septiembre 2026 (impreso 05/10/26, 'Resumen por Capítulos Euros'): '1 Gastos de Personal 1.566.240 1.425.033 91,0 98,3 1.052.896 67,2 68,5 1.052.896 67,2 68,5' (presupuesto actualizado, disposición, ORN, pagos) y 'TOTAL 2.227.000 1.628.254 ... 1.167.415 ... 1.167.415'. Detalle por partidas AL 30-09-2026: cap.1 inicial 1.566.240 = actualizado. Conversión EUR→M: 1,56624; 1,052896. 2025: detalle al 31-12-2025 cap.1 1.517.282 / ORN 1.422.362 / pagos 1.422.362. Ley 7/2025 art. 3 (p. 2): 'Autoridad Vasca de la Competencia 2.227.000 290.200'. Plantilla: Anexo de personal 2026, p. 5, fila '211 Lehiaren Euskal Agintaritza / Autoridad Vasca de la Competencia 17 4 13' (total 17).",
+    "no_encontrado": "Personas ocupadas: la memoria AVC 2025 tiene el apartado 'Las personas' en p. 78, pero la extracción del PDF se corta hacia la p. 34; la web no publica RPT en su portada."
+  },
+  {
+    "ID": 107,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 15.98,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Presupuesto propio aprobado",
+      "Corte del presupuesto numérico": "2026, dotaciones aprobadas (Ley 7/2025, art. 4)",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Presupuesto: texto completo": "Presupuesto propio aprobado 2026: 15.980.000 EUR (15,98 M). Ley 7/2025, de 23 de diciembre, de Presupuestos Generales de la CAE para 2026 (BOPV núm. 251 de 30/12/2025, p. 2), art. 4: 'En los presupuestos de los entes públicos de derecho privado se aprueban dotaciones' (recursos estimados por igual importe), fila 'Aukerak-Agencia Vasca de Reinserción Social 15.980.000 0' (columnas 'Presupuesto' y 'Compromisos futuros'). Dotación del ente público de derecho privado (explotación y capital), no ejecución. El presupuesto histórico 2024 (16.749.805 EUR comunicado en el lote) no se usa.",
+      "Corte: texto completo": "2026 presupuesto aprobado; revisión 11/10/2026",
+      "Estado legal y operativo": "Ente público de derecho privado con dotación propia aprobada para 2026 (Ley 7/2025, art. 4) y plantilla presupuestaria 2026; actividad efectiva no auditada en esta revisión.",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 y plantilla presupuestaria 2026 verificados; gasto de personal y personas ocupadas no verificados",
+      "Puestos aprobados / presupuestados": 74,
+      "Fecha puestos aprobados": "2026",
+      "Base de puestos aprobados": "Plantilla presupuestaria 2026 del sector público de la CAE (Anexo de personal, p. 5, código 425, total plazas; valores por categoría 1/51/22 sin asignación de columna segura) (budgeted, NO ocupación real)",
+      "Fuente puestos aprobados": "https://www.euskadi.eus/contenidos/informacion/presupuestos_cae/es_def/adjuntos/pdfs/2026A/Pertsonalaren_eranskina_Anexo_de_personal.pdf"
+    },
+    "fuentes_nuevas": [
+      "https://www.euskadi.eus/bopv2/datos/2025/12/2505538a.pdf",
+      "https://www.euskadi.eus/contenidos/informacion/presupuestos_cae/es_def/adjuntos/pdfs/2026A/Pertsonalaren_eranskina_Anexo_de_personal.pdf"
+    ],
+    "verificacion": "BOPV 251 (30/12/2025), Ley 7/2025 art. 4, tabla 'Entes públicos de derecho privado | Presupuesto | Compromisos futuros', p. 2: 'Aukerak-Agencia Vasca de Reinserción Social 15.980.000 0' (EUR) → 15,98 M. Anexo de personal 2026, p. 5 (columnas Código, Entidad, Total, Altos Cargos, P. Eventual, Funcionarios, Laborales): '425 AUKERAK - Gizarteratzearen Euskal Agentzia / AUKERAK - Agencia Vasca de Reinserción Social 74 1 51 22' (total 74).",
+    "no_encontrado": "Presupuesto de explotación 2026 por partidas (gastos de personal): está en la sección 16 Justicia de los Presupuestos 2026, p. 145, pero la extracción del PDF se corta hacia la p. 22; el informe trimestral del sector público (2T 2026, índice p. 451) tampoco es extraíble más allá de ~72.000 caracteres. Personas ocupadas y cuentas 2025 no localizadas. Límite de búsquedas web agotado."
+  },
+  {
+    "ID": 108,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 6.415,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Presupuesto propio aprobado",
+      "Corte del presupuesto numérico": "2026, dotaciones aprobadas (Ley 7/2025, art. 4)",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Presupuesto: texto completo": "Presupuesto propio aprobado 2026: 6.415.000 EUR (6,415 M). Ley 7/2025 de Presupuestos Generales de la CAE para 2026 (BOPV núm. 251 de 30/12/2025, p. 2), art. 4 (dotaciones de entes públicos de derecho privado), fila 'Agencia Vasca de Ciberseguridad 6.415.000 0' (Presupuesto / Compromisos futuros). Dotación del ente (explotación y capital), no ejecución ni solo administración.",
+      "Corte: texto completo": "2026 presupuesto aprobado; revisión 11/10/2026",
+      "Estado legal y operativo": "Ente público de derecho privado ('Euskal Zibersegurtasun Agentzia / Agencia Vasca de Ciberseguridad') con dotación propia 2026 (Ley 7/2025, art. 4) y plantilla presupuestaria 2026, adscrito a la sección 07 Seguridad; actividad no auditada.",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 y plantilla presupuestaria 2026 verificados; gasto de personal y personas ocupadas no verificados",
+      "Puestos aprobados / presupuestados": 12,
+      "Fecha puestos aprobados": "2026",
+      "Base de puestos aprobados": "Plantilla presupuestaria 2026 del sector público de la CAE (Anexo de personal, p. 5, código 422, total plazas; valores 1/2/9 sin asignación de columna segura) (budgeted, NO ocupación real)",
+      "Fuente puestos aprobados": "https://www.euskadi.eus/contenidos/informacion/presupuestos_cae/es_def/adjuntos/pdfs/2026A/Pertsonalaren_eranskina_Anexo_de_personal.pdf"
+    },
+    "fuentes_nuevas": [
+      "https://www.euskadi.eus/bopv2/datos/2025/12/2505538a.pdf",
+      "https://www.euskadi.eus/contenidos/informacion/presupuestos_cae/es_def/adjuntos/pdfs/2026A/Pertsonalaren_eranskina_Anexo_de_personal.pdf"
+    ],
+    "verificacion": "BOPV 251, Ley 7/2025 art. 4, p. 2: 'Agencia Vasca de Ciberseguridad 6.415.000 0' (EUR) → 6,415 M. Anexo de personal 2026, p. 5: '422 Euskal Zibersegurtasun Agentzia / Agencia Vasca de Ciberseguridad 12 1 2 9' (total 12). Sección 07 Seguridad 2026: índice sitúa a la Agencia en p. 141 (Entes, Sociedades y Fundaciones) y su programa de gasto en p. 83.",
+    "no_encontrado": "Gastos de personal 2026 del presupuesto de explotación (sección 07, p. 141: extracción del PDF cortada en p. 23); personas ocupadas; ejecución 2026 (informe trimestral 2T 2026, índice p. 319, no extraíble). Límite de búsquedas web agotado."
+  },
+  {
+    "ID": 109,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 9.975,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Presupuesto propio aprobado",
+      "Corte del presupuesto numérico": "2026, dotaciones aprobadas (Ley 7/2025, art. 4)",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Presupuesto: texto completo": "Presupuesto propio aprobado 2026: 9.975.000 EUR (9,975 M). Ley 7/2025 de Presupuestos Generales de la CAE para 2026 (BOPV núm. 251 de 30/12/2025, p. 3), art. 4 (dotaciones de entes públicos de derecho privado), fila 'Euskadiko Kirol Portuak 9.975.000 1.300.000' (Presupuesto / Compromisos futuros). Los 1.300.000 EUR son compromisos futuros, no presupuesto 2026. Dotación total del ente (explotación y capital), no ejecución ni gastos de personal.",
+      "Corte: texto completo": "2026 presupuesto aprobado; revisión 11/10/2026",
+      "Estado legal y operativo": "Figura en la Ley 7/2025 como ente público de derecho privado (art. 4), no como sociedad pública, con dotación y plantilla presupuestaria 2026; adscrito a la sección 15 Alimentación, Desarrollo Rural, Agricultura y Pesca; actividad no auditada.",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 y plantilla presupuestaria 2026 verificados; gastos de personal (PyG) y personas ocupadas no verificados",
+      "Puestos aprobados / presupuestados": 19,
+      "Fecha puestos aprobados": "2026",
+      "Base de puestos aprobados": "Plantilla presupuestaria 2026 del sector público de la CAE (Anexo de personal, p. 5, código 495, total plazas; valores 1/2/16 sin asignación de columna segura) (budgeted, NO ocupación real)",
+      "Fuente puestos aprobados": "https://www.euskadi.eus/contenidos/informacion/presupuestos_cae/es_def/adjuntos/pdfs/2026A/Pertsonalaren_eranskina_Anexo_de_personal.pdf"
+    },
+    "fuentes_nuevas": [
+      "https://www.euskadi.eus/bopv2/datos/2025/12/2505538a.pdf",
+      "https://www.euskadi.eus/contenidos/informacion/presupuestos_cae/es_def/adjuntos/pdfs/2026A/Pertsonalaren_eranskina_Anexo_de_personal.pdf"
+    ],
+    "verificacion": "BOPV 251, Ley 7/2025 art. 4, p. 3: 'Euskadiko Kirol Portuak 9.975.000 1.300.000' (EUR) → 9,975 M (compromisos futuros 1,3 M, no sumados). Anexo de personal 2026, p. 5: '495 Euskadiko Kirol Portuak / Euskadiko Kirol Portuak 19 1 2 16' (total 19). La pista del encargo la trataba como sociedad pública; la ley de presupuestos 2026 la clasifica como ente público de derecho privado, coherente con la transformación de 2018 que recoge la hoja.",
+    "no_encontrado": "Gastos de personal de la cuenta de PyG presupuestada 2026 y presupuesto de capital desglosado (sección 15, p. 116: extracción cortada en p. 20); personas ocupadas; ejecución 2026 (informe trimestral 2T 2026, índice p. 422, no extraíble); cuentas 2025. Límite de búsquedas web agotado."
+  },
+  {
+    "ID": 94,
+    "updates": {
+      "Presupuesto: texto completo": "Sin presupuesto propio actual como organismo autónomo extinguido (Decreto 30/2012). Corroboración 2026: la Ley 8/2025, de 29 de diciembre, de Presupuestos Generales de La Rioja para 2026 (BOR núm. 252 de 30/12/2025, pág. 22598), art. 1.a, solo integra como organismos autónomos al Servicio Riojano de Salud y al Instituto de Estudios Riojanos. No equivale a coste cero de políticas juveniles; no se cuantifica sustituto.",
+      "Cobertura presupuesto / personal / salarios": "Organismo extinguido: sin presupuesto, personal ni salarios propios actuales; ausencia en la ley de presupuestos 2026 corroborada; BOR original del Decreto 30/2012 no recuperado"
+    },
+    "fuentes_nuevas": [
+      "https://www.parlamento-larioja.org/recursos-de-informacion/leyes-aprobadas/ley-8-2025-de-29-de-diciembre-de-presupuestos-generales-de-la-comunidad-autonoma-de-la-rioja-para-el-ano-2026",
+      "https://vlex.es/vid/ley-8-2025-29-1099406590"
+    ],
+    "verificacion": "Ley 8/2025 (publicación BOR 252, 30/12/2025, pág. 22598, según la ficha del Parlamento de La Rioja; texto consultado en reproducción vLex): art. 1.a 'los organismos autónomos Servicio Riojano de Salud e Instituto de Estudios Riojanos'; art. 2 asigna importes propios solo a CES (150.000), ADER (72.346.585) y Consorcio de Extinción de Incendios (9.459.650). El Instituto Riojano de la Juventud no aparece. No se añade cifra.",
+    "no_encontrado": "BOR original del Decreto 30/2012 de extinción: no recuperado (BOE txt.php bloqueado por robots y límite de búsquedas agotado). La extinción sigue apoyada en las fuentes ya citadas en la hoja."
+  },
+  {
+    "ID": 119,
+    "updates": {
+      "Estado de cuantificación": "Sin presupuesto propio actual: supresión/extinción; no cuantificar sustituto",
+      "Presupuesto: texto completo": "Sin presupuesto propio actual: norma creadora (Ley 13/2022) derogada con efectos 1/01/2024 por la Ley 13/2023 (BOE-A-2024-1778, ya citada en la hoja). Corroboración 2026: la Ley 8/2025 de Presupuestos Generales de La Rioja para 2026 (BOR núm. 252 de 30/12/2025) no incluye a ARTE entre los organismos autónomos (art. 1.a: SERIS e IER) ni entre las entidades con dotación propia del art. 2 (CES, ADER, Consorcio de Extinción de Incendios). No se cifra el coste de las funciones transferidas.",
+      "Cobertura presupuesto / personal / salarios": "Entidad suprimida (derogación con efectos 1/01/2024): sin presupuesto, personal ni salarios propios 2026; ausencia en la ley de presupuestos 2026 corroborada; constitución efectiva previa no verificada"
+    },
+    "fuentes_nuevas": [
+      "https://www.parlamento-larioja.org/recursos-de-informacion/leyes-aprobadas/ley-8-2025-de-29-de-diciembre-de-presupuestos-generales-de-la-comunidad-autonoma-de-la-rioja-para-el-ano-2026",
+      "https://vlex.es/vid/ley-8-2025-29-1099406590"
+    ],
+    "verificacion": "Se alinea 'Estado de cuantificación' con lo que la propia hoja ya documenta (R y 'Estado legal y operativo': norma creadora derogada por Ley 13/2023 con efectos 1/01/2024). Corroboración: Ley 8/2025, art. 1.a y art. 2 (texto vía vLex; publicación BOR 252 de 30/12/2025 pág. 22598 según el Parlamento de La Rioja): ARTE no figura. No se añade cifra.",
+    "no_encontrado": "No se pudo releer directamente la Ley 13/2023 (BOE-A-2024-1778): la consulta al BOE devolvió un documento distinto y no hubo más búsquedas disponibles. Constitución efectiva de ARTE antes de la derogación no verificada."
+  },
+  {
+    "ID": 95,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 5.37467,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Presupuesto propio aprobado",
+      "Corte del presupuesto numérico": "2026, aprobado (Ley 4/2026, art. 2.8)",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Presupuesto: texto completo": "Presupuesto propio aprobado 2026: 5.374,67 miles EUR (5,37467 M). Ley 4/2026, de 22 de julio, de presupuestos de la Generalitat para 2026 (DOGV núm. 10425 de 10/08/2026, CVE DOGV-C-2026-25581), art. 2.8: 'Para el resto de entidades del sector público no adscritas a la Administración de la Generalitat, la estimación de gastos aprobada alcanza un importe de 5.374,67 miles de euros', fila 'Agencia de Prevención y Lucha contra el Fraude y la Corrupción de la Comunitat Valenciana 5.374,67' (p. 11). Estimación de gastos aprobada, no ejecución. Ley aprobada en julio de 2026: el primer semestre se rigió por el presupuesto anterior prorrogado.",
+      "Corte: texto completo": "2026 presupuesto aprobado (Ley 4/2026, DOGV 10/08/2026); revisión 11/10/2026",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 verificado; personal ocupado y gasto de personal no verificados"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/ccaa/dogv/2026/10425/r00001-00351.pdf"
+    ],
+    "verificacion": "DOGV núm. 10425 / 10.08.2026 (copia en boe.es/ccaa/dogv), Ley 4/2026, art. 2 apdo. 8, p. 11, unidad 'Miles de euros': fila AVAF 5.374,67 → 5,37467 M EUR. Es la única entidad del apdo. 8. La pista del encargo situaba su presupuesto en la sección de Les Corts; en la Ley 4/2026 figura en el art. 2.8 como entidad del sector público no adscrita a la Administración de la Generalitat.",
+    "no_encontrado": "Memoria AVAF 2025 (plantilla y ejecución): el PDF de antifraucv.es no pudo abrirse (requiere aparecer en una búsqueda y el límite de búsquedas web quedó agotado). Capítulo 1 2026 y liquidación 2025 no localizados."
+  },
+  {
+    "ID": 103,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 2.59089,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Crédito inicial aprobado",
+      "Corte del presupuesto numérico": "2026, crédito aprobado (Ley 4/2026, art. 2.2)",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Crédito inicial (EUR millones)": 2.59089,
+      "Presupuesto: texto completo": "Crédito inicial aprobado 2026: 2.590,89 miles EUR (2,59089 M). Ley 4/2026, de 22 de julio, de presupuestos de la Generalitat para 2026 (DOGV núm. 10425 de 10/08/2026), art. 2.2: 'Las dotaciones de gastos aprobadas para el cumplimiento de los fines de los distintos organismos autónomos de la Generalitat consignan créditos por un importe de 1.283.876,40 miles de euros', fila 'Agencia Valenciana de Protección del Territorio 2.590,89' (p. 10). Crédito, no ejecución. Ley aprobada en julio de 2026: el primer semestre se rigió por el presupuesto anterior prorrogado.",
+      "Corte: texto completo": "2026 crédito inicial aprobado (Ley 4/2026, DOGV 10/08/2026); revisión 11/10/2026",
+      "Estado legal y operativo": "Organismo autónomo con crédito propio 2026 en la Ley 4/2026 (art. 2.2); actividad efectiva no auditada.",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 verificado; capítulo 1, ejecución y personal no verificados"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/ccaa/dogv/2026/10425/r00001-00351.pdf"
+    ],
+    "verificacion": "DOGV 10425 (10/08/2026), Ley 4/2026, art. 2 apdo. 2, p. 10, unidad 'Miles de euros': 'Agencia Valenciana de Protección del Territorio 2.590,89' → 2,59089 M EUR. Lista de OOAA del apdo. 2: 12 organismos (ATV, AVFGA, AVPT, AVSF, AVSRE, ATMV, ICV, IVE, IVIA, IVAJ, INVASSAT, LABORA).",
+    "no_encontrado": "Desglose por capítulos (cap.1) y plantilla presupuestaria del organismo en los libros de presupuestos 2026 de hisenda.gva.es, ejecución 2026 y liquidación 2025: no localizados (límite de búsquedas web agotado; la Ley 4/2026 no incluye anexo de personal por organismo en lo extraído)."
+  },
+  {
+    "ID": 104,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 1.63811,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Crédito inicial aprobado",
+      "Corte del presupuesto numérico": "2026, crédito aprobado (Ley 4/2026, art. 2.2)",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Crédito inicial (EUR millones)": 1.63811,
+      "Presupuesto: texto completo": "Crédito inicial aprobado 2026: 1.638,11 miles EUR (1,63811 M). Ley 4/2026, de 22 de julio, de presupuestos de la Generalitat para 2026 (DOGV núm. 10425 de 10/08/2026), art. 2.2 (créditos de los organismos autónomos, 1.283.876,40 miles EUR en total), fila 'Agència Valenciana de Seguretat Ferroviària 1.638,11' (p. 10). Crédito, no ejecución. Ley aprobada en julio de 2026: el primer semestre se rigió por el presupuesto anterior prorrogado.",
+      "Corte: texto completo": "2026 crédito inicial aprobado (Ley 4/2026, DOGV 10/08/2026); revisión 11/10/2026",
+      "Estado legal y operativo": "Organismo autónomo con crédito propio 2026 en la Ley 4/2026 (art. 2.2); actividad efectiva no auditada.",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 verificado; capítulo 1, ejecución y personal no verificados"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/ccaa/dogv/2026/10425/r00001-00351.pdf"
+    ],
+    "verificacion": "DOGV 10425 (10/08/2026), Ley 4/2026, art. 2 apdo. 2, p. 10, unidad 'Miles de euros': 'Agència Valenciana de Seguretat Ferroviària 1.638,11' → 1,63811 M EUR.",
+    "no_encontrado": "Capítulo 1 2026, plantilla, ejecución 2026 y liquidación 2025 del organismo: no localizados (límite de búsquedas web agotado)."
+  },
+  {
+    "ID": 105,
+    "updates": {
+      "Presupuesto: texto completo": "Sin cifra propia 2026 verificada; no significa cero. La Ley 4/2026 de presupuestos de la Generalitat para 2026 (DOGV núm. 10425 de 10/08/2026) no incluye ninguna 'Agència Valenciana de Residus i Economia Circular' (ni 'Agencia Valenciana de Residuos y Economía Circular') entre los organismos autónomos (art. 2.2), las entidades públicas empresariales y de derecho público (art. 2.4), las sociedades mercantiles (art. 2.5) ni el resto de entidades (art. 2.8). No atribuir el presupuesto de la consejería ni de la EPSAR.",
+      "Estado legal y operativo": "Previsión legal en Ley 5/2022; sin dotación propia en la Ley 4/2026. Constitución efectiva no verificada. La Ley 5/2026 de medidas (DOGV 10425, 10/08/2026) modifica la Ley 5/2022 por reducción de cargas, sin mención localizada de la agencia.",
+      "Cobertura presupuesto / personal / salarios": "Sin presupuesto propio identificable en la Ley 4/2026; personal y salarios no verificados; vacío no significa cero"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/ccaa/dogv/2026/10425/r00001-00351.pdf",
+      "https://derecholocal.es/novedad-legislativa/medidas-de-acompanamiento-a-la-ley-de-presupuestos-de-2026-de-la-generalitat-valenciana"
+    ],
+    "verificacion": "Revisión de las listas del art. 2 de la Ley 4/2026 (apdos. 2, 4, 5 y 8; pp. 10-11): no aparece la agencia. Solo aparecen 'Entidad Pública de Saneamiento de Aguas residuales de la C.V.' (apdo. 4) y 'Reciclaje Residuos la Marina Alta, SA' (apdo. 5), que son entidades distintas. Ley 5/2026 de medidas: el resumen de derecholocal no menciona la agencia (pista, no fuente de cifra). No se añade cifra.",
+    "no_encontrado": "Si la agencia llegó a constituirse (estatutos/decreto) o si se suprimió o integró en otra entidad; apdos. 3 (consorcios) y 6 (fundaciones) del art. 2 no revisados fila a fila. Límite de búsquedas web agotado."
+  },
+  {
+    "ID": 106,
+    "updates": {
+      "Presupuesto propio (EUR millones)": 81.00922,
+      "Año del presupuesto": 2026,
+      "Base del presupuesto numérico": "Presupuesto propio aprobado",
+      "Corte del presupuesto numérico": "2026, estimación de gastos aprobada (Ley 4/2026, art. 2.5)",
+      "Estado de cuantificación": "Cifra propia verificada",
+      "Presupuesto: texto completo": "Presupuesto propio aprobado 2026: 81.009,22 miles EUR (81,00922 M). Ley 4/2026, de 22 de julio, de presupuestos de la Generalitat para 2026 (DOGV núm. 10425 de 10/08/2026), art. 2.5: 'Se aprueban las estimaciones de gastos de las sociedades mercantiles de la Generalitat por un importe de 757.363,00 miles de euros', fila 'Corporació Audiovisual de la Comunitat Valenciana, SA 81.009,22' (p. 11). Estimación de gastos de la sociedad (explotación y capital), no ejecución; incluye producción y emisión de À Punt, no solo administración.",
+      "Corte: texto completo": "2026 estimación de gastos aprobada (Ley 4/2026, DOGV 10/08/2026); revisión 11/10/2026",
+      "Estado legal y operativo": "Sociedad mercantil de la Generalitat con estimación de gastos 2026 aprobada en la Ley 4/2026 (art. 2.5); actividad no auditada en esta revisión.",
+      "Cobertura presupuesto / personal / salarios": "Presupuesto propio 2026 verificado; gastos de personal (PyG) y plantilla no verificados"
+    },
+    "fuentes_nuevas": [
+      "https://www.boe.es/ccaa/dogv/2026/10425/r00001-00351.pdf"
+    ],
+    "verificacion": "DOGV 10425 (10/08/2026), Ley 4/2026, art. 2 apdo. 5, p. 11, unidad 'Miles de euros': 'Corporació Audiovisual de la Comunitat Valenciana, SA 81.009,22' → 81,00922 M EUR. À Punt/CVMC no aparecen por separado.",
+    "no_encontrado": "Presupuesto de explotación 2026 con gastos de personal, plantilla media y cuentas anuales 2025 de la sociedad: no localizados (límite de búsquedas web agotado)."
+  }
+]

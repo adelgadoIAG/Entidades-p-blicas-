@@ -1,0 +1,84 @@
+import json
+csic_url = "https://www.csic.es/sites/default/files/document/2026-08-07/Memoria%20Anual%20CSIC%202025.pdf"
+mujeres_url = "https://members.ift.uam-csic.es/ed/wp-content/uploads/2025/09/Informe-Mujeres-Investigadoras-2025-CMyC-CSIC.pdf"
+# CSIC sums
+inv = 454 + 3022 + 1957
+form = 96 + 1253 + 683
+tec = 250 + 5375 + 2126
+ges = 68 + 786 + 285
+areas = inv + form + tec + ges
+total = 17471
+otro = total - areas
+nucleo = inv + form + tec
+assert (inv, form, tec, ges, areas, otro, nucleo) == (5433, 2032, 7751, 1139, 16355, 1116, 15216)
+assert 868 == 454+96+250+68 and 10436 == 3022+1253+5375+786 and 5051 == 1957+683+2126+285
+assert nucleo + ges + otro == total
+assert 1821+1180+225+2100+1050+639 == 7015 and 7085+1450+7572 == 16107
+assert 525+108+22 == 655
+
+csic_verif = (
+ "Memoria Anual CSIC 2025 (publicada 2026), total p.3 (Carta de la presidenta: 'pasando de 13.888 personas en 2022... a 17.471 en diciembre de 2025') y p.5 ('17.471 personas impulsan la investigación'). "
+ "Tablas 'Personal' por Área Global (columnas Investigador / Investigador en formación* (*Predoctorales) / Técnico / Gestión-Admón.-Servicios; dos subcolumnas sin etiqueta en el texto extraído). "
+ "SOCIEDAD p.11 (cifras en orden de extracción: 205; 249; 45; 23; 454; 136; 114; 250; 68; 868; 4,09%; 54; 42; 96): Investigador 205+249=454; Técnico 136+114=250; Gestión/Admón./Servicios 45+23=68; Investigador en formación 54+42=96; Total 868. "
+ "VIDA p.19 (1.296; 1.726; 420; 366; 3.022; 3.261; 2.114; 5.375; 786; 10.436; 59,73%; 750; 503; 1.253): Investigador 1.296+1.726=3.022; Técnico 3.261+2.114=5.375; Gestión 420+366=786; Formación 750+503=1.253; Total 10.436. "
+ "MATERIA p.39: Investigador 675+1.282=1.957; Técnico 942+1.184=2.126; Gestión/Admón./Servicios 177+108=285; Formación 261+422=683; Total 5.051 (28,91%). "
+ "Suma tres áreas: Investigador 454+3.022+1.957=5.433; Investigador en formación 96+1.253+683=2.032; Técnico 250+5.375+2.126=7.751; Gestión/Admón./Servicios 68+786+285=1.139; total áreas 868+10.436+5.051=16.355. "
+ "Núcleo = 5.433+2.032+7.751 = 15.216 (de ellos 7.465 investigadores incl. predoctorales y 7.751 técnicos). Administración = 1.139. Otro = 17.471-16.355 = 1.116. "
+ "AVISOS: (1) La tabla es texto OCR de maquetación; en Sociedad, 250=Técnico y 68=Gestión se asignan por la misma posición que en Vida (5.375 técnico / 786 gestión) y cuadran con la Memoria 2024 (Sociedad: técnico 213, gestión 84); una primera reconstrucción automática los invertía: conviene comprobarlo en el PDF. (2) El '4,09%' impreso para Sociedad no cuadra (868/17.471=4,97%); Vida 59,73% y Materia 28,91% sí cuadran con 17.471. (3) Nota p.39: 'El área asignada al personal investigador e investigador en formación es el área personal'; el resto se asigna al ICU de adscripción. "
+ "COMPLEMENTO por escalas (otra fecha, NO sumado a las columnas): Informe Mujeres Investigadoras 2025 (Comisión Mujeres y Ciencia del CSIC), datos a 31/12/2024, Tabla 3 'Personal investigador por escalas' (p.4-5): Profesores/as de Investigación 639; Investigadores/as Científicos/as 1.050; Científicos/as Titulares 2.100 (escalas funcionariales: 3.789); Ramón y Cajal 225; Postdoctorales 1.180; Predoctorales 1.821; total 7.015. Tabla 1: personal funcionario 7.085 + laboral fijo 1.450 + laboral temporal 7.572 = 16.107. La Tabla 2 recoge el personal directivo (presidencia, vicepresidencias, direcciones de institutos), no altos cargos en sentido legal. "
+ "La sección 'Recursos Humanos' de la Memoria 2025 (p.86, con funcionarios/laborales por escala) no es legible: la extracción de texto del PDF se corta en la p.39 (79.977 caracteres); igual en la Memoria 2024 (se corta en la p.43)."
+)
+
+out = [
+ {"ID": 33,
+  "updates": {
+   "Desglose: personal técnico/científico/inspector": nucleo,
+   "Desglose: personal de administración y apoyo": ges,
+   "Desglose: otro / no clasificable": otro,
+   "Desglose: total de referencia": total,
+   "Desglose: unidad y fecha": "Personas a diciembre de 2025 (Memoria Anual CSIC 2025: total en pp.3 y 5; tablas de personal por Área Global en pp.11, 19 y 39; la memoria fecha sus datos 'a 31/12/2025', pp.12 y 20)",
+   "Desglose: criterio de clasificación": "Por función, con las categorías propias del CSIC. Núcleo = 'Investigador' (5.433) + 'Investigador en formación' (predoctorales, 2.032) + 'Técnico' (personal técnico de apoyo a la investigación, 7.751): los técnicos van en el núcleo, pero se indican aparte. Administración = 'Gestión / Admón. / Servicios' (1.139). Otro = 1.116 personas, diferencia entre el total de 17.471 y la suma de las tres Áreas Globales (16.355). Las tablas asignan a los no investigadores según el área de su instituto (ICU), así que estas 1.116 son, previsiblemente, personal de unidades sin área (organización central, delegaciones, servicios). La memoria no las desglosa en las páginas legibles. Si son sobre todo de gestión, la cifra de administración es una cota mínima.",
+   "Desglose: fuente": csic_url,
+   "Desglose: verificación": csic_verif
+  },
+  "verificacion": "Desglose por función de la Memoria Anual CSIC 2025 (personas, dic-2025): 7.465 investigadores (5.433 doctores/plantilla investigadora + 2.032 predoctorales) + 7.751 técnicos = 15.216 núcleo; 1.139 gestión/admón./servicios; 1.116 no asignados a área; total 17.471. Escalas a 31/12/2024 (Informe Mujeres Investigadoras 2025): PI 639, IC 1.050, CT 2.100, RyC 225, postdoc 1.180, predoc 1.821. Fuente complementaria: " + mujeres_url,
+  "no_encontrado": "Sección 'Recursos Humanos' de la Memoria 2025 (p.86: funcionarios/laborales por escala técnica y de gestión) no legible por truncado de la extracción del PDF; tampoco la de la Memoria 2024 (p.85). Puestos de libre designación, altos cargos y personal eventual del CSIC: no localizados en fuente oficial con cifra (RPT no consultable). La 'Base del personal' de la ficha (EPSAP ene-2026: 17.130) es otra fuente y otra fecha; el desglose usa su propio total de 17.471 (memoria, dic-2025)."
+ },
+ {"ID": 34,
+  "updates": {
+   "Desglose: fuente": "https://web2.aemet.es/documentos/es/conocenos/a_que_nos_dedicamos/plan_estrategico/Plan_Estrategico_AEMET_2025-2029.pdf",
+   "Desglose: verificación": "Sin cifras absolutas: no se rellenan las columnas numéricas. Plan Estratégico AEMET 2025-2029, pp.18-19 (sección 5, 'Situación de los Recursos Humanos de AEMET'), sin fecha de referencia: plantilla de 'unas 1.000 personas' (cifra redondeada); 95% funcionarios y 5% laborales; 'Cuerpos especiales de meteorología: el 90% de la plantilla'. Por cuerpo: Superior de Meteorólogos del Estado (A1) 22%; Diplomados en Meteorología del Estado (A2) 27% en el texto y 29% en el gráfico; Observadores de Meteorología del Estado (C1) 49%. Con 29%, los tres suman 100%, así que parecen repartir solo los cuerpos especiales. Además, 70% del personal está en Delegaciones Territoriales (en otro gráfico, 69%). No se convierten en número: serían porcentajes sobre un total redondeado, es decir, una estimación. Lectura: unos 9 de cada 10 trabajadores son de cuerpos técnicos de meteorología; el resto (~10%) son cuerpos generales/administración y laborales, sin cifra exacta."
+  },
+  "verificacion": "Solo porcentajes: Plan Estratégico AEMET 2025-2029 pp.18-19 (90% de la plantilla en cuerpos especiales de meteorología; A1 22%, A2 27/29%, C1 49%; ~1.000 personas; sin fecha).",
+  "no_encontrado": "Informe Anual AEMET 2024 (aemet.es) no se pudo abrir (error de descarga, 3 intentos). En el Informe Anual 2022 (repositorio.aemet.es), la sección 7.2 'Gestión de recursos humanos' (p.64) queda fuera del texto extraído, que se corta hacia la p.62. El Plan de Acción Anual 2026 no trae cifras de RRHH. RPT de funcionarios no contada (PDF de transparencia demasiado largo para leerlo entero). No localizados: libre designación, altos cargos ni eventuales. Hay datos por cuerpos en notas sindicales de CSIF ('AEMET Evolución Personal 2009-2026'), no usadas por no ser fuente oficial."
+ },
+ {"ID": 35,
+  "updates": {
+   "Desglose: personal técnico/científico/inspector": 525,
+   "Desglose: personal de administración y apoyo": 108,
+   "Desglose: otro / no clasificable": 22,
+   "Desglose: total de referencia": 655,
+   "Desglose: unidad y fecha": "Personas del 'Equipo AEMPS' según la figura 02 de la Memoria de actividades de la AEMPS 2025 (p.6, 'Órganos y estructura de la AEMPS'); ejercicio 2025, sin fecha de corte explícita (memoria publicada el 2/6/2026)",
+   "Desglose: criterio de clasificación": "Por función, con las categorías propias de la memoria. Núcleo = 'Personal científico-técnico' (525): evaluadores, inspectores y técnicos, sin separar en la fuente. Administración = 'Funciones administrativas' (108). Otro = 'Becas de formación' (22): becarios en formación, no plantilla. Sin becas, la plantilla sería 633 (EPSAP ene-2026: 629). Quedan excluidos la 'Red de expertos' y los 'Comités técnicos' (79 y 12), que son colaboradores externos y figuran en un bloque aparte de la figura.",
+   "Desglose: fuente": "https://memoria.aemps.gob.es/docs/memoria-2025.pdf",
+   "Desglose: verificación": "Memoria de actividades AEMPS 2025, p.6, bloque 'EQUIPO AEMPS' de la figura 02. Fragmentos literales del texto extraído: '525 Personal científicotécnico', '108 Funciones administrativas 22 Becas de formación' y un '655' suelto junto a 'FIGURA 02'. Comprobación: 525+108+22=655. Bloque aparte 'RED DE EXPERTOS': 79 'Red de expertos' y 12 'Comités técnicos'. La asignación 79/12 es ambigua en la extracción (una lectura anterior daba '12 Red de expertos'), pero no afecta al desglose. Aviso: 525 coincide con los funcionarios de carrera de la EPSAP ene-2026 (525). Es otra fuente; no se ha verificado que la etiqueta 'científico-técnico' no sea en realidad 'funcionarios'. La página no tiene apartado de RRHH ni fecha de corte."
+  },
+  "verificacion": "Memoria AEMPS 2025 p.6 (Equipo AEMPS 655 = 525 científico-técnico + 108 funciones administrativas + 22 becas de formación).",
+  "no_encontrado": "Sin fecha de corte en la figura. La memoria no tiene apartado de RRHH: no hay desglose entre evaluadores e inspectores, ni por subgrupo, libre designación, altos cargos o eventuales."
+ },
+ {"ID": 4,
+  "updates": {},
+  "verificacion": "",
+  "no_encontrado": "El Plan de Actuación Anual 2025 de la AEI (aei.gob.es) anuncia en su índice la sección 4.2 'Recursos Humanos' (p.38) y los Anexos 2 y 3 sobre la RPT (pp.46 y 54), pero el texto extraído del PDF (79.046 caracteres) se corta en la p.36. No hay cifras legibles. No se localizó memoria, plan 2026 ni RPT con desglose por función o subgrupo, ni cifras de libre designación, altos cargos o eventuales. Solo hay porcentajes sueltos (p.33: 13,92% / 9,57% de la plantilla formada en igualdad)."
+ },
+ {"ID": 40,
+  "updates": {},
+  "verificacion": "",
+  "no_encontrado": "No se localizó memoria, plan de acción ni RPT publicada de la Agencia Espacial Española con desglose del personal por función o subgrupo, ni cifras de libre designación, altos cargos o eventuales. Las búsquedas devolvieron solo convocatorias del BOE y de ciencia.gob.es (plazas laborales fijas 2026) y prensa. Total de referencia disponible: EPSAP ene-2026 (65: 53 funcionarios + 12 laborales), sin función."
+ }
+]
+p = "datos/resultados/P1_investigacion.json"
+with open(p, "w", encoding="utf-8") as f:
+    json.dump(out, f, ensure_ascii=False, indent=1)
+json.load(open(p, encoding="utf-8"))
+print("ok", len(out))

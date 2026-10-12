@@ -1,0 +1,221 @@
+[
+ {
+  "ID": 84,
+  "updates": {
+   "Estado de cuantificación": "Sin presupuesto propio actual: supresión/extinción; no cuantificar sustituto",
+   "Presupuesto: texto completo": "Sin presupuesto propio actual: organismo autónomo suprimido por Ley 1/2026, de 26 de marzo, de Medidas Administrativas y Tributarias de CLM (DOCM núm. 61, 30/03/2026, art. 20, p. 10678). Figuraba como OA en la Ley 5/2025, de 19 de diciembre, de Presupuestos Generales JCCM 2026 (art. 1.1.c.3º), pero su crédito inicial total no se ha verificado en documento primario; tras la supresión, Hacienda autoriza las modificaciones presupuestarias para pasar créditos a la Consejería (art. 20.5). No se cuantifica el sustituto ni equivale a coste cero de la política de agua.",
+   "Corte: texto completo": "2026: Ley 5/2025 de Presupuestos 2026 y Ley 1/2026 (supresión); revisión 11/10/2026",
+   "Estado legal y operativo": "Suprimido: Ley 1/2026 (CLM), art. 20.1 'Se suprime el organismo autónomo Agencia del Agua de Castilla-La Mancha, cuya personalidad jurídica quedará extinguida desde la fecha de entrada en vigor de esta Ley' (DOCM 61, 30/03/2026, p. 10678). Funciones, subrogación en procedimientos y referencias normativas pasan a la Consejería competente en materia de aguas (art. 20.2-3); personal adscrito a esa Consejería (art. 20.4); bienes al patrimonio de la Comunidad (art. 20.6). Fecha exacta de entrada en vigor (disposición final sexta) no leída en esta revisión.",
+   "Importe contextual (EUR millones; NO sumar)": 38.33717,
+   "Año / periodo contextual": "2026, crédito inicial aprobado (Ley 5/2025, art. 2.2.c)",
+   "Base contextual": "Transferencias internas presupuestadas desde el OA Agencia del Agua hacia la Entidad Pública Infraestructuras del Agua de CLM (38.337.170,00 EUR). No es el presupuesto total del OA ni coste propio; no sumar.",
+   "Nombre del titular del importe": "Agencia del Agua de Castilla-La Mancha (OA; suprimido por Ley 1/2026)",
+   "URL del documento": "https://transparencia.castillalamancha.es/sites/default/files/2026-05/13.Texto%20Proyecto%20de%20Ley.pdf",
+   "Estado de verificación del personal": "No aplica tras la supresión: personal adscrito a la Consejería competente en aguas (Ley 1/2026, art. 20.4); sin cifra individual verificada",
+   "Cobertura presupuesto / personal / salarios": "Supresión 2026 verificada en DOCM; sin presupuesto, personal ni salarios propios actuales; importe contextual (transferencia a Infraestructuras del Agua) no sumable",
+   "Notas de personal y apoyo ministerial": "Ley 1/2026, art. 20.4: el personal que prestaba servicios en el OA pasa adscrito a la Consejería competente en materia de aguas. No se cuantifica plantilla del sustituto."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/ccaa/docm/2026/061/q10660-10683.pdf",
+   "https://laadministracionaldia.inap.es/noticia.asp?id=1261775",
+   "https://transparencia.castillalamancha.es/sites/default/files/2026-05/13.Texto%20Proyecto%20de%20Ley.pdf"
+  ],
+  "verificacion": "Supresión: Ley 1/2026, de 26 de marzo, de Medidas Administrativas y Tributarias de CLM, DOCM núm. 61 de 30/03/2026 (copia BOE q10660-10683), art. 20 apartados 1-6, p. 10678; preámbulo p. 10664 ('El artículo 20 suprime el organismo autónomo Agencia del Agua ... que se integra en la Consejería competente en materia de agua'); art. 21 renombra la sección 'Agencia del Agua' de la Ley 2/2022 de Aguas. Presupuesto 2026: Ley 5/2025, de 19 de diciembre (DOCM 29/12/2025), art. 1.1.c.3º lista el OA; art. 2.2.c: 'Desde la Agencia del Agua de Castilla-La Mancha, hacia la Entidad Pública Infraestructuras del Agua ... 38.337.170,00 euros' (texto reproducido por INAP La Administración al Día y mismo importe en el Proyecto de Ley publicado en el Portal de Transparencia JCCM, p. 16). Conversión 38.337.170,00 EUR = 38.33717 M.",
+  "no_encontrado": "Crédito inicial total 2026 del OA y su capítulo 1 (estado de gastos por organismos de la Ley 5/2025): no localizado en documento primario accesible. Fecha exacta de entrada en vigor de la Ley 1/2026 (disposición final sexta): la extracción del PDF se corta en p. 10679. Plantilla traspasada no localizada. Búsquedas adicionales bloqueadas por límite de búsquedas de la sesión."
+ },
+ {
+  "ID": 117,
+  "updates": {
+   "Presupuesto: texto completo": "Organismo autónomo con presupuesto propio en la Ley 5/2025, de 19 de diciembre, de Presupuestos Generales JCCM 2026 (DOCM 29/12/2025), art. 1.1.c.5º; el articulado no da importe individual (solo agregados: 4.043.481.640,00 EUR de transferencias a todos los OOAA, art. 2.2.a). Importe propio 2026 no verificado en estado de gastos; no significa cero. No atribuir presupuesto del departamento.",
+   "Estado legal y operativo": "Presupuestado como organismo autónomo en Ley 5/2025 de Presupuestos 2026 (art. 1.1.c.5º). Actividad efectiva y plantilla no auditadas en esta revisión."
+  },
+  "fuentes_nuevas": [
+   "https://laadministracionaldia.inap.es/noticia.asp?id=1261775",
+   "https://transparencia.castillalamancha.es/sites/default/files/2026-05/13.Texto%20Proyecto%20de%20Ley.pdf"
+  ],
+  "verificacion": "Ley 5/2025 de Presupuestos JCCM 2026 (DOCM 29/12/2025), art. 1.1.c: '5.º. Agencia de Investigación e Innovación de Castilla-La Mancha' entre los seis OOAA con presupuesto propio (texto reproducido por INAP; idéntico en el Proyecto de Ley del Portal de Transparencia JCCM, p. 15). El articulado no contiene importe individual.",
+  "no_encontrado": "Crédito inicial 2026 del OA, capítulo 1, ejecución 2026, liquidación 2025 y plantilla: requieren el estado de gastos por organismos / anexo de personal de los Presupuestos JCCM 2026 o la Cuenta General, no localizados en documento primario accesible (límite de búsquedas de la sesión agotado)."
+ },
+ {
+  "ID": 118,
+  "updates": {
+   "Presupuesto: texto completo": "Organismo autónomo con presupuesto propio (sección 77 'Agencia de Transformación Digital de Castilla-La Mancha') en la Ley 5/2025, de 19 de diciembre, de Presupuestos Generales JCCM 2026 (art. 1.1.c.6º; art. 9.2.c.2º cita créditos de capítulo 1 de la sección 77). Importe individual no verificado: el articulado no lo da; no significa cero. No atribuir presupuesto del departamento.",
+   "Estado legal y operativo": "Presupuestado como organismo autónomo, sección 77, en Ley 5/2025 de Presupuestos 2026; la ley prevé flexibilidad de gestión presupuestaria de la sección 77 (preámbulo) y créditos de capítulo 1 propios (art. 9.2.c.2º). Plantilla y actividad no auditadas."
+  },
+  "fuentes_nuevas": [
+   "https://laadministracionaldia.inap.es/noticia.asp?id=1261775",
+   "https://transparencia.castillalamancha.es/sites/default/files/2026-05/13.Texto%20Proyecto%20de%20Ley.pdf"
+  ],
+  "verificacion": "Ley 5/2025 (DOCM 29/12/2025), art. 1.1.c.6º 'Agencia de Transformación Digital de Castilla-La Mancha'; art. 9.2.c.2º: 'Los créditos del capítulo 1 \"Gastos de personal\", de la sección 77'; Proyecto de Ley (Portal de Transparencia JCCM) p. 18 'de la sección 77 \"Agencia de Transformación Digital de Castilla-La Mancha\"'. Sin importes individuales en el articulado.",
+  "no_encontrado": "Crédito inicial 2026 de la sección 77, capítulo 1, ejecución 2026, liquidación 2025 y plantilla/RPT: no localizados en documento primario accesible (estado de gastos por secciones y anexo de personal JCCM 2026 no alcanzados; límite de búsquedas agotado)."
+ },
+ {
+  "ID": 85,
+  "updates": {},
+  "fuentes_nuevas": [],
+  "verificacion": "Sin cambios.",
+  "no_encontrado": "No se pudo leer el texto de Decreto 8/2006 ni Decreto 52/2014 de Castilla y León (cláusula de no incremento de gasto, medios de la Consejería, indemnizaciones) para aplicar la regla 6: el enlace educa.jcyl.es de la ficha no era accesible sin aparecer en resultados de búsqueda y el límite de búsquedas de la sesión se agotó. Estado de cuantificación sin cambiar hasta verificar la norma."
+ },
+ {
+  "ID": 86,
+  "updates": {
+   "Presupuesto: texto completo": "Presupuesto propio aprobado 2026: 121.755.597,48 EUR (Llei 10/2026, de 9 de juliol, de pressupostos de la Generalitat per al 2026, DOGC 9706 de 13/07/2026, art. 2.6, p. 9; estat de despeses entitat 7910, programa 125, pp. 430-432). Cap. 1 58.784.906,90; cap. 2 58.446.440,58; cap. 4 102.250; cap. 6 4.396.500; cap. 8 25.500 EUR. Ley tardía: hasta su entrada en vigor rigió la prórroga presupuestaria. No es gasto ejecutado.",
+   "Crédito de personal (EUR millones)": 58.784907,
+   "Año del coste de personal": 2026,
+   "Base del coste de personal": "Capítulo 1: crédito inicial 2026, entitat 7910 ATC, programa 125 (Llei 10/2026); incluye art. 16 cotizaciones sociales 12,065 M",
+   "Estado de verificación del coste": "Crédito autorizado, no gasto realizado ni solo salarios",
+   "Fuente del coste": "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/ED_7910.pdf",
+   "Cobertura presupuesto / personal / salarios": "Presupuesto propio, crédito cap.1 y dotaciones presupuestadas 2026 verificados; plantilla ocupada y ejecución cap.1 pendientes",
+   "Puestos aprobados / presupuestados": 1103,
+   "Fecha puestos aprobados": "2026",
+   "Base de puestos aprobados": "dotacions pressupostades 2026, Annex de personal entitat 7910 (1 alt càrrec + 1.072 funcionaris + 30 laborals); budgeted, NO ocupación real",
+   "Fuente puestos aprobados": "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/AP_7910.pdf",
+   "Notas de personal y apoyo ministerial": "Cap.1 2026 58,785 M = art.10 alts càrrecs 0,104 + art.12 funcionaris 43,842 + art.13 laborals 1,252 + art.15 incentius 1,522 + art.16 cotitzacions 12,065. 1.103 dotacions pressupostades (655 al Barcelonès), NO ocupación. Sin cifra de efectivos reales verificada.",
+   "Notas de conciliación de crédito y ejecución": "Llei 10/2026 aprobada en julio de 2026 (antes, prórroga). Ejecución 2026 por entidad de derecho público y liquidación/cuentas 2025 de la ATC no localizadas en esta revisión. Capítulo 1 no equivale solo a sueldos."
+  },
+  "fuentes_nuevas": [
+   "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/ED_7910.pdf",
+   "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/AP_7910.pdf",
+   "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/VOL_L_RES.pdf"
+  ],
+  "verificacion": "Total: Llei 10/2026 (copia BOE DOGC 9706) art. 2.6 'Agencia Tributaria de Cataluña 121.755.597,48', p. 9/102; VOL_L_RES p. 18 'EC 7910 Agència Tributària Cat. 121.755,6' (miles EUR). Cap.1: ED_7910 p. 430 'CAPÍTOL 1 REMUNERACIONS DEL PERSONAL 58.784.906,90' (EUR); suma de artículos 103.593,92+43.841.562,98+1.251.947,91+1.522.317,56+12.065.484,53 = 58.784.906,90; total de despeses 121.755.597,48 igual a la Llei. 58.784.906,90 EUR = 58,784907 M (6 decimales). Dotaciones: AP_7910 p. 128 impresa, 'Total plantilla estructural (dotacions)' 1.103 (A200 B407 C235 D246 E14 Altres 1); el fichero AP no indica si es versión Projecte o Llei.",
+  "no_encontrado": "Obligaciones reconocidas cap.1 2026 (ejecución), liquidación 2025 y plantilla ocupada real de la ATC: no localizadas (informes de ejecución del sector público de la Generalitat, Compte General 2025 y memoria/portal de transparencia de la ATC no alcanzados; límite de búsquedas agotado)."
+ },
+ {
+  "ID": 87,
+  "updates": {
+   "Presupuesto propio (EUR millones)": 10.718431,
+   "Año del presupuesto": 2026,
+   "Base del presupuesto numérico": "Presupuesto propio aprobado",
+   "Corte del presupuesto numérico": "2026, crédito aprobado",
+   "Estado de cuantificación": "Cifra propia verificada",
+   "Crédito inicial (EUR millones)": 10.718431,
+   "Presupuesto: texto completo": "Presupuesto propio aprobado 2026: 10.718.431,04 EUR, sección OA 'Oficina Antifrau de Catalunya' (Llei 10/2026, de 9 de juliol, DOGC 9706, art. 2.3 'Parlament i organismes estatutaris i consultius', p. 7). Cap. 1 9.271.181,04; cap. 2 984.250,00; cap. 4 27.000,00; operaciones corrientes 10.282.431,04 EUR (Resum, p. 35). Ley tardía: hasta julio de 2026 rigió la prórroga. No es gasto ejecutado.",
+   "Corte: texto completo": "2026 crédito inicial Llei 10/2026 (9/07/2026); revisión 11/10/2026",
+   "Crédito de personal (EUR millones)": 9.271181,
+   "Año del coste de personal": 2026,
+   "Base del coste de personal": "Capítulo 1: crédito inicial 2026, sección OA Oficina Antifrau (Llei 10/2026, Resum de despeses per articles i seccions); incluye art. 16 cotizaciones 1,513 M y art. 17 prestaciones 0,004 M",
+   "Estado de verificación del coste": "Crédito autorizado, no gasto realizado ni solo salarios",
+   "Fuente del coste": "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/VOL_L_RES.pdf",
+   "Cobertura presupuesto / personal / salarios": "Presupuesto propio y crédito cap.1 2026 verificados; plantilla ocupada, RPT y ejecución pendientes",
+   "Notas de personal y apoyo ministerial": "Cap.1 2026 9,271 M = art.10 alts càrrecs 0,608 + art.11 eventual 0,112 + art.12 funcionaris 5,264 + art.13 laborals 1,769 + art.16 cotitzacions 1,513 + art.17 prestacions 0,004. Cap.1 = 86,5% del presupuesto. Sin cifra de plantilla ocupada ni dotaciones verificada en esta revisión.",
+   "Notas de conciliación de crédito y ejecución": "Llei 10/2026 aprobada en julio de 2026. Ejecución 2026 y liquidación 2025 de la Oficina (presupuesto propio aprobado por el Parlament/rendición propia) no localizadas en esta revisión."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/ccaa/dogc/2026/9706/f00001-00102.pdf",
+   "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/VOL_L_RES.pdf"
+  ],
+  "verificacion": "Total: Llei 10/2026 (copia BOE del DOGC 9706, 13/07/2026), art. 2.3, p. 7/102: 'Oficina Antifraude de Cataluña 10.718.431,04' (EUR) = 10,718431 M. Cap.1: VOL_L_RES (Llei 10/2026, Resum dels estats), p. 35 'Resum de despeses per Articles i Seccions (Imports en €)', 4ª columna 'O Antifrau Catalunya': '1 REMUNERACIONS DEL PERSONAL ... 9.271.181,04'; artículos 607.994,31+112.405,78+5.264.400,69+1.769.062,91+0,00+1.513.317,35+4.000,00 = 9.271.181,04 EUR = 9,271181 M. Operaciones corrientes 10.282.431,04; diferencia 436.000 EUR hasta el total corresponde a caps. 6/8 (no leídos en el extracto).",
+  "no_encontrado": "Plantilla ocupada (memoria anual 2025 de la Oficina) y dotaciones 2026 (Annex de personal, servei OA01: el extracto del PDF VOL_P_ANP se corta en p. 27); ejecución 2026 y liquidación 2025: no localizadas (enlace de la sede electrónica de Antifrau no accesible; límite de búsquedas agotado)."
+ },
+ {
+  "ID": 102,
+  "updates": {
+   "Estado de cuantificación": "Sin presupuesto propio: órgano sin dotación diferenciada (verificado en norma)",
+   "Presupuesto: texto completo": "Sin presupuesto propio 2026: la Agència de la Natura no figura en la 'Relació d'entitats del sector públic que s'inclouen als pressupostos' de la Llei 10/2026, de 9 de juliol (Resum, pp. 3-7, 51 entitats de dret públic) ni en el art. 2 de la Llei (DOGC 9706, 13/07/2026). Entidad creada por Llei 7/2020 sin despliegue verificado. No equivale a coste cero de la política de natura: los créditos siguen en el departamento competente y no se atribuyen.",
+   "Corte: texto completo": "2026, Llei 10/2026 de pressupostos (9/07/2026); revisión 11/10/2026",
+   "Cobertura presupuesto / personal / salarios": "Verificado: sin presupuesto propio en Llei 10/2026; sin personal ni salarios propios verificados (entidad no desplegada)"
+  },
+  "fuentes_nuevas": [
+   "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/VOL_L_RES.pdf",
+   "https://www.boe.es/ccaa/dogc/2026/9706/f00001-00102.pdf"
+  ],
+  "verificacion": "VOL_L_RES (Llei 10/2026, Resum dels estats d'ingressos i de despeses), pp. 3-7: relación completa de entidades de derecho público (Agència Catalana de l'Aigua 6540 ... Servei Meteorològic 6810); 'Agència de la Natura' no aparece en ningún punto del documento ni en el art. 2 de la Llei 10/2026 (copia BOE del DOGC 9706). Estado 'Sin presupuesto propio' verificado en la ley de presupuestos, no en la norma de creación: revisar si la hoja prefiere mantener 'Sin cifra propia actual verificada' para entes con personalidad no desplegados.",
+  "no_encontrado": "Decreto de estatutos y constitución efectiva a 11/10/2026 no verificados; tramitación participativa de estatutos (participa.gencat.cat) sin aprobación localizada."
+ },
+ {
+  "ID": 110,
+  "updates": {
+   "Presupuesto propio (EUR millones)": 33.15313,
+   "Año del presupuesto": 2026,
+   "Base del presupuesto numérico": "Presupuesto propio aprobado",
+   "Corte del presupuesto numérico": "2026, crédito aprobado",
+   "Estado de cuantificación": "Cifra propia verificada",
+   "Crédito inicial (EUR millones)": 33.15313,
+   "Presupuesto: texto completo": "Presupuesto propio aprobado 2026: 33.153.130,08 EUR, entitat de dret públic 9912 (Llei 10/2026, de 9 de juliol, DOGC 9706, art. 2.6, p. 9; estat de despeses pp. 421-423). Cap. 1 7.388.390,00; cap. 2 25.714.740,08; cap. 6 50.000 EUR. Financiado con 33.103.130,08 EUR de transferencias corrientes (Generalitat): no sumar con los créditos departamentales que la financian. Ley tardía: hasta julio de 2026 rigió la prórroga. No es gasto ejecutado.",
+   "Corte: texto completo": "2026 crédito inicial Llei 10/2026 (9/07/2026); revisión 11/10/2026",
+   "Estado legal y operativo": "Presupuestada 2026 como entidad de derecho público (código 9912, Departament de la Presidència) en Llei 10/2026. Actividad no auditada.",
+   "Crédito de personal (EUR millones)": 7.38839,
+   "Año del coste de personal": 2026,
+   "Base del coste de personal": "Capítulo 1: crédito inicial 2026, entitat 9912 (Llei 10/2026, estat de despeses)",
+   "Estado de verificación del coste": "Crédito autorizado, no gasto realizado ni solo salarios",
+   "Fuente del coste": "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/ED_9912.pdf",
+   "Cobertura presupuesto / personal / salarios": "Presupuesto propio, crédito cap.1 y dotaciones presupuestadas 2026 verificados; plantilla ocupada y ejecución cap.1 pendientes",
+   "Puestos aprobados / presupuestados": 89,
+   "Fecha puestos aprobados": "2026",
+   "Base de puestos aprobados": "dotacions pressupostades 2026, Annex de personal entitat 9912 (1 altre personal directiu + 88 laborals); budgeted, NO ocupación real",
+   "Fuente puestos aprobados": "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/AP_9912.pdf",
+   "Notas de personal y apoyo ministerial": "Cap.1 2026 7,388 M (22,3% del total); 89 dotacions presupuestadas (86 del grupo A), todas en programa 532 Societat digital, NO ocupación. Cap.2 25,715 M (servicios). Sin cifra de efectivos reales verificada.",
+   "Notas de conciliación de crédito y ejecución": "Llei 10/2026 aprobada en julio de 2026. Ejecución 2026 y cuentas 2025 de la Agència no localizadas en esta revisión. Capítulo 1 no equivale solo a sueldos."
+  },
+  "fuentes_nuevas": [
+   "https://www.boe.es/ccaa/dogc/2026/9706/f00001-00102.pdf",
+   "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/VOL_L_RES.pdf",
+   "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/ED_9912.pdf",
+   "https://aplicacions.economia.gencat.cat/wpres/2026/pdf/AP_9912.pdf"
+  ],
+  "verificacion": "Total: Llei 10/2026 art. 2.6, p. 9/102 'Agencia de Ciberseguridad de Cataluña 33.153.130,08'; VOL_L_RES p. 18 'PR 9912 Ag. Ciberseg. Cat. 33.153,1' (miles EUR); ED_9912 p. 423 'ENTITAT 9912 AGÈNCIA DE CIBERSEGURETAT DE CATALUNYA 33.153.130,08'. 33.153.130,08 EUR = 33,15313 M (6 decimales). Cap.1: ED_9912 p. 422 'CAPÍTOL 1 REMUNERACIONS DEL PERSONAL 7.388.390,00' = 7,38839 M; cap.1+2+6 = 33.153.130,08 (cuadra). Ingresos p. 421: cap. 4 33.103.130,08 + cap. 8 50.000. Dotaciones: AP_9912 'Total (dotacions)' 89 (Altre personal directiu 1; Laboral 88: A86 B1 C1); página impresa probable 126 (no confirmada); el fichero no indica si es versión Projecte o Llei.",
+  "no_encontrado": "Ejecución cap.1 2026, cuentas anuales/liquidación 2025 y plantilla ocupada real (memoria o portal de transparencia de la Agència): no localizadas; límite de búsquedas agotado."
+ },
+ {
+  "ID": 88,
+  "updates": {},
+  "fuentes_nuevas": [],
+  "verificacion": "Sin cambios.",
+  "no_encontrado": "No se pudo leer el Decreto 28/2007 de Extremadura (enlace educarex de la ficha no accesible sin aparecer en resultados de búsqueda; límite de búsquedas de la sesión agotado) para comprobar cláusula de no incremento del gasto, medios de la Consejería e indemnizaciones (regla 6). Estado sin cambiar hasta verificar la norma."
+ },
+ {
+  "ID": 122,
+  "updates": {},
+  "fuentes_nuevas": [],
+  "verificacion": "Sin cambios.",
+  "no_encontrado": "No se pudo verificar la naturaleza/titularidad de AGENEX (Ley extremeña 1/2026, BOE-A-2026-15131 de la ficha, no accesible sin aparecer en resultados de búsqueda), ni el estado del presupuesto 2026 de Extremadura (ley o prórroga), ni presupuesto/PyG del consorcio o de la EPE: límite de búsquedas de la sesión agotado. Pendiente: confirmar extinción efectiva del consorcio, proyecto de cesión aprobado y si la EPE figura en presupuestos de la Junta o solo en cuentas del consorcio (gastos de personal de PyG, no cap.1)."
+ },
+ {
+  "ID": 89,
+  "updates": {
+   "Presupuesto: texto completo": "Presupuesto propio aprobado 2026: 107.722.503 EUR (Lei 4/2025, do 23 de decembro, de orzamentos xerais da CA de Galicia para 2026, DOG núm. 252 de 31/12/2025, art. 2.Tres, p. 66840). Cap. I 6.822.119; II 237.016; III 106.219; IV 6.120.832; VI 4.334.353; VII 84.725.056; VIII 1.870.000; IX 3.506.908 EUR. Incluye 84.725.056 EUR de transferencias de capital: no tratar el total como coste burocrático. No es ejecución.",
+   "Crédito de personal (EUR millones)": 6.822119,
+   "Año del coste de personal": 2026,
+   "Base del coste de personal": "Capítulo I gastos de persoal: crédito inicial 2026, Axencia Galega de Innovación (Lei 4/2025, art. 2.Tres, distribución orgánica e económica)",
+   "Estado de verificación del coste": "Crédito autorizado, no gasto realizado ni solo salarios",
+   "Fuente del coste": "https://www.parlamentodegalicia.gal/sitios/web/BibliotecaLeisdeGalicia/Lei4_2025.pdf",
+   "Cobertura presupuesto / personal / salarios": "Presupuesto propio y crédito cap.1 2026 verificados; plantilla ocupada, RPT y ejecución pendientes",
+   "Notas de personal y apoyo ministerial": "Cap.I 2026 6,822 M = 6,3% del presupuesto de 107,723 M (dominado por transferencias de capital 84,725 M). Sin cifra de plantilla ocupada ni prazas orzamentadas verificada en esta revisión."
+  },
+  "fuentes_nuevas": [
+   "https://www.parlamentodegalicia.gal/sitios/web/BibliotecaLeisdeGalicia/Lei4_2025.pdf",
+   "https://www.es.parlamentodegalicia.es/sitios/web/DocsOrzamentos/LEI_I_2026.PDF"
+  ],
+  "verificacion": "Lei 4/2025, do 23 de decembro (DOG núm. 252, 31/12/2025, p. 66829), art. 2.Tres 'A distribución orgánica e económica do orzamento consolidado', cabecera 'Capítulos I II III IV V VI VII VIII IX Total'; fila 'Axencia Galega de Innovación 6.822.119 237.016 106.219 6.120.832 [V vacío] 4.334.353 84.725.056 1.870.000 3.506.908 107.722.503', p. 66840 (EUR). Suma de capítulos = 107.722.503 (cuadra con el total ya en la ficha). Cap. I 6.822.119 EUR = 6,822119 M. Misma fila en LEI_I_2026 del Parlamento, p. 23.",
+  "no_encontrado": "Ejecución cap. I 2026, Conta Xeral 2025 (liquidación) y plantilla ocupada/anexo de persoal de GAIN: no localizados (DOG bloqueado a la herramienta; límite de búsquedas agotado)."
+ },
+ {
+  "ID": 121,
+  "updates": {
+   "Presupuesto propio (EUR millones)": 40.736947,
+   "Año del presupuesto": 2026,
+   "Base del presupuesto numérico": "Presupuesto propio aprobado",
+   "Corte del presupuesto numérico": "2026, crédito aprobado",
+   "Estado de cuantificación": "Cifra propia verificada",
+   "Crédito inicial (EUR millones)": 40.736947,
+   "Presupuesto: texto completo": "Presupuesto propio aprobado 2026: 40.736.947 EUR (Lei 4/2025, do 23 de decembro, de orzamentos xerais da CA de Galicia para 2026, DOG núm. 252 de 31/12/2025, art. 2.Tres, p. 66841). Cap. I 15.596.939; II 3.065.689; III 3.000; IV 1.159.460; VI 14.260.250; VII 6.651.609 EUR. Incluye inversiones reales y transferencias de capital (20,9 M): no tratar el total como coste administrativo. No es ejecución.",
+   "Corte: texto completo": "2026 crédito inicial Lei 4/2025; revisión 11/10/2026",
+   "Estado legal y operativo": "Axencia pública autonómica (Consellería do Medio Rural) presupuestada 2026 en Lei 4/2025. Actividad no auditada.",
+   "Crédito de personal (EUR millones)": 15.596939,
+   "Año del coste de personal": 2026,
+   "Base del coste de personal": "Capítulo I gastos de persoal: crédito inicial 2026, Axencia Galega da Calidade Alimentaria (Lei 4/2025, art. 2.Tres)",
+   "Estado de verificación del coste": "Crédito autorizado, no gasto realizado ni solo salarios",
+   "Fuente del coste": "https://www.parlamentodegalicia.gal/sitios/web/BibliotecaLeisdeGalicia/Lei4_2025.pdf",
+   "Cobertura presupuesto / personal / salarios": "Presupuesto propio y crédito cap.1 2026 verificados; plantilla ocupada, RPT y ejecución pendientes",
+   "Notas de personal y apoyo ministerial": "Cap.I 2026 15,597 M = 38,3% del presupuesto de 40,737 M. Sin cifra de plantilla ocupada ni prazas orzamentadas verificada en esta revisión."
+  },
+  "fuentes_nuevas": [
+   "https://www.parlamentodegalicia.gal/sitios/web/BibliotecaLeisdeGalicia/Lei4_2025.pdf",
+   "https://www.lex.gal/normativa/detalle/10722/pdf/",
+   "https://www.es.parlamentodegalicia.es/sitios/web/DocsOrzamentos/LEI_I_2026.PDF"
+  ],
+  "verificacion": "Lei 4/2025, do 23 de decembro (DOG núm. 252, 31/12/2025), art. 2.Tres, cabecera 'Capítulos I II III IV V VI VII VIII IX Total'; fila 'Axencia Galega de Calidade Alimentaria 15.596.939 3.065.689 3.000 1.159.460 [V vacío] 14.260.250 6.651.609 [VIII y IX vacíos] 40.736.947', p. 66841 (EUR; texto de la Biblioteca de Leis do Parlamento; misma fila en lex.gal pp. 10-11/301 y LEI_I_2026 p. 23). Suma de capítulos = 40.736.947 (cuadra). 40.736.947 EUR = 40,736947 M; cap. I 15.596.939 EUR = 15,596939 M. Asignación de columnas: primera columna = cap. I según cabecera; confirmada por la suma.",
+  "no_encontrado": "Ejecución cap. I 2026, Conta Xeral 2025 y plantilla ocupada/anexo de persoal de AGACAL: no localizados (DOG bloqueado a la herramienta; límite de búsquedas agotado)."
+ }
+]

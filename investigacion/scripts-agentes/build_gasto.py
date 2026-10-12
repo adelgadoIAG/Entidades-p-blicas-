@@ -1,0 +1,120 @@
+import json
+cnmc_doc = "https://www.cnmc.es/sites/default/files/editor_contenidos/CNMC/PortalTransparencia/PRESUPUESTO%20CNMC%202023.pdf"
+cnmc_doc22 = "https://www.cnmc.es/sites/default/files/editor_contenidos/CNMC/PortalTransparencia/PRESUPUESTO%20CNMC%202022.pdf"
+igae = "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Documents/ORGANISMOS%2008.%202026.pdf"
+ley15 = "https://www.boe.es/eli/es/l/2012/12/27/15/con"
+csic_ing = "https://csic.es/sites/default/files/2024-06/Ingresos-2023-PGE.PDF"
+csic_gas = "https://csic.es/sites/default/files/2024-06/Gastos-2023-PGE.PDF"
+csic_inv = "https://csic.es/sites/default/files/2024-06/Anexo-inversiones-2023-PGE.PDF"
+
+cnmc = {
+ "ID": 24,
+ "entidad": "Comisión Nacional de los Mercados y la Competencia (CNMC)",
+ "anio": 2026,
+ "base": ("Crédito total actualizado a 31/08/2026 (IGAE, ejecución de organismos, agosto de 2026) para los capítulos 1, 2 y 7 y para el total. "
+          "Como 2026 funciona con los PGE 2023 prorrogados, se da también el crédito inicial de cada capítulo ('importe_inicial_m'), tomado del presupuesto 2023 de la CNMC. "
+          "El crédito inicial de 2026 (3.686,434 M) coincide al céntimo con el total de los PGE 2023 de la CNMC (3.686.434,40 miles de EUR). "
+          "La IGAE no se ha podido releer (su robots.txt bloquea WebFetch), así que los capítulos 3, 4, 6 y 8 actualizados no se dan uno a uno: solo su suma, por diferencia."),
+ "capitulos": [
+  {"capitulo": "1 Gastos de personal", "importe_m": 47.618, "importe_inicial_m": 35.947,
+   "destino": "Plantilla y Consejo. Desglose inicial: altos cargos 1,188; eventuales 0,160; funcionarios 9,638; laborales 16,946; incentivos 1,490; cuotas sociales 6,524."},
+  {"capitulo": "2 Gastos corrientes en bienes y servicios", "importe_m": 25.567, "importe_inicial_m": 21.216,
+   "destino": "Funcionamiento ordinario. Lo mayor son estudios y trabajos técnicos externos (concepto 22706: 12,772 de inicial); luego seguridad 1,100, contenciosos 0,694, publicaciones 0,532, tributos locales 0,438, mantenimiento 1,011 y dietas/viajes 0,987."},
+  {"capitulo": "3 Gastos financieros", "importe_m": None, "importe_inicial_m": 0.299,
+   "destino": "Intereses de demora y otros gastos financieros (art. 35)."},
+  {"capitulo": "4 Transferencias corrientes", "importe_m": None, "importe_inicial_m": 110.690,
+   "destino": "110,000 para financiar la prestación del Servicio Postal Universal (programa 491N, concepto 440, art. 44 'a sociedades... del sector público estatal'). Es dinero que solo pasa por la CNMC, no coste suyo. Los 0,690 restantes son becas, prácticas de doctorandos, indemnizaciones a expresidentes y exconsejeros y cuotas a organismos internacionales."},
+  {"capitulo": "6 Inversiones reales", "importe_m": None, "importe_inicial_m": 4.080,
+   "destino": "Inversión propia: inmaterial, sobre todo informática (2,917); inversión nueva (1,048); reposición (0,115)."},
+  {"capitulo": "7 Transferencias de capital", "importe_m": 4656.642, "importe_inicial_m": 3514.142,
+   "destino": "Dinero que solo pasa por la CNMC: el MITECO lo transfiere y la CNMC lo aplica a los costes regulados del sistema eléctrico (art. 77 'a empresas privadas'). No es coste de funcionamiento. Detalle en 'explicacion_transferencias'."},
+  {"capitulo": "8 Activos financieros", "importe_m": None, "importe_inicial_m": 0.060,
+   "destino": "Préstamos fuera del sector público (anticipos al personal; art. 83)."},
+  {"capitulo": "3+4+6+8 (crédito actualizado, en conjunto)", "importe_m": 116.526, "importe_inicial_m": 115.129,
+   "destino": "Diferencia aritmética: 4.846,353 − 47,618 − 25,567 − 4.656,642. La IGAE no se ha podido releer para separarla por capítulos. Los 9 y 5 no tienen crédito inicial."}
+ ],
+ "total_m": 4846.353,
+ "total_inicial_m": 3686.434,
+ "reparto_resumen": {
+   "fondos_de_paso_inicial_m": 3624.142,
+   "fondos_de_paso_detalle": "Programa 425A (cap. 7, sistema eléctrico y almacenamiento subterráneo): 3.514,142. Programa 491N (cap. 4, servicio postal universal): 110,000. Juntos son el 98,3 % del crédito inicial.",
+   "funcionamiento_propio_inicial_m": 62.293,
+   "funcionamiento_propio_detalle": "Programa 492M (defensa de la competencia y regulación). Es todo el coste propio de la CNMC: el 1,7 % del crédito inicial.",
+   "funcionamiento_propio_actualizado_nota": "Con crédito actualizado, todo lo que no es capítulo 7 suma 189,711 M (4.846,353 − 4.656,642). Esa cifra todavía incluye la transferencia postal (110,000 de inicial). No hay dato verificado de su importe actualizado."
+ },
+ "modificaciones_por_capitulo_m": {
+   "cap1": 11.671, "cap2": 4.351, "cap7": 1142.500, "resto_3_4_6_8": 1.397, "total": 1159.919,
+   "nota": "Calculado como crédito actualizado (IGAE) menos inicial (PGE 2023). Casi toda la modificación de 2026 (98,5 %) está en el capítulo 7. No se ha encontrado el documento que explique esos +1.142,5 M (ampliación o generación de crédito, real decreto-ley...). La DA 2.ª de la Ley 15/2012 liga la aportación a la recaudación real, lo que encaja con ampliaciones, pero esto no está comprobado."
+ },
+ "fuente": [cnmc_doc, cnmc_doc22, igae, ley15],
+ "verificacion": ("(1) PRESUPUESTO CNMC 2023.pdf, portal de transparencia de la CNMC. Es el extracto de los PGE 2023, 'Resto de Entidades', Sección 27, Entidad 302 CNMC, en miles de EUR. El texto extraído no lleva número de página; en la edición 2022 equivalente es en pp. 261-266. "
+    "Gastos, cifras literales: Programa 425A, cap. 7, art. 77 'A empresas privadas' 3.514.141,75: concepto 771 'Actuaciones de almacenamiento subterráneo' 6.334,75; 777 'costes del sector eléctrico, art. 30.4 Ley 7/2021' 1.100.000,00; 778 'costes del sector eléctrico, disposición adicional segunda Ley 15/2012' 1.762.000,00; 779 'extracoste de generación, disposición adicional decimoquinta Ley 24/2013' 645.807,00. "
+    "Programa 491N, concepto 440 'financiación prestación del Servicio Postal Universal' 110.000,00. Programa 492M: total 62.292,65 (cap. 1 35.947,14; cap. 2 21.216,49; cap. 3 298,50; cap. 4 690,38; cap. 6 4.079,74; cap. 8 60,40). Total gastos 3.686.434,40. "
+    "Ingresos, cap. 7: concepto 701 'De otros departamentos ministeriales (Ministerio para la Transición Ecológica y el Reto Demográfico)' 3.514.141,75, que cuadra con el cap. 7 de gastos (70100 1.100.000,00; 70101 1.762.000,00; 70102 645.807,00; 70103 6.334,75); concepto 700 'del departamento al que está adscrito' 3.913,71. "
+    "(2) IGAE, 'ORGANISMOS 08. 2026', crédito total a 31/08/2026: lo aporta el encargo (4.846,353; inicial 3.686,434; modificaciones 1.159,919; cap. 1 47,618; cap. 2 25,567; transferencias de capital 4.656,642, en M EUR). No se ha releído en esta sesión: el robots.txt de la IGAE bloquea WebFetch. "
+    "(3) PRESUPUESTO CNMC 2022.pdf, pp. 261-266: misma estructura (cap. 7 3.694.615,00, con origen en el MITECO 'para la compensación del sistema eléctrico'). "
+    "(4) Ley 15/2012, DA 2.ª (BOE consolidado): cada Ley de PGE destina a los costes del sistema eléctrico ligados al fomento de las renovables 'un importe equivalente a la suma de la estimación de la recaudación anual' de los tributos de esa ley, mediante libramientos mensuales con el límite de la recaudación real del mes anterior, certificada por Hacienda. "
+    "El art. 30.4 de la Ley 7/2021 y la DA 15.ª de la Ley 24/2013 no se han podido leer literalmente (texto del BOE truncado); se citan según la descripción de los conceptos presupuestarios."),
+ "explicacion_transferencias": ("Hipótesis confirmada en lo esencial. Los 3.514,142 M iniciales del cap. 7 (4.656,642 M de crédito actualizado) no son gasto de la CNMC. Es dinero del Estado que entra por el cap. 7 de ingresos desde el MITECO (concepto 701, por el mismo importe exacto) y sale por el cap. 7 de gastos, art. 77 'a empresas privadas', para financiar costes regulados del sistema eléctrico. "
+    "Hay tres mandatos legales: (a) DA 2.ª de la Ley 15/2012, 1.762,0 M: aportación igual a la recaudación de los impuestos energéticos de esa ley, sobre todo el impuesto sobre el valor de la producción de energía eléctrica, destinada a los costes de fomento de las renovables; "
+    "(b) art. 30.4 de la Ley 7/2021 de cambio climático, 1.100,0 M: parte de los ingresos de las subastas de derechos de emisión de CO2 destinada a costes del sector eléctrico; "
+    "(c) DA 15.ª de la Ley 24/2013, 645,8 M: compensación del extracoste de generación de los sistemas no peninsulares (Canarias, Baleares, Ceuta y Melilla). "
+    "Queda además una partida menor de 6,3 M para 'actuaciones de almacenamiento subterráneo'; el documento no dice más, y no consta que sea del sistema gasista. "
+    "La CNMC hace de caja: integra estos importes en las liquidaciones de las actividades reguladas y los paga a los agentes del sistema. Esta función es conocida, pero su norma de atribución no se ha leído en esta sesión. "
+    "Del mismo modo, los 110 M del cap. 4 (programa 491N) financian el servicio postal universal, previsiblemente a través de Correos, el operador del sector público estatal. "
+    "Los +1.142,5 M de modificaciones de 2026 en el cap. 7 no tienen explicación documental en las fuentes leídas.")
+}
+
+csic = {
+ "ID": 33,
+ "entidad": "Agencia Estatal Consejo Superior de Investigaciones Científicas (CSIC)",
+ "anio": 2026,
+ "base": ("Crédito total actualizado a 31/08/2026 (IGAE, ejecución de organismos, agosto de 2026), según el encargo: total 1.543,754 y cap. 1 614,97. "
+          "El crédito inicial de 2026 (1.213,105) coincide con el total de los PGE 2023 del CSIC (1.213.105,23 miles de EUR, presupuesto de ingresos), así que 2026 usa el presupuesto 2023 prorrogado. "
+          "Modificaciones en 2026: +330,649."),
+ "capitulos": [
+  {"capitulo": "1 Gastos de personal", "importe_m": 614.97,
+   "destino": "Retribuciones y cotizaciones de la plantilla investigadora, técnica y de gestión (unas 17.100 personas según la EPSAP de enero de 2026)."},
+  {"capitulo": "2 a 9 (resto, en conjunto)", "importe_m": 928.784,
+   "destino": "Diferencia aritmética: 1.543,754 − 614,97. No se ha podido verificar cómo se reparte entre los capítulos 2 (bienes y servicios), 3, 4, 6 (inversiones reales: proyectos e infraestructuras), 7, 8 y 9."},
+  {"capitulo": "2 Gastos corrientes en bienes y servicios", "importe_m": None, "destino": "NO VERIFICADO (ver 'pendiente')."},
+  {"capitulo": "4 Transferencias corrientes", "importe_m": None, "destino": "NO VERIFICADO."},
+  {"capitulo": "6 Inversiones reales", "importe_m": None, "destino": "NO VERIFICADO. El detalle de proyectos está en el 'Anexo de inversiones 2023 PGE' del CSIC, que no se ha podido leer."},
+  {"capitulo": "7 Transferencias de capital", "importe_m": None, "destino": "NO VERIFICADO."},
+  {"capitulo": "8 Activos financieros / 9 Pasivos financieros", "importe_m": None, "destino": "NO VERIFICADO."}
+ ],
+ "total_m": 1543.754,
+ "total_inicial_m": 1213.105,
+ "financiacion_inicial_ingresos_m": {
+   "nota": "Lado de INGRESOS del presupuesto 2023 (prorrogado en 2026), en M EUR. Dice de dónde viene el dinero, no en qué se gasta; sirve de contexto.",
+   "cap3_tasas_precios_publicos_otros": 52.730,
+   "cap4_transferencias_corrientes": 442.408,
+   "cap4_detalle": "Del Ministerio de adscripción para gastos corrientes 429,003; flota oceanográfica CSIC-IEO e instalaciones polares 9,452; líneas e instalaciones 1,000; CCAA 2,000; organismos autónomos (SEPE) 0,297; GBIF, INSTRUCT y SKA 0,650.",
+   "cap5_ingresos_patrimoniales": 2.781,
+   "cap6_enajenacion_inversiones": 0.027,
+   "cap7_transferencias_capital": 481.504,
+   "cap7_detalle_principales": "Del Ministerio de adscripción para gastos de capital 113,409; Mecanismo de Recuperación y Resiliencia (MRR) 112,146; Agencia Estatal de Investigación (Fondo para la Investigación Científica y el Desarrollo Tecnológico) 78,017 y su parte MRR 3,935; otros ministerios 37,445 (de ellos MITECO-MRR 31,146); CCAA 43,000 (proyectos de I+D+i 28,000 y contratos 15,000); familias e ISFL 15,000; exterior 74,898 (otras transferencias de la UE 60,293, FEMP 10,000, FEDER 2,100).",
+   "cap8_activos_financieros": 205.483,
+   "cap9_pasivos_financieros": 28.174,
+   "total": 1213.105
+ },
+ "fuente": [igae, csic_ing, "https://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/rcp/boletin/2026_01/revision-agosto-2026/EPSAP_Enero_2026%20.pdf"],
+ "verificacion": ("(1) IGAE 'ORGANISMOS 08. 2026': crédito total 1.543,754 M, inicial 1.213,105 M y cap. 1 614,97 M los aporta el encargo; no se ha releído (el robots.txt de la IGAE bloquea WebFetch). "
+    "(2) CSIC, 'Ingresos 2023 PGE' (PGE 2023, Resto de Entidades, Sección 28 Ministerio de Ciencia e Innovación, Entidad 301 CSIC, en miles de EUR), cifras literales por capítulo: 3 52.729,67; 4 442.408,06; 5 2.780,54; 6 27,00; 7 481.503,58; 8 205.482,57; 9 28.173,81; Total 1.213.105,23. "
+    "Conceptos: 40000 429.002,70; 40003 9.452,41; 70000 113.408,67; 70050 (MRR) 112.146,09; 73000 (AEI, FICYT) 78.016,52; 73050 3.934,87; 70150 (MITECO, MRR) 31.146,03; 75001 28.000,00; 75002 15.000,00; 795 60.293,13; 79200 (FEMP) 10.000,00; 790 (FEDER) 2.100,00. El texto extraído no da número de página. "
+    "(3) Sin leer: el presupuesto de GASTOS por capítulos ('Gastos 2023 PGE', " + csic_gas + "), el anexo de inversiones (" + csic_inv + "), la memoria de cuentas 2024, la información adicional de la memoria 2023 y la Memoria Anual 2025 del CSIC. El proxy de WebFetch respondió HTTP 429 (exceso de peticiones) en todos los intentos."),
+ "explicacion_transferencias": None,
+ "pendiente": ("Capítulos 2, 3, 4, 6, 7, 8 y 9 del CSIC, en crédito inicial y en crédito actualizado. Comprobación manual recomendada en dos sitios: "
+    "(a) 'Gastos 2023 PGE' del CSIC (" + csic_gas + "), resumen por capítulos, que da el crédito inicial de 2026 porque el presupuesto está prorrogado; "
+    "(b) IGAE 'ORGANISMOS 08. 2026', fila del CSIC, que da el crédito total por capítulo a 31/08/2026. "
+    "Para saber a qué proyectos e infraestructuras va el capítulo 6: 'Anexo inversiones 2023 PGE' del CSIC (" + csic_inv + ").")
+}
+
+out = [csic, cnmc]
+json.dump(out, open('datos/resultados/gasto_csic_cnmc.json','w'), ensure_ascii=False, indent=1)
+# checks
+s = 47.618+25.567+4656.642+116.526
+print(round(s,3))
+print(round(35.947+21.216+0.299+110.690+4.080+3514.142+0.060,3))
+print(round(1100+1762+645.807+6.33475,3))
+print(round(52.73+442.408+2.781+0.027+481.504+205.483+28.174,3))

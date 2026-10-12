@@ -1,0 +1,182 @@
+import json
+CCAA=["Andalucía","Aragón","Asturias","Illes Balears","Canarias","Cantabria","Castilla-La Mancha","Castilla y León","Cataluña","Comunitat Valenciana","Extremadura","Galicia","Madrid","Murcia","Navarra","País Vasco","La Rioja"]
+def c(tipo,nombre=None,norma=None,url=None,nota="",pres=None,anio=None):
+    return {"tipo":tipo,"nombre":nombre,"norma":norma,"url":url,"presupuesto_m":pres,"anio":anio,"nota":nota}
+NV=lambda nota: c("no_verificado",None,None,None,nota)
+
+CNMC="https://www.cnmc.es/sites/default/files/energia/consumidores/201610_Enlaces%2520eficiencia%2520energ%C3%A9tica%5B1%5D.pdf"
+
+# ---------------- 1. CIBERSEGURIDAD ----------------
+ciber={
+"Andalucía":c("organo","AndalucíaCERT (Centro de Seguridad TIC de Andalucía)",None,"https://sedian.juntadeandalucia.es/rfc-2350",
+  "CSIRT de la Junta sin personalidad propia; su perfil RFC 2350 (v8, nov. 2022) lo sitúa en la Agencia Digital de Andalucía (ente TIC generalista, contado en el tema TIC). Ámbito: organismos de la Junta. No hay agencia de ciberseguridad con personalidad propia."),
+"Aragón":NV("Pista (prensa 2023): un centro de ciberseguridad/SOC funciona en instalaciones de Aragonesa de Servicios Telemáticos (AST) en Walqa. La memoria oficial de AST solo describe un 'Área de seguridad' que colabora con el CCN (sistema LUCIA). Sin fuente oficial que acredite un órgano diferenciado; todo apunta a unidad interna de AST (ente TIC)."),
+"Asturias":NV("No comprobado en esta revisión."),
+"Illes Balears":c("ente","Agencia Balear de Digitalización, Ciberseguridad y Telecomunicaciones (ABDigital)","Ley 6/2025, DF 5ª (modifica art. 38 Ley 18/2016); Decreto 63/2025, de 19 de diciembre (estatutos)","https://www.caib.es/eboibfront/eli/es-ib/d/2025/12/19/63/dof/spa/pdf",
+  "Agencia mixta TIC + ciberseguridad + telecomunicaciones, vigente desde 01/01/2026; también contada en el tema TIC. Antes, el SOC de la CAIB dependía de la DG de Estrategia Digital, con convenio con el CCN-CERT (05/07/2022) y contrato del SOC en 2025 (https://www.caib.es/sites/dgtic/es/soc/). Presupuesto 2026 de toda la agencia: 50,69 M EUR (no atribuible solo a ciberseguridad)."),
+"Canarias":NV("No comprobado en esta revisión."),
+"Cantabria":NV("No comprobado en esta revisión."),
+"Castilla-La Mancha":NV("Pista: la Agencia de Transformación Digital de CLM (Ley 1/2024) es el ente TIC; no se ha comprobado si tiene unidad de ciberseguridad con nombre propio."),
+"Castilla y León":NV("Pista (prensa, 2022): SOC de la Junta gestionado por la Consejería de Movilidad y Transformación Digital e integrado en la Red Nacional de SOC del CCN. Si se confirma, sería 'consejeria'. Sin fuente oficial consultada."),
+"Cataluña":c("ente","Agència de Ciberseguretat de Catalunya","Llei 15/2017, de 25 de juliol","https://www.boe.es/eli/es-ct/l/2017/07/25/15",
+  "Ente específico de ciberseguridad (sucesor del CESICAT). Ámbito: sector público de la Generalitat y promoción de la ciberseguridad en Cataluña. Presupuesto 2026 propio no verificado. Fiscalizado por la Sindicatura de Comptes (informe 39/2023: https://www.sindicatura.cat/documents/36414/85841/2023_39_ca.pdf)."),
+"Comunitat Valenciana":c("organo","CSIRT-CV, Centro de Ciberseguridad de la Generalitat",None,"https://laadministracionaldia.inap.es/noticia.asp?id=1515740",
+  "Centro sin personalidad propia adscrito a la Dirección General de Tecnologías de la Información y las Comunicaciones (DGTIC) (INAP, 13/09/2024). Web: https://csirtcv.gva.es/. No se encontró agencia valenciana de ciberseguridad con personalidad propia."),
+"Extremadura":NV("No comprobado en esta revisión."),
+"Galicia":c("organo","CSIRT.gal (Centro de Respuesta a Incidentes de Ciberseguridad de la Xunta)",None,"https://www.xunta.gal/hemeroteca/-/nova/157128/centro-respuesta-incidentes-ciberseguridad-xunta-entra-red-nacional-impulsada",
+  "CSIRT autonómico sin personalidad propia, integrado en la Red Nacional de SOC del CCN (nota oficial de la Xunta; la página no se pudo abrir, el título sale en los resultados de búsqueda). Web: https://ciberseguridadegalicia.gal/gl/que-e-csirtgal. Su encuadre en AMTEGA (ente TIC) no se ha reconfirmado en esta revisión."),
+"Madrid":c("ente","Agencia de Ciberseguridad de la Comunidad de Madrid","Ley 14/2023, de 20 de diciembre (BOCM 27/12/2023)","https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/14/BOCM-20260714-12.PDF",
+  "Ente de derecho público con personalidad jurídica propia, adscrito a la Consejería de Digitalización; operativo en 2026 (BOCM 14/07/2026: Resolución 401/2026 de su Consejero Delegado). Funciones: prevención, detección y respuesta a incidentes en la administración regional, asesoramiento a entidades públicas y concienciación. Presupuesto propio no verificado."),
+"Murcia":NV("Pista: la Agencia Digital de la Región de Murcia (Decreto-ley 5/2022) es el ente TIC; no se ha comprobado si tiene unidad de ciberseguridad con nombre propio."),
+"Navarra":NV("No comprobado en esta revisión."),
+"País Vasco":c("ente","Agencia Vasca de Ciberseguridad (Zibersegurtasuneko Euskal Agentzia)","Ley 7/2023 del Parlamento Vasco","https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-17645",
+  "Ente específico de ciberseguridad creado por ley en 2023. Estado operativo a 2026 y presupuesto propio no confirmados de forma independiente."),
+"La Rioja":NV("No comprobado en esta revisión."),
+}
+
+# ---------------- 2. ADMINISTRACIÓN DIGITAL / TIC ----------------
+tic={
+"Andalucía":c("ente","Agencia Digital de Andalucía (ADA)","Ley 3/2020, DA 22ª; Decreto 128/2021 (estatutos)","https://www.juntadeandalucia.es/boja/2021/65/43",
+  "Agencia de régimen especial; estrategia y ejecución TIC de la Junta. Crédito inicial 2026 de 492,89 M EUR (Ley 8/2025 de presupuestos; incluye inversión TIC, no solo estructura).",492.887081,2026),
+"Aragón":c("ente","Aragonesa de Servicios Telemáticos (AST)","Ley 7/2001, de creación de la Entidad","https://ast.aragon.es/sites/default/files/ast_memoriaactividad2016_resumen.pdf",
+  "Entidad pública que planifica, contrata, implanta y opera la infraestructura TIC y de telecomunicaciones del Gobierno de Aragón; operador de telecomunicaciones registrado en la CNMC. Fuente oficial más reciente consultada: memoria 2016; la prensa de 2023 la sitúa en funcionamiento. Presupuesto no buscado."),
+"Asturias":NV("No comprobado en esta revisión."),
+"Illes Balears":c("ente","Agencia Balear de Digitalización, Ciberseguridad y Telecomunicaciones (ABDigital)","Ley 6/2025, DF 5ª; Decreto 63/2025 (estatutos)","https://www.caib.es/eboibfront/eli/es-ib/d/2025/12/19/63/dof/spa/pdf",
+  "Organismo reformado y vigente desde 01/01/2026 (sucesor de la EPE ABDigital; absorbe funciones TIC de la Fundació BIT y otros entes). Presupuesto 2026: 50,69 M EUR (cap. 1: 22,55; cap. 2: 9,11; cap. 6: 19,03), https://www.caib.es/sites/pressuposts/f/540093. También contado en ciberseguridad.",50.694693,2026),
+"Canarias":NV("Pista: la ACIISI (órgano de la consejería, ver tema I+D+i) tiene funciones de sociedad de la información y telecomunicaciones, pero no se ha comprobado qué unidad gestiona las TIC de la administración ni si existe ente propio."),
+"Cantabria":NV("No comprobado en esta revisión."),
+"Castilla-La Mancha":c("ente","Agencia de Transformación Digital de Castilla-La Mancha","Ley 1/2024, de 15 de marzo; Decreto 56/2024, de 24 de septiembre (estatutos)","https://www.boe.es/eli/es-cm/l/2024/03/15/1",
+  "Ente TIC para la transformación digital de la administración regional. Creación verificada; actividad y presupuesto 2026 no verificados."),
+"Castilla y León":NV("Pista (prensa): las TIC y el SOC dependen de la Consejería de Movilidad y Transformación Digital; no se ha confirmado con fuente oficial la ausencia de ente TIC."),
+"Cataluña":c("ente","Centre de Telecomunicacions i Tecnologies de la Informació (CTTI)","Llei 15/1993, de 28 de desembre; Decret 26/1999, de 9 de febrer (estatut)","https://documents.dadesobertes.gencat.cat/convenis/docs/2021/2021_5_1536/2021_5_1536_0.pdf",
+  "Ente responsable de la planificación técnica, implantación, gestión y explotación de los sistemas TIC y de telecomunicaciones de la Generalitat (según convenio oficial de 2021 que cita su ley de creación). Presupuesto no buscado."),
+"Comunitat Valenciana":c("consejeria","Dirección General de Tecnologías de la Información y las Comunicaciones (DGTIC)",None,"https://laadministracionaldia.inap.es/noticia.asp?id=1515740",
+  "Las TIC (y el CSIRT-CV) dependen de una dirección general, sin ente instrumental TIC identificado. Clasificación apoyada en INAP (2024); no se revisó todo el sector público valenciano."),
+"Extremadura":NV("No comprobado en esta revisión."),
+"Galicia":c("ente","Agencia para la Modernización Tecnológica de Galicia (AMTEGA)","Decreto 252/2011 (creación y estatutos)","https://pdr-mediorural.xunta.gal/sites/default/files/inline-files/D.252.11.castellano.pdf",
+  "Agencia TIC de la Xunta; centraliza las TIC de la administración autonómica. Presupuesto 2026 no buscado."),
+"Madrid":c("ente","Agencia para la Administración Digital de la Comunidad de Madrid (Madrid Digital)","Ley 7/2005, de 23 de diciembre, art. 10 (según cita del BOCM)","https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/14/BOCM-20260714-12.PDF",
+  "Ente TIC de la Comunidad; activo en 2026 (gestiona por encomienda procesos de la Agencia de Ciberseguridad, BOCM 14/07/2026). El BOCM cita el art. 10 de la Ley 7/2005 como base de su régimen; la denominación original de creación no se ha reconfirmado. Presupuesto no buscado."),
+"Murcia":c("ente","Agencia Digital de la Región de Murcia (organismo autónomo)","Decreto-ley 5/2022, de 20 de octubre, cap. III","https://www.boe.es/buscar/act.php?id=BORM-s-2022-90316",
+  "Organismo autónomo creado por decreto-ley; creación verificada, actividad y presupuesto 2026 no confirmados de forma independiente."),
+"Navarra":NV("Pista: NASERTIC (sociedad pública de servicios y telecomunicaciones) y una DG de Telecomunicaciones y Digitalización; no comprobado con fuente oficial."),
+"País Vasco":c("ente","EJIE, Sociedad Informática del Gobierno Vasco, S.A.","Decreto 60/1982, de 1 de febrero (autoriza su creación); Decreto 36/2020 (relaciones con la Administración)","https://www.ejie.euskadi.eus/who-we-are/-/legal-and-corporate-framework/",
+  "Sociedad pública, medio propio del Gobierno Vasco para cualquier encargo informático; participa al 50% en Izenpe. Presupuesto no buscado."),
+"La Rioja":NV("No comprobado en esta revisión."),
+}
+
+# ---------------- 3. INVESTIGACIÓN E INNOVACIÓN ----------------
+idi={
+"Andalucía":c("consejeria","Consejería de Universidad, Investigación e Innovación (sin agencia de financiación propia)","Ley 9/2021 (crea ACCUA y la Agencia TRADE; refunde la Agencia Andaluza del Conocimiento)","https://www.juntadeandalucia.es/export/presup2026/memoria/memoria2-e-2.pdf",
+  "Agencia suprimida: la Agencia Andaluza del Conocimiento (agencia pública empresarial con funciones de fomento y gestión de la I+D+i) se refundió en TRADE por la Ley 9/2021. ACCUA (agencia administrativa) solo evalúa y acredita (Orden 29/12/2023, BOJA 9/01/2024: https://www.juntadeandalucia.es/eboja/2024/6/BOJA24-006-00002-70-01_00295034.pdf). IDEA (Agencia de Innovación y Desarrollo) está en liquidación y transfiere funciones a TRADE (agencia de desarrollo empresarial, no específica de I+D+i)."),
+"Aragón":c("ente","Fundación Agencia Aragonesa para la Investigación y el Desarrollo (ARAID)","Decreto 223/2005, de 25 de octubre (constitución); Ley 17/2018, de Investigación e Innovación de Aragón, DA 1ª","https://www.boe.es/boe/dias/2019/01/28/pdfs/BOE-A-2019-994.pdf",
+  "Fundación de iniciativa pública que incorpora investigadores; no financia proyectos (convocatoria oficial de dirección, junio 2026: https://www.araid.es/sites/default/files/2026-06/convocatoria-direccion-araid.pdf). Las ayudas de I+D las convoca el departamento. La ACPUA evalúa y acredita. Equivalencia con la AEI solo parcial."),
+"Asturias":c("ente","Agencia de Ciencia, Competitividad Empresarial e Innovación del Principado de Asturias (SEKUENS)","Ley 9/2022, de 30 de noviembre","https://boe.es/buscar/doc.php?id=BOE-A-2023-1605",
+  "Agencia mixta: ciencia + competitividad empresarial + innovación (equivale funcionalmente a AEI + CDTI + agencia de desarrollo). Estado operativo y presupuesto 2026 no confirmados de forma independiente."),
+"Illes Balears":NV("No comprobado en esta revisión. La Fundació BIT, antiguo ente de innovación y tecnología, cedió sus funciones TIC a ABDigital."),
+"Canarias":c("organo","Agencia Canaria de Investigación, Innovación y Sociedad de la Información (ACIISI)",None,"https://www.gobiernodecanarias.org/conocimiento/la_agencia/",
+  "Pese a su nombre, es un 'órgano de la Administración Pública de la Comunidad Autónoma' sin personalidad propia, dentro de la Consejería de Universidades, Ciencia e Innovación y Cultura. Fomenta la I+D, la innovación empresarial y la sociedad de la información."),
+"Cantabria":NV("No comprobado en esta revisión."),
+"Castilla-La Mancha":c("ente","Agencia de Investigación e Innovación de Castilla-La Mancha (organismo autónomo)","Ley 4/2020, de 10 de julio; Decreto 54/2022, de 21 de junio (estatutos); Decreto 5/2026, de 24 de febrero (modificación)","https://castillalamancha.es/sites/default/files/documentos/pdf/20220629/08_decreto_54_2022_estatutos_agencia_investigacion.pdf",
+  "Activa: su Consejo Rector aprobó en 2025 la modificación estatutaria (Decreto 5/2026, DOCM 3/03/2026), que añade la evaluación científico-técnica (https://laadministracionaldia.inap.es/noticia.asp?id=1263658). Presupuesto 2026 no verificado."),
+"Castilla y León":NV("No comprobado en esta revisión."),
+"Cataluña":c("ente","Agència de Gestió d'Ajuts Universitaris i de Recerca (AGAUR)","Llei 7/2001, de 31 de maig; Decret 168/2002 (estatuts); Llei 9/2022, de la Ciència (agencia de financiación)","https://laadministracionaldia.inap.es/noticia.asp?id=1266605",
+  "Entidad de derecho público sujeta al derecho privado; activa en 2026 (Resolución REU/1814/2026, DOGC 10/06/2026). Agencia de financiación de la investigación, homóloga de la AEI. No se verificó ACCIÓ (innovación empresarial)."),
+"Comunitat Valenciana":c("ente","Agència Valenciana de la Innovació (AVI), integrada operativamente en IVACE+i",None,"https://www.uv.es/serinves/convocatories/2026/Avi%202026/instruccions_internes.pdf",
+  "Sigue convocando ayudas en 2026 como 'Agència Valenciana de la Innovació, IVACE+i' (documento de la Universitat de València sobre la convocatoria AVI-IVACE+i 2026). Desde 2024 su actividad y su personal se integran en IVACE+i (pista de prensa). Norma de creación y personalidad jurídica actual no reconfirmadas en esta revisión."),
+"Extremadura":NV("No comprobado en esta revisión."),
+"Galicia":c("ente","Axencia Galega de Innovación (GAIN)","Decreto 50/2012","https://www.xunta.gal/dog/Publicados/2012/20120127/AnuncioCA04-230112-11332_es.html",
+  "Agencia de innovación de la Xunta. Presupuesto 2026: 107,72 M EUR, de ellos 84,73 M en transferencias de capital (https://www.xunta.gal/dog/Publicados/2025/20251231/AnuncioC3B0-231225-0001_es.html).",107.722503,2026),
+"Madrid":NV("Pista: las ayudas de I+D las gestiona la dirección general competente, y la Fundación madri+d evalúa y promueve; no comprobado con fuente oficial."),
+"Murcia":c("ente","Fundación Séneca, Agencia de Ciencia y Tecnología de la Región de Murcia",None,"https://www.borm.es/services/anuncio/ano/2026/numero/2481/pdf?id=843163",
+  "Fundación que actúa como agencia regional de financiación de la ciencia; convoca ayudas en 2026 (BORM 122, 29/05/2026). Norma de constitución no verificada. El Consejo de Gobierno le autoriza programas de investigación (p. ej. https://transparencia.carm.es/wres/transparencia/doc/Consejo_Gobierno/2024-06-27/punto_27_fundacion_seneca_investigacion.pdf)."),
+"Navarra":NV("No comprobado en esta revisión."),
+"País Vasco":NV("Pista: Ikerbasque (fundación de atracción de investigadores) y SPRI (agencia de desarrollo empresarial con programas de innovación); no comprobado con fuente oficial en esta revisión."),
+"La Rioja":NV("No comprobado en esta revisión."),
+}
+
+# ---------------- 4. ENERGÍA ----------------
+ener={
+"Andalucía":c("ente","Agencia Andaluza de la Energía","Ley 4/2003, de 23 de septiembre","https://juntadeandalucia.es/boja/2003/189/1",
+  "Entidad de derecho público con personalidad propia, adscrita a la consejería de energía. Aparece en la lista oficial de la CNMC (2016). Vigencia a 2026 no reconfirmada con una fuente de 2026; no consta supresión."),
+"Aragón":c("consejeria","Departamento competente en energía del Gobierno de Aragón",None,CNMC,
+  "En la lista CNMC (2016) Aragón figura con su departamento, sin agencia regional. No se ha reconfirmado a 2026."),
+"Asturias":c("ente","Fundación Asturiana de la Energía (FAEN)",None,CNMC,
+  "Fundación pública regional de la energía (lista CNMC 2016). Norma de creación y vigencia a 2026 no reconfirmadas."),
+"Illes Balears":c("ente","Instituto Balear de la Energía (IBE)","Ley 10/2019, art. 8; Decreto 83/2019 (estatutos)","https://www.boe.es/buscar/pdf/2019/BOE-A-2019-5579-consolidado.pdf",
+  "Entidad pública empresarial creada en 2019 (no figuraba en la lista CNMC de 2016). Presupuesto 2025: 25,90 M EUR, sobre todo inversiones (cap. 6: 22,37 M) (https://www.caib.es/eboibfront/ConsultaAnnexe?idAnnexe=289609).",25.8955,2025),
+"Canarias":c("consejeria","Consejería competente en energía y cambio climático (Oficina Canaria de Acción Climática)","Ley 6/2022, art. 11 (redacción del Decreto ley 5/2024, de 24 de junio)","https://www.gobiernodecanarias.org/boc/2022/257/001.html",
+  "Agencia suprimida antes de constituirse: la Ley 6/2022 creaba la Agencia Canaria de Acción Climática, Energía y Agua (ente con personalidad propia), pero el Decreto ley 5/2024 (BOC 25/06/2024) la sustituyó por la 'Oficina Canaria de Acción Climática', un área de la consejería (https://derecholocal.es/?p=13612)."),
+"Cantabria":NV("No figura agencia en la lista CNMC (2016); situación a 2026 no comprobada."),
+"Castilla-La Mancha":NV("No figura agencia regional en la lista CNMC (2016); situación a 2026 no comprobada."),
+"Castilla y León":c("ente","Ente Regional de la Energía de Castilla y León (EREN)","Ley 7/1996, de 3 de diciembre; reglamento por Decreto 30/1997, modificado por Decreto 3/2024, de 29 de febrero","https://laadministracionaldia.inap.es/noticia.asp?id=1241987",
+  "Ente público de derecho privado con personalidad y patrimonio propios, adscrito a la consejería de energía; reglamento actualizado en 2024. Presupuesto no buscado."),
+"Cataluña":c("ente","Institut Català d'Energia (ICAEN)",None,CNMC,
+  "Ente energético regional (lista CNMC 2016). Norma y vigencia a 2026 no reconfirmadas en esta revisión."),
+"Comunitat Valenciana":c("ente","IVACE+i (Instituto Valenciano de Competitividad e Innovación), área de Energía",None,CNMC,
+  "Ente no exclusivo: la CNMC (2016) lista el IVACE como sucesor de la antigua Agencia Valenciana de la Energía (AVEN). Desde 2024 se presenta como IVACE+i, con áreas de innovación, industria, internacionalización y energía (pista de prensa). Es un ente de competitividad empresarial con funciones de agencia energética."),
+"Extremadura":c("ente","Agencia Extremeña de la Energía (AGENEX), entidad pública empresarial","Ley 1/2026, de 2 de julio","https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15131",
+  "Nueva EPE autonómica creada en 2026; sucede al consorcio AGENEX. La cesión de activos, pasivos y personal solo surte efecto cuando se extinga el consorcio, algo no confirmado aún. Presupuesto 2026 no verificado."),
+"Galicia":c("ente","Instituto Enerxético de Galicia (INEGA)",None,CNMC,
+  "Ente energético regional (lista CNMC 2016). Norma y vigencia a 2026 no reconfirmadas en esta revisión."),
+"Madrid":c("ente","Fundación de la Energía de la Comunidad de Madrid (FENERCOM)",None,CNMC,
+  "Fundación pública (lista CNMC 2016; https://www.fenercom.com/). Vigencia a 2026 no reconfirmada."),
+"Murcia":c("consejeria","Dirección General de Energía (consejería competente)","Decreto 23/2013, de 15 de marzo, de racionalización del sector público","https://laadministracionaldia.inap.es/noticia.asp?id=1111574",
+  "Agencia suprimida: la Fundación Agencia de Gestión de la Energía (ARGEM) cesó en 2013 y debía disolverse ese año; sus funciones pasaron a la DG de Industria, Energía y Minas. En 2018 el Consejo de Gobierno constató que 'no existe una Agencia de Energía en el ámbito territorial autonómico' (https://transparencia.carm.es/wres/transparencia/doc/Consejo_Gobierno/2018-06-14/punto_25_ENERAGEN.pdf)."),
+"Navarra":c("consejeria","Dirección General de Industria, Energía e Innovación (Gobierno de Navarra)",None,"https://transparencia.carm.es/wres/transparencia/doc/Consejo_Gobierno/2018-06-14/punto_25_ENERAGEN.pdf",
+  "No figura agencia en la lista CNMC (2016). En 2018 la que estaba adherida a EnerAgen era la propia DG navarra, no un ente. No reconfirmado a 2026."),
+"País Vasco":c("ente","Ente Vasco de la Energía (EVE)",None,CNMC,
+  "Ente energético regional (lista CNMC 2016). Norma y vigencia a 2026 no reconfirmadas en esta revisión."),
+"La Rioja":c("consejeria","Consejería competente en transición energética","Ley 13/2022 (crea ARTE), derogada con efectos 01/01/2024 por la Ley 13/2023","https://www.boe.es/buscar/act.php?id=BOE-A-2024-1778",
+  "Agencia suprimida: la Agencia Riojana de Transición Energética y Cambio Climático (ARTE), creada por la Ley 13/2022 (https://www.boe.es/eli/es-ri/l/2022/11/02/13), se extinguió el 01/01/2024 por la Ley 13/2023."),
+}
+
+out=[
+{"tema":"Agencias de ciberseguridad",
+ "estado":{"nombre":"INCIBE (S.M.E. Instituto Nacional de Ciberseguridad de España, sociedad mercantil estatal) y CCN-CERT (capacidad de respuesta del Centro Criptológico Nacional, integrado en el CNI)","tipo":"ente (INCIBE) / organo (CCN-CERT)",
+   "url":"https://www.incibe.es/incibe/informacion-corporativa/con-quien-trabajamos/membresias",
+   "url_ccn":"https://www.ccn-cert.cni.es/",
+   "nota":"No son agencias del mismo tipo. INCIBE es una sociedad mercantil estatal del ámbito de Transformación Digital; su CSIRT, INCIBE-CERT, es el de referencia para ciudadanos, empresas y operadores privados, y además hace concienciación y atiende la línea de ayuda. El CCN-CERT no tiene personalidad propia: es la función CSIRT del Centro Criptológico Nacional, que forma parte del CNI (Defensa), y es el CSIRT de referencia de todo el sector público, incluidas las CCAA y las entidades locales. Coordina además la Red Nacional de SOC. Las agencias autonómicas (Cataluña, País Vasco, Madrid, Baleares) protegen sobre todo a su propia administración, la misma función que el CCN-CERT cumple para el sector público, y hacen además algo de promoción, como INCIBE."},
+ "competencia":"Seguridad pública, defensa y telecomunicaciones son competencias estatales (art. 149.1.21ª, 29ª CE). La normativa NIS (RD-ley 12/2018) designa CSIRT de referencia estatales: el CCN-CERT para el sector público y el INCIBE-CERT para el sector privado. Cada CCAA protege sus propios sistemas por autoorganización, aplicando el Esquema Nacional de Seguridad.",
+ "cobertura_estatal":"Sí, por ley y por defecto: el CCN-CERT ya es el CSIRT de referencia de todas las administraciones autonómicas. Varias CCAA sin agencia propia operan SOC o CSIRT integrados en la Red Nacional de SOC del CCN o con convenio con el CCN-CERT (p. ej. Baleares 2022, Galicia, Castilla y León).",
+ "ccaa":ciber,
+ "notas":"Solo 4 CCAA tienen ente específico (Cataluña 2017, País Vasco 2023, Madrid 2023, Baleares 2025/26, este mixto con TIC). Andalucía, Comunitat Valenciana y Galicia tienen CSIRT con nombre propio pero sin personalidad. En 10 CCAA no se pudo verificar con fuente oficial dentro del cupo de búsquedas; la prensa apunta a SOC dentro de la consejería o del ente TIC (Castilla y León, Aragón), así que probablemente no hay más entes específicos. Presupuestos propios de las agencias de ciberseguridad: no verificados.",
+ "fuentes":["https://www.boe.es/eli/es-ct/l/2017/07/25/15","https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-17645","https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/14/BOCM-20260714-12.PDF","https://www.caib.es/eboibfront/eli/es-ib/d/2025/12/19/63/dof/spa/pdf","https://www.caib.es/sites/dgtic/es/soc/","https://sedian.juntadeandalucia.es/rfc-2350","https://laadministracionaldia.inap.es/noticia.asp?id=1515740","https://www.xunta.gal/hemeroteca/-/nova/157128/centro-respuesta-incidentes-ciberseguridad-xunta-entra-red-nacional-impulsada","https://ast.aragon.es/sites/default/files/ast_memoriaactividad2016_resumen.pdf"]},
+{"tema":"Agencias de administración digital y TIC",
+ "estado":{"nombre":"Agencia Estatal de Administración Digital (AEAD)","tipo":"ente","url":"https://www.boe.es/buscar/doc.php?id=BOE-A-2024-22929",
+   "nota":"Agencia estatal creada por el RD 1118/2024. Presupuesto 2026: 49,97 M EUR iniciales y 205,53 M tras modificaciones (IGAE, ejecución a 08/2026: https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Documents/ORGANISMOS%2008.%202026.pdf). Presta servicios comunes a la AGE; las CCAA pueden adherirse a esos servicios, pero la AEAD no gestiona sus sistemas.",
+   "presupuesto_m":205.525,"anio":2026},
+ "competencia":"Autoorganización: cada administración gestiona sus propios sistemas de información (art. 148.1.1ª CE y estatutos). La Ley 40/2015 obliga a la interoperabilidad y permite reutilizar y adherirse a soluciones de otras administraciones.",
+ "cobertura_estatal":"Parcial, por adhesión voluntaria a servicios comunes de la AGE; no sustituye a los servicios TIC autonómicos.",
+ "ccaa":tic,
+ "notas":"Hay 9 entes TIC autonómicos verificados, de formas muy distintas: agencias (Andalucía, Castilla-La Mancha, Galicia, Murcia, Baleares), entidades de derecho público (Aragón, Cataluña, Madrid) y una sociedad (País Vasco). La Comunitat Valenciana lo lleva desde una DG. En 7 CCAA no se pudo verificar dentro del cupo de búsquedas. Ojo: estos entes son sobre todo proveedores TIC internos de su administración, no reguladores, así que 'duplican' a la AEAD solo en el sentido de que cada administración tiene su propio servicio informático.",
+ "fuentes":["https://www.boe.es/buscar/doc.php?id=BOE-A-2024-22929","https://www.juntadeandalucia.es/boja/2021/65/43","https://ast.aragon.es/sites/default/files/ast_memoriaactividad2016_resumen.pdf","https://www.caib.es/eboibfront/eli/es-ib/d/2025/12/19/63/dof/spa/pdf","https://www.boe.es/eli/es-cm/l/2024/03/15/1","https://documents.dadesobertes.gencat.cat/convenis/docs/2021/2021_5_1536/2021_5_1536_0.pdf","https://pdr-mediorural.xunta.gal/sites/default/files/inline-files/D.252.11.castellano.pdf","https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/14/BOCM-20260714-12.PDF","https://www.boe.es/buscar/act.php?id=BORM-s-2022-90316","https://www.ejie.euskadi.eus/who-we-are/-/legal-and-corporate-framework/","https://laadministracionaldia.inap.es/noticia.asp?id=1515740"]},
+{"tema":"Agencias de investigación e innovación",
+ "estado":{"nombre":"Agencia Estatal de Investigación (AEI) y Centro para el Desarrollo Tecnológico y la Innovación (CDTI, E.P.E.)","tipo":"ente","url":"https://www.boe.es/eli/es/rd/2015/11/27/1067",
+   "url_cdti":"https://www.boe.es/eli/es/rd/2026/04/01/263",
+   "nota":"La AEI es una agencia estatal (RD 1067/2015) que financia la investigación mediante convocatorias competitivas; presupuesto 2026 de 1.214,0 M EUR según IGAE. El CDTI es una entidad pública empresarial con nuevo estatuto (RD 263/2026, de 1 de abril, BOE 7/04/2026, que deroga el RD 1406/1986); es agente de financiación de la I+D+i empresarial, adscrito al Ministerio de Ciencia a través de la Secretaría General de Innovación. Ambos convocan para todo el territorio.",
+   "presupuesto_m":1214.005,"anio":2026},
+ "competencia":"Fomento y coordinación general de la investigación científica y técnica: competencia estatal (art. 149.1.15ª CE). Las CCAA pueden fomentar la investigación en su territorio (art. 148.1.17ª CE y estatutos), coordinadas por la Ley 14/2011 de la Ciencia y el Consejo de Política Científica, Tecnológica y de Innovación.",
+ "cobertura_estatal":"Sí, en concurrencia: AEI y CDTI financian a entidades de todas las CCAA mediante convocatorias estatales; los organismos autonómicos añaden fondos propios y no cubren huecos territoriales.",
+ "ccaa":idi,
+ "notas":"Se cuentan solo organismos específicos de I+D+i, no las agencias generales de desarrollo económico (TRADE, IAF, ICE, SODERCAN, ADER, INFO, SPRI, IGAPE...), que gestionan incentivos a la innovación empresarial y son materia de otro tema. Los 7 entes verificados no son homogéneos: financiadores tipo AEI (AGAUR, Fundación Séneca, CLM), tipo CDTI o mixtos (GAIN, AVI, SEKUENS) y de talento (ARAID). Andalucía suprimió su agencia (refundida en TRADE, Ley 9/2021). Canarias usa el nombre 'Agencia' para un órgano sin personalidad.",
+ "fuentes":["https://www.boe.es/eli/es/rd/2015/11/27/1067","https://www.boe.es/eli/es/rd/2026/04/01/263","https://laadministracionaldia.inap.es/noticia.asp?id=1264632","https://www.juntadeandalucia.es/export/presup2026/memoria/memoria2-e-2.pdf","https://www.boe.es/boe/dias/2019/01/28/pdfs/BOE-A-2019-994.pdf","https://boe.es/buscar/doc.php?id=BOE-A-2023-1605","https://www.gobiernodecanarias.org/conocimiento/la_agencia/","https://castillalamancha.es/sites/default/files/documentos/pdf/20220629/08_decreto_54_2022_estatutos_agencia_investigacion.pdf","https://laadministracionaldia.inap.es/noticia.asp?id=1266605","https://www.uv.es/serinves/convocatories/2026/Avi%202026/instruccions_internes.pdf","https://www.xunta.gal/dog/Publicados/2012/20120127/AnuncioCA04-230112-11332_es.html","https://www.borm.es/services/anuncio/ano/2026/numero/2481/pdf?id=843163"]},
+{"tema":"Agencias de la energía",
+ "estado":{"nombre":"Instituto para la Diversificación y Ahorro de la Energía (IDAE)","tipo":"ente","url":"https://www.idae.es",
+   "nota":"Entidad pública empresarial del ámbito del Ministerio para la Transición Ecológica. Fuente de la lista: CNMC 2016, que cita el IDAE como organismo estatal. Gran parte de los programas de incentivos del IDAE se gestionan territorialmente por las CCAA."},
+ "competencia":"Bases del régimen energético y planificación económica general: competencias estatales (art. 149.1.13ª y 25ª CE). A las CCAA corresponden el desarrollo normativo y la ejecución, incluida la gestión de ayudas de ahorro, eficiencia y renovables en su territorio.",
+ "cobertura_estatal":"Parcial: el IDAE actúa en todo el territorio, pero buena parte de sus líneas se ejecutan a través de las CCAA (consejería o agencia regional). Donde no hay agencia, la gestiona la consejería.",
+ "ccaa":ener,
+ "notas":"Lista base: tabla oficial de la CNMC (2016) con los organismos energéticos por CCAA, actualizada con los cambios encontrados: Baleares crea el IBE (2019); Extremadura convierte AGENEX en EPE (Ley 1/2026); La Rioja suprime ARTE (2024); Canarias sustituye su agencia por una oficina de la consejería (2024); Murcia disolvió ARGEM (2013). No se cuentan las agencias locales o provinciales. Para AAE, FAEN, ICAEN, INEGA, FENERCOM y EVE la vigencia en 2026 no se reconfirmó con una fuente de 2026, aunque no consta su supresión. Valencia (IVACE+i) es un ente no exclusivo de energía.",
+ "fuentes":[CNMC,"https://juntadeandalucia.es/boja/2003/189/1","https://www.boe.es/buscar/pdf/2019/BOE-A-2019-5579-consolidado.pdf","https://www.gobiernodecanarias.org/boc/2022/257/001.html","https://derecholocal.es/?p=13612","https://laadministracionaldia.inap.es/noticia.asp?id=1241987","https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15131","https://laadministracionaldia.inap.es/noticia.asp?id=1111574","https://transparencia.carm.es/wres/transparencia/doc/Consejo_Gobierno/2018-06-14/punto_25_ENERAGEN.pdf","https://www.boe.es/buscar/act.php?id=BOE-A-2024-1778","https://www.boe.es/eli/es-ri/l/2022/11/02/13"]},
+]
+for t in out:
+    assert list(t["ccaa"].keys())==CCAA, t["tema"]
+    for k,v in t["ccaa"].items():
+        assert v["tipo"] in ("ente","organo","consejeria","estado","no","no_verificado"),(k,v)
+        if v["tipo"]!="no_verificado": assert v["url"],(t["tema"],k)
+json.dump(out,open("datos/resultados/DUP3.json","w"),ensure_ascii=False,indent=1)
+from collections import Counter
+for t in out:
+    cnt=Counter(v["tipo"] for v in t["ccaa"].values())
+    print(t["tema"],dict(cnt))

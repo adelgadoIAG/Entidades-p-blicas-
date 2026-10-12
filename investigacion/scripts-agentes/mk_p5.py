@@ -1,0 +1,73 @@
+import json
+OUT="datos/resultados/P5_ast_bal_can_cant_cat.json"
+AST_BLOCK=("transparencia.asturias.es (RPT, Tomo 8 'Informe de personal' del proyecto 2026) bloquea la lectura automática (robots) según rondas previas; "
+ "el BOPA 2026-06178 (Acuerdo de 17/07/2026, modificación 3/2026 de los instrumentos de ordenación de puestos, que afecta al catálogo de bomberos del SEPA) tiene los anexos I y II en tablas no extraíbles; "
+ "BOPA 2026-06652 es la ejecución de una sentencia (sin RPT). Búsquedas de memoria SEPA/112 Asturias con recursos humanos: sin resultados oficiales legibles.")
+CAN_BLOCK=("Cantabria: los anexos del BOC Ext. 12/2026 (Ley de Presupuestos 2026) no son extraíbles y transparencia.cantabria.es bloquea robots (rondas previas). "
+ "Búsquedas de RPT, plantilla presupuestaria 2026 por organismo autónomo y memorias de personal sin resultados oficiales legibles.")
+BAL_BLOCK=("Baleares: presupuesto 2026 prorrogado (sin anexo de personal propio legible); las fichas de transparencia de los entes no dan efectivos; la estadística de personal CAIB es un fichero no legible; "
+ "Compte General 2025 en marcos no legibles (rondas previas). Búsqueda de la RLLT de la ATIB en BOIB: solo resoluciones de nombramiento/concurso (p. ej. BOIB 143 de 31/10/2024, 5 nombramientos), no la RLLT completa.")
+res=[
+ {"ID":79,"updates":{},"verificacion":"Sin cifras verificables de desglose para el SEPA.",
+  "no_encontrado":"Desglose por función/subgrupo (bomberos, operadores 112, técnicos, administración), LD, altos cargos y eventuales del SEPA. "+AST_BLOCK},
+ {"ID":112,"updates":{},"verificacion":"Sin cifras verificables.",
+  "no_encontrado":"Plantilla y desglose de Sekuens (ente público, personal laboral fuera de la RPT de la Administración del Principado): sin memoria ni cuentas anuales con plantilla en resultados de búsqueda. "+AST_BLOCK},
+ {"ID":113,"updates":{},"verificacion":"Sin cifras verificables.",
+  "no_encontrado":"Personal adscrito al Consejo de Transparencia y Buen Gobierno de Asturias (presupuesto 0,18 M): no se localizó RPT ni memoria con personal. "+AST_BLOCK},
+ {"ID":80,"updates":{},"verificacion":"Sin cifras verificables de desglose para la ATIB.",
+  "no_encontrado":"RLLT de la ATIB por subgrupo/forma de provisión, altos cargos y eventuales. "+BAL_BLOCK},
+ {"ID":111,"updates":{},"verificacion":"Sin cifras verificables.",
+  "no_encontrado":"Personal de la ASPIB (la sección 74 no tiene capítulo 1 en la prórroga 2026; no se ha identificado de qué RPT/sección depende). "+BAL_BLOCK},
+ {"ID":124,"updates":{},"verificacion":"Sin cifras verificables.",
+  "no_encontrado":"Plantilla de ABDigital (creada por Decreto 63/2025 con subrogación de personal de IBIT/EPE): sin RPT ni plantilla publicada en resultados de búsqueda. "+BAL_BLOCK},
+ {"ID":125,"updates":{},"verificacion":"Sin cifras verificables.",
+  "no_encontrado":"Plantilla del IBE por categorías: ficha de transparencia sin efectivos; sin cuentas anuales legibles. "+BAL_BLOCK},
+ {"ID":81,"updates":{},"verificacion":"Sin desglose verificable. El total de referencia (459 ocupados de 752 puestos RPT a cierre de 2025, Plan de Acción 2026) ya figura en la ficha, pero no se encontró su reparto por grupos.",
+  "no_encontrado":("Distribución por subgrupo/cuerpo de los 752 puestos RPT o 459 ocupados de la ATC: el PDF del Plan de Acción 2026 (BOC 2026/065) no aparece en resultados de búsqueda y no se puede abrir (PROVENANCE_REQUIRED en ronda previa); "
+   "el Informe de actividad 2024 de la ATC (www3.gobiernodecanarias.org/tributos/atc/documents/d/agencia-tributaria-canaria/informe-de-actividad-2024-13-06-25-vf-firmado-pdf) se leyó y NO contiene tablas de RPT, grupos, LD, altos cargos ni eventuales (solo grados de cumplimiento de proyectos de RRHH). "
+   "El Contrato de Gestión ATC 2026-2028 (citado por CSIF, 13/04/2026) no se localizó publicado.")},
+ {"ID":83,"updates":{},"verificacion":"Sin cifras verificables.","no_encontrado":"RPT/plantilla del ICASST por subgrupo (técnicos de prevención frente a administración), LD, altos cargos. "+CAN_BLOCK},
+ {"ID":114,"updates":{},"verificacion":"Sin cifras verificables.","no_encontrado":"Plantilla del SEMCA (bomberos, operadores 112 frente a administración): sin RPT ni memoria con personal legible; la Ley de Cantabria 4/2021 (integración de personal) no da plantilla actual. "+CAN_BLOCK},
+ {"ID":116,"updates":{},"verificacion":"Sin cifras verificables.","no_encontrado":"RPT del ICAP. "+CAN_BLOCK},
+ {"ID":86,"updates":{
+   "Desglose: personal técnico/científico/inspector":607,
+   "Desglose: personal de administración y apoyo":495,
+   "Desglose: otro / no clasificable":1,
+   "Desglose: total de referencia":1103,
+   "Desglose: unidad y fecha":"Dotaciones presupuestadas 2026 (Annex de personal, pressupostos Generalitat 2026, entitat 7910); plazas, no personas ocupadas",
+   "Desglose: criterio de clasificación":("Proxy por grupo profesional, no por función: A+B (titulados superiores y medios) → núcleo; C+D+E → administración y apoyo; 'Altres' (1 alto cargo) → otro. "
+     "Limitación: en la ATC parte del grupo C (cos d'agents tributaris) hace trabajo tributario propio y parte de A/B hace gestión interna; los dos sesgos van en sentido contrario y el efecto neto no es cuantificable."),
+   "Altos cargos":1,
+   "Desglose: fuente":"https://aplicacions.economia.gencat.cat/wpres/2026/pdf/AP_7910.pdf",
+   "Desglose: verificación":("AP_7910.pdf, p. 128, tabla de dotaciones 'Agència Tributària de Catalunya (7910)': Alts càrrecs Altres 1 = 1; 'Funcionari 189 396 230 244 13 - 1.072'; Laboral 11 11 5 2 1 = 30; "
+     "Total A 200, B 407, C 235, D 246, E 14, Altres 1 = 1.103. Núcleo A+B = 200+407 = 607; administración C+D+E = 235+246+14 = 495; otro = 1 (alto cargo); 607+495+1 = 1.103 (cuadra). "
+     "La tabla no tiene fila de personal eventual ni desglose por cuerpos.")},
+  "verificacion":"Cifras leídas en AP_7910.pdf p. 128 (dotacions 2026). Personal eventual no informado: la tabla no tiene fila de eventuales (no se pone 0 porque la fuente no lo dice literalmente). LD no disponible (el anexo no da forma de provisión).",
+  "no_encontrado":"Puestos de libre designación (RLT de la ATC no consultada/localizada); personal eventual; personas ocupadas reales."},
+ {"ID":87,"updates":{},"verificacion":("Sin desglose verificable. Indicio (no es recuento): el cap.1 2026 incluye art.10 alts càrrecs 607.994,31 EUR y art.11 personal eventual 112.405,78 EUR (VOL_L_RES p. 35, ya en la ficha), "
+   "así que existen altos cargos y eventuales, pero no se ha leído su número."),
+  "no_encontrado":("Dotaciones 2026 de la Oficina Antifrau (servei OA01): el PDF AP_OA01 de 2026 no aparece en resultados de búsqueda (solo las ediciones 2016 y 2022) y el intento de abrirlo directamente fue rechazado (PROVENANCE_REQUIRED). "
+   "VOL_P_ANP.pdf (Annex de personal 2026) sí aparece en búsqueda, pero el texto extraíble termina en la p. 26–27 (Parlament, PA01), también con offset 60000; según el sumari la Oficina Antifrau está en la p. 30, no alcanzable. "
+   "RPERSS.pdf (resumen de dotaciones por subsector, pp. 334–339) no desglosa por entidad. Memoria 2025 de la Oficina y RLT en antifrau.cat: no indexadas en el buscador.")},
+ {"ID":110,"updates":{
+   "Desglose: personal técnico/científico/inspector":87,
+   "Desglose: personal de administración y apoyo":1,
+   "Desglose: otro / no clasificable":1,
+   "Desglose: total de referencia":89,
+   "Desglose: unidad y fecha":"Dotaciones presupuestadas 2026 (Annex de personal, pressupostos Generalitat 2026, entitat 9912); plazas, no personas ocupadas",
+   "Desglose: criterio de clasificación":("Proxy por grupo profesional, no por función: A+B → núcleo (personal laboral titulado, en una agencia de ciberseguridad mayoritariamente técnico); C → administración y apoyo; 'Altres' (1 altre personal directiu) → otro. "
+     "Parte de los A puede hacer gestión interna."),
+   "Desglose: fuente":"https://aplicacions.economia.gencat.cat/wpres/2026/pdf/AP_9912.pdf",
+   "Desglose: verificación":("AP_9912.pdf, p. 126, tabla de dotaciones 'Agència de Ciberseguretat de Catalunya (9912)': 'Altre personal directiu' Altres 1 = 1; 'Laboral 86 1 1 - - - 88'; 'Total (dotacions) 86 1 1 - - 1 = 89'. "
+     "Núcleo A+B = 86+1 = 87; administración C = 1; otro = 1 (directivo); 87+1+1 = 89 (cuadra). La tabla no tiene filas de alts càrrecs, eventuales ni funcionarios.")},
+  "verificacion":"Cifras leídas en AP_9912.pdf p. 126 (dotacions 2026). Altos cargos y eventuales no se rellenan: la tabla no tiene esas filas (solo 1 'altre personal directiu'), y no se pone 0 porque la fuente no lo dice literalmente.",
+  "no_encontrado":"Puestos de libre designación; personas ocupadas reales; desglose por función (memoria de la Agència no localizada)."},
+]
+assert len(res)==14
+ids=[r["ID"] for r in res]; assert sorted(ids)==sorted([79,112,113,80,111,124,125,81,83,114,116,86,87,110])
+for r in res:
+    u=r["updates"]
+    if "Desglose: total de referencia" in u:
+        assert u["Desglose: personal técnico/científico/inspector"]+u["Desglose: personal de administración y apoyo"]+u["Desglose: otro / no clasificable"]==u["Desglose: total de referencia"]
+json.dump(res,open(OUT,"w"),ensure_ascii=False,indent=1)
+json.load(open(OUT)); print("ok")
