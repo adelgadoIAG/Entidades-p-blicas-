@@ -2,7 +2,10 @@
 Usage: python3 scripts/build_dash_data.py salida/Entidades_publicas_poder_y_presupuesto_v5.xlsx"""
 import openpyxl, json, re, sys
 from pathlib import Path
+
 BASE = Path(__file__).resolve().parent.parent  # raíz del repositorio
+sys.path.insert(0, str(BASE / 'scripts'))
+from destino_labels import destino_para_mostrar
 RES = BASE / 'datos' / 'resultados'
 DASH = BASE / 'dashboard' / 'datos'
 wb = openpyxl.load_workbook(sys.argv[1] if len(sys.argv) > 1 else BASE / 'salida' / 'Entidades_publicas_poder_y_presupuesto_v5.xlsx', data_only=True)
@@ -57,6 +60,7 @@ for r in range(2, ws.max_row + 1):
         'estado': g(r, 'Estado de cuantificación'), 'verificacion': verif,
         'pendiente': ', '.join(pend) if pend else None, 'fuente': src if src.startswith('https://') else None,
     })
+    ent[-1]['destino_mostrar'] = destino_para_mostrar(ent[-1]['destino'])
     if nuc is not None or num(g(r, 'Altos cargos')) is not None:
         des.append({
             'id': i, 'nombre': g(r, 'Nombre'), 'ambito': ambito, 'veredicto': nivel,
@@ -102,7 +106,11 @@ for e in json.load(open(RES / 'gasto_csic_cnmc.json')):
             tipo = 'Funcionamiento propio' if cap.startswith('1') else 'Sin desglosar'
             gasto.append({'clave': f'CSIC|{cap}', 'entidad': corto, 'concepto': cap, 'importe_m': v, 'tipo': tipo, 'base': 'Crédito actualizado a 31/08/2026 (IGAE)', 'destino': c.get('destino')})
 assert abs(sum(g_['importe_m'] for g_ in gasto if g_['entidad'] == 'CNMC') - 3686.434) < 0.01, sum(g_['importe_m'] for g_ in gasto if g_['entidad'] == 'CNMC')
-for n, d in [('gasto_capitulos', gasto), ('entidades', ent), ('personal_desglose', des), ('csic_personal', csic), ('verificacion_muestra', ver)]:
+refs = json.load(open(BASE / 'datos' / 'referencias_matriz.json', encoding='utf-8'))
+for r in refs:
+    r['destino_mostrar'] = destino_para_mostrar(r.get('destino'))
+for n, d in [('gasto_capitulos', gasto), ('entidades', ent), ('referencias_matriz', refs),
+             ('personal_desglose', des), ('csic_personal', csic), ('verificacion_muestra', ver)]:
     json.dump(d, open(DASH / f'{n}.json', 'w'), ensure_ascii=False)
     print(n, len(d), len(json.dumps(d, ensure_ascii=False)))
 from collections import Counter

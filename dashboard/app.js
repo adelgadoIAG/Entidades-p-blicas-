@@ -6,7 +6,7 @@
   const fmtN = (v) => (v == null ? '' : fInt(v));
   const VC = { 'Mantener': dash.colors[0], 'Reformar': dash.colors[1], 'Integrar': dash.colors[2], 'Suprimir': 'var(--cds-chart-status-critical)', 'Pendiente de decisión': dash.colors[3], 'Extinguida': 'var(--cds-chart-muted)' };
   const VCHIP = { 'Mantener': 'ep-chip--util', 'Reformar': 'ep-chip--ref', 'Integrar': 'ep-chip--rev', 'Suprimir': 'ep-chip--presc', 'Pendiente de decisión': 'ep-chip--pend', 'Extinguida': 'ep-chip--ext',
-    'Útil': 'ep-chip--util', 'No útil': 'ep-chip--presc', 'Sin decisión en el P100': 'ep-chip--pend' };
+    'Referencia': 'ep-chip--pend', 'Útil': 'ep-chip--util', 'No útil': 'ep-chip--presc', 'Sin decisión en el P100': 'ep-chip--pend' };
   const VERS = ['Mantener', 'Reformar', 'Integrar', 'Suprimir', 'Pendiente de decisión', 'Extinguida'];
   const CLASES = ['Útil', 'No útil', 'Sin decisión en el P100', 'Extinguida'];
   const state = { page: 'resumen', q: '', clase: '', ver: '', fun: '', ambito: '', ccaa: '', sort: 'presupuesto_m', dir: -1, sel: null };
@@ -24,8 +24,10 @@
   };
   const TEMA_112 = 'Entes de emergencias 112';
   const NOTA_MATRIZ_112 = 'Sin organismo estatal (112 en las 17 CCAA)';
+  const entidadesTabla = () => [...rows('entidades'), ...rows('referencias_matriz')];
   function textoMatrizIntegracion(e) {
-    if (e.veredicto === 'Integrar' && e.destino) return { text: e.destino, cls: 'ep-wrap', title: '' };
+    const dest = e.destino_mostrar || e.destino;
+    if (e.veredicto === 'Integrar' && dest) return { text: dest, cls: 'ep-wrap', title: '' };
     if (e.tema === TEMA_112) {
       const ti = temaInfo(TEMA_112);
       const ref = ti && ti.organismo_estatal ? `Referencia estatal: ${ti.organismo_estatal} (no presta el 112).` : '';
@@ -250,7 +252,7 @@
   }
   function filtered() {
     const q = state.q.trim().toLowerCase();
-    let d = rows('entidades').filter((e) => (!state.clase || e.clase === state.clase) && (!state.ver || e.veredicto === state.ver) && (!state.fun || e.funcion === state.fun) &&
+    let d = entidadesTabla().filter((e) => (!state.clase || e.clase === state.clase) && (!state.ver || e.veredicto === state.ver) && (!state.fun || e.funcion === state.fun) &&
       (!state.ambito || e.ambito === state.ambito) && (!state.ccaa || e.ccaa === state.ccaa) &&
       (!q || [e.nombre, e.ccaa, e.motivo, e.tema, e.funcion, e.base_p100, e.destino, textoMatrizIntegracion(e).text].join(' ').toLowerCase().includes(q)));
     const k = state.sort, dir = state.dir;
@@ -260,7 +262,8 @@
   function drawTabla() {
     buildFilters();
     const data = filtered();
-    $('#f-count').textContent = ok('entidades') ? `Mostrando ${fInt(data.length)} de ${fInt(rows('entidades').length)}` : '';
+    const nRef = ok('referencias_matriz') ? rows('referencias_matriz').length : 0;
+    $('#f-count').textContent = ok('entidades') ? `Mostrando ${fInt(data.length)} de ${fInt(rows('entidades').length)}${nRef ? ` (+ ${fInt(nRef)} referencia de matriz)` : ''}` : '';
     document.querySelectorAll('#tabla-entidades th').forEach((th) => { const f = th.getAttribute('data-field'); th.setAttribute('aria-sort', f === state.sort ? (state.dir > 0 ? 'ascending' : 'descending') : 'none'); });
     $('#tabla-entidades tbody').replaceChildren(...data.map((e) => {
       const tr = el('tr', 'ep-click' + (state.sel === e.id ? ' ep-sel' : '')); tr.dataset.key = String(e.id);
@@ -276,13 +279,13 @@
     drawDetalle();
   }
   function drawDetalle() {
-    const box = $('#detalle'); const e = rows('entidades').find((r) => r.id === state.sel);
+    const box = $('#detalle'); const e = entidadesTabla().find((r) => r.id === state.sel);
     if (!e) { box.hidden = true; return; }
     box.hidden = false;
     $('#det-nombre').textContent = e.nombre;
     $('#det-motivo').textContent = `${e.veredicto} (${e.clase}) · ${e.funcion}. ${e.motivo || ''}`;
     const items = [
-      ['Base en el P100', 'base_p100', e.base_p100, null], ['Destino de sus funciones', 'destino', e.destino, null],
+      ['Base en el P100', 'base_p100', e.base_p100, null], ['Destino de sus funciones', 'destino', e.destino_mostrar || e.destino, null],
       ['Duplicidad', 'duplicidad', e.duplicidad, null], ['Exigida por la UE', 'ue', e.ue, null], ['Tema', 'tema', e.tema, null],
       ['Presupuesto propio (M€)', 'presupuesto_m', fmtM(e.presupuesto_m), [e.presupuesto_base, e.presupuesto_corte].filter(Boolean).join(' · ')],
       ['Personal, cap. 1 (M€)', 'cap1_m', fmtM(e.cap1_m), null],
@@ -369,7 +372,7 @@
   function render() {
     const root = document.querySelector('.ep');
     fillMarks(root);
-    if (['entidades', 'personal_desglose', 'csic_personal', 'verificacion_muestra', 'duplicidades', 'temas', 'gasto_capitulos'].every(ok)) {
+    if (['entidades', 'referencias_matriz', 'personal_desglose', 'csic_personal', 'verificacion_muestra', 'duplicidades', 'temas', 'gasto_capitulos'].every(ok)) {
       root.querySelectorAll('.dash-skeleton').forEach((n) => n.classList.remove('dash-skeleton'));
     }
     const p = state.page;

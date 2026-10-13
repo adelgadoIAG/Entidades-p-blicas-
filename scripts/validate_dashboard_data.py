@@ -12,7 +12,7 @@ D = BASE / 'dashboard'
 ENC = 'utf-8'
 
 DATASETS = [
-    'entidades', 'personal_desglose', 'csic_personal', 'verificacion_muestra',
+    'entidades', 'referencias_matriz', 'personal_desglose', 'csic_personal', 'verificacion_muestra',
     'gasto_capitulos', 'duplicidades', 'temas',
 ]
 

@@ -4,9 +4,13 @@ Impuestos 11; Crecer y producir 5, 16; Derogar el sanchismo: Igualdad de Trato) 
 Verdicts: Mantener, Reformar (= útil); Integrar, Suprimir (= no útil); Pendiente de decisión (P100 no lo trata); Extinguida.
 Writes datos/resultados/Z_clasificacion.json, keeping función/tema/duplicidad/UE/actividad/coste de apoyo from the v2 file."""
 from pathlib import Path
+import json
+import sys
+
 BASE = Path(__file__).resolve().parent.parent  # raíz del repositorio
 RES = BASE / 'datos' / 'resultados'
-import json
+sys.path.insert(0, str(BASE / 'scripts'))
+from destino_labels import destino_para_mostrar
 
 prev = {e['ID']: e for e in json.load(open(RES / 'Z_clasificacion_v2.json'))}
 EXP, INF = 'Explícito en el P100', 'Aplicando el criterio del P100'
@@ -46,8 +50,10 @@ put([30], 'Mantener', EXP, 'Inmigración 4 e Impuestos 3', None,
     'Inspecciona el trabajo y la Seguridad Social; el P100 le encarga perseguir la contratación irregular y los falsos autónomos.')
 put([36], 'Reformar', EXP, 'Costes del Estado 10', None,
     'Gestiona viviendas e inmuebles de Defensa; el P100 obliga a inventariar sus suelos y a vender o ceder lo que no tenga uso.')
-put([37, 38], 'Reformar', EXP, 'Menos normas 12', None,
-    'Gestiona el agua de su cuenca; el P100 acaba con el bloqueo de sus informes (silencio favorable y plazo único).')
+put([37, 38], 'Mantener', INF, 'Servicio directo (organismo autónomo estatal de cuenca)', None,
+    'Confederación hidrográfica: organismo autónomo de la AGE con personalidad propia, adscrito al ministerio de Medio Ambiente; gestiona la cuenca como pieza estatal, no una duplicidad autonómica. '
+    'El inventario solo recoge Miño-Sil y Cantábrico (creadas/transformadas en el periodo); Ebro, Tajo, Duero, Guadalquivir, etc. no están en las 125 fichas. '
+    'El P100 «Menos normas 12» limita el bloqueo de informes; no implica integrar ni suprimir la confederación.')
 put([66], 'Reformar', EXP, 'Crecer y producir 5', None,
     'Invierte los fondos del PERTE Chip y Next Tech; el P100 audita el PERTE Chip antes de comprometer un euro más y fija condiciones a quien recibe capital público.')
 put([44], 'Integrar', EXP, 'Derogar el sanchismo; Organización del Estado 5', 'Defensor del Pueblo',
@@ -124,7 +130,9 @@ put([100], 'Suprimir', INF, 'Costes del Estado 9 (aplicado a las CCAA)', 'Consej
     'No ha arrancado: 0 € de gasto de personal en 2025 y a marzo de 2026. Suprimirla cuesta menos que ponerla en marcha.')
 
 # --- autonomic services nobody else provides
-put([79, 101, 114], 'Mantener', INF, 'Servicio directo que el Estado no presta', None, 'Bomberos, emergencias y 112: un servicio que el Estado no presta en ese territorio.')
+put([79, 101, 114], 'Mantener', INF, 'Servicio directo que el Estado no presta', None,
+    'Bomberos, emergencias y 112: un servicio que el Estado no presta en ese territorio. '
+    'Un «mando único» o integración operativa dentro de la comunidad (p. ej. 112, GREA e IESPA en Andalucía) no es el veredicto «Integrar» del P100: no hay organismo estatal que absorba el 112; los 17 centros son autonómicos.')
 put([82], 'Mantener', INF, 'Servicio directo', None, 'Presta servicios sociales; el P100 fija reglas comunes, pero no vacía la competencia.')
 put([96], 'Mantener', INF, 'Servicio directo', None, 'Apoyo jurídico a adultos con discapacidad (148 personas): un servicio exigido por ley.')
 put([103], 'Mantener', INF, 'Función técnica y sancionadora', None, 'Persigue las infracciones urbanísticas graves.')
@@ -144,7 +152,7 @@ for i in range(1, 126):
     u['Clasificación: útil / no útil'] = BIN[v]
     u['Clasificación: veredicto'] = v
     u['Clasificación: base en el P100'] = (f'{k}: {ref}' if k else ref) if ref else None
-    u['Clasificación: destino de sus funciones'] = dest
+    u['Clasificación: destino de sus funciones'] = destino_para_mostrar(dest) if dest else dest
     if v != 'Extinguida':
         u['Clasificación: motivo'] = why
     e = {'ID': i, 'updates': u}

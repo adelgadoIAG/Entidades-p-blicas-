@@ -51,15 +51,16 @@ Cada ficha lleva tres columnas que justifican el veredicto:
   - puertos deportivos del País Vasco;
   - calidad alimentaria de Galicia.
 
-### Reformar (6)
+### Reformar (4)
 
 | Organismo | Cambio | Base |
 |---|---|---|
 | CTBG | Fuera del alcance del Gobierno; absorbe los consejos autonómicos | Organización del Estado 11 |
 | AECID | Solo ayuda humanitaria y países que colaboran en migración | Costes 5 |
 | INVIED | Inventario y venta o cesión de suelos sin uso | Costes 10 |
-| Confederaciones del Miño-Sil y del Cantábrico | Sus informes dejan de bloquear | Menos normas 12 |
 | SETT | Auditoría del PERTE Chip | Crecer y producir 5 |
+
+Las confederaciones hidrográficas del Miño-Sil y del Cantábrico figuran en el inventario pero se clasifican como **Mantener** desde la revisión del 12/03/2026: son O.A.E. estatales de cuenca, no duplicidades autonómicas; el apartado «Menos normas 12» no implica integrarlas. Otras cuencas (Ebro, Tajo, etc.) no están en las 125 fichas. Ver [REVISIONES_Y_CAMBIOS.md](REVISIONES_Y_CAMBIOS.md).
 
 ### Integrar (34), por destino
 
@@ -76,7 +77,7 @@ Cada ficha lleva tres columnas que justifican el veredicto:
 | CTBG y AEPD | Transparencia de Andalucía y Asturias |
 | AESF | Seguridad ferroviaria valenciana |
 | Instituciones Penitenciarias | Aukerak (País Vasco) |
-| CDTI | Agencia Espacial Española |
+| Centro para el Desarrollo Tecnológico y la Innovación (CDTI, E.P.E.) | Agencia Espacial Española (véase también fila de referencia CDTI en el dashboard) |
 | AIReF | Agencia Estatal de Evaluación de Políticas Públicas |
 | Defensor del Pueblo | Autoridad para la Igualdad de Trato |
 | Consejería | Salud laboral y formación de empleados públicos de Cantabria, turismo de Murcia, salud pública de Baleares, agencia empresarial de Andalucía |

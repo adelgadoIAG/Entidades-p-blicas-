@@ -49,6 +49,7 @@ Más resultados:
 | La hoja completa, con fuentes, cambios y verificación | [`salida/Entidades_publicas_poder_y_presupuesto_v5.xlsx`](salida/) |
 | Ver el dashboard sin Claude | [`dashboard/preview.html`](dashboard/preview.html) — mejor con `.\scripts\serve_dashboard.ps1` y abrir `http://localhost:8766/dashboard/preview.html` (no uses `index.html` en local) |
 | Entender cómo se hizo | [`docs/`](docs/), en este orden |
+| Cambios y revisiones del fork | [`docs/REVISIONES_Y_CAMBIOS.md`](docs/REVISIONES_Y_CAMBIOS.md) |
 | Reproducirlo | `bash scripts/run_all.sh` (ver abajo) |
 
 ## El proceso en seis pasos

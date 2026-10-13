@@ -15,7 +15,7 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent.parent
 D = BASE / 'dashboard'
 ENC = 'utf-8'
-DATASETS = ['entidades', 'personal_desglose', 'csic_personal', 'verificacion_muestra',
+DATASETS = ['entidades', 'referencias_matriz', 'personal_desglose', 'csic_personal', 'verificacion_muestra',
             'gasto_capitulos', 'duplicidades', 'temas']
 D3 = D / 'vendor' / 'd3.min.js'
 
