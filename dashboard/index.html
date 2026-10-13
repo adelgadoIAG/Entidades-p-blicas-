@@ -1030,6 +1030,15 @@
     if (state.sel) $('#detalle').scrollIntoView({ block: 'nearest' });
   });
   dash.onData(render);
-  const named = location.hash.slice(1);
-  if (PAGES.includes(named)) show(named);
+  function routeFromHash() {
+    const named = location.hash.slice(1);
+    if (PAGES.includes(named)) show(named);
+  }
+  routeFromHash();
+  window.addEventListener('hashchange', routeFromHash);
+  let resizeT;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeT);
+    resizeT = setTimeout(render, 150);
+  });
 </script>

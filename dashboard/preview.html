@@ -1,4 +1,4 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Entidades públicas: vista previa</title><script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script><style>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Entidades públicas: vista previa</title><script src="vendor/d3.min.js"></script><style>
 :root {
   --font-anthropic-sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --font-anthropic-serif: Georgia, 'Times New Roman', serif;
@@ -1068,7 +1068,16 @@ window.__DATA = {"entidades": [{"id": 1, "nombre": "Agencia Estatal de Evaluaci�
     if (state.sel) $('#detalle').scrollIntoView({ block: 'nearest' });
   });
   dash.onData(render);
-  const named = location.hash.slice(1);
-  if (PAGES.includes(named)) show(named);
+  function routeFromHash() {
+    const named = location.hash.slice(1);
+    if (PAGES.includes(named)) show(named);
+  }
+  routeFromHash();
+  window.addEventListener('hashchange', routeFromHash);
+  let resizeT;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeT);
+    resizeT = setTimeout(render, 150);
+  });
 </script>
 </div></body></html>
