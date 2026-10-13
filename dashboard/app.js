@@ -361,10 +361,12 @@
     if (p === 'indicadores') drawInd();
     if (p === 'verificacion') drawVerif();
   }
+  const pagePanels = () => document.querySelectorAll('section.ep-page');
   function show(page) {
     if (!PAGES.includes(page)) return;
     state.page = page;
-    PAGES.forEach((p) => { $('#' + p).hidden = p !== page; $('#tab-' + p).setAttribute('aria-selected', String(p === page)); });
+    pagePanels().forEach((panel) => { panel.hidden = panel.id !== page; });
+    PAGES.forEach((p) => { $('#tab-' + p).setAttribute('aria-selected', String(p === page)); });
     dash.setLink(page);
     render();
   }

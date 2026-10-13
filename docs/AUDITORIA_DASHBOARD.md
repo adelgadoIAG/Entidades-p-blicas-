@@ -42,6 +42,7 @@ Antes de dar por bueno el dashboard publicado:
 | Media | Gráficos no se redibujaban al redimensionar | `resize` debounced → `render()` en `app.js` |
 | Baja | Hash `#duplicidades` solo al cargar | `hashchange` en `app.js` |
 | Baja | `preview.html` desincronizado si se editan fuentes | Ejecutar siempre `build_dashboard.py`; validador en CI/local |
+| Alta | Pestañas cambian el subrayado pero no el contenido | `.ep-page { display: grid }` anulaba `[hidden]`; regla `.ep-page[hidden] { display: none !important; }` |
 
 ## Comparación artifact vs preview
 

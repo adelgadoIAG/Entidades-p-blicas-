@@ -48,6 +48,7 @@ window.__DATA = {"entidades": [{"id": 1, "nombre": "Agencia Estatal de Evaluaci√
   .ep-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
   .ep-tab:focus-visible, .ep-btn:focus-visible, .ep-th-btn:focus-visible, .ep-in:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
   .ep-page { display: grid; gap: var(--cds-gap-lg); }
+  .ep-page[hidden] { display: none !important; }
   .ep-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: var(--cds-gap-md); }
   .ep-kpi { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: var(--cds-gap-xs); align-content: start; }
   .ep-kpi-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
@@ -139,12 +140,12 @@ window.__DATA = {"entidades": [{"id": 1, "nombre": "Agencia Estatal de Evaluaci√
   </header>
 
   <nav class="ep-tabs" role="tablist" aria-label="Secciones">
-    <button class="ep-tab" role="tab" id="tab-resumen" data-page="resumen" aria-selected="true">Resumen</button>
-    <button class="ep-tab" role="tab" id="tab-duplicidades" data-page="duplicidades" aria-selected="false">Duplicidades</button>
-    <button class="ep-tab" role="tab" id="tab-entidades" data-page="entidades" aria-selected="false">Todas las entidades</button>
-    <button class="ep-tab" role="tab" id="tab-personal" data-page="personal" aria-selected="false">Personal</button>
-    <button class="ep-tab" role="tab" id="tab-indicadores" data-page="indicadores" aria-selected="false">Indicadores</button>
-    <button class="ep-tab" role="tab" id="tab-verificacion" data-page="verificacion" aria-selected="false">Verificaci√≥n y pendientes</button>
+    <button type="button" class="ep-tab" role="tab" id="tab-resumen" data-page="resumen" aria-selected="true">Resumen</button>
+    <button type="button" class="ep-tab" role="tab" id="tab-duplicidades" data-page="duplicidades" aria-selected="false">Duplicidades</button>
+    <button type="button" class="ep-tab" role="tab" id="tab-entidades" data-page="entidades" aria-selected="false">Todas las entidades</button>
+    <button type="button" class="ep-tab" role="tab" id="tab-personal" data-page="personal" aria-selected="false">Personal</button>
+    <button type="button" class="ep-tab" role="tab" id="tab-indicadores" data-page="indicadores" aria-selected="false">Indicadores</button>
+    <button type="button" class="ep-tab" role="tab" id="tab-verificacion" data-page="verificacion" aria-selected="false">Verificaci√≥n y pendientes</button>
   </nav>
 
   <!-- RESUMEN -->
@@ -1047,10 +1048,12 @@ window.__DATA = {"entidades": [{"id": 1, "nombre": "Agencia Estatal de Evaluaci√
     if (p === 'indicadores') drawInd();
     if (p === 'verificacion') drawVerif();
   }
+  const pagePanels = () => document.querySelectorAll('section.ep-page');
   function show(page) {
     if (!PAGES.includes(page)) return;
     state.page = page;
-    PAGES.forEach((p) => { $('#' + p).hidden = p !== page; $('#tab-' + p).setAttribute('aria-selected', String(p === page)); });
+    pagePanels().forEach((panel) => { panel.hidden = panel.id !== page; });
+    PAGES.forEach((p) => { $('#tab-' + p).setAttribute('aria-selected', String(p === page)); });
     dash.setLink(page);
     render();
   }
