@@ -37,15 +37,21 @@ El dashboard publicado es un artifact de Claude de tipo «Dashboard». El tipo p
 
 Los datos salen de `scripts/build_dash_data.py` (que lee el Excel) y de `scripts/clasificacion2.py` (duplicidades y temas). `scripts/build_dashboard.py` monta dos ficheros:
 - `dashboard/index.html`: la página tal como se publica en el artifact.
-- `dashboard/preview.html`: una copia autónoma que se abre en cualquier navegador. Lleva los datos dentro, carga d3 desde cdnjs e incluye un sustituto mínimo de `dash` y unos estilos de reserva. Sirve para revisar el contenido sin Claude; no reproduce exactamente el aspecto publicado.
+- `dashboard/preview.html`: una copia autónoma que se abre en cualquier navegador. Lleva los datos dentro, carga d3 desde `dashboard/vendor/d3.min.js` e incluye un sustituto mínimo de `dash` y unos estilos de reserva. Sirve para revisar el contenido sin Claude; no reproduce exactamente el aspecto publicado.
+
+Vista local recomendada (Windows): `.\scripts\serve_dashboard.ps1` y abrir `http://localhost:8766/dashboard/preview.html`. Validación: `python scripts/validate_dashboard_data.py`.
 
 ### Publicar o actualizar el dashboard en Claude
 
-1. Sube cada `dashboard/datos/<conjunto>.json` como fichero (asset) del artifact.
-2. Apunta el documento `datasets/<conjunto>` a la URL del fichero subido.
-3. Sustituye el documento `files/index.html` por el contenido de `dashboard/index.html`.
+1. Sube cada `dashboard/datos/<conjunto>.json` como fichero (asset) del artifact (`entidades`, `personal_desglose`, `csic_personal`, `verificacion_muestra`, `gasto_capitulos`, `duplicidades`, `temas`).
+2. Apunta el documento `datasets/<conjunto>` a la URL del fichero subido (los siete nombres deben coincidir exactamente).
+3. Sustituye el documento `files/index.html` por el contenido de `dashboard/index.html` generado por `python scripts/build_dashboard.py` (no edites el HTML a mano).
 
 Lo más sencillo es pedírselo a Claude con este README delante.
+
+**Si en Claude ves «No se pudo cargar» o KPIs en «—»:** casi siempre falta un dataset en el artifact o `index.html` no coincide con el código actual. Compara con `preview.html` local; ver [AUDITORIA_DASHBOARD.md](AUDITORIA_DASHBOARD.md).
+
+**No abras `dashboard/index.html` en el disco:** fuera del artifact no hay `dash`, d3 ni JSON; usa solo `preview.html` o el servidor local.
 
 ### Marcado
 
