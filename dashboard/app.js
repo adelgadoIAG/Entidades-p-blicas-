@@ -17,6 +17,22 @@
   const safeUrl = (u) => (typeof u === 'string' && /^https:\/\//.test(u) ? u : null);
   const chip = (v) => el('span', 'ep-chip ' + (VCHIP[v] || ''), v);
   const short = (s, n) => { const m = s.match(/\(([^)]+)\)\s*$/); const b = s.replace(/^Agencia [Ee]statal /, ''); return m && m[1].length < 16 ? m[1] : (b.length > n ? b.slice(0, n - 1) + '…' : b); };
+  let temaByName;
+  const temaInfo = (nombre) => {
+    if (!temaByName) temaByName = Object.fromEntries(rows('temas').map((t) => [t.tema, t]));
+    return temaByName[nombre];
+  };
+  const TEMA_112 = 'Entes de emergencias 112';
+  const NOTA_MATRIZ_112 = 'Sin organismo estatal (112 en las 17 CCAA)';
+  function textoMatrizIntegracion(e) {
+    if (e.veredicto === 'Integrar' && e.destino) return { text: e.destino, cls: 'ep-wrap', title: '' };
+    if (e.tema === TEMA_112) {
+      const ti = temaInfo(TEMA_112);
+      const ref = ti && ti.organismo_estatal ? `Referencia estatal: ${ti.organismo_estatal} (no presta el 112).` : '';
+      return { text: NOTA_MATRIZ_112, cls: 'ep-wrap ep-matriz--sin-estatal', title: ref };
+    }
+    return { text: '', cls: '', title: '' };
+  }
 
   function failLine(node, id) {
     const st = dash.data(id).status;
@@ -236,7 +252,7 @@
     const q = state.q.trim().toLowerCase();
     let d = rows('entidades').filter((e) => (!state.clase || e.clase === state.clase) && (!state.ver || e.veredicto === state.ver) && (!state.fun || e.funcion === state.fun) &&
       (!state.ambito || e.ambito === state.ambito) && (!state.ccaa || e.ccaa === state.ccaa) &&
-      (!q || [e.nombre, e.ccaa, e.motivo, e.tema, e.funcion, e.base_p100, e.destino].join(' ').toLowerCase().includes(q)));
+      (!q || [e.nombre, e.ccaa, e.motivo, e.tema, e.funcion, e.base_p100, e.destino, textoMatrizIntegracion(e).text].join(' ').toLowerCase().includes(q)));
     const k = state.sort, dir = state.dir;
     return d.slice().sort((a, b) => { const va = a[k], vb = b[k]; if (va == null && vb == null) return 0; if (va == null) return 1; if (vb == null) return -1;
       return (typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb), 'es')) * dir; });
@@ -249,8 +265,11 @@
     $('#tabla-entidades tbody').replaceChildren(...data.map((e) => {
       const tr = el('tr', 'ep-click' + (state.sel === e.id ? ' ep-sel' : '')); tr.dataset.key = String(e.id);
       const cv = el('td'); cv.appendChild(chip(e.veredicto));
+      const mi = textoMatrizIntegracion(e);
+      const md = el('td');
+      if (mi.text) { const sp = el('span', mi.cls, mi.text); if (mi.title) sp.title = mi.title; md.appendChild(sp); }
       const ct = el('td'); ct.appendChild(el('span', 'ep-clip', e.tema || ''));
-      tr.append(el('td', 'ep-name', e.nombre), el('td', null, e.ccaa), cv, el('td', null, e.funcion), ct,
+      tr.append(el('td', 'ep-name', e.nombre), el('td', null, e.ccaa), cv, md, el('td', null, e.funcion), ct,
         el('td', 'ep-num', fmtM(e.presupuesto_m)), el('td', 'ep-num', fmtM(e.cap1_m)), el('td', 'ep-num', fmtN(e.personas)), el('td', null, e.verificacion));
       return tr;
     }));
