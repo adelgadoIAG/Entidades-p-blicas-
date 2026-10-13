@@ -77,7 +77,8 @@ Las confederaciones hidrográficas del Miño-Sil y del Cantábrico figuran en el
 | CTBG y AEPD | Transparencia de Andalucía y Asturias |
 | AESF | Seguridad ferroviaria valenciana |
 | Instituciones Penitenciarias | Aukerak (País Vasco) |
-| Centro para el Desarrollo Tecnológico y la Innovación (CDTI, E.P.E.) | Agencia Espacial Española (véase también fila de referencia CDTI en el dashboard) |
+| Centro para el Desarrollo Tecnológico y la Innovación (CDTI, E.P.E.) | Agencia Espacial Española (fila de referencia id 9001 en el dashboard; presupuesto PGE 2023) |
+| AEAT, ANECA, AEPD, Defensor, IDAE, INCIBE, CCN-CERT | Destinos autonómicos (filas de referencia 9002–9008; AEI/CNMC/CTBG en inventario ids 4, 24, 6) |
 | AIReF | Agencia Estatal de Evaluación de Políticas Públicas |
 | Defensor del Pueblo | Autoridad para la Igualdad de Trato |
 | Consejería | Salud laboral y formación de empleados públicos de Cantabria, turismo de Murcia, salud pública de Baleares, agencia empresarial de Andalucía |
